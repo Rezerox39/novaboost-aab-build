@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/mainContentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/boosterAnim" android:layout_width="@dimen/_250sdp" android:layout_height="@dimen/_125sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginBottom="@dimen/_16sdp" android:layout_centerHorizontal="true" app:lottie_autoPlay="true" app:lottie_fileName="game-boost-anim.json" app:lottie_loop="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/boosterContainerStep1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/boosterAnim">
+            <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <com.wang.avi.AVLoadingIndicatorView android:id="@id/boosterLoadingStep1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:indicatorColor="#ff00e676" app:indicatorName="BallClipRotatePulseIndicator" style="@style/AVLoadingIndicatorView" />
+                <ImageView android:id="@id/boosterCheckedStep1" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_checked" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="18.0sp" android:fontFamily="monospace" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/boosterTitleStep1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/booster_first_step" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/boosterContainerStep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/boosterContainerStep1">
+            <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <com.wang.avi.AVLoadingIndicatorView android:id="@id/boosterLoadingStep2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:indicatorColor="#ff00e676" app:indicatorName="BallClipRotatePulseIndicator" style="@style/AVLoadingIndicatorView" />
+                <ImageView android:id="@id/boosterCheckedStep2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_checked" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="18.0sp" android:fontFamily="monospace" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/boosterTitleStep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/boost_device_to_max_performance" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/boosterContainerStep3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/boosterContainerStep2">
+            <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <com.wang.avi.AVLoadingIndicatorView android:id="@id/boosterLoadingStep3" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:indicatorColor="#ff00e676" app:indicatorName="BallClipRotatePulseIndicator" style="@style/AVLoadingIndicatorView" />
+                <ImageView android:id="@id/boosterCheckedStep3" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_checked" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="18.0sp" android:fontFamily="monospace" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/boosterTitleStep3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/booster_second_step" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/boosterContainerStep4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/boosterContainerStep3">
+            <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <com.wang.avi.AVLoadingIndicatorView android:id="@id/boosterLoadingStep4" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:indicatorColor="#ff00e676" app:indicatorName="BallClipRotatePulseIndicator" style="@style/AVLoadingIndicatorView" />
+                <ImageView android:id="@id/boosterCheckedStep4" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_checked" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="18.0sp" android:fontFamily="monospace" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/boosterTitleStep4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/ultra_mode" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/completedContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="300.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/completeAnim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="70.0dip" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="boost-complete.json" app:lottie_loop="false" />
+        <TextView android:textSize="20.0sp" android:fontFamily="monospace" android:textColor="#ff00e676" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/completed" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

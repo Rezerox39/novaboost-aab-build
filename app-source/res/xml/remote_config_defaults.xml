@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>number_of_opening_app_to_show_refer_app</key>
+        <value>7</value>
+    </entry>
+    <entry>
+        <key>refer_app_text</key>
+        <value>&lt;p>&lt;strong>&lt;span style="font-size: 12pt;">Game Booster 4x Faster Pro&lt;/span>&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>&lt;span style="font-size: 12pt;">&lt;span style="color: #ff0000;">SALE 80% OFF&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+&lt;p>
+No Ads
+Unlimited booster and connection speed
+HUD Monitor
+Extreme FPS: Unlock the Extreme FPS level
+Fix Lag
+Boost all game's and increase game's speed while playing games
+&lt;/p></value>
+    </entry>
+    <entry>
+        <key>refer_app_id</key>
+        <value>com.novaboost.gamingplus</value>
+    </entry>
+    <entry>
+        <key>admob_app_id</key>
+        <value>ca-app-pub-4620390708331978~8746847115</value>
+    </entry>
+    <entry>
+        <key>active_ultra_boost_ad_id</key>
+        <value>ca-app-pub-4620390708331978/6525752695</value>
+    </entry>
+    <entry>
+        <key>after_boosting_fullscreen_ad_id</key>
+        <value>ca-app-pub-4620390708331978/5600327063</value>
+    </entry>
+    <entry>
+        <key>boost_completed_native_ad_id</key>
+        <value>/23302332020/5841751938335</value>
+    </entry>
+    <entry>
+        <key>number_of_time_open_app_to_show_vip_function</key>
+        <value>7</value>
+    </entry>
+    <entry>
+        <key>hour_interval_to_show_next_ultra_boost_reward_ads</key>
+        <value>24</value>
+    </entry>
+    <entry>
+        <key>hour_interval_to_show_next_enhanced_experience_reward_ads</key>
+        <value>24</value>
+    </entry>
+    <entry>
+        <key>fan_interstitial_placement_id_config_key</key>
+        <value>3160433930679847_3160437334012840</value>
+    </entry>
+    <entry>
+        <key>fan_rewarded_placement_id_config_key</key>
+        <value>3160433930679847_3162969987092908</value>
+    </entry>
+    <entry>
+        <key>fan_native_placement_id_config_key</key>
+        <value>3160433930679847_3163024647087442</value>
+    </entry>
+    <entry>
+        <key>show_admob_first_on_boost_completed_screen_config_key</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>admob_publisher_id_config_key</key>
+        <value>pub-5882656183054581</value>
+    </entry>
+</defaultsMap>

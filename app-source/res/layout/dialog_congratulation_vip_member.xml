@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/colorPrimary" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hanks.htextview.rainbow.RainbowTextView android:textSize="18.0sp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/vipBtn" android:background="@drawable/bg_vip_text" android:paddingLeft="16.0dip" android:paddingTop="2.0dip" android:paddingRight="16.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/vip_member" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:colorSpace="150.0dip" app:colorSpeed="10.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="16.0sp" android:textColor="@color/textNormalColor" android:ellipsize="end" android:gravity="center" android:id="@id/boosterTitleStep1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switch_now_to_the_vip_exclusive_version" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <Button android:textColor="@color/textNormalColor" android:id="@id/fixItBtn" android:background="@color/colorPrimaryDark" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/restart_now" android:layout_weight="1.0" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

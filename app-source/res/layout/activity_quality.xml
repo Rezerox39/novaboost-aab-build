@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Top Bar -->
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="16dp" android:paddingBottom="8dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" app:srcCompat="@drawable/ic_keyboard_backspace" android:tint="#ff00e676" />
+        <TextView android:textSize="14sp" android:textColor="#ff00e676" android:id="@id/actionBarTitle" android:textStyle="bold" android:fontFamily="monospace" android:letterSpacing="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gfx_tool" />
+    </LinearLayout>
+    <View android:background="#1a00e676" android:layout_width="fill_parent" android:layout_height="1dp" />
+
+    <!-- Content -->
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1" android:padding="20dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+            <TextView android:textSize="10sp" android:textColor="#6600e676" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="F P S   S E T T I N G S" android:layout_marginBottom="16dp" />
+            <com.warkiz.widget.IndicatorSeekBar android:id="@id/fpsSeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" app:isb_indicator_color="#ff00e676" app:isb_indicator_text_color="#ff00e676" app:isb_only_thumb_draggable="false" app:isb_seek_smoothly="true" app:isb_show_indicator="rounded_rectangle" app:isb_show_tick_marks_type="oval" app:isb_show_tick_texts="true" app:isb_thumb_color="#ff00e676" app:isb_thumb_size="18dp" app:isb_tick_marks_color="#66ffffff" app:isb_tick_marks_size="10dp" app:isb_tick_texts_array="@array/fps_array" app:isb_tick_texts_color="#99ffffff" app:isb_tick_texts_size="12sp" app:isb_ticks_count="5" app:isb_track_background_color="#1a00e676" app:isb_track_background_size="3dp" app:isb_track_progress_color="#ff00e676" app:isb_track_progress_size="3dp" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+            <TextView android:textSize="10sp" android:textColor="#6600e676" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R E N D E R I N G   Q U A L I T Y" android:layout_marginBottom="16dp" />
+            <com.warkiz.widget.IndicatorSeekBar android:id="@id/renderingQualitySeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" app:isb_indicator_color="#ff00e676" app:isb_indicator_text_color="#ff00e676" app:isb_only_thumb_draggable="false" app:isb_seek_smoothly="true" app:isb_show_indicator="rounded_rectangle" app:isb_show_tick_marks_type="oval" app:isb_show_tick_texts="true" app:isb_thumb_color="#ff00e676" app:isb_thumb_size="18dp" app:isb_tick_marks_color="#66ffffff" app:isb_tick_marks_size="10dp" app:isb_tick_texts_array="@array/graphics_array" app:isb_tick_texts_color="#99ffffff" app:isb_tick_texts_size="12sp" app:isb_ticks_count="5" app:isb_track_background_color="#1a00e676" app:isb_track_background_size="3dp" app:isb_track_progress_color="#ff00e676" app:isb_track_progress_size="3dp" />
+        </LinearLayout>
+
+        <Button android:textColor="#ff000000" android:textStyle="bold" android:textSize="13sp" android:fontFamily="monospace" android:letterSpacing="0.1" android:layout_gravity="center_horizontal" android:id="@id/nextBtn" android:background="@drawable/bg_cyber_button_glow" android:paddingLeft="48dp" android:paddingRight="48dp" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⌞ N E X T ⌟" />
+    </LinearLayout>
+</LinearLayout>

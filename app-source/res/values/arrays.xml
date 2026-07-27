@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="boost_option_array">
+        <item>CPU Turbo</item>
+        <item>GPU Turbo</item>
+        <item>Speed up internet connection</item>
+    </string-array>
+    <string-array name="fps_array">
+        <item>30fps</item>
+        <item>40fps</item>
+        <item>90fps</item>
+        <item>120fps</item>
+        <item>144fps</item>
+    </string-array>
+    <string-array name="game_boost_array">
+        <item>Scanning apps…</item>
+    </string-array>
+    <string-array name="graphics_array">
+        <item>Smooth</item>
+        <item>Balanced</item>
+        <item>HD</item>
+        <item>HDR</item>
+        <item>Ultra HD</item>
+    </string-array>
+    <string-array name="internet_boost_array">
+        <item>Checking your Internet connection…</item>
+        <item>Boosting your Internet connection…</item>
+        <item>Protect your Internet connection…</item>
+    </string-array>
+    <string-array name="resolution_array">
+        <item>960</item>
+        <item>1280</item>
+        <item>1440</item>
+        <item>1600</item>
+        <item>1920</item>
+        <item>2560</item>
+    </string-array>
+    <string-array name="steps">
+        <item>Beginning</item>
+        <item>"Intermediate
+page"</item>
+        <item>End</item>
+        <item>Post step</item>
+    </string-array>
+</resources>

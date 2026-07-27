@@ -1,0 +1,147 @@
+name: Build NovaBoost AAB
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install apktool
+        run: |
+          curl -sL https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.9.3.jar -o /usr/local/bin/apktool.jar
+          echo '#!/bin/bash
+          java -jar /usr/local/bin/apktool.jar "$@"' > /usr/local/bin/apktool
+          chmod +x /usr/local/bin/apktool
+          apktool --version
+
+      - name: Install bundletool
+        run: |
+          curl -sL https://github.com/google/bundletool/releases/download/1.17.1/bundletool-all-1.17.1.jar -o /usr/local/bin/bundletool.jar
+          echo '#!/bin/bash
+          java -jar /usr/local/bin/bundletool.jar "$@"' > /usr/local/bin/bundletool
+          chmod +x /usr/local/bin/bundletool
+
+      - name: Install zipalign
+        run: |
+          sudo apt-get update && sudo apt-get install -y zipalign || true
+          # zipalign is in Android SDK build-tools
+          echo "${ANDROID_HOME}/build-tools/$(ls ${ANDROID_HOME}/build-tools/ | tail -1)" >> $GITHUB_PATH
+
+      - name: Build APK with apktool
+        run: |
+          cd app-source
+          rm -rf build
+          # Remove .bak files
+          find . -name "*.bak" -delete
+          # Build APK using aapt2
+          apktool b . -f -o /tmp/NovaBoost_raw.apk --use-aapt2
+          echo "APK built successfully"
+
+      - name: Zipalign APK
+        run: |
+          zipalign -f 4 /tmp/NovaBoost_raw.apk /tmp/NovaBoost_aligned.apk
+          echo "APK aligned"
+
+      - name: Sign APK
+        run: |
+          apksigner sign \
+            --ks novaboost_upload.keystore \
+            --ks-pass pass:novaboost123 \
+            --key-pass pass:novaboost123 \
+            --ks-key-alias novaboost-upload \
+            --v1-signing-enabled true \
+            --v2-signing-enabled true \
+            --v3-signing-enabled true \
+            /tmp/NovaBoost_aligned.apk
+          echo "APK signed"
+
+      - name: Build AAB from APK using bundletool
+        run: |
+          # Extract APK contents
+          mkdir -p /tmp/aab-structure/base/manifest
+          mkdir -p /tmp/aab-structure/base/dex
+          mkdir -p /tmp/aab-structure/base/res
+          mkdir -p /tmp/aab-structure/base/root
+          mkdir -p /tmp/aab-structure/BUNDLE-METADATA/MergedManifest
+
+          cd /tmp
+          unzip -o NovaBoost_aligned.apk -d apk-extract
+
+          # Map APK files to AAB structure
+          cp apk-extract/AndroidManifest.xml aab-structure/base/manifest/
+          cp apk-extract/resources.arsc aab-structure/base/
+          cp apk-extract/classes*.dex aab-structure/base/dex/
+
+          # Copy res directory
+          cp -r apk-extract/res/* aab-structure/base/res/ 2>/dev/null || true
+
+          # Copy assets
+          cp -r apk-extract/assets aab-structure/base/root/ 2>/dev/null || true
+
+          # Copy lib
+          cp -r apk-extract/lib aab-structure/base/ 2>/dev/null || true
+
+          # Copy kotlin
+          cp -r apk-extract/kotlin aab-structure/base/root/ 2>/dev/null || true
+
+          # Copy other root files
+          for f in apk-extract/*; do
+            fname=$(basename "$f")
+            case "$fname" in
+              AndroidManifest.xml|resources.arsc|classes*|res|assets|lib|kotlin|META-INF) continue ;;
+              *) cp "$f" aab-structure/base/root/ 2>/dev/null || true ;;
+            esac
+          done
+
+          # Create proper AAB zip
+          cd /tmp/aab-structure
+          zip -r /tmp/NovaBoost_unsigned.aab .
+
+          echo "AAB structure created"
+          ls -la /tmp/NovaBoost_unsigned.aab
+
+      - name: Sign AAB with jarsigner
+        run: |
+          jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 \
+            -keystore novaboost_upload.keystore \
+            -storepass novaboost123 \
+            -keypass novaboost123 \
+            /tmp/NovaBoost_unsigned.aab novaboost-upload
+          cp /tmp/NovaBoost_unsigned.aab /tmp/NovaBoost.aab
+          echo "AAB signed successfully"
+          ls -la /tmp/NovaBoost.aab
+
+      - name: Verify AAB
+        run: |
+          unzip -p /tmp/NovaBoost.aab base/dex/classes.dex | strings | grep "surge" || echo "No surge URL found in dex"
+          echo "AAB verification complete"
+
+      - name: Upload AAB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: NovaBoost-AAB
+          path: /tmp/NovaBoost.aab
+          retention-days: 30
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: NovaBoost-APK
+          path: /tmp/NovaBoost_aligned.apk
+          retention-days: 30
