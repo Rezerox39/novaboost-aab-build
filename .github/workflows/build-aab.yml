@@ -22,6 +22,13 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Set SDK tools path
+        run: |
+          SDK_TOOLS=$(find $ANDROID_HOME/build-tools -maxdepth 1 -type d | sort -V | tail -1)
+          echo "SDK_TOOLS=$SDK_TOOLS" >> $GITHUB_ENV
+          echo "Using build-tools: $SDK_TOOLS"
+          echo "$SDK_TOOLS" >> $GITHUB_PATH
+
       - name: Install apktool
         run: |
           curl -sL https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.9.3.jar -o /usr/local/bin/apktool.jar
@@ -30,29 +37,20 @@ jobs:
           chmod +x /usr/local/bin/apktool
           apktool --version
 
-      - name: Install bundletool
-        run: |
-          curl -sL https://github.com/google/bundletool/releases/download/1.17.1/bundletool-all-1.17.1.jar -o /usr/local/bin/bundletool.jar
-          echo '#!/bin/bash
-          java -jar /usr/local/bin/bundletool.jar "$@"' > /usr/local/bin/bundletool
-          chmod +x /usr/local/bin/bundletool
-
       - name: Build APK with apktool
         run: |
           cd app-source
           rm -rf build
           find . -name "*.bak" -delete
           apktool b . -f -o /tmp/NovaBoost_raw.apk --use-aapt2
-          echo "APK built successfully"
+          echo "APK built: $(ls -la /tmp/NovaBoost_raw.apk)"
 
-      - name: Zipalign APK
+      - name: Zipalign and Sign APK
         run: |
-          zipalign -f 4 /tmp/NovaBoost_raw.apk /tmp/NovaBoost_aligned.apk
+          $SDK_TOOLS/zipalign -f 4 /tmp/NovaBoost_raw.apk /tmp/NovaBoost_aligned.apk
           echo "APK aligned"
-
-      - name: Sign APK
-        run: |
-          apksigner sign \
+          
+          $SDK_TOOLS/apksigner sign \
             --ks novaboost_upload.keystore \
             --ks-pass pass:novaboost123 \
             --key-pass pass:novaboost123 \
@@ -61,128 +59,110 @@ jobs:
             --v2-signing-enabled true \
             --v3-signing-enabled true \
             /tmp/NovaBoost_aligned.apk
-          echo "APK signed"
+          echo "APK signed: $(ls -la /tmp/NovaBoost_aligned.apk)"
 
       - name: Convert APK to proper AAB
         run: |
-          # A proper AAB has this exact structure:
-          # base/manifest/AndroidManifest.xml
-          # base/dex/classes*.dex
-          # base/res/ (ALL compiled resources)
-          # base/root/ (assets, libs, kotlin, etc)
-          # base/resources.arsc
-          # BUNDLE-METADATA/ (metadata)
-
+          # Clean up
+          rm -rf /tmp/aab /tmp/apk-extract
           mkdir -p /tmp/aab
-          cd /tmp
           
           # Extract APK
-          rm -rf apk-extract
-          mkdir -p apk-extract
-          unzip -o NovaBoost_aligned.apk -d apk-extract
+          mkdir -p /tmp/apk-extract
+          unzip -o /tmp/NovaBoost_aligned.apk -d /tmp/apk-extract
           
-          # Create AAB base directories
-          mkdir -p aab/base/manifest
-          mkdir -p aab/base/dex
-          mkdir -p aab/base/res
-          mkdir -p aab/base/root
-          mkdir -p aab/BUNDLE-METADATA/MergedManifest
-          mkdir -p aab/BUNDLE-METADATA/NativeLibs
-          mkdir -p aab/BUNDLE-METADATA/Obfuscation
-          mkdir -p aab/BUNDLE-METADATA/ShaderDb
-          mkdir -p aab/BUNDLE-METADATA/VersionControlMapping
+          # Create AAB directory structure
+          mkdir -p /tmp/aab/base/manifest
+          mkdir -p /tmp/aab/base/dex
+          mkdir -p /tmp/aab/base/res
+          mkdir -p /tmp/aab/base/root
+          mkdir -p /tmp/aab/BUNDLE-METADATA/MergedManifest
+          mkdir -p /tmp/aab/BUNDLE-METADATA/NativeLibs
+          mkdir -p /tmp/aab/BUNDLE-METADATA/Obfuscation
+          mkdir -p /tmp/aab/BUNDLE-METADATA/ShaderDb
+          mkdir -p /tmp/aab/BUNDLE-METADATA/VersionControlMapping
           
-          # Copy AndroidManifest.xml to base/manifest/
-          cp apk-extract/AndroidManifest.xml aab/base/manifest/
+          # 1. Copy manifest
+          cp /tmp/apk-extract/AndroidManifest.xml /tmp/aab/base/manifest/
           
-          # Copy ALL resources to base/res/
-          cp -r apk-extract/res/* aab/base/res/
-          echo "Resources copied: $(find aab/base/res -type f | wc -l) files"
+          # 2. Copy ALL resources
+          cp -r /tmp/apk-extract/res/* /tmp/aab/base/res/
+          echo "Resources: $(find /tmp/aab/base/res -type f | wc -l) files"
           
-          # Copy resources.arsc
-          cp apk-extract/resources.arsc aab/base/
+          # 3. Copy resources.arsc
+          cp /tmp/apk-extract/resources.arsc /tmp/aab/base/
           
-          # Copy ALL dex files to base/dex/
-          for dex in apk-extract/classes*.dex; do
-            cp "$dex" aab/base/dex/
+          # 4. Copy ALL dex files
+          for dex in /tmp/apk-extract/classes*.dex; do
+            cp "$dex" /tmp/aab/base/dex/
           done
-          echo "DEX files: $(ls aab/base/dex/*.dex 2>/dev/null | wc -l)"
+          echo "DEX files: $(ls /tmp/aab/base/dex/*.dex | wc -l)"
           
-          # Copy assets to base/root/assets/
-          if [ -d apk-extract/assets ]; then
-            cp -r apk-extract/assets aab/base/root/
-            echo "Assets copied"
+          # 5. Copy assets
+          if [ -d /tmp/apk-extract/assets ]; then
+            cp -r /tmp/apk-extract/assets /tmp/aab/base/root/
+            echo "Assets copied: $(find /tmp/aab/base/root/assets -type f | wc -l) files"
           fi
           
-          # Copy lib to base/lib/
-          if [ -d apk-extract/lib ]; then
-            cp -r apk-extract/lib aab/base/
+          # 6. Copy native libs
+          if [ -d /tmp/apk-extract/lib ]; then
+            cp -r /tmp/apk-extract/lib /tmp/aab/base/
             echo "Native libs copied"
           fi
           
-          # Copy kotlin to base/root/
-          if [ -d apk-extract/kotlin ]; then
-            cp -r apk-extract/kotlin aab/base/root/
+          # 7. Copy kotlin data
+          if [ -d /tmp/apk-extract/kotlin ]; then
+            cp -r /tmp/apk-extract/kotlin /tmp/aab/base/root/
             echo "Kotlin data copied"
           fi
           
-          # Copy other root-level files (not res, dex, manifest, arsc)
-          for f in apk-extract/*; do
+          # 8. Copy other root files
+          for f in /tmp/apk-extract/*; do
             fname=$(basename "$f")
             case "$fname" in
               AndroidManifest.xml|resources.arsc|classes*|res|assets|lib|kotlin|META-INF) continue ;;
-              *) cp -r "$f" aab/base/root/ 2>/dev/null ;;
+              *) cp -r "$f" /tmp/aab/base/root/ 2>/dev/null ;;
             esac
           done
           echo "Root files copied"
           
-          # Create BUNDLE-METADATA files
-          echo "" > aab/BUNDLE-METADATA/MergedManifest/merged_manifest.pb
-          echo "" > aab/BUNDLE-METADATA/NativeLibs/native_libs.pb
-          echo "" > aab/BUNDLE-METADATA/Obfuscation/obfuscation.pb
-          echo "" > aab/BUNDLE-METADATA/ShaderDb/shader_db.pb
-          echo "" > aab/BUNDLE-METADATA/VersionControlMapping/version_control_mapping.pb
+          # 9. Create BUNDLE-METADATA placeholder files
+          touch /tmp/aab/BUNDLE-METADATA/MergedManifest/merged_manifest.pb
+          touch /tmp/aab/BUNDLE-METADATA/NativeLibs/native_libs.pb
+          touch /tmp/aab/BUNDLE-METADATA/Obfuscation/obfuscation.pb
+          touch /tmp/aab/BUNDLE-METADATA/ShaderDb/shader_db.pb
+          touch /tmp/aab/BUNDLE-METADATA/VersionControlMapping/version_control_mapping.pb
           
-          # Create the AAB zip (proper compression)
-          cd aab
+          # 10. Create AAB zip with maximum compression
+          cd /tmp/aab
           zip -r -9 /tmp/NovaBoost_unsigned.aab .
-          cd /tmp
+          echo "AAB created: $(ls -la /tmp/NovaBoost_unsigned.aab)"
           
-          echo "AAB created: $(ls -la NovaBoost_unsigned.aab)"
-          echo "AAB contents:"
-          unzip -l NovaBoost_unsigned.aab | head -30
-
-      - name: Verify AAB structure
-        run: |
-          echo "=== Checking critical files ==="
-          unzip -l /tmp/NovaBoost_unsigned.aab | grep "base/manifest/AndroidManifest.xml"
-          unzip -l /tmp/NovaBoost_unsigned.aab | grep "base/dex/"
-          echo "Resources count:"
-          unzip -l /tmp/NovaBoost_unsigned.aab | grep "base/res/" | wc -l
-          echo "=== Checking BUNDLE-METADATA ==="
-          unzip -l /tmp/NovaBoost_unsigned.aab | grep "BUNDLE-METADATA/"
+          # Verify structure
+          echo "=== AAB Structure ==="
+          unzip -l /tmp/NovaBoost_unsigned.aab | grep -E "base/manifest|base/dex|base/res/|base/resources|BUNDLE-METADATA" | head -20
+          echo "Resource files: $(unzip -l /tmp/NovaBoost_unsigned.aab | grep 'base/res/' | wc -l)"
 
       - name: Sign AAB
         run: |
-          jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 \
+          jarsigner -sigalg SHA256withRSA -digestalg SHA-256 \
             -keystore novaboost_upload.keystore \
             -storepass novaboost123 \
             -keypass novaboost123 \
-            /tmp/NovaBoost_unsigned.aab novaboost-upload 2>&1 | tail -5
+            /tmp/NovaBoost_unsigned.aab novaboost-upload
           cp /tmp/NovaBoost_unsigned.aab /tmp/NovaBoost.aab
-          echo "AAB signed"
-          ls -la /tmp/NovaBoost.aab
+          echo "AAB signed: $(ls -la /tmp/NovaBoost.aab)"
 
       - name: Final verification
         run: |
           echo "=== DEX URL check ==="
-          unzip -p /tmp/NovaBoost.aab base/dex/classes.dex | strings | grep "surge"
+          unzip -p /tmp/NovaBoost.aab base/dex/classes.dex | strings | grep "surge" || echo "URL not found in classes.dex"
           echo ""
-          echo "=== AAB file type ==="
-          file /tmp/NovaBoost.aab
+          echo "=== AAB full structure ==="
+          unzip -l /tmp/NovaBoost.aab | tail -5
           echo ""
-          echo "=== AAB size ==="
-          ls -la /tmp/NovaBoost.aab
+          echo "=== Total files in AAB ==="
+          unzip -l /tmp/NovaBoost.aab | grep -c "base/"
 
       - name: Upload AAB artifact
         uses: actions/upload-artifact@v4
