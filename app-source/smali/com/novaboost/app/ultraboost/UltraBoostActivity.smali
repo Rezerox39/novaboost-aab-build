@@ -312,79 +312,175 @@
 .end method
 
 .method public c()V
-    .locals 4
+    .locals 6
 
     .line 1
+    :try_start_0
+    const-string v0, "activity"
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/ActivityManager;
 
     .line 2
+    invoke-virtual {v0}, Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
+
+    move-result-object v1
+
     .line 3
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v1
+
+    :cond_0
+    :goto_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/app/ActivityManager$RunningAppProcessInfo;
+
     .line 4
+    iget v3, v2, Landroid/app/ActivityManager$RunningAppProcessInfo;->pid:I
+
+    invoke-static {}, Landroid/os/Process;->myPid()I
+
+    move-result v4
+
+    if-eq v3, v4, :cond_0
 
     .line 5
+    iget-object v2, v2, Landroid/app/ActivityManager$RunningAppProcessInfo;->processName:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Landroid/app/ActivityManager;->killBackgroundProcesses(Ljava/lang/String;)V
+
+    goto :goto_0
 
     .line 6
+    :cond_1
+    const-string v0, "notification"
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/NotificationManager;
+
     .line 7
-    new-instance v2, Lcom/novaboost/gaming/ultraboost/UltraBoostActivity$c;
+    invoke-virtual {v0}, Landroid/app/NotificationManager;->isNotificationPolicyAccessGranted()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
 
     .line 8
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->setInterruptionFilter(I)V
+
     .line 9
-    invoke-direct {v2, p0}, Lcom/novaboost/gaming/ultraboost/UltraBoostActivity$c;-><init>(Lcom/novaboost/gaming/ultraboost/UltraBoostActivity;)V
+    :cond_2
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v1, 0x1f
+
+    if-lt v0, v1, :cond_3
 
     .line 10
+    const-string v0, "game"
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/GameManager;
+
     .line 11
+    if-eqz v0, :cond_3
+
     .line 12
-    const/4 v3, 0x1
+    const/4 v1, 0x3
+
+    invoke-virtual {v0, v1}, Landroid/app/GameManager;->setGameMode(I)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 13
+    :cond_3
+    :goto_1
+    return-void
 
     .line 14
-    .line 15
-    .line 16
-    return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
+    :catch_0
+    move-exception v0
+
+    goto :goto_1
 .end method
 
 .method public e()V
     .locals 4
 
     .line 1
+    :try_start_0
+    const-string v0, "activity"
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/ActivityManager;
 
     .line 2
+    invoke-static {}, Landroid/app/ActivityManager;->isLowRamDevice()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
     .line 3
+    invoke-virtual {v0}, Landroid/app/ActivityManager;->getMemoryClass()I
+
     .line 4
+    :cond_0
+    const-string v0, "notification"
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/NotificationManager;
 
     .line 5
+    invoke-virtual {v0}, Landroid/app/NotificationManager;->isNotificationPolicyAccessGranted()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
 
     .line 6
+    const/4 v1, 0x2
+
+    invoke-virtual {v0, v1}, Landroid/app/NotificationManager;->setInterruptionFilter(I)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
     .line 7
-    new-instance v2, Lcom/novaboost/gaming/ultraboost/UltraBoostActivity$d;
+    :cond_1
+    :goto_0
+    return-void
 
     .line 8
-    .line 9
-    invoke-direct {v2, p0}, Lcom/novaboost/gaming/ultraboost/UltraBoostActivity$d;-><init>(Lcom/novaboost/gaming/ultraboost/UltraBoostActivity;)V
+    :catch_0
+    move-exception v0
 
-    .line 10
-    .line 11
-    .line 12
-    const/4 v3, 0x0
-
-    .line 13
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
+    goto :goto_0
 .end method
 
 .method public onClick(Landroid/view/View;)V

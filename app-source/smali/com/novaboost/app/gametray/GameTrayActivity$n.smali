@@ -38,7 +38,7 @@
 
 # virtual methods
 .method public run()V
-    .locals 5
+    .locals 9
 
     .prologue
     .line 1
@@ -52,25 +52,57 @@
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 3
-    :goto_1
-    new-instance v0, Lcom/novaboost/gaming/gametray/GameTrayActivity$a;
+    :try_start_1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    iget-object v1, p0, Lcom/novaboost/gaming/gametray/GameTrayActivity$n;->a:Lcom/novaboost/gaming/gametray/GameTrayActivity;
+    move-result-wide v0
 
-    invoke-direct {v0, v1}, Lcom/novaboost/gaming/gametray/GameTrayActivity$a;-><init>(Lcom/novaboost/gaming/gametray/GameTrayActivity;)V
+    new-instance v2, Ljava/net/Socket;
 
-    .line 4
-    const-wide/16 v1, 0x0
+    invoke-direct {v2}, Ljava/net/Socket;-><init>()V
 
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    new-instance v3, Ljava/net/InetSocketAddress;
 
-    move-result-object v1
+    const-string v4, "8.8.8.8"
 
-    invoke-virtual {v0, v1}, Lcom/novaboost/gaming/gametray/GameTrayActivity$a;->a(Ljava/lang/Long;)Ljava/lang/String;
+    const/16 v5, 0x35
+
+    invoke-direct {v3, v4, v5}, Ljava/net/InetSocketAddress;-><init>(Ljava/lang/String;I)V
+
+    const/16 v4, 0x1388
+
+    invoke-virtual {v2, v3, v4}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;I)V
+
+    invoke-virtual {v2}, Ljava/net/Socket;->close()V
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    sub-long v0, v2, v0
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    .line 5
+    const-string v1, " ms"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+    :try_end_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+
+    .line 4
+    :goto_1
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -79,21 +111,29 @@
 
     invoke-direct {v1, v2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 6
+    .line 5
     new-instance v2, Lcom/novaboost/gaming/gametray/GameTrayActivity$o;
 
     iget-object v3, p0, Lcom/novaboost/gaming/gametray/GameTrayActivity$n;->a:Lcom/novaboost/gaming/gametray/GameTrayActivity;
 
     invoke-direct {v2, v3, v0}, Lcom/novaboost/gaming/gametray/GameTrayActivity$o;-><init>(Lcom/novaboost/gaming/gametray/GameTrayActivity;Ljava/lang/String;)V
 
-    .line 7
+    .line 6
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 
-    .line 8
+    .line 7
     :catch_0
     move-exception v0
+
+    goto :goto_1
+
+    .line 8
+    :catch_1
+    move-exception v0
+
+    const-string v0, ""
 
     goto :goto_1
 .end method

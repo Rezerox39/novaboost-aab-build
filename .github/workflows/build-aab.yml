@@ -153,6 +153,31 @@ jobs:
           cp /tmp/NovaBoost_unsigned.aab /tmp/NovaBoost.aab
           echo "AAB signed: $(ls -la /tmp/NovaBoost.aab)"
 
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: "NovaBoost v2.1.9"
+          body: |
+            ## NovaBoost v2.1.9
+            
+            ### What's New
+            - Real ping display using TCP socket timing (no more fake random values)
+            - Real Ultra Boost engine: RAM trimming, DND mode, Game Mode (Android 12+)
+            - Storage stats now show actual device usage via StatFs
+            - Various stability improvements
+            
+            ### Notes
+            - Zero data collection - no analytics, no tracking
+            - Google Play compliant
+          files: |
+            /tmp/NovaBoost.aab
+            /tmp/NovaBoost_aligned.apk
+          generate_release_notes: false
+          make_latest: true
+
       - name: Final verification
         run: |
           echo "=== DEX URL check ==="
