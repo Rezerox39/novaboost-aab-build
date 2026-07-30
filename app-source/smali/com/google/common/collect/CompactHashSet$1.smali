@@ -7,22 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/CompactHashSet;->iterator()Ljava/util/Iterator;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "TE;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -4,14 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lg0/h;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "e"
-.end annotation
+
+
 
 
 # direct methods

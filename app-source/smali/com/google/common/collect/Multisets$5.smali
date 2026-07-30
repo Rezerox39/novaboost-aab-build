@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/Multisets;->elementIterator(Ljava/util/Iterator;)Ljava/util/Iterator;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/TransformedIterator<",
-        "Lcom/google/common/collect/Multiset$Entry<",
-        "TE;>;TE;>;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

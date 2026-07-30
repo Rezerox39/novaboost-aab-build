@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Ls6/u0;->c(Lr6/a;Ljava/lang/Object;Lm6/f;)Lr6/h;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
+
+
 
 
 # instance fields

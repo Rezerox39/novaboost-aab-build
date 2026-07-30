@@ -4,20 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/room/d;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "b"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/room/d$b$a;
-    }
-.end annotation
+
+
+
 
 
 # static fields

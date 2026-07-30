@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/JwtEcdsaPrivateKey$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/JwtEcdsaPrivateKey;",
-        "Lcom/google/crypto/tink/proto/JwtEcdsaPrivateKey$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/JwtEcdsaPrivateKeyOrBuilder;"
-    }
-.end annotation
+
+
 
 
 # static fields

@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/room/a$a;->a(Lq1/r;Z[Ljava/lang/String;Ljava/util/concurrent/Callable;)Lf6/e;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
+
+
 
 
 # instance fields

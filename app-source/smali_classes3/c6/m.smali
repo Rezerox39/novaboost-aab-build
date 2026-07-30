@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lc6/m$a;
-    }
-.end annotation
+
 
 
 # virtual methods

@@ -4,24 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/Cut;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "AboveValue"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<C::",
-        "Ljava/lang/Comparable;",
-        ">",
-        "Lcom/google/common/collect/Cut<",
-        "TC;>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

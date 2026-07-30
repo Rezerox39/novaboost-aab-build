@@ -4,22 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lu4/a$h;,
-        Lu4/a$i;,
-        Lu4/a$j;,
-        Lu4/a$f;,
-        Lu4/a$l;,
-        Lu4/a$c;,
-        Lu4/a$k;,
-        Lu4/a$e;,
-        Lu4/a$b;,
-        Lu4/a$a;,
-        Lu4/a$d;,
-        Lu4/a$g;
-    }
-.end annotation
+
 
 
 # static fields

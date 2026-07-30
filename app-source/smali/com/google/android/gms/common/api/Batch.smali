@@ -4,19 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/api/Batch$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/gms/common/api/internal/BasePendingResult<",
-        "Lcom/google/android/gms/common/api/BatchResult;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # instance fields

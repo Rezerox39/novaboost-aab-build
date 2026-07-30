@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "TransformationCallbackWrapper"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Lcom/google/android/material/floatingactionbutton/FloatingActionButton;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl$InternalTransformationCallback;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

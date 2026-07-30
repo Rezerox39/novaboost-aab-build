@@ -7,13 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lm/i$a;,
-        Lm/i$b;,
-        Lm/i$c;
-    }
-.end annotation
+
 
 
 # instance fields

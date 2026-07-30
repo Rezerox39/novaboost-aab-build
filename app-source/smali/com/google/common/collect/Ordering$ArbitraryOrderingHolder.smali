@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/Ordering;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "ArbitraryOrderingHolder"
-.end annotation
+
 
 
 # static fields

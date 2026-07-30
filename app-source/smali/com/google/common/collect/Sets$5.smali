@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/Sets;->combinations(Ljava/util/Set;I)Ljava/util/Set;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/util/AbstractSet<",
-        "Ljava/util/Set<",
-        "TE;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -7,29 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ImmutableRangeSet$Builder;,
-        Lcom/google/common/collect/ImmutableRangeSet$ComplementRanges;,
-        Lcom/google/common/collect/ImmutableRangeSet$AsSet;,
-        Lcom/google/common/collect/ImmutableRangeSet$SerializedForm;,
-        Lcom/google/common/collect/ImmutableRangeSet$AsSetSerializedForm;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<C::",
-        "Ljava/lang/Comparable;",
-        ">",
-        "Lcom/google/common/collect/AbstractRangeSet<",
-        "TC;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
 
 
 # static fields

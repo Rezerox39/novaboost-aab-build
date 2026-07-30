@@ -4,14 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/wang/avi/indicators/BallSpinFadeLoaderIndicator;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "Point"
-.end annotation
+
+
 
 
 # instance fields

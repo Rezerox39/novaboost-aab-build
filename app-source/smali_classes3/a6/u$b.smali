@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = La6/u;->f0(Ljava/lang/CharSequence;[Ljava/lang/String;ZI)Lz5/f;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
+
+
 
 
 # instance fields

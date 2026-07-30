@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/TreeRangeMap$SubRangeMap$SubRangeMapAsMap;->keySet()Ljava/util/Set;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Maps$KeySet<",
-        "Lcom/google/common/collect/Range<",
-        "TK;>;TV;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

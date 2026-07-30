@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/customview/widget/b$b;,
-        Landroidx/customview/widget/b$a;,
-        Landroidx/customview/widget/b$c;
-    }
-.end annotation
+
 
 
 # direct methods

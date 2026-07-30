@@ -9,22 +9,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/chip/Chip$ChipTouchHelper;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroidx/appcompat/widget/AppCompatCheckBox;",
-        "Lcom/google/android/material/chip/ChipDrawable$Delegate;",
-        "Lcom/google/android/material/shape/Shapeable;",
-        "Lcom/google/android/material/internal/MaterialCheckable<",
-        "Lcom/google/android/material/chip/Chip;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

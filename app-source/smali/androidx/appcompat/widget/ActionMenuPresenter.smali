@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/widget/ActionMenuPresenter$f;,
-        Landroidx/appcompat/widget/ActionMenuPresenter$d;,
-        Landroidx/appcompat/widget/ActionMenuPresenter$b;,
-        Landroidx/appcompat/widget/ActionMenuPresenter$a;,
-        Landroidx/appcompat/widget/ActionMenuPresenter$c;,
-        Landroidx/appcompat/widget/ActionMenuPresenter$e;,
-        Landroidx/appcompat/widget/ActionMenuPresenter$SavedState;
-    }
-.end annotation
+
 
 
 # instance fields

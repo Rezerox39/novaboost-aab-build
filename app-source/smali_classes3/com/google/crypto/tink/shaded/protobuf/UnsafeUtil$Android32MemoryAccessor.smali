@@ -4,14 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/shaded/protobuf/UnsafeUtil;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Android32MemoryAccessor"
-.end annotation
+
+
 
 
 # static fields

@@ -4,27 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/gson/internal/bind/MapTypeAdapterFactory;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "Adapter"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/gson/TypeAdapter<",
-        "Ljava/util/Map<",
-        "TK;TV;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

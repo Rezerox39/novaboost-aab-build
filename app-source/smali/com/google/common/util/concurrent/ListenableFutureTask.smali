@@ -7,23 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/concurrent/FutureTask<",
-        "TV;>;",
-        "Lcom/google/common/util/concurrent/ListenableFuture<",
-        "TV;>;"
-    }
-.end annotation
+
 
 
 # instance fields

@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/bottomappbar/BottomAppBar$SavedState;,
-        Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;,
-        Lcom/google/android/material/bottomappbar/BottomAppBar$AnimationListener;,
-        Lcom/google/android/material/bottomappbar/BottomAppBar$MenuAlignmentMode;,
-        Lcom/google/android/material/bottomappbar/BottomAppBar$FabAnimationMode;,
-        Lcom/google/android/material/bottomappbar/BottomAppBar$FabAnchorMode;,
-        Lcom/google/android/material/bottomappbar/BottomAppBar$FabAlignmentMode;
-    }
-.end annotation
+
 
 
 # static fields

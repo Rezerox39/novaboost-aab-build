@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/gms/common/internal/GmsClient<",
-        "Lcom/google/android/gms/signin/internal/zaf;",
-        ">;",
-        "Lcom/google/android/gms/signin/zae;"
-    }
-.end annotation
 
 
 # static fields

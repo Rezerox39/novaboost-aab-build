@@ -7,24 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/AbstractMessageLite$Builder;,
-        Lcom/google/crypto/tink/shaded/protobuf/AbstractMessageLite$InternalOneOfEnum;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<MessageType:",
-        "Lcom/google/crypto/tink/shaded/protobuf/AbstractMessageLite<",
-        "TMessageType;TBuilderType;>;BuilderType:",
-        "Lcom/google/crypto/tink/shaded/protobuf/AbstractMessageLite$Builder<",
-        "TMessageType;TBuilderType;>;>",
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;"
-    }
-.end annotation
+
+
 
 
 # instance fields

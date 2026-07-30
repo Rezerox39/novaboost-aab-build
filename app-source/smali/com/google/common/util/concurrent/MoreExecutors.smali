@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/MoreExecutors$Application;,
-        Lcom/google/common/util/concurrent/MoreExecutors$ScheduledListeningDecorator;,
-        Lcom/google/common/util/concurrent/MoreExecutors$ListeningDecorator;
-    }
-.end annotation
+
+
 
 
 # direct methods

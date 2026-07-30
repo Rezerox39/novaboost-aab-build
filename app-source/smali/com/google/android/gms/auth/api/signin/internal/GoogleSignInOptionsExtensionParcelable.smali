@@ -4,9 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "GoogleSignInOptionsExtensionCreator"
-.end annotation
+
 
 
 # static fields

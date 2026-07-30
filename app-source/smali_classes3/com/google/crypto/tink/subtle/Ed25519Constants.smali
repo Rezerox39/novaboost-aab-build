@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/subtle/Ed25519Constants$Point;
-    }
-.end annotation
+
 
 
 # static fields

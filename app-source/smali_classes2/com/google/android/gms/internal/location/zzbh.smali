@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/gms/location/zzbi<",
-        "Lcom/google/android/gms/location/LocationSettingsResult;",
-        ">;"
-    }
-.end annotation
+
 
 
 # instance fields

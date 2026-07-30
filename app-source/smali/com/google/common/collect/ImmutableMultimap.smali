@@ -7,33 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ImmutableMultimap$Builder;,
-        Lcom/google/common/collect/ImmutableMultimap$EntryCollection;,
-        Lcom/google/common/collect/ImmutableMultimap$Keys;,
-        Lcom/google/common/collect/ImmutableMultimap$Values;,
-        Lcom/google/common/collect/ImmutableMultimap$KeysSerializedForm;,
-        Lcom/google/common/collect/ImmutableMultimap$FieldSettersHolder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/BaseImmutableMultimap<",
-        "TK;TV;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

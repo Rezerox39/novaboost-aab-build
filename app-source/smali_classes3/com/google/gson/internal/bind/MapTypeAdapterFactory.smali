@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/bind/MapTypeAdapterFactory$Adapter;
-    }
-.end annotation
+
 
 
 # instance fields

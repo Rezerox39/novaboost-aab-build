@@ -3,13 +3,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/ref/WeakReference<",
-        "Ljava/lang/Throwable;",
-        ">;"
-    }
-.end annotation
+
 
 
 # instance fields

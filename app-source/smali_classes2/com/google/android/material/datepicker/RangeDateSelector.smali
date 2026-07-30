@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/android/material/datepicker/DateSelector<",
-        "Lp0/e;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,26 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ImmutableEnumSet$EnumSerializedForm;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Enum<",
-        "TE;>;>",
-        "Lcom/google/common/collect/ImmutableSet<",
-        "TE;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

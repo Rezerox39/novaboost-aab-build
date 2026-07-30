@@ -4,20 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/android/billingclient/api/c;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "c"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/android/billingclient/api/c$c$a;
-    }
-.end annotation
+
+
+
 
 
 # instance fields

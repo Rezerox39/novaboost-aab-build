@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/hybrid/HybridEncryptWrapper;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "WrappedHybridEncrypt"
-.end annotation
+
+
 
 
 # instance fields

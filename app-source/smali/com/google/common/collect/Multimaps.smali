@@ -4,28 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/Multimaps$CustomMultimap;,
-        Lcom/google/common/collect/Multimaps$CustomListMultimap;,
-        Lcom/google/common/collect/Multimaps$CustomSetMultimap;,
-        Lcom/google/common/collect/Multimaps$CustomSortedSetMultimap;,
-        Lcom/google/common/collect/Multimaps$UnmodifiableMultimap;,
-        Lcom/google/common/collect/Multimaps$UnmodifiableSetMultimap;,
-        Lcom/google/common/collect/Multimaps$UnmodifiableSortedSetMultimap;,
-        Lcom/google/common/collect/Multimaps$UnmodifiableListMultimap;,
-        Lcom/google/common/collect/Multimaps$MapMultimap;,
-        Lcom/google/common/collect/Multimaps$TransformedEntriesMultimap;,
-        Lcom/google/common/collect/Multimaps$TransformedEntriesListMultimap;,
-        Lcom/google/common/collect/Multimaps$AsMap;,
-        Lcom/google/common/collect/Multimaps$Entries;,
-        Lcom/google/common/collect/Multimaps$Keys;
-    }
-.end annotation
+
+
 
 
 # direct methods

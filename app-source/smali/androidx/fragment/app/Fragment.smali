@@ -12,15 +12,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/fragment/app/Fragment$k;,
-        Landroidx/fragment/app/Fragment$j;,
-        Landroidx/fragment/app/Fragment$InstantiationException;,
-        Landroidx/fragment/app/Fragment$SavedState;,
-        Landroidx/fragment/app/Fragment$l;
-    }
-.end annotation
+
 
 
 # static fields

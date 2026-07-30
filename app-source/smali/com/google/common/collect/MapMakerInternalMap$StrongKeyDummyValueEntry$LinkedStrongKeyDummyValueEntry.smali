@@ -4,24 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/MapMakerInternalMap$StrongKeyDummyValueEntry;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "LinkedStrongKeyDummyValueEntry"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/MapMakerInternalMap$StrongKeyDummyValueEntry<",
-        "TK;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

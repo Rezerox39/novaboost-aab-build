@@ -7,15 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/widget/Toolbar$f;,
-        Landroidx/appcompat/widget/Toolbar$g;,
-        Landroidx/appcompat/widget/Toolbar$h;,
-        Landroidx/appcompat/widget/Toolbar$SavedState;,
-        Landroidx/appcompat/widget/Toolbar$e;
-    }
-.end annotation
+
 
 
 # static fields

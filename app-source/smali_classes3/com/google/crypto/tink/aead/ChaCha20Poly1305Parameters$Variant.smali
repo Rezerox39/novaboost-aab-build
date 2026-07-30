@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/aead/ChaCha20Poly1305Parameters;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Variant"
-.end annotation
+
 
 
 # static fields

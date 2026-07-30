@@ -8,25 +8,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "Entry"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/Map$Entry<",
-        "TK;TV;>;",
-        "Ljava/lang/Comparable<",
-        "Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap<",
-        "TK;TV;>.Entry;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

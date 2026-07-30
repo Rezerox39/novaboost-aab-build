@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/widget/AppCompatSpinner$d;,
-        Landroidx/appcompat/widget/AppCompatSpinner$g;,
-        Landroidx/appcompat/widget/AppCompatSpinner$f;,
-        Landroidx/appcompat/widget/AppCompatSpinner$e;,
-        Landroidx/appcompat/widget/AppCompatSpinner$SavedState;,
-        Landroidx/appcompat/widget/AppCompatSpinner$c;
-    }
-.end annotation
+
 
 
 # static fields

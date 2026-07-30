@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/appbar/CollapsingToolbarLayout$StaticLayoutBuilderConfigurer;,
-        Lcom/google/android/material/appbar/CollapsingToolbarLayout$OffsetUpdateListener;,
-        Lcom/google/android/material/appbar/CollapsingToolbarLayout$LayoutParams;,
-        Lcom/google/android/material/appbar/CollapsingToolbarLayout$TitleCollapseMode;
-    }
-.end annotation
+
 
 
 # static fields

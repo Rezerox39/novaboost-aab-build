@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/lifecycle/DefaultLifecycleObserverAdapter$a;
-    }
-.end annotation
+
 
 
 # instance fields

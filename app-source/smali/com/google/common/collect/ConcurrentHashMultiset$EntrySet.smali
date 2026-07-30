@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/ConcurrentHashMultiset;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "EntrySet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/AbstractMultiset<",
-        "TE;>.EntrySet;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/timepicker/TimePickerControls$ActiveSelection;,
-        Lcom/google/android/material/timepicker/TimePickerControls$ClockPeriod;
-    }
-.end annotation
+
 
 
 # virtual methods

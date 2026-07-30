@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/fragment/app/FragmentContainerView$a;
-    }
-.end annotation
+
 
 
 # instance fields

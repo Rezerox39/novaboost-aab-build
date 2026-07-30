@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/hash/Striped64$Cell;
-    }
-.end annotation
 
 
 # static fields

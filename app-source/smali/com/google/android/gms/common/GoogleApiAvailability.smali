@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/google/errorprone/annotations/RestrictedInheritance;
-    allowedOnPath = ".*java.*/com/google/android/gms.*"
-    allowlistAnnotations = {
-        Lcom/google/android/gms/internal/base/zad;,
-        Lcom/google/android/gms/internal/base/zae;
-    }
-    explanation = "Sub classing of GMS Core\'s APIs are restricted to GMS Core client libs and testing fakes."
-    link = "go/gmscore-restrictedinheritance"
-.end annotation
+
 
 
 # static fields

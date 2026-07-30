@@ -7,15 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$RecordAdapter;,
-        Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$FieldReflectionAdapter;,
-        Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter;,
-        Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField;,
-        Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$FieldsData;
-    }
-.end annotation
+
 
 
 # instance fields

@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/jwt/JwtMacWrapper$WrappedJwtMac;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/PrimitiveWrapper<",
-        "Lcom/google/crypto/tink/jwt/JwtMacInternal;",
-        "Lcom/google/crypto/tink/jwt/JwtMac;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

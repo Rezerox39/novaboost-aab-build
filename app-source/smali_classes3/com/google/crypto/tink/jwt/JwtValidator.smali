@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/jwt/JwtValidator$Builder;
-    }
-.end annotation
 
 
 # static fields

@@ -4,25 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "MaterialArrayAdapter"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Landroid/widget/ArrayAdapter<",
-        "Ljava/lang/String;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

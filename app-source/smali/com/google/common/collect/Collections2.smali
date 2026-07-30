@@ -4,19 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/Collections2$FilteredCollection;,
-        Lcom/google/common/collect/Collections2$TransformedCollection;,
-        Lcom/google/common/collect/Collections2$OrderedPermutationCollection;,
-        Lcom/google/common/collect/Collections2$PermutationCollection;,
-        Lcom/google/common/collect/Collections2$PermutationIterator;,
-        Lcom/google/common/collect/Collections2$OrderedPermutationIterator;
-    }
-.end annotation
 
 
 # direct methods

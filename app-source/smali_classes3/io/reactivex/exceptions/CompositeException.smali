@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lio/reactivex/exceptions/CompositeException$a;,
-        Lio/reactivex/exceptions/CompositeException$d;,
-        Lio/reactivex/exceptions/CompositeException$c;,
-        Lio/reactivex/exceptions/CompositeException$b;
-    }
-.end annotation
+
 
 
 # instance fields

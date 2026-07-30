@@ -4,20 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/AbstractScheduledService;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "ServiceDelegate"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/AbstractScheduledService$ServiceDelegate$Task;
-    }
-.end annotation
+
+
+
 
 
 # instance fields

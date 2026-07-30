@@ -8,31 +8,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/MutableClassToInstanceMap$SerializedForm;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<B:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ForwardingMap<",
-        "Ljava/lang/Class<",
-        "+TB;>;TB;>;",
-        "Lcom/google/common/collect/ClassToInstanceMap<",
-        "TB;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
 
 
 # instance fields

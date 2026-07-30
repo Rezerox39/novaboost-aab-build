@@ -7,18 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x2609
-    name = "AvailabilityStatus"
-.end annotation
 
-.annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
-.end annotation
+
+
+
 
 
 # static fields

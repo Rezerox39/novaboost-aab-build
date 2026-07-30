@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/ImmutableRangeSet;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "AsSet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/ImmutableSortedSet<",
-        "TC;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

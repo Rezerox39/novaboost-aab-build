@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/primitives/Doubles;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "LexicographicalComparator"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/common/primitives/Doubles$LexicographicalComparator;",
-        ">;",
-        "Ljava/util/Comparator<",
-        "[D>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/AbstractTable;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "CellSet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/util/AbstractSet<",
-        "Lcom/google/common/collect/Table$Cell<",
-        "TR;TC;TV;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

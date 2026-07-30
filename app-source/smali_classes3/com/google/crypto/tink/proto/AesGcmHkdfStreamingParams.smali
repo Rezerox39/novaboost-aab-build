@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/AesGcmHkdfStreamingParams$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/AesGcmHkdfStreamingParams;",
-        "Lcom/google/crypto/tink/proto/AesGcmHkdfStreamingParams$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/AesGcmHkdfStreamingParamsOrBuilder;"
-    }
-.end annotation
+
+
 
 
 # static fields

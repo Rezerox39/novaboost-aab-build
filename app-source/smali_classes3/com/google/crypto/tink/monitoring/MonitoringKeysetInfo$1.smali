@@ -4,11 +4,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/monitoring/MonitoringKeysetInfo;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1009
-    name = null
-.end annotation
+
+

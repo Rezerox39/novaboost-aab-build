@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<MessageType:",
-        "Lcom/google/android/gms/internal/play_billing/zzfv<",
-        "TMessageType;TBuilderType;>;BuilderType:",
-        "Lcom/google/android/gms/internal/play_billing/zzfu<",
-        "TMessageType;TBuilderType;>;>",
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/internal/play_billing/zzil;"
-    }
-.end annotation
+
 
 
 # direct methods

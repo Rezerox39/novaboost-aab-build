@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/customview/widget/a$c;
-    }
-.end annotation
+
 
 
 # static fields

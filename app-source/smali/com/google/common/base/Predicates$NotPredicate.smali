@@ -8,26 +8,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Predicates;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "NotPredicate"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Predicate<",
-        "TT;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

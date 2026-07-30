@@ -7,22 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/ServiceManager$EmptyServiceManagerWarning;,
-        Lcom/google/common/util/concurrent/ServiceManager$NoOpService;,
-        Lcom/google/common/util/concurrent/ServiceManager$ServiceManagerState;,
-        Lcom/google/common/util/concurrent/ServiceManager$ServiceListener;,
-        Lcom/google/common/util/concurrent/ServiceManager$Listener;,
-        Lcom/google/common/util/concurrent/ServiceManager$FailedService;
-    }
-.end annotation
+
 
 
 # static fields

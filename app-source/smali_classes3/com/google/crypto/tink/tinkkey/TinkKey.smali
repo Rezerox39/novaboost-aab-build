@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-.end annotation
 
-.annotation runtime Ljava/lang/Deprecated;
-.end annotation
 
 
 # virtual methods

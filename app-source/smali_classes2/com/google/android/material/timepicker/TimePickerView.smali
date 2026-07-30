@@ -7,13 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/timepicker/TimePickerView$OnDoubleTapListener;,
-        Lcom/google/android/material/timepicker/TimePickerView$OnSelectionChange;,
-        Lcom/google/android/material/timepicker/TimePickerView$OnPeriodChangeListener;
-    }
-.end annotation
+
 
 
 # static fields

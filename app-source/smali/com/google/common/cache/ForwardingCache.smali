@@ -7,27 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/cache/ForwardingCache$SimpleForwardingCache;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ForwardingObject;",
-        "Lcom/google/common/cache/Cache<",
-        "TK;TV;>;"
-    }
-.end annotation
+
 
 
 # direct methods

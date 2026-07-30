@@ -4,26 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "Adapter"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        "A:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/gson/TypeAdapter<",
-        "TT;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

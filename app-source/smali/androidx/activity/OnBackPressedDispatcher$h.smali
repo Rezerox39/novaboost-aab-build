@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/activity/OnBackPressedDispatcher;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "h"
-.end annotation
+
+
 
 
 # instance fields

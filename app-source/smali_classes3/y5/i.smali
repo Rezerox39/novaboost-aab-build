@@ -8,11 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Ly5/i$a;
-    }
-.end annotation
+
 
 
 # virtual methods

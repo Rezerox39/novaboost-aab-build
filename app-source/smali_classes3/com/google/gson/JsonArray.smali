@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/gson/JsonElement;",
-        "Ljava/lang/Iterable<",
-        "Lcom/google/gson/JsonElement;",
-        ">;"
-    }
-.end annotation
+
 
 
 # instance fields

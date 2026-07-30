@@ -4,21 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/bind/DefaultDateTypeAdapter$DateType;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/util/Date;",
-        ">",
-        "Lcom/google/gson/TypeAdapter<",
-        "TT;>;"
-    }
-.end annotation
+
+
 
 
 # static fields

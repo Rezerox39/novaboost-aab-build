@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/aead/internal/InsecureNonceAesGcmJce;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/ThreadLocal<",
-        "Ljavax/crypto/Cipher;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

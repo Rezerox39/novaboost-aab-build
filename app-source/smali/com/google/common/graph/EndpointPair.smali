@@ -7,32 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/Beta;
-.end annotation
 
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-    containerOf = {
-        "N"
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/graph/EndpointPair$Ordered;,
-        Lcom/google/common/graph/EndpointPair$Unordered;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<N:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Iterable<",
-        "TN;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

@@ -4,28 +4,13 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/VisibleForTesting;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/Ordering;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "ArbitraryOrdering"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Ordering<",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

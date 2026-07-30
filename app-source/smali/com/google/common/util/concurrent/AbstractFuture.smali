@@ -4,33 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation build Lcom/google/j2objc/annotations/ReflectionSupport;
-    value = .enum Lcom/google/j2objc/annotations/ReflectionSupport$Level;->FULL:Lcom/google/j2objc/annotations/ReflectionSupport$Level;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/AbstractFuture$DelegatingToFuture;,
-        Lcom/google/common/util/concurrent/AbstractFuture$Cancellation;,
-        Lcom/google/common/util/concurrent/AbstractFuture$Failure;,
-        Lcom/google/common/util/concurrent/AbstractFuture$Trusted;,
-        Lcom/google/common/util/concurrent/AbstractFuture$Listener;,
-        Lcom/google/common/util/concurrent/AbstractFuture$TrustedFuture;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/util/concurrent/AbstractFutureState<",
-        "TV;>;"
-    }
-.end annotation
+
+
 
 
 # direct methods

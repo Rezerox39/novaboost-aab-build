@@ -7,23 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/Range;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "RangeLexOrdering"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Ordering<",
-        "Lcom/google/common/collect/Range<",
-        "*>;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

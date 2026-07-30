@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/ChaCha20Poly1305KeyFormat$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/ChaCha20Poly1305KeyFormat;",
-        "Lcom/google/crypto/tink/proto/ChaCha20Poly1305KeyFormat$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/ChaCha20Poly1305KeyFormatOrBuilder;"
-    }
-.end annotation
+
+
 
 
 # static fields

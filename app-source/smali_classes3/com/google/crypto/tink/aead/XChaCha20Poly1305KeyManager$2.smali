@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/crypto/tink/aead/XChaCha20Poly1305KeyManager;->keyFactory()Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory<",
-        "Lcom/google/crypto/tink/proto/XChaCha20Poly1305KeyFormat;",
-        "Lcom/google/crypto/tink/proto/XChaCha20Poly1305Key;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/chip/ChipGroup$PassThroughHierarchyChangeListener;,
-        Lcom/google/android/material/chip/ChipGroup$LayoutParams;,
-        Lcom/google/android/material/chip/ChipGroup$OnCheckedStateChangeListener;,
-        Lcom/google/android/material/chip/ChipGroup$OnCheckedChangeListener;
-    }
-.end annotation
+
 
 
 # static fields

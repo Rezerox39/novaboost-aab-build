@@ -4,24 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/AbstractIterator$State;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/UnmodifiableIterator<",
-        "TT;>;"
-    }
-.end annotation
+
 
 
 # instance fields

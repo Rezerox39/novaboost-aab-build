@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/RopeByteString$RopeInputStream;,
-        Lcom/google/crypto/tink/shaded/protobuf/RopeByteString$PieceIterator;,
-        Lcom/google/crypto/tink/shaded/protobuf/RopeByteString$Balancer;
-    }
-.end annotation
+
 
 
 # static fields

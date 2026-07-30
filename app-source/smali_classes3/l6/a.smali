@@ -4,8 +4,4 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Ll6/a$a;
-    }
-.end annotation
+

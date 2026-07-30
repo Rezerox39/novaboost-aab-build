@@ -8,27 +8,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Functions;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "ConstantFunction"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Function<",
-        "Ljava/lang/Object;",
-        "TE;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

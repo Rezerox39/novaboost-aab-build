@@ -9,16 +9,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/floatingactionbutton/FloatingActionButton$ShadowDelegateImpl;,
-        Lcom/google/android/material/floatingactionbutton/FloatingActionButton$TransformationCallbackWrapper;,
-        Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior;,
-        Lcom/google/android/material/floatingactionbutton/FloatingActionButton$Behavior;,
-        Lcom/google/android/material/floatingactionbutton/FloatingActionButton$Size;,
-        Lcom/google/android/material/floatingactionbutton/FloatingActionButton$OnVisibilityChangedListener;
-    }
-.end annotation
+
 
 
 # static fields

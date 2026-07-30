@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/reflect/TypeToken;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "ClassSet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/reflect/TypeToken<",
-        "TT;>.TypeSet;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

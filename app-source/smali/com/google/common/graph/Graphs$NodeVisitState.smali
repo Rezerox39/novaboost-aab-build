@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/graph/Graphs;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "NodeVisitState"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/common/graph/Graphs$NodeVisitState;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

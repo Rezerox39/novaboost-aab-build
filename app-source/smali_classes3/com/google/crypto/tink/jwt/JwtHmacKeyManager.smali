@@ -4,19 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/jwt/JwtHmacKeyManager$JwtHmac;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/internal/KeyTypeManager<",
-        "Lcom/google/crypto/tink/proto/JwtHmacKey;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # direct methods

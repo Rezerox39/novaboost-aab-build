@@ -7,18 +7,9 @@
 
 
 # annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "BanParcelableUsage"
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/activity/result/IntentSenderRequest$a;,
-        Landroidx/activity/result/IntentSenderRequest$c;
-    }
-.end annotation
+
+
 
 
 # static fields

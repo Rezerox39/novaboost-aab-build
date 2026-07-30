@@ -7,19 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/profileinstaller/ProfileInstallerInitializer$b;,
-        Landroidx/profileinstaller/ProfileInstallerInitializer$a;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lx1/b;"
-    }
-.end annotation
+
+
 
 
 # direct methods

@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/AbstractScheduledService$CustomScheduler;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "SupplantableFuture"
-.end annotation
+
+
 
 
 # instance fields

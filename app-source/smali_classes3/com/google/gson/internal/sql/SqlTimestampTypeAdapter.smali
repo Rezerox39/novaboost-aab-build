@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/gson/TypeAdapter<",
-        "Ljava/sql/Timestamp;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

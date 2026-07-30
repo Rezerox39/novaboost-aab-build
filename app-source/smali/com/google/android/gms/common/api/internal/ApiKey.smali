@@ -4,17 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<O::",
-        "Lcom/google/android/gms/common/api/Api$ApiOptions;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
 
 
 # instance fields

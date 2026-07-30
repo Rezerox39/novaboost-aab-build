@@ -7,24 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        "R:",
-        "Lcom/google/android/gms/common/data/AbstractDataBuffer<",
-        "TT;>;:",
-        "Lcom/google/android/gms/common/api/Result;",
-        ">",
-        "Lcom/google/android/gms/common/api/Response<",
-        "TR;>;",
-        "Lcom/google/android/gms/common/data/DataBuffer<",
-        "TT;>;"
-    }
-.end annotation
 
 
 # direct methods

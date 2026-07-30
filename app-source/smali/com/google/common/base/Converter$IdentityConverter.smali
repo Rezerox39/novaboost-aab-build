@@ -7,25 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Converter;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "IdentityConverter"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/base/Converter<",
-        "TT;TT;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

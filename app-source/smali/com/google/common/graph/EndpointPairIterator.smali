@@ -4,23 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/graph/EndpointPairIterator$Directed;,
-        Lcom/google/common/graph/EndpointPairIterator$Undirected;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<N:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/AbstractIterator<",
-        "Lcom/google/common/graph/EndpointPair<",
-        "TN;>;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

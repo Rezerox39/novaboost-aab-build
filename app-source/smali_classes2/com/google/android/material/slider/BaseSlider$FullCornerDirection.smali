@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/slider/BaseSlider;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "FullCornerDirection"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/android/material/slider/BaseSlider$FullCornerDirection;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

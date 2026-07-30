@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/hash/LittleEndianByteArray$LittleEndianBytes;,
-        Lcom/google/common/hash/LittleEndianByteArray$UnsafeByteArray;,
-        Lcom/google/common/hash/LittleEndianByteArray$JavaLittleEndianBytes;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,19 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/progressindicator/CircularProgressIndicator$IndicatorDirection;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/progressindicator/BaseProgressIndicator<",
-        "Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/RegistryConfig$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/RegistryConfig;",
-        "Lcom/google/crypto/tink/proto/RegistryConfig$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/RegistryConfigOrBuilder;"
-    }
-.end annotation
+
+
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

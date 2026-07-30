@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/errorprone/annotations/Modifier;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

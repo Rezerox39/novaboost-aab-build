@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/common/api/internal/BaseImplementation$ResultHolder<",
-        "Lcom/google/android/gms/location/LocationSettingsResult;",
-        ">;"
-    }
-.end annotation
+
 
 
 # instance fields

@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
-    value = "Use Escapers.nullEscaper() or another methods from the *Escapers classes"
-.end annotation
 
 
 # instance fields

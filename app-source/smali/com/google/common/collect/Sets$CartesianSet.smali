@@ -7,28 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/Sets;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "CartesianSet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ForwardingCollection<",
-        "Ljava/util/List<",
-        "TE;>;>;",
-        "Ljava/util/Set<",
-        "Ljava/util/List<",
-        "TE;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

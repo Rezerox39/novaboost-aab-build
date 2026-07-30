@@ -4,27 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/cache/CacheBuilderSpec$ValueParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$InitialCapacityParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$MaximumSizeParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$MaximumWeightParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$ConcurrencyLevelParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$KeyStrengthParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$ValueStrengthParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$RecordStatsParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$AccessDurationParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$WriteDurationParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$RefreshDurationParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$DurationParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$LongParser;,
-        Lcom/google/common/cache/CacheBuilderSpec$IntegerParser;
-    }
-.end annotation
 
 
 # static fields

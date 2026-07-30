@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/List<",
-        "Ljava/lang/String;",
-        ">;"
-    }
-.end annotation
+
 
 
 # virtual methods

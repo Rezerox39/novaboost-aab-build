@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/widget/l0$c;,
-        Landroidx/appcompat/widget/l0$e;,
-        Landroidx/appcompat/widget/l0$d;,
-        Landroidx/appcompat/widget/l0$f;,
-        Landroidx/appcompat/widget/l0$b;,
-        Landroidx/appcompat/widget/l0$a;
-    }
-.end annotation
+
 
 
 # instance fields

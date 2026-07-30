@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/vectordrawable/graphics/drawable/e$a;
-    }
-.end annotation
+
 
 
 # direct methods

@@ -7,32 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/collect/IgnoreJRERequirement;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/CollectSpliterators;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "FlatMapSpliteratorOfLong"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<InElementT:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/CollectSpliterators$FlatMapSpliteratorOfPrimitive<",
-        "TInElementT;",
-        "Ljava/lang/Long;",
-        "Ljava/util/function/LongConsumer;",
-        "Ljava/util/Spliterator$OfLong;",
-        ">;",
-        "Ljava/util/Spliterator$OfLong;"
-    }
-.end annotation
+
+
 
 
 # direct methods

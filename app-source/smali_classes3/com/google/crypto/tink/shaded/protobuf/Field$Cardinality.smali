@@ -7,29 +7,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/shaded/protobuf/Field;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "Cardinality"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/Field$Cardinality$CardinalityVerifier;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/crypto/tink/shaded/protobuf/Field$Cardinality;",
-        ">;",
-        "Lcom/google/crypto/tink/shaded/protobuf/Internal$EnumLite;"
-    }
-.end annotation
+
+
+
+
 
 
 # static fields

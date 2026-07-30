@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "LocationSettingsRequestCreator"
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Reserved;
-    value = {
-        0x3e8
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/location/LocationSettingsRequest$Builder;
-    }
-.end annotation
+
+
+
 
 
 # static fields

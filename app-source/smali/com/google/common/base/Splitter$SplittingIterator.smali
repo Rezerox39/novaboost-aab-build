@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Splitter;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "SplittingIterator"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/base/AbstractIterator<",
-        "Ljava/lang/String;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

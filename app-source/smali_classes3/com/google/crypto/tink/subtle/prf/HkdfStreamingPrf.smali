@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/subtle/prf/HkdfStreamingPrf$HkdfInputStream;
-    }
-.end annotation
 
 
 # instance fields

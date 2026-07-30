@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;"
-    }
-.end annotation
+
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

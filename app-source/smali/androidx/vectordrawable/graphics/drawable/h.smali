@@ -4,18 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/vectordrawable/graphics/drawable/h$c;,
-        Landroidx/vectordrawable/graphics/drawable/h$b;,
-        Landroidx/vectordrawable/graphics/drawable/h$f;,
-        Landroidx/vectordrawable/graphics/drawable/h$d;,
-        Landroidx/vectordrawable/graphics/drawable/h$e;,
-        Landroidx/vectordrawable/graphics/drawable/h$g;,
-        Landroidx/vectordrawable/graphics/drawable/h$h;,
-        Landroidx/vectordrawable/graphics/drawable/h$i;
-    }
-.end annotation
+
 
 
 # static fields

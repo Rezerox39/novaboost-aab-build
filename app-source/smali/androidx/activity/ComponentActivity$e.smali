@@ -9,14 +9,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/activity/ComponentActivity;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "e"
-.end annotation
+
+
 
 
 # instance fields

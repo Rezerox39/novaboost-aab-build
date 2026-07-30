@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$MaterialArrayAdapter;
-    }
-.end annotation
+
 
 
 # static fields

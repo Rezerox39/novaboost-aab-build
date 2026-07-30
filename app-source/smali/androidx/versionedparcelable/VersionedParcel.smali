@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/versionedparcelable/VersionedParcel$ParcelException;
-    }
-.end annotation
+
 
 
 # instance fields

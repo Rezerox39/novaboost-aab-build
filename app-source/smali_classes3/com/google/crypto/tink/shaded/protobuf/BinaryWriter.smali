@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation runtime Lcom/google/crypto/tink/shaded/protobuf/CheckReturnValue;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/BinaryWriter$UnsafeDirectWriter;,
-        Lcom/google/crypto/tink/shaded/protobuf/BinaryWriter$SafeDirectWriter;,
-        Lcom/google/crypto/tink/shaded/protobuf/BinaryWriter$UnsafeHeapWriter;,
-        Lcom/google/crypto/tink/shaded/protobuf/BinaryWriter$SafeHeapWriter;
-    }
-.end annotation
 
 
 # static fields

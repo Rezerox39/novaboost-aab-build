@@ -4,26 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/internal/ShowFirstParty;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/server/response/FastParser$ParseException;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Lcom/google/android/gms/common/server/response/FastJsonResponse;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # static fields

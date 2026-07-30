@@ -7,23 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/AbstractMapBasedMultimap$WrappedList;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "WrappedListIterator"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/AbstractMapBasedMultimap<",
-        "TK;TV;>.WrappedCollection.WrappedIterator;",
-        "Ljava/util/ListIterator<",
-        "TV;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

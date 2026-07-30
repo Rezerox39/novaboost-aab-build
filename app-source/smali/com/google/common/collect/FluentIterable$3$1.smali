@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/FluentIterable$3;->iterator()Ljava/util/Iterator;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/AbstractIndexedListIterator<",
-        "Ljava/util/Iterator<",
-        "+TT;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

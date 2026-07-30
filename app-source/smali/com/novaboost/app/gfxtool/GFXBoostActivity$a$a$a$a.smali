@@ -5,17 +5,9 @@
 # interfaces
 
 
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a$a;->run()V
-# annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a$a;->run()V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
+
+
 
 
 # instance fields

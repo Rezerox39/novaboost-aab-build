@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/primitives/SignedBytes$LexicographicalComparator;
-    }
-.end annotation
 
 
 # static fields

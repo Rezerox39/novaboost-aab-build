@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/stats/StatsEvent$Types;
-    }
-.end annotation
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

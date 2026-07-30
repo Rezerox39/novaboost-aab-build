@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/emoji2/text/c$a;
-    }
-.end annotation
+
 
 
 # direct methods

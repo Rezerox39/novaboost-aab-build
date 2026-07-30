@@ -4,19 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/FieldType$Collection;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/crypto/tink/shaded/protobuf/FieldType;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKey;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Builder"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
-        "Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKey;",
-        "Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKey$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKeyOrBuilder;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

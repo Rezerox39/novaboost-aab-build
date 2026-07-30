@@ -8,28 +8,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Suppliers;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "SupplierComposition"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<F:",
-        "Ljava/lang/Object;",
-        "T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Supplier<",
-        "TT;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

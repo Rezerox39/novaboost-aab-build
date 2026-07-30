@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/constraintlayout/widget/e$c;,
-        Landroidx/constraintlayout/widget/e$a;,
-        Landroidx/constraintlayout/widget/e$b;,
-        Landroidx/constraintlayout/widget/e$d;,
-        Landroidx/constraintlayout/widget/e$e;
-    }
-.end annotation
+
 
 
 # static fields

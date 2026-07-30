@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/app/AlertController$c;,
-        Landroidx/appcompat/app/AlertController$RecycleListView;,
-        Landroidx/appcompat/app/AlertController$d;,
-        Landroidx/appcompat/app/AlertController$b;
-    }
-.end annotation
+
 
 
 # instance fields

@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroid/support/v4/media/session/PlaybackStateCompat$CustomAction;
-    }
-.end annotation
+
 
 
 # static fields

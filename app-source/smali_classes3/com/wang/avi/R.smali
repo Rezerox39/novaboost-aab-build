@@ -3,14 +3,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/wang/avi/R$attr;,
-        Lcom/wang/avi/R$string;,
-        Lcom/wang/avi/R$style;,
-        Lcom/wang/avi/R$styleable;
-    }
-.end annotation
+
 
 
 # direct methods

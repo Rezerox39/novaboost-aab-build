@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/work/impl/WorkDatabase$a;
-    }
-.end annotation
+
 
 
 # static fields

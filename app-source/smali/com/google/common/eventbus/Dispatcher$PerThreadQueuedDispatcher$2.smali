@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/eventbus/Dispatcher$PerThreadQueuedDispatcher;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/ThreadLocal<",
-        "Ljava/lang/Boolean;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

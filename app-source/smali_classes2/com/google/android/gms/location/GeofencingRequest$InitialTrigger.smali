@@ -7,11 +7,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/location/GeofencingRequest;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x2609
-    name = "InitialTrigger"
-.end annotation
+
+

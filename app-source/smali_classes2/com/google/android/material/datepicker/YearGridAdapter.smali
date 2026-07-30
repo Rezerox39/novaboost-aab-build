@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/datepicker/YearGridAdapter$ViewHolder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroidx/recyclerview/widget/RecyclerView$h;"
-    }
-.end annotation
+
+
 
 
 # instance fields

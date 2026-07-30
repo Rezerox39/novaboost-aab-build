@@ -7,31 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/common/api/internal/BaseImplementation;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "ApiMethodImpl"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R::",
-        "Lcom/google/android/gms/common/api/Result;",
-        "A::",
-        "Lcom/google/android/gms/common/api/Api$AnyClient;",
-        ">",
-        "Lcom/google/android/gms/common/api/internal/BasePendingResult<",
-        "TR;>;",
-        "Lcom/google/android/gms/common/api/internal/BaseImplementation$ResultHolder<",
-        "TR;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

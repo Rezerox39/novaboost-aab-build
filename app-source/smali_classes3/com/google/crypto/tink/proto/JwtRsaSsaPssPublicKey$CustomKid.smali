@@ -7,30 +7,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/JwtRsaSsaPssPublicKey;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "CustomKid"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/JwtRsaSsaPssPublicKey$CustomKid$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssPublicKey$CustomKid;",
-        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssPublicKey$CustomKid$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssPublicKey$CustomKidOrBuilder;"
-    }
-.end annotation
+
+
+
+
 
 
 # static fields

@@ -7,23 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$EmptySet;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

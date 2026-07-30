@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/gson/TypeAdapter<",
-        "Lcom/google/gson/JsonElement;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

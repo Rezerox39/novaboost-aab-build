@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroid/util/Property<",
-        "Landroid/graphics/drawable/Drawable;",
-        "Ljava/lang/Integer;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

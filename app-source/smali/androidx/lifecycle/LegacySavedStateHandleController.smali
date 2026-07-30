@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/lifecycle/LegacySavedStateHandleController$a;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/recyclerview/widget/RecyclerView;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "z"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/RecyclerView$z$a;,
-        Landroidx/recyclerview/widget/RecyclerView$z$b;
-    }
-.end annotation
+
+
+
 
 
 # instance fields

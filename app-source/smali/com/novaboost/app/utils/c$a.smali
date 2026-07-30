@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/utils/c;->a()Ljava/util/List;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/gson/reflect/TypeToken<",
-        "Ljava/util/List<",
-        "Lcom/novaboost/gaming/model/AppData;",
-        ">;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

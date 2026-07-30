@@ -4,15 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "ModuleAvailabilityResponseCreator"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse$AvailabilityStatus;
-    }
-.end annotation
+
+
 
 
 # static fields

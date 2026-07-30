@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lf2/j1;->d(Lcom/google/common/util/concurrent/ListenableFuture;Landroidx/work/c;Lk5/d;)Ljava/lang/Object;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
+
+
 
 
 # instance fields

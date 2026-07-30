@@ -4,18 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/reflect/Types$JavaVersion;,
-        Lcom/google/common/reflect/Types$ParameterizedTypeImpl;,
-        Lcom/google/common/reflect/Types$ClassOwnership;,
-        Lcom/google/common/reflect/Types$WildcardTypeImpl;,
-        Lcom/google/common/reflect/Types$TypeVariableImpl;,
-        Lcom/google/common/reflect/Types$TypeVariableInvocationHandler;,
-        Lcom/google/common/reflect/Types$NativeTypeVariableEquals;,
-        Lcom/google/common/reflect/Types$GenericArrayTypeImpl;
-    }
-.end annotation
+
 
 
 # static fields

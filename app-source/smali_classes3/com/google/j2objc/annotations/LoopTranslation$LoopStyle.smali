@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/j2objc/annotations/LoopTranslation;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "LoopStyle"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/j2objc/annotations/LoopTranslation$LoopStyle;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

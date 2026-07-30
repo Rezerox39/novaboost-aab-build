@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/ThreadLocal<",
-        "Ljava/util/ArrayList<",
-        "Lcom/google/common/util/concurrent/CycleDetectingLockFactory$LockGraphNode;",
-        ">;>;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

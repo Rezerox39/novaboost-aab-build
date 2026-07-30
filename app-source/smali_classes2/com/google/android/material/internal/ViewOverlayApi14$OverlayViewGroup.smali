@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "ViewConstructor",
-        "PrivateApi"
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/internal/ViewOverlayApi14;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "OverlayViewGroup"
-.end annotation
+
+
+
 
 
 # static fields

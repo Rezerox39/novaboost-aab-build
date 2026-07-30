@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/room/d$a;,
-        Landroidx/room/d$b;,
-        Landroidx/room/d$c;,
-        Landroidx/room/d$d;
-    }
-.end annotation
+
 
 
 # static fields

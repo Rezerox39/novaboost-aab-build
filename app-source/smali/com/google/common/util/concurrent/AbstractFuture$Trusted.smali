@@ -7,22 +7,8 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/AbstractFuture;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
-    name = "Trusted"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/util/concurrent/ListenableFuture<",
-        "TV;>;"
-    }
-.end annotation
+
+
+

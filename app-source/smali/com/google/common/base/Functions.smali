@@ -4,21 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/Functions$ToStringFunction;,
-        Lcom/google/common/base/Functions$IdentityFunction;,
-        Lcom/google/common/base/Functions$FunctionForMapNoDefault;,
-        Lcom/google/common/base/Functions$ForMapWithDefault;,
-        Lcom/google/common/base/Functions$FunctionComposition;,
-        Lcom/google/common/base/Functions$PredicateFunction;,
-        Lcom/google/common/base/Functions$ConstantFunction;,
-        Lcom/google/common/base/Functions$SupplierFunction;
-    }
-.end annotation
 
 
 # direct methods

@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/internal/KeyTypeManager<",
-        "Lcom/google/crypto/tink/proto/AesCtrHmacAeadKey;",
-        ">;"
-    }
-.end annotation
+
 
 
 # direct methods

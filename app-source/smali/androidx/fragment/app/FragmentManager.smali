@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/fragment/app/FragmentManager$j;,
-        Landroidx/fragment/app/FragmentManager$LaunchedFragmentInfo;,
-        Landroidx/fragment/app/FragmentManager$l;,
-        Landroidx/fragment/app/FragmentManager$k;
-    }
-.end annotation
+
 
 
 # static fields

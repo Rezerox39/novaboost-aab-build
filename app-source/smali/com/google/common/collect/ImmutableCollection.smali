@@ -7,31 +7,13 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
-    value = "Use ImmutableList.of or another implementation"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ImmutableCollection$ArrayBasedBuilder;,
-        Lcom/google/common/collect/ImmutableCollection$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractCollection<",
-        "TE;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
+
 
 
 # static fields

@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/shape/ShapeAppearanceModel$CornerSizeUnaryOperator;,
-        Lcom/google/android/material/shape/ShapeAppearanceModel$Builder;
-    }
-.end annotation
+
 
 
 # static fields

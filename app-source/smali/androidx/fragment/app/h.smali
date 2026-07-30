@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/fragment/app/h$a;
-    }
-.end annotation
+
 
 
 # static fields

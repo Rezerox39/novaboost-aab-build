@@ -9,16 +9,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/AbstractProtobufList<",
-        "Ljava/lang/Double;",
-        ">;",
-        "Lcom/google/crypto/tink/shaded/protobuf/Internal$DoubleList;",
-        "Ljava/util/RandomAccess;",
-        "Lcom/google/crypto/tink/shaded/protobuf/PrimitiveNonBoxingCollection;"
-    }
-.end annotation
+
 
 
 # static fields

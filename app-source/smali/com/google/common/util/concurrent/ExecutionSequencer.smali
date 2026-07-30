@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/ExecutionSequencer$ThreadConfinedTaskQueue;,
-        Lcom/google/common/util/concurrent/ExecutionSequencer$TaskNonReentrantExecutor;,
-        Lcom/google/common/util/concurrent/ExecutionSequencer$RunningState;
-    }
-.end annotation
 
 
 # instance fields

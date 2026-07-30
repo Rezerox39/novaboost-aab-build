@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/XChaCha20Poly1305KeyFormat;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Builder"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
-        "Lcom/google/crypto/tink/proto/XChaCha20Poly1305KeyFormat;",
-        "Lcom/google/crypto/tink/proto/XChaCha20Poly1305KeyFormat$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/XChaCha20Poly1305KeyFormatOrBuilder;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

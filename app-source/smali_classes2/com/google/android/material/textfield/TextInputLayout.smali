@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/textfield/TextInputLayout$AccessibilityDelegate;,
-        Lcom/google/android/material/textfield/TextInputLayout$SavedState;,
-        Lcom/google/android/material/textfield/TextInputLayout$OnEndIconChangedListener;,
-        Lcom/google/android/material/textfield/TextInputLayout$OnEditTextAttachedListener;,
-        Lcom/google/android/material/textfield/TextInputLayout$EndIconMode;,
-        Lcom/google/android/material/textfield/TextInputLayout$BoxBackgroundMode;,
-        Lcom/google/android/material/textfield/TextInputLayout$LengthCounter;
-    }
-.end annotation
+
 
 
 # static fields

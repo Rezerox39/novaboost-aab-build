@@ -7,22 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<F:",
-        "Ljava/lang/Object;",
-        "T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/TransformedIterator<",
-        "TF;TT;>;",
-        "Ljava/util/ListIterator<",
-        "TT;>;"
-    }
-.end annotation
 
 
 # direct methods

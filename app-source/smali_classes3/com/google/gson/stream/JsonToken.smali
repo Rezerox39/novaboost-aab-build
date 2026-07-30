@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/gson/stream/JsonToken;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

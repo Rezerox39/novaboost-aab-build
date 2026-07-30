@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/util/concurrent/CancellationException;"
-    }
-.end annotation
+
 
 
 # instance fields

@@ -7,12 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/vectordrawable/graphics/drawable/c$c;,
-        Landroidx/vectordrawable/graphics/drawable/c$d;
-    }
-.end annotation
+
 
 
 # instance fields

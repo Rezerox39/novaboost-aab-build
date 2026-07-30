@@ -7,26 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/MoreExecutors$ScheduledListeningDecorator;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "ListenableScheduledTask"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/util/concurrent/ForwardingListenableFuture$SimpleForwardingListenableFuture<",
-        "TV;>;",
-        "Lcom/google/common/util/concurrent/ListenableScheduledFuture<",
-        "TV;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

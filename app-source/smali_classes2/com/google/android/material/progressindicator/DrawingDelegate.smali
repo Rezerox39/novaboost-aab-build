@@ -4,20 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/progressindicator/DrawingDelegate$ActiveIndicator;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<S:",
-        "Lcom/google/android/material/progressindicator/BaseProgressIndicatorSpec;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # instance fields

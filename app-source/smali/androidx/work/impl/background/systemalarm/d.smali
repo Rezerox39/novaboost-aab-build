@@ -7,13 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/work/impl/background/systemalarm/d$c;,
-        Landroidx/work/impl/background/systemalarm/d$b;,
-        Landroidx/work/impl/background/systemalarm/d$d;
-    }
-.end annotation
+
 
 
 # static fields

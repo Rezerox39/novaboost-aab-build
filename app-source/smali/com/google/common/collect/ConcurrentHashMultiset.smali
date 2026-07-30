@@ -7,29 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ConcurrentHashMultiset$EntrySet;,
-        Lcom/google/common/collect/ConcurrentHashMultiset$FieldSettersHolder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/AbstractMultiset<",
-        "TE;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
 
 
 # static fields

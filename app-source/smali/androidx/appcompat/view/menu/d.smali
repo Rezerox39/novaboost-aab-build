@@ -9,11 +9,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/view/menu/d$d;
-    }
-.end annotation
+
 
 
 # static fields

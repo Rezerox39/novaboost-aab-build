@@ -7,23 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/io/MoreFiles;->isRegularFile([Ljava/nio/file/LinkOption;)Lcom/google/common/base/Predicate;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Predicate<",
-        "Ljava/nio/file/Path;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/Ed25519PublicKey;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Builder"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
-        "Lcom/google/crypto/tink/proto/Ed25519PublicKey;",
-        "Lcom/google/crypto/tink/proto/Ed25519PublicKey$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/Ed25519PublicKeyOrBuilder;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

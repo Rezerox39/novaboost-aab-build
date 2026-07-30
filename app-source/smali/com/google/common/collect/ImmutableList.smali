@@ -8,33 +8,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ImmutableList$Builder;,
-        Lcom/google/common/collect/ImmutableList$Itr;,
-        Lcom/google/common/collect/ImmutableList$SubList;,
-        Lcom/google/common/collect/ImmutableList$ReverseImmutableList;,
-        Lcom/google/common/collect/ImmutableList$SerializedForm;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ImmutableCollection<",
-        "TE;>;",
-        "Ljava/util/List<",
-        "TE;>;",
-        "Ljava/util/RandomAccess;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

@@ -8,22 +8,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lx4/b;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "a"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lx4/b$a$a;,
-        Lx4/b$a$b;,
-        Lx4/b$a$c;
-    }
-.end annotation
+
+
+
 
 
 # instance fields

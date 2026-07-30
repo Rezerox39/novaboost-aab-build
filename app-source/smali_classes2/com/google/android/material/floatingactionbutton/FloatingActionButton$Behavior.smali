@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "Behavior"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/floatingactionbutton/FloatingActionButton$BaseBehavior<",
-        "Lcom/google/android/material/floatingactionbutton/FloatingActionButton;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

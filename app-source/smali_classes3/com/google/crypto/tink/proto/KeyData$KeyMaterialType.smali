@@ -7,29 +7,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/KeyData;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "KeyMaterialType"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/KeyData$KeyMaterialType$KeyMaterialTypeVerifier;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/crypto/tink/proto/KeyData$KeyMaterialType;",
-        ">;",
-        "Lcom/google/crypto/tink/shaded/protobuf/Internal$EnumLite;"
-    }
-.end annotation
+
+
+
+
 
 
 # static fields

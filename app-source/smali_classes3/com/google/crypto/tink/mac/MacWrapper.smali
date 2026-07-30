@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/mac/MacWrapper$WrappedMac;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/PrimitiveWrapper<",
-        "Lcom/google/crypto/tink/Mac;",
-        "Lcom/google/crypto/tink/Mac;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

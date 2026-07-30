@@ -4,30 +4,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/StandardTable;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "Column"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/StandardTable$Column$EntrySet;,
-        Lcom/google/common/collect/StandardTable$Column$KeySet;,
-        Lcom/google/common/collect/StandardTable$Column$Values;,
-        Lcom/google/common/collect/StandardTable$Column$EntrySetIterator;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Maps$ViewCachingAbstractMap<",
-        "TR;TV;>;"
-    }
-.end annotation
+
+
+
+
 
 
 # instance fields

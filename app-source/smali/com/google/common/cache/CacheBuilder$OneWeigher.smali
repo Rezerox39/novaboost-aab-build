@@ -7,26 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/cache/CacheBuilder;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "OneWeigher"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/common/cache/CacheBuilder$OneWeigher;",
-        ">;",
-        "Lcom/google/common/cache/Weigher<",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

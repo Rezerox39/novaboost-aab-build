@@ -7,27 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/LinkedTreeMap$KeySet;,
-        Lcom/google/gson/internal/LinkedTreeMap$EntrySet;,
-        Lcom/google/gson/internal/LinkedTreeMap$LinkedTreeMapIterator;,
-        Lcom/google/gson/internal/LinkedTreeMap$Node;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractMap<",
-        "TK;TV;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
 
 
 # static fields

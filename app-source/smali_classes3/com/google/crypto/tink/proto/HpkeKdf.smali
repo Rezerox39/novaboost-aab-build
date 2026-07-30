@@ -7,20 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/HpkeKdf$HpkeKdfVerifier;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/crypto/tink/proto/HpkeKdf;",
-        ">;",
-        "Lcom/google/crypto/tink/shaded/protobuf/Internal$EnumLite;"
-    }
-.end annotation
+
+
 
 
 # static fields

@@ -4,20 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/jwt/JwtRsaSsaPssSignKeyManager$JwtPublicKeySignFactory;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/internal/PrivateKeyTypeManager<",
-        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssPrivateKey;",
-        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssPublicKey;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # direct methods

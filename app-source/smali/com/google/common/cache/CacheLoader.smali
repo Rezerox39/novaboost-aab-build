@@ -4,29 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/cache/CacheLoader$UnsupportedLoadingOperationException;,
-        Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;,
-        Lcom/google/common/cache/CacheLoader$SupplierToCacheLoader;,
-        Lcom/google/common/cache/CacheLoader$InvalidCacheLoadException;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

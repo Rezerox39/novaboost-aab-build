@@ -4,9 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/apps/common/proguard/UsedByReflection;
-    value = "PlatformActivityProxy"
-.end annotation
+
 
 
 # instance fields

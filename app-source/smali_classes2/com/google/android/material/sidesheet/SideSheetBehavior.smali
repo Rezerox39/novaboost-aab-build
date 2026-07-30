@@ -7,24 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/sidesheet/SideSheetBehavior$SavedState;,
-        Lcom/google/android/material/sidesheet/SideSheetBehavior$StateSettlingTracker;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Landroid/view/View;",
-        ">",
-        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;",
-        "Lcom/google/android/material/sidesheet/Sheet<",
-        "Lcom/google/android/material/sidesheet/SideSheetCallback;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

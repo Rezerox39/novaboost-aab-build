@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/sidesheet/SheetDialog<",
-        "Lcom/google/android/material/sidesheet/SideSheetCallback;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

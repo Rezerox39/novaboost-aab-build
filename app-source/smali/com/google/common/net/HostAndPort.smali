@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-.end annotation
 
 
 # static fields

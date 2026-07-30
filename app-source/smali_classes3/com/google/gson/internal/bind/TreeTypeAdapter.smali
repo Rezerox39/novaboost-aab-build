@@ -4,22 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/bind/TreeTypeAdapter$GsonContextImpl;,
-        Lcom/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/gson/internal/bind/SerializationDelegatingTypeAdapter<",
-        "TT;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

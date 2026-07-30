@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/common/base/StandardSystemProperty;",
-        ">;"
-    }
-.end annotation
 
 
 # static fields

@@ -4,18 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/ImmutableSetMultimap<",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

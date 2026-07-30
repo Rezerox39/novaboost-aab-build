@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/reflect/TypeToken$TypeCollector;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/reflect/TypeToken$TypeCollector<",
-        "Ljava/lang/Class<",
-        "*>;>;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

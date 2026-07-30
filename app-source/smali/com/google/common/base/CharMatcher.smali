@@ -7,51 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/CharMatcher$Any;,
-        Lcom/google/common/base/CharMatcher$None;,
-        Lcom/google/common/base/CharMatcher$Whitespace;,
-        Lcom/google/common/base/CharMatcher$BreakingWhitespace;,
-        Lcom/google/common/base/CharMatcher$Ascii;,
-        Lcom/google/common/base/CharMatcher$Digit;,
-        Lcom/google/common/base/CharMatcher$JavaDigit;,
-        Lcom/google/common/base/CharMatcher$JavaLetter;,
-        Lcom/google/common/base/CharMatcher$JavaLetterOrDigit;,
-        Lcom/google/common/base/CharMatcher$JavaUpperCase;,
-        Lcom/google/common/base/CharMatcher$JavaLowerCase;,
-        Lcom/google/common/base/CharMatcher$JavaIsoControl;,
-        Lcom/google/common/base/CharMatcher$Invisible;,
-        Lcom/google/common/base/CharMatcher$SingleWidth;,
-        Lcom/google/common/base/CharMatcher$Is;,
-        Lcom/google/common/base/CharMatcher$IsNot;,
-        Lcom/google/common/base/CharMatcher$IsEither;,
-        Lcom/google/common/base/CharMatcher$AnyOf;,
-        Lcom/google/common/base/CharMatcher$InRange;,
-        Lcom/google/common/base/CharMatcher$ForPredicate;,
-        Lcom/google/common/base/CharMatcher$Negated;,
-        Lcom/google/common/base/CharMatcher$And;,
-        Lcom/google/common/base/CharMatcher$Or;,
-        Lcom/google/common/base/CharMatcher$BitSetMatcher;,
-        Lcom/google/common/base/CharMatcher$RangesMatcher;,
-        Lcom/google/common/base/CharMatcher$NegatedFastMatcher;,
-        Lcom/google/common/base/CharMatcher$NamedFastMatcher;,
-        Lcom/google/common/base/CharMatcher$FastMatcher;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Predicate<",
-        "Ljava/lang/Character;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

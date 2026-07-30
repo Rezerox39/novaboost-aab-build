@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<P::",
-        "Lcom/google/android/material/transition/VisibilityAnimatorProvider;",
-        ">",
-        "Landroidx/transition/s0;"
-    }
-.end annotation
+
 
 
 # instance fields

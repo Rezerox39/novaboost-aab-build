@@ -4,32 +4,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/shaded/protobuf/Internal;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "ListAdapter"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/Internal$ListAdapter$Converter;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<F:",
-        "Ljava/lang/Object;",
-        "T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractList<",
-        "TT;>;"
-    }
-.end annotation
+
+
+
+
 
 
 # instance fields

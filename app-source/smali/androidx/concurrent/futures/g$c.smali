@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/concurrent/futures/g;->b(Lk5/g;ZLs5/o;)Lcom/google/common/util/concurrent/ListenableFuture;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1001
-    name = null
-.end annotation
+
+
 
 
 # direct methods

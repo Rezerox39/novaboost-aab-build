@@ -8,36 +8,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/HashBiMap$KeySet;,
-        Lcom/google/common/collect/HashBiMap$ValueSet;,
-        Lcom/google/common/collect/HashBiMap$EntrySet;,
-        Lcom/google/common/collect/HashBiMap$Inverse;,
-        Lcom/google/common/collect/HashBiMap$EntryForValue;,
-        Lcom/google/common/collect/HashBiMap$InverseEntrySet;,
-        Lcom/google/common/collect/HashBiMap$EntryForKey;,
-        Lcom/google/common/collect/HashBiMap$View;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractMap<",
-        "TK;TV;>;",
-        "Lcom/google/common/collect/BiMap<",
-        "TK;TV;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
 
 
 # static fields

@@ -7,38 +7,13 @@
 
 
 # annotations
-.annotation build Lcom/google/common/collect/IgnoreJRERequirement;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/CollectSpliterators;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "FlatMapSpliterator"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/CollectSpliterators$FlatMapSpliterator$Factory;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<InElementT:",
-        "Ljava/lang/Object;",
-        "OutElementT:",
-        "Ljava/lang/Object;",
-        "OutSpliteratorT::",
-        "Ljava/util/Spliterator<",
-        "TOutElementT;>;>",
-        "Ljava/lang/Object;",
-        "Ljava/util/Spliterator<",
-        "TOutElementT;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

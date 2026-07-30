@@ -7,34 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ArrayTable$Column;,
-        Lcom/google/common/collect/ArrayTable$ColumnMap;,
-        Lcom/google/common/collect/ArrayTable$Row;,
-        Lcom/google/common/collect/ArrayTable$RowMap;,
-        Lcom/google/common/collect/ArrayTable$ArrayMap;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        "C:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/AbstractTable<",
-        "TR;TC;TV;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

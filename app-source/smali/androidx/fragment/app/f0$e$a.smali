@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/f0$e;-><init>(Landroidx/fragment/app/f0$e$c;Landroidx/fragment/app/f0$e$b;Landroidx/fragment/app/Fragment;Lm0/e;)V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
+
+
 
 
 # instance fields

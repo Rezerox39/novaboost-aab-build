@@ -7,18 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/concurrent/futures/a$i;,
-        Landroidx/concurrent/futures/a$b;,
-        Landroidx/concurrent/futures/a$g;,
-        Landroidx/concurrent/futures/a$c;,
-        Landroidx/concurrent/futures/a$d;,
-        Landroidx/concurrent/futures/a$e;,
-        Landroidx/concurrent/futures/a$f;,
-        Landroidx/concurrent/futures/a$h;
-    }
-.end annotation
+
 
 
 # static fields

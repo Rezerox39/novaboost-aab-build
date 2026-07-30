@@ -4,31 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/collect/IgnoreJRERequirement;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/TableCollectors;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "MutableCell"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        "C:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/Tables$AbstractCell<",
-        "TR;TC;TV;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

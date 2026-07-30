@@ -3,14 +3,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/internal/gcm/zzq;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "zzd"
-.end annotation
+
+
 
 
 # direct methods

@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/activity/OnBackPressedDispatcher$f;,
-        Landroidx/activity/OnBackPressedDispatcher$g;,
-        Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;,
-        Landroidx/activity/OnBackPressedDispatcher$h;
-    }
-.end annotation
+
 
 
 # instance fields

@@ -7,25 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/Streams;->mapWithIndex(Ljava/util/stream/IntStream;Lcom/google/common/collect/Streams$IntFunctionWithIndex;)Ljava/util/stream/Stream;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "Splitr"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Streams$MapWithIndexSpliterator<",
-        "Ljava/util/Spliterator$OfInt;",
-        "TR;",
-        "Lcom/google/common/collect/Streams$2Splitr;",
-        ">;",
-        "Ljava/util/function/IntConsumer;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

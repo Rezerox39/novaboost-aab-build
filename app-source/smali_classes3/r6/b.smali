@@ -8,21 +8,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lr6/b$a;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lr6/h;",
-        "Ljava/util/List<",
-        "Lr6/h;",
-        ">;",
-        "Lt5/a;"
-    }
-.end annotation
+
+
 
 
 # static fields

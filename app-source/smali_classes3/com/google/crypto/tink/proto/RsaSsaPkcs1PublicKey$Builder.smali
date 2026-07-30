@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/RsaSsaPkcs1PublicKey;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Builder"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
-        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1PublicKey;",
-        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1PublicKey$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1PublicKeyOrBuilder;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

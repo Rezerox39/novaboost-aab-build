@@ -7,27 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/AbstractMultiset$ElementSet;,
-        Lcom/google/common/collect/AbstractMultiset$EntrySet;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractCollection<",
-        "TE;>;",
-        "Lcom/google/common/collect/Multiset<",
-        "TE;>;"
-    }
-.end annotation
+
 
 
 # instance fields

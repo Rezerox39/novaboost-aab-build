@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/hybrid/HybridDecryptWrapper$WrappedHybridDecrypt;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/PrimitiveWrapper<",
-        "Lcom/google/crypto/tink/HybridDecrypt;",
-        "Lcom/google/crypto/tink/HybridDecrypt;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

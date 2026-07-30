@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Landroid/view/View;",
-        ">",
-        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;"
-    }
-.end annotation
+
 
 
 # instance fields

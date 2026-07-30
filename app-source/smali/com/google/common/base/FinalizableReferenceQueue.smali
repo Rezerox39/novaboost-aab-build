@@ -7,20 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/FinalizableReferenceQueue$FinalizerLoader;,
-        Lcom/google/common/base/FinalizableReferenceQueue$SystemLoader;,
-        Lcom/google/common/base/FinalizableReferenceQueue$DecoupledLoader;,
-        Lcom/google/common/base/FinalizableReferenceQueue$DirectLoader;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/drawable/DrawableUtils$OutlineCompatL;,
-        Lcom/google/android/material/drawable/DrawableUtils$OutlineCompatR;
-    }
-.end annotation
+
 
 
 # static fields

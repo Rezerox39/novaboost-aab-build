@@ -8,14 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/button/MaterialButton$SavedState;,
-        Lcom/google/android/material/button/MaterialButton$IconGravity;,
-        Lcom/google/android/material/button/MaterialButton$OnPressedChangeListener;,
-        Lcom/google/android/material/button/MaterialButton$OnCheckedChangeListener;
-    }
-.end annotation
+
 
 
 # static fields

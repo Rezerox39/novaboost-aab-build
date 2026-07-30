@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<PrimitiveT:",
-        "Ljava/lang/Object;",
-        "KeyProtoT::",
-        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
 
 
 # instance fields

@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/datepicker/MaterialCalendar;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "CalendarSelector"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/android/material/datepicker/MaterialCalendar$CalendarSelector;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

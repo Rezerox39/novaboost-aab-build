@@ -8,15 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/core/widget/NestedScrollView$c;,
-        Landroidx/core/widget/NestedScrollView$a;,
-        Landroidx/core/widget/NestedScrollView$d;,
-        Landroidx/core/widget/NestedScrollView$SavedState;,
-        Landroidx/core/widget/NestedScrollView$b;
-    }
-.end annotation
+
 
 
 # static fields

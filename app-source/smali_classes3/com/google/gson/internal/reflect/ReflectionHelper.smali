@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/reflect/ReflectionHelper$RecordNotSupportedHelper;,
-        Lcom/google/gson/internal/reflect/ReflectionHelper$RecordSupportedHelper;,
-        Lcom/google/gson/internal/reflect/ReflectionHelper$RecordHelper;
-    }
-.end annotation
+
 
 
 # static fields

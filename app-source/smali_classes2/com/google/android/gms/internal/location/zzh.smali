@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/internal/location/zzbg<",
-        "Lcom/google/android/gms/internal/location/zzam;",
-        ">;"
-    }
-.end annotation
+
 
 
 # instance fields

@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/GridLayoutManager$b;,
-        Landroidx/recyclerview/widget/GridLayoutManager$d;,
-        Landroidx/recyclerview/widget/GridLayoutManager$c;,
-        Landroidx/recyclerview/widget/GridLayoutManager$a;
-    }
-.end annotation
+
 
 
 # static fields

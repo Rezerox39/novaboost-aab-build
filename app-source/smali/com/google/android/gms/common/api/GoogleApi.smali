@@ -7,22 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/api/GoogleApi$Settings;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<O::",
-        "Lcom/google/android/gms/common/api/Api$ApiOptions;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/common/api/HasApiKey<",
-        "TO;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

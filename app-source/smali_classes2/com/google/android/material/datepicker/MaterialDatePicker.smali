@@ -4,21 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;,
-        Lcom/google/android/material/datepicker/MaterialDatePicker$InputMode;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<S:",
-        "Ljava/lang/Object;",
-        ">",
-        "Landroidx/fragment/app/c;"
-    }
-.end annotation
+
+
 
 
 # static fields

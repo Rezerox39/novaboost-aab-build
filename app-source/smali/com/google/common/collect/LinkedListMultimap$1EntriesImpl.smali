@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/LinkedListMultimap;->createEntries()Ljava/util/List;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "EntriesImpl"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/util/AbstractSequentialList<",
-        "Ljava/util/Map$Entry<",
-        "TK;TV;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -8,15 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/lang/Comparable<",
-        "Lcom/google/android/material/datepicker/Month;",
-        ">;",
-        "Landroid/os/Parcelable;"
-    }
-.end annotation
+
 
 
 # static fields

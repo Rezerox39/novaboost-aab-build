@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/common/collect/AbstractMapBasedMultiset;->entryIterator()Ljava/util/Iterator;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/AbstractMapBasedMultiset<",
-        "TE;>.Itr<",
-        "Lcom/google/common/collect/Multiset$Entry<",
-        "TE;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

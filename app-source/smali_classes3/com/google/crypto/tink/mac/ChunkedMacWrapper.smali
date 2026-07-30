@@ -7,22 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/mac/ChunkedMacWrapper$WrappedChunkedMac;,
-        Lcom/google/crypto/tink/mac/ChunkedMacWrapper$WrappedChunkedMacVerification;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/PrimitiveWrapper<",
-        "Lcom/google/crypto/tink/mac/ChunkedMac;",
-        "Lcom/google/crypto/tink/mac/ChunkedMac;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

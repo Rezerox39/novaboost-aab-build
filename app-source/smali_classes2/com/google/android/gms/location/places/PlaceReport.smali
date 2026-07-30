@@ -6,9 +6,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "PlaceReportCreator"
-.end annotation
+
 
 
 # static fields

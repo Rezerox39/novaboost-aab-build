@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/concurrent/futures/c$a;,
-        Landroidx/concurrent/futures/c$d;,
-        Landroidx/concurrent/futures/c$c;,
-        Landroidx/concurrent/futures/c$b;
-    }
-.end annotation
+
 
 
 # direct methods

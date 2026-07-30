@@ -4,22 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/internal/JsonParser;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "JsonElementTypeAdapter"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/gson/TypeAdapter<",
-        "Lcom/google/gson/JsonElement;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

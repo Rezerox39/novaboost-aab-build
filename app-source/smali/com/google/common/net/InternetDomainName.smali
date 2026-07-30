@@ -4,9 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
+
 
 .annotation runtime Lcom/google/errorprone/annotations/Immutable;
 .end annotation

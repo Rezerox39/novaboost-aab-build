@@ -8,27 +8,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/Beta;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/hash/BloomFilter$Strategy;,
-        Lcom/google/common/hash/BloomFilter$SerialForm;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Predicate<",
-        "TT;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
 
 
 # static fields

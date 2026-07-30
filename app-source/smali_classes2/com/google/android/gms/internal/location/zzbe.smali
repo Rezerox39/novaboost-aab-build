@@ -7,15 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "ParcelableGeofenceCreator"
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Reserved;
-    value = {
-        0x3e8
-    }
-.end annotation
+
+
 
 .annotation build Lcom/google/android/gms/common/util/VisibleForTesting;
 .end annotation

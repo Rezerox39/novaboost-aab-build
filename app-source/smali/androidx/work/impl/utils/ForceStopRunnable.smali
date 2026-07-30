@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/work/impl/utils/ForceStopRunnable$BroadcastReceiver;
-    }
-.end annotation
+
 
 
 # static fields

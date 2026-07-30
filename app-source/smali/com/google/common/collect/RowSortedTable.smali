@@ -7,23 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        "C:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/collect/Table<",
-        "TR;TC;TV;>;"
-    }
-.end annotation
 
 
 # virtual methods

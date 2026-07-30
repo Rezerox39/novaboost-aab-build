@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/core/view/b$b;,
-        Landroidx/core/view/b$a;
-    }
-.end annotation
+
 
 
 # instance fields

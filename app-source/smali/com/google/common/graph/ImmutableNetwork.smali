@@ -4,33 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/Beta;
-.end annotation
 
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-    containerOf = {
-        "N",
-        "E"
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/graph/ImmutableNetwork$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<N:",
-        "Ljava/lang/Object;",
-        "E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/graph/StandardNetwork<",
-        "TN;TE;>;"
-    }
-.end annotation
+
+
 
 
 # direct methods

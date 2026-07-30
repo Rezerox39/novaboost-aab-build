@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/OnBackPressedDispatcher;->h(Landroidx/lifecycle/l;Landroidx/activity/u;)V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1001
-    name = null
-.end annotation
+
+
 
 
 # direct methods

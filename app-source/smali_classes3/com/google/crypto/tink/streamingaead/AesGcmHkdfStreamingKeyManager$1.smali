@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/crypto/tink/streamingaead/AesGcmHkdfStreamingKeyManager;-><init>()V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/internal/PrimitiveFactory<",
-        "Lcom/google/crypto/tink/StreamingAead;",
-        "Lcom/google/crypto/tink/proto/AesGcmHkdfStreamingKey;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

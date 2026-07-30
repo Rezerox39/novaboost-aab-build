@@ -7,15 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup;,
-        Landroidx/recyclerview/widget/StaggeredGridLayoutManager$b;,
-        Landroidx/recyclerview/widget/StaggeredGridLayoutManager$d;,
-        Landroidx/recyclerview/widget/StaggeredGridLayoutManager$c;,
-        Landroidx/recyclerview/widget/StaggeredGridLayoutManager$SavedState;
-    }
-.end annotation
+
 
 
 # instance fields

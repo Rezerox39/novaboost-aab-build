@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/app/a$a;
-    }
-.end annotation
+
 
 
 # instance fields

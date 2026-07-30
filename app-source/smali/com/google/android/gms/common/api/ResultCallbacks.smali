@@ -7,16 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R::",
-        "Lcom/google/android/gms/common/api/Result;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/common/api/ResultCallback<",
-        "TR;>;"
-    }
-.end annotation
+
 
 
 # direct methods

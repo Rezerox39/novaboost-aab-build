@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/moduleinstall/ModuleInstallRequest$Builder;
-    }
-.end annotation
+
 
 
 # instance fields

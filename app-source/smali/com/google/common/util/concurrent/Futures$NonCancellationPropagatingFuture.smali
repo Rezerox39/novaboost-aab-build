@@ -7,25 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/Futures;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "NonCancellationPropagatingFuture"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/util/concurrent/AbstractFuture$TrustedFuture<",
-        "TV;>;",
-        "Ljava/lang/Runnable;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

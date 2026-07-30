@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/internal/EllipticCurvesUtil$JacobianEcPoint;
-    }
-.end annotation
+
 
 
 # static fields

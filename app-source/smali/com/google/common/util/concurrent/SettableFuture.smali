@@ -4,18 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/util/concurrent/AbstractFuture$TrustedFuture<",
-        "TV;>;"
-    }
-.end annotation
 
 
 # direct methods

@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;,
-        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$StreamDecoder;,
-        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$UnsafeDirectNioDecoder;,
-        Lcom/google/crypto/tink/shaded/protobuf/CodedInputStream$ArrayDecoder;
-    }
-.end annotation
+
 
 
 # static fields

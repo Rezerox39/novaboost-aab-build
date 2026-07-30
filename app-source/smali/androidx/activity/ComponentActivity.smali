@@ -18,15 +18,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/activity/ComponentActivity$a;,
-        Landroidx/activity/ComponentActivity$b;,
-        Landroidx/activity/ComponentActivity$c;,
-        Landroidx/activity/ComponentActivity$d;,
-        Landroidx/activity/ComponentActivity$e;
-    }
-.end annotation
+
 
 
 # static fields

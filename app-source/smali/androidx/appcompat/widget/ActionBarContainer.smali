@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/widget/ActionBarContainer$a;
-    }
-.end annotation
+
 
 
 # instance fields

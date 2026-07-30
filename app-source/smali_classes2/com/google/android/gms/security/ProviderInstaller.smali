@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
-    }
-.end annotation
+
 
 
 # static fields

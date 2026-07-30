@@ -9,19 +9,9 @@
 
 
 # annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "UnknownNullness"
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/widget/ActionBarOverlayLayout$f;,
-        Landroidx/appcompat/widget/ActionBarOverlayLayout$d;,
-        Landroidx/appcompat/widget/ActionBarOverlayLayout$e;
-    }
-.end annotation
+
+
 
 
 # static fields

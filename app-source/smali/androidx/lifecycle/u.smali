@@ -7,12 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/lifecycle/u$a;,
-        Landroidx/lifecycle/u$b;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Enum<",
-        "TT;>;>",
-        "Lcom/google/gson/TypeAdapter<",
-        "TT;>;"
-    }
-.end annotation
+
 
 
 # static fields

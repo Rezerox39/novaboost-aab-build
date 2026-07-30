@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/circularreveal/CircularRevealWidget;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "CircularRevealScrimColorProperty"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroid/util/Property<",
-        "Lcom/google/android/material/circularreveal/CircularRevealWidget;",
-        "Ljava/lang/Integer;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

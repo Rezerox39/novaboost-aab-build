@@ -7,21 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/lifecycle/LiveData;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "LifecycleBoundObserver"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroidx/lifecycle/LiveData.c;",
-        "Landroidx/lifecycle/j;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

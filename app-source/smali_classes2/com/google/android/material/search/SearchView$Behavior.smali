@@ -4,20 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/search/SearchView;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "Behavior"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

@@ -9,12 +9,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/view/menu/ActionMenuItemView$a;,
-        Landroidx/appcompat/view/menu/ActionMenuItemView$b;
-    }
-.end annotation
+
 
 
 # instance fields

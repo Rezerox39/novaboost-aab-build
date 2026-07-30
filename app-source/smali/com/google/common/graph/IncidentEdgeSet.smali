@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<N:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractSet<",
-        "Lcom/google/common/graph/EndpointPair<",
-        "TN;>;>;"
-    }
-.end annotation
+
 
 
 # instance fields

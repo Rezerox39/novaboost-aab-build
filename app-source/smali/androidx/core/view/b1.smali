@@ -4,24 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/core/view/b1$m;,
-        Landroidx/core/view/b1$k;,
-        Landroidx/core/view/b1$l;,
-        Landroidx/core/view/b1$n;,
-        Landroidx/core/view/b1$h;,
-        Landroidx/core/view/b1$f;,
-        Landroidx/core/view/b1$j;,
-        Landroidx/core/view/b1$g;,
-        Landroidx/core/view/b1$i;,
-        Landroidx/core/view/b1$o;,
-        Landroidx/core/view/b1$q;,
-        Landroidx/core/view/b1$r;,
-        Landroidx/core/view/b1$e;,
-        Landroidx/core/view/b1$p;
-    }
-.end annotation
+
 
 
 # static fields

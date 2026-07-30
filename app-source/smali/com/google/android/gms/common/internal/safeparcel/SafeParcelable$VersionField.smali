@@ -7,21 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/AnnotationDefault;
-    value = .subannotation Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$VersionField;
-        getter = "SAFE_PARCELABLE_NULL_STRING"
-        type = "SAFE_PARCELABLE_NULL_STRING"
-    .end subannotation
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x2609
-    name = "VersionField"
-.end annotation
+
+
+
 
 
 # virtual methods

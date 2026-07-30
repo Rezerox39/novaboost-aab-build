@@ -3,11 +3,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/internal/gcm/zzq$zzd;
-    }
-.end annotation
+
 
 
 # static fields

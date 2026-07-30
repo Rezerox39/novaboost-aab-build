@@ -4,31 +4,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/internal/KeyTypeManager;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "KeyFactory"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory$KeyFormat;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<KeyFormatProtoT::",
-        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
-        "KeyProtoT::",
-        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
+
+
 
 
 # instance fields

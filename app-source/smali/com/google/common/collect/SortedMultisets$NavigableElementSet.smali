@@ -7,29 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/SortedMultisets;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "NavigableElementSet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/SortedMultisets$ElementSet<",
-        "TE;>;",
-        "Ljava/util/NavigableSet<",
-        "TE;>;"
-    }
-.end annotation
+
+
 
 
 # direct methods

@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/gson/FieldNamingPolicy;",
-        ">;",
-        "Lcom/google/gson/FieldNamingStrategy;"
-    }
-.end annotation
+
 
 
 # static fields

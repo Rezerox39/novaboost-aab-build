@@ -7,12 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/signature/SignaturePemKeysetReader$PemKey;,
-        Lcom/google/crypto/tink/signature/SignaturePemKeysetReader$Builder;
-    }
-.end annotation
+
 
 
 # instance fields

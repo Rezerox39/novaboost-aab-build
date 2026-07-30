@@ -4,26 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/common/api/internal/ListenerHolder;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
-    name = "Notifier"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<",
-        "L:Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # virtual methods

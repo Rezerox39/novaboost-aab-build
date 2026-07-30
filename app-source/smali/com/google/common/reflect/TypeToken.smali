@@ -7,28 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/reflect/TypeToken$SimpleTypeToken;,
-        Lcom/google/common/reflect/TypeToken$TypeSet;,
-        Lcom/google/common/reflect/TypeToken$Bounds;,
-        Lcom/google/common/reflect/TypeToken$TypeCollector;,
-        Lcom/google/common/reflect/TypeToken$TypeFilter;,
-        Lcom/google/common/reflect/TypeToken$ClassSet;,
-        Lcom/google/common/reflect/TypeToken$InterfaceSet;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/reflect/TypeCapture<",
-        "TT;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
 
 
 # static fields

@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/profileinstaller/a$b;,
-        Landroidx/profileinstaller/a$a;
-    }
-.end annotation
+
 
 
 # direct methods

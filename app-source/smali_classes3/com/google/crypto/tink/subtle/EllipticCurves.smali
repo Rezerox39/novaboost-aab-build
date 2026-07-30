@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/subtle/EllipticCurves$EcdsaEncoding;,
-        Lcom/google/crypto/tink/subtle/EllipticCurves$CurveType;,
-        Lcom/google/crypto/tink/subtle/EllipticCurves$PointFormatType;
-    }
-.end annotation
+
 
 
 # direct methods

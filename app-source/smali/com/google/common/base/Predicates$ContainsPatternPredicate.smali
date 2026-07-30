@@ -8,27 +8,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Predicates;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "ContainsPatternPredicate"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/common/base/Predicate<",
-        "Ljava/lang/CharSequence;",
-        ">;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
+
 
 
 # static fields

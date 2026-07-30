@@ -4,23 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/crypto/tink/annotations/Alpha;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<KeyProtoT::",
-        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
 
 
 # instance fields

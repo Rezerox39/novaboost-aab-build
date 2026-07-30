@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/core/view/a0$a;
-    }
-.end annotation
+
 
 
 # direct methods

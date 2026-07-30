@@ -7,31 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueEntry;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Helper"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/collect/MapMakerInternalMap$InternalEntryHelper<",
-        "TK;TV;",
-        "Lcom/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueEntry<",
-        "TK;TV;>;",
-        "Lcom/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueSegment<",
-        "TK;TV;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

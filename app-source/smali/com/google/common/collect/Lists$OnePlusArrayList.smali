@@ -8,26 +8,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/Lists;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "OnePlusArrayList"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractList<",
-        "TE;>;",
-        "Ljava/io/Serializable;",
-        "Ljava/util/RandomAccess;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

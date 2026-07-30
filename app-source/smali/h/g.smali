@@ -8,25 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lh/g$m;,
-        Lh/g$n;,
-        Lh/g$g;,
-        Lh/g$p;,
-        Lh/g$s;,
-        Lh/g$i;,
-        Lh/g$r;,
-        Lh/g$t;,
-        Lh/g$h;,
-        Lh/g$j;,
-        Lh/g$k;,
-        Lh/g$q;,
-        Lh/g$o;,
-        Lh/g$f;,
-        Lh/g$l;
-    }
-.end annotation
+
 
 
 # static fields

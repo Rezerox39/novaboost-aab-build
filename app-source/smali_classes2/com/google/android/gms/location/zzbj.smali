@@ -4,20 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/ShowFirstParty;
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "LocationSettingsConfigurationCreator"
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Reserved;
-    value = {
-        0x3,
-        0x4,
-        0x3e8
-    }
-.end annotation
+
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

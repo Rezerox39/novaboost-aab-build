@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/fragment/app/b$m;,
-        Landroidx/fragment/app/b$k;,
-        Landroidx/fragment/app/b$l;
-    }
-.end annotation
+
 
 
 # direct methods

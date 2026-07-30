@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroid/support/v4/media/b$a;
-    }
-.end annotation
+
 
 
 # direct methods

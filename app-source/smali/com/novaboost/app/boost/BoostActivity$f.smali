@@ -6,17 +6,9 @@
 .implements Ljava/lang/Runnable;
 
 
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/boost/BoostActivity;->U()V
-# annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/boost/BoostActivity;->U()V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
+
+
 
 
 # instance fields

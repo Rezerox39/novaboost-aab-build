@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/subtle/AesCtrHmacStreaming;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "AesCtrHmacStreamDecrypter"
-.end annotation
+
+
 
 
 # static fields

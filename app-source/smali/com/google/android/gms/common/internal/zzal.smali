@@ -4,9 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "ValidateAccountRequestCreator"
-.end annotation
+
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

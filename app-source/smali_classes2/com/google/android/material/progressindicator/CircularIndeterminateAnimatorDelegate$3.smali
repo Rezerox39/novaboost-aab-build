@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Landroid/util/Property<",
-        "Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;",
-        "Ljava/lang/Float;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # direct methods

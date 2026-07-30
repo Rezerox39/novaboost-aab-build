@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/GsonTypes$WildcardTypeImpl;,
-        Lcom/google/gson/internal/GsonTypes$GenericArrayTypeImpl;,
-        Lcom/google/gson/internal/GsonTypes$ParameterizedTypeImpl;
-    }
-.end annotation
+
 
 
 # static fields

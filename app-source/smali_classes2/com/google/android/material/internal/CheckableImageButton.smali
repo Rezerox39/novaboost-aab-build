@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/internal/CheckableImageButton$SavedState;
-    }
-.end annotation
+
 
 
 # static fields

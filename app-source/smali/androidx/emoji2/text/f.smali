@@ -4,20 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/emoji2/text/f$e;,
-        Landroidx/emoji2/text/f$j;,
-        Landroidx/emoji2/text/f$c;,
-        Landroidx/emoji2/text/f$h;,
-        Landroidx/emoji2/text/f$d;,
-        Landroidx/emoji2/text/f$b;,
-        Landroidx/emoji2/text/f$a;,
-        Landroidx/emoji2/text/f$g;,
-        Landroidx/emoji2/text/f$f;,
-        Landroidx/emoji2/text/f$i;
-    }
-.end annotation
+
 
 
 # static fields

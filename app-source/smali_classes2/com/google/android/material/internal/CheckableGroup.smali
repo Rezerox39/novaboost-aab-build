@@ -4,20 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/internal/CheckableGroup$OnCheckedStateChangeListener;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T::",
-        "Lcom/google/android/material/internal/MaterialCheckable<",
-        "TT;>;>",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # instance fields

@@ -4,22 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/internal/PrimitiveConstructor$PrimitiveConstructionFunction;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<KeyT:",
-        "Lcom/google/crypto/tink/Key;",
-        "PrimitiveT:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # instance fields

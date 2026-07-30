@@ -8,30 +8,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/Cut$AboveValue;,
-        Lcom/google/common/collect/Cut$BelowAll;,
-        Lcom/google/common/collect/Cut$AboveAll;,
-        Lcom/google/common/collect/Cut$BelowValue;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<C::",
-        "Ljava/lang/Comparable;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Comparable<",
-        "Lcom/google/common/collect/Cut<",
-        "TC;>;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
 
 
 # static fields

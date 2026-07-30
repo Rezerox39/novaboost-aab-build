@@ -7,27 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/Ordering$ArbitraryOrderingHolder;,
-        Lcom/google/common/collect/Ordering$IncomparableValueException;,
-        Lcom/google/common/collect/Ordering$ArbitraryOrdering;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/util/Comparator<",
-        "TT;>;"
-    }
-.end annotation
+
 
 
 # static fields

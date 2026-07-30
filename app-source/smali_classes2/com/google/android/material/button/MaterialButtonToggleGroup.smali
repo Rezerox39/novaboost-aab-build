@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/button/MaterialButtonToggleGroup$CornerData;,
-        Lcom/google/android/material/button/MaterialButtonToggleGroup$PressedStateTracker;,
-        Lcom/google/android/material/button/MaterialButtonToggleGroup$OnButtonCheckedListener;
-    }
-.end annotation
+
 
 
 # static fields

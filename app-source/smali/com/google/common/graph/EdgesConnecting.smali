@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractSet<",
-        "TE;>;"
-    }
-.end annotation
+
 
 
 # instance fields

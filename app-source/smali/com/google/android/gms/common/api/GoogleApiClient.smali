@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/api/GoogleApiClient$Builder;,
-        Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;,
-        Lcom/google/android/gms/common/api/GoogleApiClient$ConnectionCallbacks;
-    }
-.end annotation
+
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

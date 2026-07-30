@@ -8,11 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lkotlin/jvm/internal/e$a;
-    }
-.end annotation
+
 
 
 # static fields

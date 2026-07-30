@@ -10,21 +10,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<TResult:",
-        "Ljava/lang/Object;",
-        "TContinuationResult:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/android/gms/tasks/OnSuccessListener<",
-        "TTContinuationResult;>;",
-        "Lcom/google/android/gms/tasks/OnFailureListener;",
-        "Lcom/google/android/gms/tasks/OnCanceledListener;",
-        "Lcom/google/android/gms/tasks/zzq;"
-    }
-.end annotation
+
 
 
 # instance fields

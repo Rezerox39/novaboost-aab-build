@@ -7,25 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/MultimapBuilder;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "LinkedListSupplier"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/common/collect/MultimapBuilder$LinkedListSupplier;",
-        ">;",
-        "Lcom/google/common/base/Supplier<",
-        "Ljava/util/List<",
-        "*>;>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

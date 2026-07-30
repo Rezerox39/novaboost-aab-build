@@ -5,17 +5,9 @@
 # interfaces
 
 
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/gametray/GameTrayActivity;->f0()V
-# annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/gametray/GameTrayActivity;->f0()V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
+
+
 
 
 # instance fields

@@ -8,18 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$SavedState;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$e;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$f;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$b;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$d;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$h;,
-        Landroidx/coordinatorlayout/widget/CoordinatorLayout$g;
-    }
-.end annotation
+
 
 
 # static fields

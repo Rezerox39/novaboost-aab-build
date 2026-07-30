@@ -7,29 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/TreeRangeMap$RangeMapEntry;,
-        Lcom/google/common/collect/TreeRangeMap$AsMapOfRanges;,
-        Lcom/google/common/collect/TreeRangeMap$SubRangeMap;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K::",
-        "Ljava/lang/Comparable;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/collect/RangeMap<",
-        "TK;TV;>;"
-    }
-.end annotation
+
 
 
 # static fields

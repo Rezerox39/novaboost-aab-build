@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/b$b;,
-        Landroidx/recyclerview/widget/b$a;
-    }
-.end annotation
+
 
 
 # instance fields

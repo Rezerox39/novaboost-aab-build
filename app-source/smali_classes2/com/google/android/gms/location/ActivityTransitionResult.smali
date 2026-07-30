@@ -4,15 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "ActivityTransitionResultCreator"
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Reserved;
-    value = {
-        0x3e8
-    }
-.end annotation
+
+
 
 
 # static fields

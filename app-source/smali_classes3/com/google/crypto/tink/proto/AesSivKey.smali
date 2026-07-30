@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/AesSivKey$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/AesSivKey;",
-        "Lcom/google/crypto/tink/proto/AesSivKey$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/AesSivKeyOrBuilder;"
-    }
-.end annotation
+
+
 
 
 # static fields

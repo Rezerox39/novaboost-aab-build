@@ -4,27 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/TreeRangeMap;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "RangeMapEntry"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K::",
-        "Ljava/lang/Comparable;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/AbstractMapEntry<",
-        "Lcom/google/common/collect/Range<",
-        "TK;>;TV;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

@@ -7,24 +7,9 @@
 
 
 # annotations
-.annotation runtime Lcom/google/errorprone/annotations/Immutable;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/prf/PrfSetWrapper$WrappedPrfSet;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/PrimitiveWrapper<",
-        "Lcom/google/crypto/tink/prf/Prf;",
-        "Lcom/google/crypto/tink/prf/PrfSet;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

@@ -7,30 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/FilteredEntryMultimap$ValuePredicate;,
-        Lcom/google/common/collect/FilteredEntryMultimap$AsMap;,
-        Lcom/google/common/collect/FilteredEntryMultimap$Keys;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/AbstractMultimap<",
-        "TK;TV;>;",
-        "Lcom/google/common/collect/FilteredMultimap<",
-        "TK;TV;>;"
-    }
-.end annotation
+
 
 
 # instance fields

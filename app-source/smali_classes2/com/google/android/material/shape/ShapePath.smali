@@ -4,19 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/shape/ShapePath$PathCubicOperation;,
-        Lcom/google/android/material/shape/ShapePath$PathArcOperation;,
-        Lcom/google/android/material/shape/ShapePath$PathQuadOperation;,
-        Lcom/google/android/material/shape/ShapePath$PathLineOperation;,
-        Lcom/google/android/material/shape/ShapePath$PathOperation;,
-        Lcom/google/android/material/shape/ShapePath$ArcShadowOperation;,
-        Lcom/google/android/material/shape/ShapePath$InnerCornerShadowOperation;,
-        Lcom/google/android/material/shape/ShapePath$LineShadowOperation;,
-        Lcom/google/android/material/shape/ShapePath$ShadowCompatOperation;
-    }
-.end annotation
+
 
 
 # static fields

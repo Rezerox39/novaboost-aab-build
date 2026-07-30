@@ -4,31 +4,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/appbar/AppBarLayout;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "BaseBehavior"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior$SavedState;,
-        Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior$BaseDragCallback;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Lcom/google/android/material/appbar/AppBarLayout;",
-        ">",
-        "Lcom/google/android/material/appbar/HeaderBehavior<",
-        "TT;>;"
-    }
-.end annotation
+
+
+
+
 
 
 # static fields

@@ -4,28 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/cache/CacheBuilder$OneWeigher;,
-        Lcom/google/common/cache/CacheBuilder$NullListener;,
-        Lcom/google/common/cache/CacheBuilder$LoggerHolder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

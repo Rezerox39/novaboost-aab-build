@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/integration/android/AndroidKeystoreKmsClient$Builder;
-    }
-.end annotation
+
 
 
 # static fields

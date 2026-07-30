@@ -7,29 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ForwardingMap$StandardEntrySet;,
-        Lcom/google/common/collect/ForwardingMap$StandardValues;,
-        Lcom/google/common/collect/ForwardingMap$StandardKeySet;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ForwardingObject;",
-        "Ljava/util/Map<",
-        "TK;TV;>;"
-    }
-.end annotation
+
 
 
 # direct methods

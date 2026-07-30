@@ -7,20 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/emoji2/text/EmojiCompatInitializer$a;,
-        Landroidx/emoji2/text/EmojiCompatInitializer$c;,
-        Landroidx/emoji2/text/EmojiCompatInitializer$b;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lx1/b;"
-    }
-.end annotation
+
+
 
 
 # direct methods

@@ -7,15 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/PrimitiveWrapper<",
-        "Lcom/google/crypto/tink/StreamingAead;",
-        "Lcom/google/crypto/tink/StreamingAead;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

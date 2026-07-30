@@ -7,21 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<F:",
-        "Ljava/lang/Object;",
-        "T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/base/Equivalence<",
-        "TF;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
 
 
 # static fields

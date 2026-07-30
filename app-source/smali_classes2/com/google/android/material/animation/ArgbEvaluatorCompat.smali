@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/animation/TypeEvaluator<",
-        "Ljava/lang/Integer;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

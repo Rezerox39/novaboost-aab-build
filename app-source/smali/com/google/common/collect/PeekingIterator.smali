@@ -7,23 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
-    value = "Use Iterators.peekingIterator"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "TE;>;"
-    }
-.end annotation
+
 
 
 # virtual methods

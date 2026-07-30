@@ -7,25 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/ForwardingFuture$SimpleForwardingFuture;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ForwardingObject;",
-        "Ljava/util/concurrent/Future<",
-        "TV;>;"
-    }
-.end annotation
+
 
 
 # direct methods

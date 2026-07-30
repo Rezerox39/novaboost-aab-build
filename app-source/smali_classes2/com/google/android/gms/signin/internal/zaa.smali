@@ -7,9 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
-    creator = "AuthAccountResultCreator"
-.end annotation
+
 
 
 # static fields

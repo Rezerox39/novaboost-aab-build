@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;,
-        Landroidx/recyclerview/widget/LinearLayoutManager$a;,
-        Landroidx/recyclerview/widget/LinearLayoutManager$b;,
-        Landroidx/recyclerview/widget/LinearLayoutManager$c;
-    }
-.end annotation
+
 
 
 # static fields

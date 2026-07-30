@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/CombinedFuture;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "AsyncCallableInterruptibleTask"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/util/concurrent/CombinedFuture<",
-        "TV;>.CombinedFutureInterruptibleTask<",
-        "Lcom/google/common/util/concurrent/ListenableFuture<",
-        "TV;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

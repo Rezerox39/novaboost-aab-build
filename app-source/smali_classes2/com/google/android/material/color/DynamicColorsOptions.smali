@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/color/DynamicColorsOptions$Builder;
-    }
-.end annotation
+
 
 
 # static fields

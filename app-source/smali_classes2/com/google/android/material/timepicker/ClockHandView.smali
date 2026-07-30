@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/timepicker/ClockHandView$OnActionUpListener;,
-        Lcom/google/android/material/timepicker/ClockHandView$OnRotateListener;
-    }
-.end annotation
+
 
 
 # static fields

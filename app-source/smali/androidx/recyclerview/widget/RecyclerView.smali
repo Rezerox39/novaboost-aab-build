@@ -7,36 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/RecyclerView$y;,
-        Landroidx/recyclerview/widget/RecyclerView$w;,
-        Landroidx/recyclerview/widget/RecyclerView$b0;,
-        Landroidx/recyclerview/widget/RecyclerView$m;,
-        Landroidx/recyclerview/widget/RecyclerView$n;,
-        Landroidx/recyclerview/widget/RecyclerView$d0;,
-        Landroidx/recyclerview/widget/RecyclerView$a0;,
-        Landroidx/recyclerview/widget/RecyclerView$o;,
-        Landroidx/recyclerview/widget/RecyclerView$h;,
-        Landroidx/recyclerview/widget/RecyclerView$LayoutManager;,
-        Landroidx/recyclerview/widget/RecyclerView$j;,
-        Landroidx/recyclerview/widget/RecyclerView$x;,
-        Landroidx/recyclerview/widget/RecyclerView$s;,
-        Landroidx/recyclerview/widget/RecyclerView$SavedState;,
-        Landroidx/recyclerview/widget/RecyclerView$e0;,
-        Landroidx/recyclerview/widget/RecyclerView$v;,
-        Landroidx/recyclerview/widget/RecyclerView$c0;,
-        Landroidx/recyclerview/widget/RecyclerView$p;,
-        Landroidx/recyclerview/widget/RecyclerView$l;,
-        Landroidx/recyclerview/widget/RecyclerView$u;,
-        Landroidx/recyclerview/widget/RecyclerView$q;,
-        Landroidx/recyclerview/widget/RecyclerView$t;,
-        Landroidx/recyclerview/widget/RecyclerView$r;,
-        Landroidx/recyclerview/widget/RecyclerView$k;,
-        Landroidx/recyclerview/widget/RecyclerView$i;,
-        Landroidx/recyclerview/widget/RecyclerView$z;
-    }
-.end annotation
+
 
 
 # static fields

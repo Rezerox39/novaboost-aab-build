@@ -7,25 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/io/Files;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4409
-    name = "FilePredicate"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Enum<",
-        "Lcom/google/common/io/Files$FilePredicate;",
-        ">;",
-        "Lcom/google/common/base/Predicate<",
-        "Ljava/io/File;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

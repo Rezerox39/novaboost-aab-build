@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/recyclerview/widget/c$j;,
-        Landroidx/recyclerview/widget/c$i;
-    }
-.end annotation
+
 
 
 # static fields

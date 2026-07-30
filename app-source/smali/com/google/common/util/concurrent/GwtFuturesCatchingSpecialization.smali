@@ -4,9 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
+
 
 .annotation build Lcom/google/common/annotations/J2ktIncompatible;
 .end annotation

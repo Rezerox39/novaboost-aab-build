@@ -7,13 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/work/impl/background/systemjob/SystemJobService$a;,
-        Landroidx/work/impl/background/systemjob/SystemJobService$b;,
-        Landroidx/work/impl/background/systemjob/SystemJobService$c;
-    }
-.end annotation
+
 
 
 # static fields

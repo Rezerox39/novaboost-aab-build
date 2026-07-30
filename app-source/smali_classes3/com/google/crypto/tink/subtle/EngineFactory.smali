@@ -4,25 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/subtle/EngineFactory$AndroidPolicy;,
-        Lcom/google/crypto/tink/subtle/EngineFactory$FipsPolicy;,
-        Lcom/google/crypto/tink/subtle/EngineFactory$DefaultPolicy;,
-        Lcom/google/crypto/tink/subtle/EngineFactory$Policy;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T_WRAPPER::",
-        "Lcom/google/crypto/tink/subtle/EngineWrapper<",
-        "TJcePrimitiveT;>;JcePrimitiveT:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # static fields

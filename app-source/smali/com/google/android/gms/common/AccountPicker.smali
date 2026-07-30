@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;
-    }
-.end annotation
+
 
 
 # direct methods

@@ -4,21 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/MoreObjects;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "ToStringHelper"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/MoreObjects$ToStringHelper$ValueHolder;,
-        Lcom/google/common/base/MoreObjects$ToStringHelper$UnconditionalValueHolder;
-    }
-.end annotation
+
+
+
 
 
 # instance fields

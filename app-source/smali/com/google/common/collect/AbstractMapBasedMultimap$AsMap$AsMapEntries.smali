@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/AbstractMapBasedMultimap$AsMap;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = "AsMapEntries"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Maps$EntrySet<",
-        "TK;",
-        "Ljava/util/Collection<",
-        "TV;>;>;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

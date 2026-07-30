@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/internal/ICancelToken$Stub;
-    }
-.end annotation
+
 
 
 # virtual methods

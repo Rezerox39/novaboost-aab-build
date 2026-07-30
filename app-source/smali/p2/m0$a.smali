@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lp2/m0;->b(Landroid/content/Context;Lo2/x;Landroidx/work/c;Le2/j;Lr2/c;Lk5/d;)Ljava/lang/Object;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
+
+
 
 
 # instance fields

@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/Splitter$Strategy;,
-        Lcom/google/common/base/Splitter$MapSplitter;,
-        Lcom/google/common/base/Splitter$SplittingIterator;
-    }
-.end annotation
+
+
 
 
 # instance fields

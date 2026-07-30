@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/subtle/Base64$Encoder;,
-        Lcom/google/crypto/tink/subtle/Base64$Decoder;,
-        Lcom/google/crypto/tink/subtle/Base64$Coder;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/work/impl/background/systemalarm/ConstraintProxy$NetworkStateProxy;,
-        Landroidx/work/impl/background/systemalarm/ConstraintProxy$StorageNotLowProxy;,
-        Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryChargingProxy;,
-        Landroidx/work/impl/background/systemalarm/ConstraintProxy$BatteryNotLowProxy;
-    }
-.end annotation
+
 
 
 # static fields

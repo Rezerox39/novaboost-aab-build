@@ -7,24 +7,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/util/concurrent/ClosingFuture;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "CloseableList"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/util/IdentityHashMap<",
-        "Ljava/lang/AutoCloseable;",
-        "Ljava/util/concurrent/Executor;",
-        ">;",
-        "Ljava/io/Closeable;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

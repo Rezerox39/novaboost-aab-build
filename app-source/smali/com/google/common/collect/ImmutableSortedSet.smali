@@ -8,31 +8,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/ImmutableSortedSet$Builder;,
-        Lcom/google/common/collect/ImmutableSortedSet$SerializedForm;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ImmutableSet<",
-        "TE;>;",
-        "Ljava/util/NavigableSet<",
-        "TE;>;",
-        "Lcom/google/common/collect/SortedIterable<",
-        "TE;>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

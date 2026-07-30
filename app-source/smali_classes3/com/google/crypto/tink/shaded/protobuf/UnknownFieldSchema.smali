@@ -4,19 +4,7 @@
 
 
 # annotations
-.annotation runtime Lcom/google/crypto/tink/shaded/protobuf/CheckReturnValue;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        "B:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
 
 
 # direct methods

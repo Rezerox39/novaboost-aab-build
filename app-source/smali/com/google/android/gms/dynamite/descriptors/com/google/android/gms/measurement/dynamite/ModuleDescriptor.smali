@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/util/DynamiteApi;
-.end annotation
 
-.annotation build Lcom/google/android/gms/common/util/RetainForClient;
-.end annotation
 
 
 # static fields

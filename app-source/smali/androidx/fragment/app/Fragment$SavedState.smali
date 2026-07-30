@@ -7,20 +7,11 @@
 
 
 # annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "BanParcelableUsage, ParcelClassLoader"
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Landroidx/fragment/app/Fragment;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "SavedState"
-.end annotation
+
+
+
 
 
 # static fields

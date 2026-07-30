@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/internal/SerializationRegistry$ParserIndex;,
-        Lcom/google/crypto/tink/internal/SerializationRegistry$SerializerIndex;,
-        Lcom/google/crypto/tink/internal/SerializationRegistry$Builder;
-    }
-.end annotation
+
 
 
 # instance fields

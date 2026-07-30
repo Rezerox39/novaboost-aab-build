@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/gson/internal/Streams$AppendableWriter;
-    }
-.end annotation
+
 
 
 # direct methods

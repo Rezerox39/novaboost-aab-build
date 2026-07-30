@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/util/KeysDownloader$Builder;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/eventbus/EventBus$LoggingHandler;
-    }
-.end annotation
+
 
 
 # static fields

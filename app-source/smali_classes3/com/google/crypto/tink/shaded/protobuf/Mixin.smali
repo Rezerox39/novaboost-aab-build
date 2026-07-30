@@ -7,21 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/Mixin$Builder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/shaded/protobuf/Mixin;",
-        "Lcom/google/crypto/tink/shaded/protobuf/Mixin$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/shaded/protobuf/MixinOrBuilder;"
-    }
-.end annotation
+
+
 
 
 # static fields

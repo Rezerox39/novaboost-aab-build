@@ -7,27 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/crypto/tink/annotations/Alpha;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/KeyManagerImpl$KeyFactoryHelper;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<PrimitiveT:",
-        "Ljava/lang/Object;",
-        "KeyProtoT::",
-        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/crypto/tink/KeyManager<",
-        "TPrimitiveT;>;"
-    }
-.end annotation
+
 
 
 # instance fields

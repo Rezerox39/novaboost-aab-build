@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/Comparator<",
-        "Lcom/google/android/gms/location/ActivityTransition;",
-        ">;"
-    }
-.end annotation
+
 
 
 # direct methods

@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/activity/ImmLeaksCleaner$a;,
-        Landroidx/activity/ImmLeaksCleaner$c;,
-        Landroidx/activity/ImmLeaksCleaner$d;,
-        Landroidx/activity/ImmLeaksCleaner$e;
-    }
-.end annotation
+
 
 
 # static fields

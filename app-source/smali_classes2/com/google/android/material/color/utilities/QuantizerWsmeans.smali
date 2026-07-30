@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/color/utilities/QuantizerWsmeans$Distance;
-    }
-.end annotation
+
 
 
 # static fields

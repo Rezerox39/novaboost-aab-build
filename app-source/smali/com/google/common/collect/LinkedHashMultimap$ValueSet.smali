@@ -7,26 +7,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/VisibleForTesting;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/collect/LinkedHashMultimap;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "ValueSet"
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/collect/Sets$ImprovedAbstractSet<",
-        "TV;>;",
-        "Lcom/google/common/collect/LinkedHashMultimap$ValueSetLink<",
-        "TK;TV;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

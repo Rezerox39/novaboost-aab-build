@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lh6/l$a;
-    }
-.end annotation
+
 
 
 # static fields

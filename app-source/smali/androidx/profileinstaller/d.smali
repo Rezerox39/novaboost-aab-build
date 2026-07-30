@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/profileinstaller/d$c;,
-        Landroidx/profileinstaller/d$b;,
-        Landroidx/profileinstaller/d$a;
-    }
-.end annotation
+
 
 
 # static fields

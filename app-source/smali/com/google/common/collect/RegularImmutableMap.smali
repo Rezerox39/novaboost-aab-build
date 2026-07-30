@@ -4,30 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/RegularImmutableMap$EntrySet;,
-        Lcom/google/common/collect/RegularImmutableMap$KeysOrValuesAsList;,
-        Lcom/google/common/collect/RegularImmutableMap$KeySet;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/ImmutableMap<",
-        "TK;TV;>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

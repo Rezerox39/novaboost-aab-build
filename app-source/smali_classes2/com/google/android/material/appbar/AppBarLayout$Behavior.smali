@@ -4,28 +4,13 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/material/appbar/AppBarLayout;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "Behavior"
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/appbar/AppBarLayout$Behavior$DragCallback;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior<",
-        "Lcom/google/android/material/appbar/AppBarLayout;",
-        ">;"
-    }
-.end annotation
+
+
+
+
 
 
 # direct methods

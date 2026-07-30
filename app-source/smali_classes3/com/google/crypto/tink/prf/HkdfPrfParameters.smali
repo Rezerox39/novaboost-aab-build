@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/crypto/tink/annotations/Alpha;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/prf/HkdfPrfParameters$Builder;,
-        Lcom/google/crypto/tink/prf/HkdfPrfParameters$HashType;
-    }
-.end annotation
 
 
 # static fields

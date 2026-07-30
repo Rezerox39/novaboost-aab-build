@@ -4,24 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/tabs/TabLayout$AdapterChangeListener;,
-        Lcom/google/android/material/tabs/TabLayout$PagerAdapterObserver;,
-        Lcom/google/android/material/tabs/TabLayout$ViewPagerOnTabSelectedListener;,
-        Lcom/google/android/material/tabs/TabLayout$TabLayoutOnPageChangeListener;,
-        Lcom/google/android/material/tabs/TabLayout$SlidingTabIndicator;,
-        Lcom/google/android/material/tabs/TabLayout$TabView;,
-        Lcom/google/android/material/tabs/TabLayout$Tab;,
-        Lcom/google/android/material/tabs/TabLayout$BaseOnTabSelectedListener;,
-        Lcom/google/android/material/tabs/TabLayout$OnTabSelectedListener;,
-        Lcom/google/android/material/tabs/TabLayout$TabIndicatorAnimationMode;,
-        Lcom/google/android/material/tabs/TabLayout$TabIndicatorGravity;,
-        Lcom/google/android/material/tabs/TabLayout$TabGravity;,
-        Lcom/google/android/material/tabs/TabLayout$LabelVisibility;,
-        Lcom/google/android/material/tabs/TabLayout$Mode;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,26 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;,
-        Lcom/google/android/gms/common/api/Api$ClientKey;,
-        Lcom/google/android/gms/common/api/Api$Client;,
-        Lcom/google/android/gms/common/api/Api$AnyClient;,
-        Lcom/google/android/gms/common/api/Api$AnyClientKey;,
-        Lcom/google/android/gms/common/api/Api$ApiOptions;,
-        Lcom/google/android/gms/common/api/Api$BaseClientBuilder;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<O::",
-        "Lcom/google/android/gms/common/api/Api$ApiOptions;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # instance fields

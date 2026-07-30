@@ -7,18 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Number;",
-        "Ljava/lang/Comparable<",
-        "Lcom/google/common/primitives/UnsignedLong;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

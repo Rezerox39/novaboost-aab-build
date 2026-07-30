@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/core/graphics/drawable/IconCompat$a;,
-        Landroidx/core/graphics/drawable/IconCompat$b;,
-        Landroidx/core/graphics/drawable/IconCompat$d;,
-        Landroidx/core/graphics/drawable/IconCompat$c;
-    }
-.end annotation
+
 
 
 # static fields

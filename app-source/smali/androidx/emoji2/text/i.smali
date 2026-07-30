@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/emoji2/text/i$a;,
-        Landroidx/emoji2/text/i$d;,
-        Landroidx/emoji2/text/i$c;,
-        Landroidx/emoji2/text/i$e;,
-        Landroidx/emoji2/text/i$b;
-    }
-.end annotation
+
 
 
 # instance fields

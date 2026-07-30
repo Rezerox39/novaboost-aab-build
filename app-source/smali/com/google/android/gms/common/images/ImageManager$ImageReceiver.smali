@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepName;
-.end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/common/images/ImageManager;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x11
-    name = "ImageReceiver"
-.end annotation
+
 
 
 # instance fields

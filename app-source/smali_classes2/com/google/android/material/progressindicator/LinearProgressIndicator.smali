@@ -4,20 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/progressindicator/LinearProgressIndicator$IndicatorDirection;,
-        Lcom/google/android/material/progressindicator/LinearProgressIndicator$IndeterminateAnimationType;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/progressindicator/BaseProgressIndicator<",
-        "Lcom/google/android/material/progressindicator/LinearProgressIndicatorSpec;",
-        ">;"
-    }
-.end annotation
+
+
 
 
 # static fields

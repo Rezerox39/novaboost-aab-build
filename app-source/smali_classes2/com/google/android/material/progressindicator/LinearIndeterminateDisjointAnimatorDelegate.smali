@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/progressindicator/IndeterminateAnimatorDelegate<",
-        "Landroid/animation/ObjectAnimator;",
-        ">;"
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/shaded/protobuf/LazyField$LazyIterator;,
-        Lcom/google/crypto/tink/shaded/protobuf/LazyField$LazyEntry;
-    }
-.end annotation
+
 
 
 # instance fields

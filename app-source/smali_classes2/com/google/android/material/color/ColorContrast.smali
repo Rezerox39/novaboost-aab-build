@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/color/ColorContrast$ColorContrastActivityLifecycleCallbacks;
-    }
-.end annotation
+
 
 
 # static fields

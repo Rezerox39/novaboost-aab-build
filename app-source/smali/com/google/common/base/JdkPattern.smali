@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/JdkPattern$JdkMatcher;
-    }
-.end annotation
 
 
 # static fields

@@ -4,28 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/TimeoutFuture$Fire;,
-        Lcom/google/common/util/concurrent/TimeoutFuture$TimeoutFutureException;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/util/concurrent/FluentFuture$TrustedFuture<",
-        "TV;>;"
-    }
-.end annotation
+
+
 
 
 # instance fields

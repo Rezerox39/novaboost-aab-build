@@ -8,20 +8,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T::",
-        "Landroid/os/IInterface;",
-        ">",
-        "Lcom/google/android/gms/common/internal/BaseGmsClient<",
-        "TT;>;",
-        "Lcom/google/android/gms/common/api/Api$Client;",
-        "Lcom/google/android/gms/common/internal/zaj;"
-    }
-.end annotation
 
 
 # static fields

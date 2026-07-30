@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/checkbox/MaterialCheckBox$SavedState;,
-        Lcom/google/android/material/checkbox/MaterialCheckBox$OnErrorChangedListener;,
-        Lcom/google/android/material/checkbox/MaterialCheckBox$OnCheckedStateChangedListener;,
-        Lcom/google/android/material/checkbox/MaterialCheckBox$CheckedState;
-    }
-.end annotation
+
 
 
 # static fields

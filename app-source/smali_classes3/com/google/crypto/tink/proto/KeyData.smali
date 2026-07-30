@@ -7,22 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/proto/KeyData$Builder;,
-        Lcom/google/crypto/tink/proto/KeyData$KeyMaterialType;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
-        "Lcom/google/crypto/tink/proto/KeyData;",
-        "Lcom/google/crypto/tink/proto/KeyData$Builder;",
-        ">;",
-        "Lcom/google/crypto/tink/proto/KeyDataOrBuilder;"
-    }
-.end annotation
+
+
 
 
 # static fields

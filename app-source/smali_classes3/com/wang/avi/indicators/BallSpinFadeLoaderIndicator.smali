@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/wang/avi/indicators/BallSpinFadeLoaderIndicator$Point;
-    }
-.end annotation
+
 
 
 # static fields

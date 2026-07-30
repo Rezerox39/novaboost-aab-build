@@ -7,36 +7,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/StandardTable$CellIterator;,
-        Lcom/google/common/collect/StandardTable$Row;,
-        Lcom/google/common/collect/StandardTable$Column;,
-        Lcom/google/common/collect/StandardTable$ColumnKeySet;,
-        Lcom/google/common/collect/StandardTable$ColumnKeyIterator;,
-        Lcom/google/common/collect/StandardTable$RowMap;,
-        Lcom/google/common/collect/StandardTable$ColumnMap;,
-        Lcom/google/common/collect/StandardTable$TableSet;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        "C:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/AbstractTable<",
-        "TR;TC;TV;>;",
-        "Ljava/io/Serializable;"
-    }
-.end annotation
+
 
 
 # static fields

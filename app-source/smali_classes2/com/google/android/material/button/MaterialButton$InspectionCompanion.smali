@@ -7,12 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/view/inspector/InspectionCompanion;"
-    }
-.end annotation
+
 
 
 # instance fields

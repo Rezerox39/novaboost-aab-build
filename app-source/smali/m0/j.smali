@@ -4,12 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lm0/j$b;,
-        Lm0/j$a;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,15 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/subtle/Ed25519$CachedXYZT;,
-        Lcom/google/crypto/tink/subtle/Ed25519$CachedXYT;,
-        Lcom/google/crypto/tink/subtle/Ed25519$PartialXYZT;,
-        Lcom/google/crypto/tink/subtle/Ed25519$XYZT;,
-        Lcom/google/crypto/tink/subtle/Ed25519$XYZ;
-    }
-.end annotation
+
 
 
 # static fields

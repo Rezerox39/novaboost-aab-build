@@ -7,32 +7,13 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation build Lcom/google/j2objc/annotations/ReflectionSupport;
-    value = .enum Lcom/google/j2objc/annotations/ReflectionSupport$Level;->FULL:Lcom/google/j2objc/annotations/ReflectionSupport$Level;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/InterruptibleTask$Blocker;,
-        Lcom/google/common/util/concurrent/InterruptibleTask$DoNothingRunnable;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Ljava/lang/Runnable;",
-        ">;",
-        "Ljava/lang/Runnable;"
-    }
-.end annotation
+
+
+
+
 
 
 # static fields

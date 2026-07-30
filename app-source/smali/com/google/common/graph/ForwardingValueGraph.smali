@@ -4,17 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<N:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/graph/AbstractValueGraph<",
-        "TN;TV;>;"
-    }
-.end annotation
+
 
 
 # direct methods

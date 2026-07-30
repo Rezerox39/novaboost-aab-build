@@ -7,12 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/appcompat/view/menu/g$a;,
-        Landroidx/appcompat/view/menu/g$b;
-    }
-.end annotation
+
 
 
 # static fields

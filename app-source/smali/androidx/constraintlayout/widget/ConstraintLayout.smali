@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/constraintlayout/widget/ConstraintLayout$b;,
-        Landroidx/constraintlayout/widget/ConstraintLayout$c;,
-        Landroidx/constraintlayout/widget/ConstraintLayout$d;
-    }
-.end annotation
+
 
 
 # static fields

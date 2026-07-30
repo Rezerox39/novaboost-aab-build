@@ -7,14 +7,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/crypto/tink/proto/JwtRsaSsaPkcs1Algorithm;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "JwtRsaSsaPkcs1AlgorithmVerifier"
-.end annotation
+
+
 
 
 # static fields

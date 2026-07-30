@@ -4,22 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/PrimitiveSet$Builder;,
-        Lcom/google/crypto/tink/PrimitiveSet$Prefix;,
-        Lcom/google/crypto/tink/PrimitiveSet$Entry;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<P:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+
+
 
 
 # instance fields

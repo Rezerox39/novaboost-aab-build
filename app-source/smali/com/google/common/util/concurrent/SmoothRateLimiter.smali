@@ -4,18 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtIncompatible;
-.end annotation
 
-.annotation build Lcom/google/common/annotations/J2ktIncompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/util/concurrent/SmoothRateLimiter$SmoothBursty;,
-        Lcom/google/common/util/concurrent/SmoothRateLimiter$SmoothWarmingUp;
-    }
-.end annotation
+
 
 
 # instance fields

@@ -4,27 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/MinMaxPriorityQueue$Builder;,
-        Lcom/google/common/collect/MinMaxPriorityQueue$Heap;,
-        Lcom/google/common/collect/MinMaxPriorityQueue$MoveDesc;,
-        Lcom/google/common/collect/MinMaxPriorityQueue$QueueIterator;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractQueue<",
-        "TE;>;"
-    }
-.end annotation
+
 
 
 # static fields

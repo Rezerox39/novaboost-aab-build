@@ -4,23 +4,11 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/crypto/tink/aead/AesCtrHmacAeadKeyManager;->keyFactory()Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory;
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory<",
-        "Lcom/google/crypto/tink/proto/AesCtrHmacAeadKeyFormat;",
-        "Lcom/google/crypto/tink/proto/AesCtrHmacAeadKey;",
-        ">;"
-    }
-.end annotation
+
+
+
 
 
 # instance fields

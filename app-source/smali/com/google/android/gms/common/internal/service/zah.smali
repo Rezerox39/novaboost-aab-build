@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/gms/common/internal/GmsClient<",
-        "Lcom/google/android/gms/common/internal/service/zal;",
-        ">;"
-    }
-.end annotation
+
 
 
 # direct methods

@@ -4,30 +4,11 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    serializable = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/collect/TreeBasedTable$Factory;,
-        Lcom/google/common/collect/TreeBasedTable$TreeRow;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        "C:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/collect/StandardRowSortedTable<",
-        "TR;TC;TV;>;"
-    }
-.end annotation
+
+
+
 
 
 # static fields

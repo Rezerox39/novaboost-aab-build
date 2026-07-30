@@ -4,18 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/crypto/tink/annotations/Alpha;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/crypto/tink/signature/EcdsaParameters$Builder;,
-        Lcom/google/crypto/tink/signature/EcdsaParameters$HashType;,
-        Lcom/google/crypto/tink/signature/EcdsaParameters$CurveType;,
-        Lcom/google/crypto/tink/signature/EcdsaParameters$SignatureEncoding;,
-        Lcom/google/crypto/tink/signature/EcdsaParameters$Variant;
-    }
-.end annotation
 
 
 # instance fields

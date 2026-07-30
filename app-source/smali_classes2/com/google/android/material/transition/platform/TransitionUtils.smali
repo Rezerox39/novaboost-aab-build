@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/transition/platform/TransitionUtils$CornerSizeBinaryOperator;
-    }
-.end annotation
+
 
 
 # static fields

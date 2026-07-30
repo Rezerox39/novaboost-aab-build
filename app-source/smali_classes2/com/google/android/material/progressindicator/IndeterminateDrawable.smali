@@ -4,14 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<S:",
-        "Lcom/google/android/material/progressindicator/BaseProgressIndicatorSpec;",
-        ">",
-        "Lcom/google/android/material/progressindicator/DrawableWithAnimatedVisibilityChange;"
-    }
-.end annotation
+
 
 
 # instance fields

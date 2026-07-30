@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lpub/devrel/easypermissions/AppSettingsDialog$b;
-    }
-.end annotation
+
 
 
 # static fields

@@ -4,25 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/base/Predicates$ObjectPredicate;,
-        Lcom/google/common/base/Predicates$NotPredicate;,
-        Lcom/google/common/base/Predicates$AndPredicate;,
-        Lcom/google/common/base/Predicates$OrPredicate;,
-        Lcom/google/common/base/Predicates$IsEqualToPredicate;,
-        Lcom/google/common/base/Predicates$InstanceOfPredicate;,
-        Lcom/google/common/base/Predicates$SubtypeOfPredicate;,
-        Lcom/google/common/base/Predicates$InPredicate;,
-        Lcom/google/common/base/Predicates$CompositionPredicate;,
-        Lcom/google/common/base/Predicates$ContainsPatternFromStringPredicate;,
-        Lcom/google/common/base/Predicates$ContainsPatternPredicate;
-    }
-.end annotation
+
+
 
 
 # direct methods

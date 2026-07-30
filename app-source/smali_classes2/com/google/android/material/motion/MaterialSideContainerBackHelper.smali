@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/android/material/motion/MaterialBackAnimationHelper<",
-        "Landroid/view/View;",
-        ">;"
-    }
-.end annotation
+
 
 
 # instance fields

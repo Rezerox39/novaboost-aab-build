@@ -8,25 +8,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/reflect/Invokable$MethodInvokable;,
-        Lcom/google/common/reflect/Invokable$ConstructorInvokable;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        "R:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/lang/reflect/AnnotatedElement;",
-        "Ljava/lang/reflect/Member;"
-    }
-.end annotation
+
+
 
 
 # static fields

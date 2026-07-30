@@ -4,13 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/transition/s0$c;,
-        Landroidx/transition/s0$b;,
-        Landroidx/transition/s0$a;
-    }
-.end annotation
+
 
 
 # static fields

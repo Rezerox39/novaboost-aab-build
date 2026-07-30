@@ -4,21 +4,9 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/progressindicator/BaseProgressIndicator$HideAnimationBehavior;,
-        Lcom/google/android/material/progressindicator/BaseProgressIndicator$ShowAnimationBehavior;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<S:",
-        "Lcom/google/android/material/progressindicator/BaseProgressIndicatorSpec;",
-        ">",
-        "Landroid/widget/ProgressBar;"
-    }
-.end annotation
+
+
 
 
 # static fields

@@ -7,11 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/material/timepicker/ChipTextInputComboView$TextFormatter;
-    }
-.end annotation
+
 
 
 # instance fields

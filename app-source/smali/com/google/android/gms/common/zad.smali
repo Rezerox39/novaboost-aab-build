@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "HandlerLeak"
-    }
-.end annotation
+
 
 
 # instance fields

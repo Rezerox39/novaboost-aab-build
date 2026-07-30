@@ -7,17 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/android/gms/internal/play_billing/zzdy<",
-        "TV;>;",
-        "Lcom/google/android/gms/internal/play_billing/zzdy$zzh<",
-        "TV;>;"
-    }
-.end annotation
+
 
 
 # direct methods

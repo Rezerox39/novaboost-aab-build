@@ -4,17 +4,9 @@
 
 
 # annotations
-.annotation build Lcom/google/common/annotations/GwtCompatible;
-    emulated = true
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/common/primitives/Doubles$DoubleConverter;,
-        Lcom/google/common/primitives/Doubles$LexicographicalComparator;,
-        Lcom/google/common/primitives/Doubles$DoubleArrayAsList;
-    }
-.end annotation
+
+
 
 
 # static fields

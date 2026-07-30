@@ -7,14 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/dynamicanimation/animation/b$q;,
-        Landroidx/dynamicanimation/animation/b$p;,
-        Landroidx/dynamicanimation/animation/b$o;,
-        Landroidx/dynamicanimation/animation/b$r;
-    }
-.end annotation
+
 
 
 # static fields

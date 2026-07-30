@@ -4,16 +4,7 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
-.end annotation
 
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/dynamite/DynamiteModule$LoadingException;,
-        Lcom/google/android/gms/dynamite/DynamiteModule$VersionPolicy;,
-        Lcom/google/android/gms/dynamite/DynamiteModule$DynamiteLoaderClassLoader;
-    }
-.end annotation
 
 
 # static fields

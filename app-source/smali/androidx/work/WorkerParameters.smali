@@ -4,11 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Landroidx/work/WorkerParameters$a;
-    }
-.end annotation
+
 
 
 # instance fields
