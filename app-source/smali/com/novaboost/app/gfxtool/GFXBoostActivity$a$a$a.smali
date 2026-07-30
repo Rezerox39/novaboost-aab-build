@@ -6,6 +6,8 @@
 .implements Ljava/lang/Runnable;
 
 
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a;->onAnimationEnd(Landroid/animation/Animator;)V
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a;->onAnimationEnd(Landroid/animation/Animator;)V

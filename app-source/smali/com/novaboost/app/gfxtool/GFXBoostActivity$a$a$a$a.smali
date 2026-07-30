@@ -5,6 +5,8 @@
 # interfaces
 
 
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a$a;->run()V
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a$a;->run()V

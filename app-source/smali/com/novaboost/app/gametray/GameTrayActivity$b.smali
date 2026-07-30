@@ -5,6 +5,8 @@
 # interfaces
 
 
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/novaboost/gaming/gametray/GameTrayActivity;->Z()V
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/novaboost/gaming/gametray/GameTrayActivity;->Z()V
@@ -59,6 +61,7 @@
 
 
 # virtual methods
+.method public onError(Lcom/revenuecat/purchases/PurchasesError;)V
     .locals 1
 
     .line 1
@@ -111,7 +114,9 @@
     .line 25
     .line 26
     return-void
+.end method
 
+.method public onReceived(Lcom/revenuecat/purchases/CustomerInfo;)V
     .locals 1
 
     .line 1
@@ -144,3 +149,4 @@
     .line 24
     .line 25
     .line 26
+.end method

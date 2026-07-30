@@ -6,6 +6,8 @@
 .implements Ljava/lang/Runnable;
 
 
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/novaboost/gaming/boost/BoostActivity;->U()V
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
     value = Lcom/novaboost/gaming/boost/BoostActivity;->U()V

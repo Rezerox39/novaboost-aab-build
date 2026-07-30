@@ -135,6 +135,7 @@
     return-void
 .end method
 
+.method public static synthetic V(Lcom/novaboost/gaming/gfxtool/GFXBoostActivity;)Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
     .locals 0
 
     .line 1
@@ -750,3 +751,4 @@
     .line 20
     .line 21
     .line 22
+.end method

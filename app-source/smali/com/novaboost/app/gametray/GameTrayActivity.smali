@@ -99,6 +99,7 @@
     return-void
 .end method
 
+.method public static bridge synthetic P(Lcom/novaboost/gaming/gametray/GameTrayActivity;Lcom/revenuecat/purchases/CustomerInfo;)V
     .locals 0
 
     .line 1
@@ -1095,6 +1096,7 @@
     return-void
 .end method
 
+.method public final Y(Lcom/revenuecat/purchases/CustomerInfo;)V
     .locals 1
 
     .line 1
@@ -3281,6 +3283,7 @@
     .line 329
     .line 330
     .line 331
+.end method
 
 .method public onResume()V
     .locals 0
@@ -3318,3 +3321,4 @@
     .line 20
     .line 21
     .line 22
+.end method

@@ -5,15 +5,7 @@
 # interfaces
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/novaboost/gaming/Step2Activity$c$a$a$a$a;->run()V
-.end annotation
 
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
 
 
 # instance fields

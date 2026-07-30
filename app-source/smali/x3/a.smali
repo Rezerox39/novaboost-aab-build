@@ -13,6 +13,7 @@
 
 
 # direct methods
+.method public synthetic constructor <init>(Lcom/google/android/datatransport/runtime/scheduling/DefaultScheduler;Lcom/google/android/datatransport/runtime/TransportContext;Lcom/google/android/datatransport/TransportScheduleCallback;Lcom/google/android/datatransport/runtime/EventInternal;)V
     .locals 0
 
     .line 1
@@ -37,3 +38,4 @@
 
 
     return-void
+.end method
