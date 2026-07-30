@@ -916,7 +916,6 @@
     .line 56
     .line 57
     .line 58
-    move-result-object v7
 
     .line 59
     invoke-static {v7}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;

@@ -79,7 +79,6 @@
 
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
-    move-result-object v0
 
     invoke-static {v0}, Lcom/google/crypto/tink/subtle/EngineFactory;->toProviderList([Ljava/lang/String;)Ljava/util/List;
 

@@ -117,7 +117,6 @@
     .line 5
     .line 6
     .line 7
-    move-result-object v0
 
     .line 8
     sput-object v0, Lcom/google/android/material/navigation/NavigationBarMenuView;->CHECKED_STATE_SET:[I
@@ -134,7 +133,6 @@
     .line 14
     .line 15
     .line 16
-    move-result-object v0
 
     .line 17
     sput-object v0, Lcom/google/android/material/navigation/NavigationBarMenuView;->DISABLED_STATE_SET:[I

@@ -1444,7 +1444,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2}, Lcom/applovin/impl/sdk/i0;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 4
     .line 5

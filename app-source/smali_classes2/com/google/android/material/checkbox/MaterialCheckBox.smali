@@ -118,7 +118,6 @@
     .line 8
     .line 9
     .line 10
-    move-result-object v0
 
     .line 11
     sput-object v0, Lcom/google/android/material/checkbox/MaterialCheckBox;->INDETERMINATE_STATE_SET:[I
@@ -134,7 +133,6 @@
     .line 16
     .line 17
     .line 18
-    move-result-object v1
 
     .line 19
     sput-object v1, Lcom/google/android/material/checkbox/MaterialCheckBox;->ERROR_STATE_SET:[I
@@ -151,7 +149,6 @@
     .line 25
     .line 26
     .line 27
-    move-result-object v0
 
     .line 28
     const/4 v2, 0x5
@@ -178,7 +175,6 @@
     .line 38
     .line 39
     .line 40
-    move-result-object v3
 
     .line 41
     const/4 v4, 0x1
@@ -198,7 +194,6 @@
     .line 48
     .line 49
     .line 50
-    move-result-object v1
 
     .line 51
     const/4 v4, 0x2
@@ -218,7 +213,6 @@
     .line 58
     .line 59
     .line 60
-    move-result-object v0
 
     .line 61
     const/4 v4, 0x3
@@ -233,7 +227,6 @@
     .line 65
     .line 66
     .line 67
-    move-result-object v0
 
     .line 68
     const/4 v1, 0x4

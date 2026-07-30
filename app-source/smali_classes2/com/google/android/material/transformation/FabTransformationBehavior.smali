@@ -3562,7 +3562,6 @@
     .line 37
     .line 38
     .line 39
-    move-result-object p1
 
     .line 40
     invoke-static {p2, p3, p1}, Landroid/animation/ObjectAnimator;->ofInt(Ljava/lang/Object;Landroid/util/Property;[I)Landroid/animation/ObjectAnimator;
@@ -7346,7 +7345,6 @@
     .line 38
     .line 39
     .line 40
-    move-result-object p4
 
     .line 41
     invoke-static {p1, p3, p4}, Landroid/animation/ObjectAnimator;->ofInt(Ljava/lang/Object;Landroid/util/Property;[I)Landroid/animation/ObjectAnimator;
@@ -7370,7 +7368,6 @@
     .line 49
     .line 50
     .line 51
-    move-result-object p4
 
     .line 52
     invoke-static {p1, p3, p4}, Landroid/animation/ObjectAnimator;->ofInt(Ljava/lang/Object;Landroid/util/Property;[I)Landroid/animation/ObjectAnimator;

@@ -2124,7 +2124,6 @@
     .line 5
     .line 6
     .line 7
-    move-result p2
 
     .line 8
     int-to-float p2, p2

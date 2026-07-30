@@ -99,7 +99,6 @@
     .line 16
     .line 17
     .line 18
-    move-result-object v0
 
     .line 19
     invoke-static {p2, p1, v0}, Lcom/google/android/material/textview/MaterialTextView;->readFirstAvailableDimension(Landroid/content/Context;Landroid/content/res/TypedArray;[I)I
@@ -841,7 +840,6 @@
     .line 12
     .line 13
     .line 14
-    move-result-object p2
 
     .line 15
     invoke-static {p0, p1, p2}, Lcom/google/android/material/textview/MaterialTextView;->readFirstAvailableDimension(Landroid/content/Context;Landroid/content/res/TypedArray;[I)I

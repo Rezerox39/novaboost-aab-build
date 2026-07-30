@@ -1156,7 +1156,6 @@
     .line 116
     .line 117
     .line 118
-    move-result-object v11
 
     .line 119
     const/4 v9, 0x4
@@ -1242,7 +1241,6 @@
     .line 157
     .line 158
     .line 159
-    move-result-object v12
 
     .line 160
     new-array v13, v3, [F

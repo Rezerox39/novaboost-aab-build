@@ -695,7 +695,6 @@
     .line 8
     .line 9
     .line 10
-    move-result p1
 
     .line 11
     return p1

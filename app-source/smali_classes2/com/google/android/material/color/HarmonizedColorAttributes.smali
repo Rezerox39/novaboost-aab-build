@@ -39,7 +39,6 @@
     .line 10
     .line 11
     .line 12
-    move-result-object v0
 
     .line 13
     sput-object v0, Lcom/google/android/material/color/HarmonizedColorAttributes;->HARMONIZED_MATERIAL_ATTRIBUTES:[I

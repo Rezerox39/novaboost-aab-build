@@ -174,7 +174,6 @@
     .line 19
     .line 20
     .line 21
-    move-result-object v0
 
     .line 22
     sput-object v0, Lcom/google/android/material/snackbar/BaseTransientBottomBar;->SNACKBAR_STYLE_ATTR:[I

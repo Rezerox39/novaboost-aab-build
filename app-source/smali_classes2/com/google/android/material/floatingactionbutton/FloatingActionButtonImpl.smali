@@ -213,7 +213,6 @@
     .line 28
     .line 29
     .line 30
-    move-result-object v0
 
     .line 31
     sput-object v0, Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;->PRESSED_ENABLED_STATE_SET:[I
@@ -235,7 +234,6 @@
     .line 40
     .line 41
     .line 42
-    move-result-object v3
 
     .line 43
     sput-object v3, Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;->HOVERED_FOCUSED_ENABLED_STATE_SET:[I
@@ -247,7 +245,6 @@
     .line 46
     .line 47
     .line 48
-    move-result-object v2
 
     .line 49
     sput-object v2, Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;->FOCUSED_ENABLED_STATE_SET:[I
@@ -259,7 +256,6 @@
     .line 52
     .line 53
     .line 54
-    move-result-object v0
 
     .line 55
     sput-object v0, Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;->HOVERED_ENABLED_STATE_SET:[I
@@ -271,7 +267,6 @@
     .line 58
     .line 59
     .line 60
-    move-result-object v0
 
     .line 61
     sput-object v0, Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;->ENABLED_STATE_SET:[I

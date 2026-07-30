@@ -135,6 +135,7 @@
     const/4 v0, 0x2
 
     .line 21
+    invoke-static {p1, v0}, Landroidx/core/view/u0;->a(Landroid/view/WindowInsetsController;I)V
 
     .line 22
     .line 23
@@ -214,117 +215,8 @@
 .end method
 
 .method public D()V
-    .locals 3
-
-    .line 1
-
-    .line 2
-    .line 3
-
-    .line 4
-    .line 5
-    .line 6
-    const-wide/16 v1, 0xe10
-
-    .line 7
-    .line 8
-
-    .line 9
-    .line 10
-    .line 11
-    move-result-object v0
-
-    .line 12
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object v0
-
-    .line 16
-
-    .line 17
-    .line 18
-
-    .line 19
-    .line 20
-    .line 21
-
-    .line 22
-    .line 23
-    const v1, 0x7f150003
-
-    .line 24
-    .line 25
-    .line 26
-
-    .line 27
-    .line 28
-    .line 29
-
-    .line 30
-    .line 31
-
-    .line 32
-    .line 33
-    .line 34
-    move-result-object v0
-
-    .line 35
-    new-instance v1, Lm3/b$a;
-
-    .line 36
-    .line 37
-    invoke-direct {v1, p0}, Lm3/b$a;-><init>(Lm3/b;)V
-
-    .line 38
-    .line 39
-    .line 40
-    invoke-virtual {v0, p0, v1}, Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Landroid/app/Activity;Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
-
-    .line 41
-    .line 42
-    .line 43
+    .locals 0
     return-void
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
 .end method
 
 .method public E()Z
@@ -443,249 +335,15 @@
 .end method
 
 .method public F()Z
-    .locals 6
-
-    .line 1
-    invoke-static {p0}, Lcom/novaboost/gaming/utils/c;->X(Landroid/content/Context;)Lcom/novaboost/gaming/utils/c;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    invoke-virtual {v0}, Lcom/novaboost/gaming/utils/c;->i()J
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-wide v0
-
-    .line 9
-
-    .line 10
-    .line 11
-    const-string v3, "hour_interval_to_show_next_enhanced_experience_reward_ads"
-
-    .line 12
-    .line 13
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-wide v2
-
-    .line 17
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-wide v4
-
-    .line 21
-    sub-long/2addr v4, v0
-
-    .line 22
-    const-wide/32 v0, 0x36ee80
-
-    .line 23
-    .line 24
-    .line 25
-    mul-long/2addr v2, v0
-
-    .line 26
-    cmp-long v0, v4, v2
-
-    .line 27
-    .line 28
-    if-ltz v0, :cond_0
-
-    .line 29
-    .line 30
-    const/4 v0, 0x1
-
-    .line 31
-    return v0
-
-    .line 32
-    :cond_0
+    .locals 1
     const/4 v0, 0x0
-
-    .line 33
     return v0
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
 .end method
 
 .method public G()Z
-    .locals 6
-
-    .line 1
-    invoke-static {p0}, Lcom/novaboost/gaming/utils/c;->X(Landroid/content/Context;)Lcom/novaboost/gaming/utils/c;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    invoke-virtual {v0}, Lcom/novaboost/gaming/utils/c;->m()J
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-wide v0
-
-    .line 9
-
-    .line 10
-    .line 11
-    const-string v3, "hour_interval_to_show_next_ultra_boost_reward_ads"
-
-    .line 12
-    .line 13
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-wide v2
-
-    .line 17
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-wide v4
-
-    .line 21
-    sub-long/2addr v4, v0
-
-    .line 22
-    const-wide/32 v0, 0x36ee80
-
-    .line 23
-    .line 24
-    .line 25
-    mul-long/2addr v2, v0
-
-    .line 26
-    cmp-long v0, v4, v2
-
-    .line 27
-    .line 28
-    if-ltz v0, :cond_0
-
-    .line 29
-    .line 30
-    const/4 v0, 0x1
-
-    .line 31
-    return v0
-
-    .line 32
-    :cond_0
+    .locals 1
     const/4 v0, 0x0
-
-    .line 33
     return v0
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
 .end method
 
 .method public H()Z
@@ -1525,47 +1183,8 @@
 .end method
 
 .method public M(Ljava/lang/String;)V
-    .locals 2
-
-    .line 1
-    new-instance v0, Landroid/content/Intent;
-
-    .line 2
-    .line 3
-    const-class v1, Lcom/novaboost/gaming/boostcompleted/BoostCompletedActivity;
-
-    .line 4
-    .line 5
-    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    .line 6
-    .line 7
-    .line 8
-    const-string v1, "BOOSTING_APP_PACKAGE_NAME"
-
-    .line 9
-    .line 10
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
-
-    .line 11
-    .line 12
-    .line 13
-    invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-
-    .line 14
-    .line 15
-    .line 16
+    .locals 0
     return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -1575,150 +1194,90 @@
     invoke-super {p0, p1}, Landroidx/fragment/app/h;->onCreate(Landroid/os/Bundle;)V
 
     .line 2
+    iget-object p1, p0, Lm3/b;->d:Ljava/util/List;
+
     .line 3
+    if-nez p1, :cond_0
+
     .line 4
+    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
 
     .line 5
     .line 6
-    .line 7
     move-result-object p1
 
+    .line 7
+    const/high16 v0, 0x7f030000
+
     .line 8
-
     .line 9
-    .line 10
-    iget-object p1, p0, Lm3/b;->d:Ljava/util/List;
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
+    .line 10
     .line 11
+    move-result-object p1
+
     .line 12
-    if-nez p1, :cond_0
+    invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatActivity;->getResources()Landroid/content/res/Resources;
-
     .line 15
-    .line 16
-    .line 17
     move-result-object p1
 
+    .line 16
+    iput-object p1, p0, Lm3/b;->d:Ljava/util/List;
+
+    .line 17
     .line 18
-    const/high16 v0, 0x7f030000
+    :cond_0
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
-
     .line 21
-    .line 22
-    .line 23
     move-result-object p1
+
+    .line 22
+    const/4 v0, 0x0
+
+    .line 23
+    invoke-static {p1, v0}, Landroidx/core/view/p1;->b(Landroid/view/Window;Z)V
 
     .line 24
-    invoke-static {p1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
-
     .line 25
     .line 26
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+
     .line 27
+    .line 28
+    .line 29
     move-result-object p1
 
-    .line 28
-    iput-object p1, p0, Lm3/b;->d:Ljava/util/List;
-
-    .line 29
     .line 30
-    :cond_0
-    iget-object p1, p0, Lm3/b;->b:Lcom/novaboost/gaming/utils/d;
+    invoke-virtual {p1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     .line 31
     .line 32
-    if-nez p1, :cond_1
-
     .line 33
+    move-result-object p1
+
     .line 34
-    new-instance p1, Lcom/novaboost/gaming/utils/d;
+    new-instance v0, Lm3/a;
 
     .line 35
     .line 36
-    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+    invoke-direct {v0, p0}, Lm3/a;-><init>(Lm3/b;)V
 
     .line 37
     .line 38
     .line 39
-    move-result-object v0
-
-    .line 40
-    invoke-direct {p1, v0}, Lcom/novaboost/gaming/utils/d;-><init>(Landroid/content/Context;)V
-
-    .line 41
-    .line 42
-    .line 43
-    iput-object p1, p0, Lm3/b;->b:Lcom/novaboost/gaming/utils/d;
-
-    .line 44
-    .line 45
-    :cond_1
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
-
-    .line 46
-    .line 47
-    .line 48
-    move-result-object p1
-
-    .line 49
-    const/4 v0, 0x0
-
-    .line 50
-    invoke-static {p1, v0}, Landroidx/core/view/p1;->b(Landroid/view/Window;Z)V
-
-    .line 51
-    .line 52
-    .line 53
-    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
-
-    .line 54
-    .line 55
-    .line 56
-    move-result-object p1
-
-    .line 57
-    invoke-virtual {p1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
-
-    .line 58
-    .line 59
-    .line 60
-    move-result-object p1
-
-    .line 61
-    new-instance v0, Lm3/a;
-
-    .line 62
-    .line 63
-    invoke-direct {v0, p0}, Lm3/a;-><init>(Lm3/b;)V
-
-    .line 64
-    .line 65
-    .line 66
     invoke-virtual {p1, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 67
-    .line 68
-    .line 69
+    .line 40
+    .line 41
     return-void
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
+    .line 42
 .end method
 
 .method public onDestroy()V

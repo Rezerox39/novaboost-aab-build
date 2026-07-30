@@ -126,7 +126,6 @@
     .line 6
     .line 7
     .line 8
-    move-result-object v0
 
     .line 9
     sput-object v0, Lcom/google/android/material/transition/platform/MaterialContainerTransform;->TRANSITION_PROPS:[Ljava/lang/String;
@@ -2536,7 +2535,6 @@
     .line 4
     .line 5
     .line 6
-    move-result-object v0
 
     .line 7
     invoke-virtual {p0, v0}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;

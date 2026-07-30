@@ -92,7 +92,6 @@
     .line 26
     .line 27
     .line 28
-    move-result-object v0
 
     .line 29
     sput-object v0, Lcom/google/android/material/timepicker/TimePickerClockPresenter;->HOUR_CLOCK_VALUES:[Ljava/lang/String;
@@ -200,7 +199,6 @@
     .line 80
     .line 81
     .line 82
-    move-result-object v0
 
     .line 83
     sput-object v0, Lcom/google/android/material/timepicker/TimePickerClockPresenter;->HOUR_CLOCK_24_VALUES:[Ljava/lang/String;
@@ -260,7 +258,6 @@
     .line 110
     .line 111
     .line 112
-    move-result-object v0
 
     .line 113
     sput-object v0, Lcom/google/android/material/timepicker/TimePickerClockPresenter;->MINUTE_CLOCK_VALUES:[Ljava/lang/String;

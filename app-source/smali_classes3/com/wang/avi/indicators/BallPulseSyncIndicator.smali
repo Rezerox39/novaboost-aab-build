@@ -269,7 +269,6 @@
     .line 24
     .line 25
     .line 26
-    move-result-object v2
 
     .line 27
     const/4 v3, 0x0

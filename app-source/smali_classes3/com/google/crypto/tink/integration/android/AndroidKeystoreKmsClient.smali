@@ -440,7 +440,6 @@
     .line 30
     .line 31
     .line 32
-    move-result-object v1
 
     .line 33
     invoke-virtual {p0, v1}, Landroid/security/keystore/KeyGenParameterSpec$Builder;->setBlockModes([Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
@@ -460,7 +459,6 @@
     .line 40
     .line 41
     .line 42
-    move-result-object v1
 
     .line 43
     invoke-virtual {p0, v1}, Landroid/security/keystore/KeyGenParameterSpec$Builder;->setEncryptionPaddings([Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;

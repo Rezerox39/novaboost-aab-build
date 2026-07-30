@@ -27,7 +27,6 @@
     .line 4
     .line 5
     .line 6
-    move-result-object v0
 
     .line 7
     sput-object v0, Lcom/google/android/material/internal/ThemeEnforcement;->APPCOMPAT_CHECK_ATTRS:[I
@@ -43,7 +42,6 @@
     .line 12
     .line 13
     .line 14
-    move-result-object v0
 
     .line 15
     sput-object v0, Lcom/google/android/material/internal/ThemeEnforcement;->MATERIAL_CHECK_ATTRS:[I

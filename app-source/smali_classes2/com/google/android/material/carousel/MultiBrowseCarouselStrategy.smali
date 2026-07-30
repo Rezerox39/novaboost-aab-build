@@ -26,7 +26,6 @@
     .line 3
     .line 4
     .line 5
-    move-result-object v1
 
     .line 6
     sput-object v1, Lcom/google/android/material/carousel/MultiBrowseCarouselStrategy;->SMALL_COUNTS:[I
@@ -41,7 +40,6 @@
     .line 10
     .line 11
     .line 12
-    move-result-object v0
 
     .line 13
     sput-object v0, Lcom/google/android/material/carousel/MultiBrowseCarouselStrategy;->MEDIUM_COUNTS:[I
@@ -686,7 +684,6 @@
     .line 206
     .line 207
     .line 208
-    move-result-object v8
 
     .line 209
     iget v10, v6, Lcom/google/android/material/carousel/Arrangement;->mediumCount:I
@@ -698,7 +695,6 @@
     .line 212
     .line 213
     .line 214
-    move-result-object v10
 
     .line 215
     iget v6, v6, Lcom/google/android/material/carousel/Arrangement;->largeCount:I
@@ -710,7 +706,6 @@
     .line 218
     .line 219
     .line 220
-    move-result-object v6
 
     .line 221
     move-object/from16 v16, v10

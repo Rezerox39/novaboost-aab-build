@@ -319,7 +319,6 @@
     .line 2
     .line 3
     .line 4
-    move-result-object v0
 
     .line 5
 
@@ -358,7 +357,6 @@
     .line 2
     .line 3
     .line 4
-    move-result-object v0
 
     .line 5
 

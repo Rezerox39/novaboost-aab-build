@@ -348,7 +348,6 @@
     .line 20
     .line 21
     .line 22
-    move-result-object v0
 
     .line 23
     const v2, 0x10100a1
@@ -361,7 +360,6 @@
     .line 27
     .line 28
     .line 29
-    move-result-object v1
 
     .line 30
     iget-object v2, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$MaterialArrayAdapter;->this$0:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;
@@ -809,7 +807,6 @@
     .line 13
     .line 14
     .line 15
-    move-result-object v0
 
     .line 16
     iget-object v1, p0, Lcom/google/android/material/textfield/MaterialAutoCompleteTextView$MaterialArrayAdapter;->this$0:Lcom/google/android/material/textfield/MaterialAutoCompleteTextView;

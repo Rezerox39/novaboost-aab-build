@@ -96,7 +96,6 @@
     .line 26
     .line 27
     .line 28
-    move-result-object v5
 
     .line 29
     move-object v1, p2

@@ -746,7 +746,6 @@
     .line 61
     .line 62
     .line 63
-    move-result-object p1
 
     .line 64
     invoke-virtual {v0, p1}, Landroid/animation/ValueAnimator;->setIntValues([I)V

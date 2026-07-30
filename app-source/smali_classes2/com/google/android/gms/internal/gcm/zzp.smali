@@ -21,7 +21,6 @@
     .line 3
     .line 4
     .line 5
-    move-result-object v0
 
     .line 6
     sput-object v0, Lcom/google/android/gms/internal/gcm/zzp;->zzdp:[I

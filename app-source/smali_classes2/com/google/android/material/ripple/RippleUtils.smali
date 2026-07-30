@@ -61,7 +61,6 @@
     .line 8
     .line 9
     .line 10
-    move-result-object v1
 
     .line 11
     sput-object v1, Lcom/google/android/material/ripple/RippleUtils;->PRESSED_STATE_SET:[I
@@ -83,7 +82,6 @@
     .line 20
     .line 21
     .line 22
-    move-result-object v3
 
     .line 23
     sput-object v3, Lcom/google/android/material/ripple/RippleUtils;->HOVERED_FOCUSED_STATE_SET:[I
@@ -95,7 +93,6 @@
     .line 26
     .line 27
     .line 28
-    move-result-object v3
 
     .line 29
     sput-object v3, Lcom/google/android/material/ripple/RippleUtils;->FOCUSED_STATE_SET:[I
@@ -107,7 +104,6 @@
     .line 32
     .line 33
     .line 34
-    move-result-object v3
 
     .line 35
     sput-object v3, Lcom/google/android/material/ripple/RippleUtils;->HOVERED_STATE_SET:[I
@@ -124,7 +120,6 @@
     .line 41
     .line 42
     .line 43
-    move-result-object v4
 
     .line 44
     sput-object v4, Lcom/google/android/material/ripple/RippleUtils;->SELECTED_PRESSED_STATE_SET:[I
@@ -136,7 +131,6 @@
     .line 47
     .line 48
     .line 49
-    move-result-object v4
 
     .line 50
     sput-object v4, Lcom/google/android/material/ripple/RippleUtils;->SELECTED_HOVERED_FOCUSED_STATE_SET:[I
@@ -148,7 +142,6 @@
     .line 53
     .line 54
     .line 55
-    move-result-object v2
 
     .line 56
     sput-object v2, Lcom/google/android/material/ripple/RippleUtils;->SELECTED_FOCUSED_STATE_SET:[I
@@ -160,7 +153,6 @@
     .line 59
     .line 60
     .line 61
-    move-result-object v1
 
     .line 62
     sput-object v1, Lcom/google/android/material/ripple/RippleUtils;->SELECTED_HOVERED_STATE_SET:[I
@@ -172,7 +164,6 @@
     .line 65
     .line 66
     .line 67
-    move-result-object v1
 
     .line 68
     sput-object v1, Lcom/google/android/material/ripple/RippleUtils;->SELECTED_STATE_SET:[I
@@ -189,7 +180,6 @@
     .line 74
     .line 75
     .line 76
-    move-result-object v0
 
     .line 77
     sput-object v0, Lcom/google/android/material/ripple/RippleUtils;->ENABLED_PRESSED_STATE_SET:[I

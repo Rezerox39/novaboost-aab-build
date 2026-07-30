@@ -76,7 +76,6 @@
     .line 24
     .line 25
     .line 26
-    move-result-object v0
 
     .line 27
     sput-object v0, Lcom/google/crypto/tink/subtle/Field25519;->MASK:[I
@@ -96,7 +95,6 @@
     .line 34
     .line 35
     .line 36
-    move-result-object v0
 
     .line 37
     sput-object v0, Lcom/google/crypto/tink/subtle/Field25519;->SHIFT:[I

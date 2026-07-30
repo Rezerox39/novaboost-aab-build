@@ -1827,7 +1827,6 @@
     .line 13
     .line 14
     .line 15
-    move-result-object v1
 
     .line 16
     invoke-virtual {v0, v1}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;

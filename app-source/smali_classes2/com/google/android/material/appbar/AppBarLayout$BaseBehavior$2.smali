@@ -774,7 +774,6 @@
     .line 56
     .line 57
     .line 58
-    move-result-object v9
 
     .line 59
     const/4 v10, 0x1

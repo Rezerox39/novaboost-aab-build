@@ -88,7 +88,6 @@
     .line 21
     .line 22
     .line 23
-    move-result-object v0
 
     .line 24
     const/4 v1, 0x0

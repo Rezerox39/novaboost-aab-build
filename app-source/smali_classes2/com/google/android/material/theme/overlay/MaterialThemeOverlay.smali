@@ -27,7 +27,6 @@
     .line 6
     .line 7
     .line 8
-    move-result-object v0
 
     .line 9
     sput-object v0, Lcom/google/android/material/theme/overlay/MaterialThemeOverlay;->ANDROID_THEME_OVERLAY_ATTRS:[I
@@ -43,7 +42,6 @@
     .line 14
     .line 15
     .line 16
-    move-result-object v0
 
     .line 17
     sput-object v0, Lcom/google/android/material/theme/overlay/MaterialThemeOverlay;->MATERIAL_THEME_OVERLAY_ATTR:[I

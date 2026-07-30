@@ -104,7 +104,6 @@
     .line 9
     .line 10
     .line 11
-    move-result-object v0
 
     .line 12
     sput-object v0, Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;->DELAY_TO_EXPAND_IN_MS:[I
@@ -132,7 +131,6 @@
     .line 23
     .line 24
     .line 25
-    move-result-object v0
 
     .line 26
     sput-object v0, Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;->DELAY_TO_COLLAPSE_IN_MS:[I
@@ -160,7 +158,6 @@
     .line 37
     .line 38
     .line 39
-    move-result-object v0
 
     .line 40
     sput-object v0, Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;->DELAY_TO_FADE_IN_MS:[I

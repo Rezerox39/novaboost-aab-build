@@ -491,7 +491,6 @@
     .line 11
     .line 12
     .line 13
-    move-result-object v3
 
     .line 14
     aput-object v3, v2, v0
@@ -508,7 +507,6 @@
     .line 20
     .line 21
     .line 22
-    move-result-object v0
 
     .line 23
     const/4 v3, 0x1

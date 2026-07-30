@@ -59,7 +59,6 @@
     .line 8
     .line 9
     .line 10
-    move-result-object v0
 
     .line 11
     sput-object v0, Lcom/google/android/material/materialswitch/MaterialSwitch;->STATE_SET_WITH_ICON:[I

@@ -255,7 +255,6 @@
     .line 15
     .line 16
     .line 17
-    move-result-object v3
 
     .line 18
     aput-object v3, v2, v0
@@ -444,7 +443,6 @@
 
     filled-new-array {v11, v12, v13, v14, v15}, [I
 
-    move-result-object v6
 
     .line 26
     invoke-static/range {v1 .. v6}, Lcom/google/android/material/internal/ThemeEnforcement;->obtainTintedStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroidx/appcompat/widget/b1;
@@ -6079,7 +6077,6 @@
     .line 16
     .line 17
     .line 18
-    move-result-object v1
 
     .line 19
     invoke-direct {p0}, Lcom/google/android/material/textfield/TextInputLayout;->getOrCreateOutlinedDropDownMenuBackground()Landroid/graphics/drawable/Drawable;
@@ -6304,7 +6301,6 @@
     .line 27
     .line 28
     .line 29
-    move-result-object v2
 
     .line 30
     new-instance v3, Landroid/content/res/ColorStateList;
@@ -10775,7 +10771,6 @@
     .line 16
     .line 17
     .line 18
-    move-result-object v2
 
     .line 19
     invoke-virtual {v1, v2, v0}, Landroid/content/res/ColorStateList;->getColorForState([II)I
@@ -10800,7 +10795,6 @@
     .line 29
     .line 30
     .line 31
-    move-result-object v3
 
     .line 32
     invoke-virtual {v2, v3, v0}, Landroid/content/res/ColorStateList;->getColorForState([II)I
@@ -17712,7 +17706,6 @@
     .line 13
     .line 14
     .line 15
-    move-result-object v0
 
     .line 16
     const/4 v1, -0x1
@@ -17745,7 +17738,6 @@
     .line 30
     .line 31
     .line 32
-    move-result-object v0
 
     .line 33
     invoke-virtual {p1, v0, v1}, Landroid/content/res/ColorStateList;->getColorForState([II)I
@@ -17770,7 +17762,6 @@
     .line 43
     .line 44
     .line 45
-    move-result-object v0
 
     .line 46
     invoke-virtual {p1, v0, v1}, Landroid/content/res/ColorStateList;->getColorForState([II)I
@@ -18876,7 +18867,6 @@
     .line 17
     .line 18
     .line 19
-    move-result-object v0
 
     .line 20
     const/4 v1, -0x1
@@ -18909,7 +18899,6 @@
     .line 34
     .line 35
     .line 36
-    move-result-object v0
 
     .line 37
     invoke-virtual {p1, v0, v1}, Landroid/content/res/ColorStateList;->getColorForState([II)I
@@ -18934,7 +18923,6 @@
     .line 47
     .line 48
     .line 49
-    move-result-object v0
 
     .line 50
     invoke-virtual {p1, v0, v1}, Landroid/content/res/ColorStateList;->getColorForState([II)I

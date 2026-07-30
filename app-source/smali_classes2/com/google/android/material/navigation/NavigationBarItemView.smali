@@ -106,7 +106,6 @@
     .line 5
     .line 6
     .line 7
-    move-result-object v0
 
     .line 8
     sput-object v0, Lcom/google/android/material/navigation/NavigationBarItemView;->CHECKED_STATE_SET:[I

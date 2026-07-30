@@ -26,7 +26,6 @@
     .line 3
     .line 4
     .line 5
-    move-result-object v1
 
     .line 6
     sput-object v1, Lcom/google/android/material/carousel/HeroCarouselStrategy;->SMALL_COUNTS:[I
@@ -41,7 +40,6 @@
     .line 10
     .line 11
     .line 12
-    move-result-object v0
 
     .line 13
     sput-object v0, Lcom/google/android/material/carousel/HeroCarouselStrategy;->MEDIUM_COUNTS:[I

@@ -888,7 +888,6 @@
     .line 32
     .line 33
     .line 34
-    move-result-object p2
 
     .line 35
     invoke-virtual {p1, p2}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;

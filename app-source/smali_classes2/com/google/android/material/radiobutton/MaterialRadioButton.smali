@@ -50,7 +50,6 @@
     .line 15
     .line 16
     .line 17
-    move-result-object v3
 
     .line 18
     const/4 v4, 0x0
@@ -70,7 +69,6 @@
     .line 25
     .line 26
     .line 27
-    move-result-object v1
 
     .line 28
     const/4 v4, 0x1
@@ -90,7 +88,6 @@
     .line 35
     .line 36
     .line 37
-    move-result-object v2
 
     .line 38
     const/4 v4, 0x2
@@ -105,7 +102,6 @@
     .line 42
     .line 43
     .line 44
-    move-result-object v1
 
     .line 45
     const/4 v2, 0x3

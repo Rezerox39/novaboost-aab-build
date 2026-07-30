@@ -50,7 +50,6 @@
     .line 15
     .line 16
     .line 17
-    move-result-object v0
 
     .line 18
     iput-object v0, p0, Lcom/wang/avi/indicators/BallBeatIndicator;->alphas:[I
@@ -330,7 +329,6 @@
     .line 10
     .line 11
     .line 12
-    move-result-object v1
 
     .line 13
     :goto_0
@@ -414,7 +412,6 @@
     .line 53
     .line 54
     .line 55
-    move-result-object v7
 
     .line 56
     invoke-static {v7}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;

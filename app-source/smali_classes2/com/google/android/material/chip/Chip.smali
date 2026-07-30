@@ -137,7 +137,6 @@
     .line 16
     .line 17
     .line 18
-    move-result-object v0
 
     .line 19
     sput-object v0, Lcom/google/android/material/chip/Chip;->SELECTED_STATE:[I
@@ -154,7 +153,6 @@
     .line 25
     .line 26
     .line 27
-    move-result-object v0
 
     .line 28
     sput-object v0, Lcom/google/android/material/chip/Chip;->CHECKABLE_STATE_SET:[I

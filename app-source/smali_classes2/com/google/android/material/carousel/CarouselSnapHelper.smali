@@ -365,7 +365,6 @@
     .line 7
     .line 8
     .line 9
-    move-result-object p1
 
     .line 10
     return-object p1
@@ -404,7 +403,6 @@
     .line 25
     .line 26
     .line 27
-    move-result-object p1
 
     .line 28
     return-object p1
@@ -428,7 +426,6 @@
     .line 36
     .line 37
     .line 38
-    move-result-object p1
 
     .line 39
     return-object p1
@@ -440,7 +437,6 @@
     .line 41
     .line 42
     .line 43
-    move-result-object p1
 
     .line 44
     return-object p1

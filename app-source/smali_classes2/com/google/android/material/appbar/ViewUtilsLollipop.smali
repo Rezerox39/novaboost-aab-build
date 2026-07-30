@@ -22,7 +22,6 @@
     .line 5
     .line 6
     .line 7
-    move-result-object v0
 
     .line 8
     sput-object v0, Lcom/google/android/material/appbar/ViewUtilsLollipop;->STATE_LIST_ANIM_ATTRS:[I
@@ -177,7 +176,6 @@
     .line 25
     .line 26
     .line 27
-    move-result-object v2
 
     .line 28
     const/4 v3, 0x1

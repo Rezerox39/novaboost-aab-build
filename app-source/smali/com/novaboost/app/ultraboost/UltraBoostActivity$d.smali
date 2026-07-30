@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ln3/b$g;
+
 
 
 # annotations

@@ -68,7 +68,6 @@
     .line 4
     .line 5
     .line 6
-    move-result-object v0
 
     .line 7
     sput-object v0, Lcom/google/android/material/color/DynamicColors;->DYNAMIC_COLOR_THEME_OVERLAY_ATTRIBUTE:[I

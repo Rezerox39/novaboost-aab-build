@@ -76,7 +76,6 @@
     .line 10
     .line 11
     .line 12
-    move-result-object v0
 
     .line 13
     sput-object v0, Lcom/google/android/material/progressindicator/LinearIndeterminateDisjointAnimatorDelegate;->DURATION_TO_MOVE_SEGMENT_ENDS:[I
@@ -103,7 +102,6 @@
     .line 23
     .line 24
     .line 25
-    move-result-object v0
 
     .line 26
     sput-object v0, Lcom/google/android/material/progressindicator/LinearIndeterminateDisjointAnimatorDelegate;->DELAY_TO_MOVE_SEGMENT_ENDS:[I

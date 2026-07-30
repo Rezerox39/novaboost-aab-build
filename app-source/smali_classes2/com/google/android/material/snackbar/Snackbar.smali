@@ -56,7 +56,6 @@
     .line 4
     .line 5
     .line 6
-    move-result-object v1
 
     .line 7
     sput-object v1, Lcom/google/android/material/snackbar/Snackbar;->SNACKBAR_BUTTON_STYLE_ATTR:[I
@@ -72,7 +71,6 @@
     .line 12
     .line 13
     .line 14
-    move-result-object v0
 
     .line 15
     sput-object v0, Lcom/google/android/material/snackbar/Snackbar;->SNACKBAR_CONTENT_STYLE_ATTRS:[I
