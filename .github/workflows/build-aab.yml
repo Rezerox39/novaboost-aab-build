@@ -57,7 +57,7 @@ jobs:
             --ks-key-alias novaboost-upload \
             --v1-signing-enabled true \
             --v2-signing-enabled true \
-            --v3-signing-enabled true \
+            --v3-signing-enabled false \
             /tmp/NovaBoost_aligned.apk
           echo "APK signed: $(ls -la /tmp/NovaBoost_aligned.apk)"
 
