@@ -1222,6 +1222,7 @@
     .line 15
     .line 16
     .line 17
+    move-result v1
 
     .line 18
     if-nez v1, :cond_0

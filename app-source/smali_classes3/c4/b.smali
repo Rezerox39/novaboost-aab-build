@@ -1077,6 +1077,7 @@
     .line 51
     .line 52
     .line 53
+    move-result-object v6
 
     .line 54
     filled-new-array {v3}, [Ljava/lang/String;
@@ -1084,6 +1085,7 @@
     .line 55
     .line 56
     .line 57
+    move-result-object v7
 
     .line 58
     check-cast v7, [Ljava/lang/CharSequence;
@@ -1185,6 +1187,7 @@
     .line 108
     .line 109
     .line 110
+    move-result-object v2
 
     .line 111
     filled-new-array {v3}, [Ljava/lang/String;
@@ -1192,6 +1195,7 @@
     .line 112
     .line 113
     .line 114
+    move-result-object v5
 
     .line 115
     check-cast v5, [Ljava/lang/CharSequence;

@@ -1701,6 +1701,7 @@
     .line 11
     .line 12
     .line 13
+    move-result-object v1
 
     .line 14
     invoke-direct {p0, v0, v1}, Lu6/f;-><init>([Lu6/d;[I)V

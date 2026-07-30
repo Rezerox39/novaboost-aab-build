@@ -952,6 +952,7 @@
     .line 14
     .line 15
     .line 16
+    move-result-object v2
 
     .line 17
     sput-object v2, Lb4/a;->ActionBarLayout:[I
@@ -968,6 +969,7 @@
     .line 23
     .line 24
     .line 25
+    move-result-object v2
 
     .line 26
     sput-object v2, Lb4/a;->ActionMenuItemView:[I
@@ -1005,6 +1007,7 @@
     .line 43
     .line 44
     .line 45
+    move-result-object v2
 
     .line 46
     sput-object v2, Lb4/a;->ActivityChooserView:[I
@@ -1053,6 +1056,7 @@
     .line 70
     .line 71
     .line 72
+    move-result-object v2
 
     .line 73
     sput-object v2, Lb4/a;->AppCompatImageView:[I
@@ -1084,6 +1088,7 @@
     .line 88
     .line 89
     .line 90
+    move-result-object v2
 
     .line 91
     sput-object v2, Lb4/a;->AppCompatSeekBar:[I
@@ -1150,6 +1155,7 @@
     .line 123
     .line 124
     .line 125
+    move-result-object v3
 
     .line 126
     sput-object v3, Lb4/a;->ButtonBarLayout:[I
@@ -1186,6 +1192,7 @@
     .line 144
     .line 145
     .line 146
+    move-result-object v3
 
     .line 147
     sput-object v3, Lb4/a;->ColorStateListItem:[I
@@ -1217,6 +1224,7 @@
     .line 162
     .line 163
     .line 164
+    move-result-object v3
 
     .line 165
     sput-object v3, Lb4/a;->CompoundButton:[I
@@ -1238,6 +1246,7 @@
     .line 174
     .line 175
     .line 176
+    move-result-object v3
 
     .line 177
     sput-object v3, Lb4/a;->CoordinatorLayout:[I
@@ -1341,6 +1350,7 @@
     .line 230
     .line 231
     .line 232
+    move-result-object v1
 
     .line 233
     sput-object v1, Lb4/a;->LinearLayoutCompat_Layout:[I
@@ -1362,6 +1372,7 @@
     .line 242
     .line 243
     .line 244
+    move-result-object v1
 
     .line 245
     sput-object v1, Lb4/a;->ListPopupWindow:[I
@@ -1438,6 +1449,7 @@
     .line 283
     .line 284
     .line 285
+    move-result-object v1
 
     .line 286
     sput-object v1, Lb4/a;->PopupWindow:[I
@@ -1454,6 +1466,7 @@
     .line 292
     .line 293
     .line 294
+    move-result-object v1
 
     .line 295
     sput-object v1, Lb4/a;->PopupWindowBackgroundState:[I
@@ -1475,6 +1488,7 @@
     .line 304
     .line 305
     .line 306
+    move-result-object v1
 
     .line 307
     sput-object v1, Lb4/a;->RainbowTextView:[I
@@ -1496,6 +1510,7 @@
     .line 316
     .line 317
     .line 318
+    move-result-object v1
 
     .line 319
     sput-object v1, Lb4/a;->RecycleListView:[I
@@ -1540,6 +1555,7 @@
     .line 341
     .line 342
     .line 343
+    move-result-object v0
 
     .line 344
     sput-object v0, Lb4/a;->Spinner:[I
@@ -1626,6 +1642,7 @@
     .line 388
     .line 389
     .line 390
+    move-result-object v0
 
     .line 391
     sput-object v0, Lb4/a;->View:[I
@@ -1652,6 +1669,7 @@
     .line 403
     .line 404
     .line 405
+    move-result-object v0
 
     .line 406
     sput-object v0, Lb4/a;->ViewBackgroundHelper:[I
@@ -1678,6 +1696,7 @@
     .line 418
     .line 419
     .line 420
+    move-result-object v0
 
     .line 421
     sput-object v0, Lb4/a;->ViewStubCompat:[I

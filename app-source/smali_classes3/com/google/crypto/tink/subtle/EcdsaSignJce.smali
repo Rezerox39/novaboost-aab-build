@@ -327,6 +327,7 @@
     .line 8
     .line 9
     .line 10
+    move-result-object v0
 
     .line 11
     invoke-static {v0}, Lcom/google/crypto/tink/subtle/EngineFactory;->toProviderList([Ljava/lang/String;)Ljava/util/List;

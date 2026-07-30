@@ -336,6 +336,7 @@
     .line 19
     .line 20
     .line 21
+    move-result v0
 
     .line 22
     if-eqz v0, :cond_0

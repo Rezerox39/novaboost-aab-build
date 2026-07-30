@@ -30,6 +30,7 @@
     .line 8
     .line 9
     .line 10
+    move-result-object v0
 
     .line 11
     sput-object v0, Lc4/d;->LinkBuilder:[I

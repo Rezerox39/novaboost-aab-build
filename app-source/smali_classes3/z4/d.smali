@@ -388,6 +388,7 @@
     .line 17
     .line 18
     .line 19
+    move-result v1
 
     .line 20
     if-nez v1, :cond_0

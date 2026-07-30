@@ -14391,6 +14391,7 @@
     .line 13
     .line 14
     .line 15
+    move-result-object v4
 
     .line 16
     const/4 v7, 0x6

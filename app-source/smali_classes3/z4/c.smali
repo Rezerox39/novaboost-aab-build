@@ -663,6 +663,7 @@
     .line 31
     .line 32
     .line 33
+    move-result v0
 
     .line 34
     if-eqz v0, :cond_0
@@ -786,6 +787,7 @@
     .line 31
     .line 32
     .line 33
+    move-result v0
 
     .line 34
     if-eqz v0, :cond_0
