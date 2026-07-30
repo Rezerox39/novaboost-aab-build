@@ -438,7 +438,6 @@
     .line 28
     .line 29
     .line 30
-    invoke-static {v1, v2}, Lcom/google/android/gms/measurement/internal/f;->a(Ljava/util/function/Function;Ljava/util/Comparator;)Ljava/util/Comparator;
 
     .line 31
     .line 32

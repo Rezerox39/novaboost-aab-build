@@ -2120,7 +2120,6 @@
 
     .line 3
     .line 4
-    invoke-static {p2}, Lcom/applovin/impl/pa;->a(Landroid/view/RoundedCorner;)I
 
     .line 5
     .line 6

@@ -744,14 +744,6 @@
     <dimen name="activity_horizontal_margin">16.0dip</dimen>
     <dimen name="activity_vertical_margin">16.0dip</dimen>
     <dimen name="appcompat_dialog_background_inset">16.0dip</dimen>
-    <dimen name="applovin_sdk_actionBarHeight">60.0dip</dimen>
-    <dimen name="applovin_sdk_adControlButton_height">40.0dip</dimen>
-    <dimen name="applovin_sdk_adControlButton_width">70.0dip</dimen>
-    <dimen name="applovin_sdk_mediationDebuggerDetailListItemTextSize">15.0sp</dimen>
-    <dimen name="applovin_sdk_mediationDebuggerSectionHeight">50.0dip</dimen>
-    <dimen name="applovin_sdk_mediationDebuggerSectionTextSize">13.0sp</dimen>
-    <dimen name="applovin_sdk_mrec_height">250.0dip</dimen>
-    <dimen name="applovin_sdk_mrec_width">300.0dip</dimen>
     <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
     <dimen name="browser_actions_context_menu_min_padding">20.0dip</dimen>
     <dimen name="button_height">35.0dip</dimen>

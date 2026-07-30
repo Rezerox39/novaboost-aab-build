@@ -691,7 +691,6 @@
 
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/applovin/impl/pa;->a(Landroid/view/RoundedCorner;)I
 
     .line 8
     .line 9

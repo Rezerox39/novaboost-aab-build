@@ -84,23 +84,6 @@
     <item type="id" name="appReferText" />
     <item type="id" name="app_open_ad_control_button" />
     <item type="id" name="app_open_ad_control_view" />
-    <item type="id" name="applovin_native_ad_badge_and_title_text_view" />
-    <item type="id" name="applovin_native_ad_content_linear_layout" />
-    <item type="id" name="applovin_native_ad_view_container" />
-    <item type="id" name="applovin_native_advertiser_text_view" />
-    <item type="id" name="applovin_native_badge_text_view" />
-    <item type="id" name="applovin_native_body_text_view" />
-    <item type="id" name="applovin_native_cta_button" />
-    <item type="id" name="applovin_native_icon_and_text_layout" />
-    <item type="id" name="applovin_native_icon_image_view" />
-    <item type="id" name="applovin_native_icon_view" />
-    <item type="id" name="applovin_native_inner_linear_layout" />
-    <item type="id" name="applovin_native_inner_parent_layout" />
-    <item type="id" name="applovin_native_leader_icon_and_text_layout" />
-    <item type="id" name="applovin_native_media_content_view" />
-    <item type="id" name="applovin_native_options_view" />
-    <item type="id" name="applovin_native_star_rating_view" />
-    <item type="id" name="applovin_native_title_text_view" />
     <item type="id" name="backBtn" />
     <item type="id" name="banner_ad_view_container" />
     <item type="id" name="banner_control_button" />

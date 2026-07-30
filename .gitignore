@@ -1,0 +1,9 @@
+# Build artifacts
+app-source/build/
+*.apk
+*.aab
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db

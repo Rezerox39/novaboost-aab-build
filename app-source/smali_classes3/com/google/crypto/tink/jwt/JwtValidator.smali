@@ -73,7 +73,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0, v1}, Lcom/google/android/gms/ads/identifier/a;->a(J)Ljava/time/Duration;
 
     .line 4
     .line 5

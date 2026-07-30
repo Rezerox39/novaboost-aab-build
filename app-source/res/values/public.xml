@@ -12,8 +12,6 @@
     <public type="anim" name="abc_slide_out_top" id="0x7f010009" />
     <public type="anim" name="abc_tooltip_enter" id="0x7f01000a" />
     <public type="anim" name="abc_tooltip_exit" id="0x7f01000b" />
-    <public type="anim" name="applovin_slide_down_animation" id="0x7f01000c" />
-    <public type="anim" name="applovin_slide_up_animation" id="0x7f01000d" />
     <public type="anim" name="bottom_up" id="0x7f01000e" />
     <public type="anim" name="btn_checkbox_to_checked_box_inner_merged_animation" id="0x7f01000f" />
     <public type="anim" name="btn_checkbox_to_checked_box_outer_merged_animation" id="0x7f010010" />
@@ -1581,27 +1579,6 @@
     <public type="color" name="accent_material_light" id="0x7f06001a" />
     <public type="color" name="androidx_core_ripple_material_light" id="0x7f06001b" />
     <public type="color" name="androidx_core_secondary_text_default_material_light" id="0x7f06001c" />
-    <public type="color" name="applovin_sdk_adBadgeTextColor" id="0x7f06001d" />
-    <public type="color" name="applovin_sdk_adControlbutton_brightBlueColor" id="0x7f06001e" />
-    <public type="color" name="applovin_sdk_brand_color" id="0x7f06001f" />
-    <public type="color" name="applovin_sdk_brand_color_dark" id="0x7f060020" />
-    <public type="color" name="applovin_sdk_checkmarkColor" id="0x7f060021" />
-    <public type="color" name="applovin_sdk_ctaButtonColor" id="0x7f060022" />
-    <public type="color" name="applovin_sdk_ctaButtonPressedColor" id="0x7f060023" />
-    <public type="color" name="applovin_sdk_disclosureButtonColor" id="0x7f060024" />
-    <public type="color" name="applovin_sdk_grayColor" id="0x7f060025" />
-    <public type="color" name="applovin_sdk_greenColor" id="0x7f060026" />
-    <public type="color" name="applovin_sdk_highlightListItemColor" id="0x7f060027" />
-    <public type="color" name="applovin_sdk_highlightTextColor" id="0x7f060028" />
-    <public type="color" name="applovin_sdk_listViewBackground" id="0x7f060029" />
-    <public type="color" name="applovin_sdk_listViewSectionTextColor" id="0x7f06002a" />
-    <public type="color" name="applovin_sdk_orangeColor" id="0x7f06002b" />
-    <public type="color" name="applovin_sdk_starColor" id="0x7f06002c" />
-    <public type="color" name="applovin_sdk_switchThumbColor" id="0x7f06002d" />
-    <public type="color" name="applovin_sdk_switchTrackDisabledColor" id="0x7f06002e" />
-    <public type="color" name="applovin_sdk_textColorPrimary" id="0x7f06002f" />
-    <public type="color" name="applovin_sdk_warningColor" id="0x7f060030" />
-    <public type="color" name="applovin_sdk_xmarkColor" id="0x7f060031" />
     <public type="color" name="arc_unfinished_color" id="0x7f060032" />
     <public type="color" name="background_floating_material_dark" id="0x7f060033" />
     <public type="color" name="background_floating_material_light" id="0x7f060034" />
@@ -3143,14 +3120,6 @@
     <public type="dimen" name="activity_horizontal_margin" id="0x7f0702e5" />
     <public type="dimen" name="activity_vertical_margin" id="0x7f0702e6" />
     <public type="dimen" name="appcompat_dialog_background_inset" id="0x7f0702e7" />
-    <public type="dimen" name="applovin_sdk_actionBarHeight" id="0x7f0702e8" />
-    <public type="dimen" name="applovin_sdk_adControlButton_height" id="0x7f0702e9" />
-    <public type="dimen" name="applovin_sdk_adControlButton_width" id="0x7f0702ea" />
-    <public type="dimen" name="applovin_sdk_mediationDebuggerDetailListItemTextSize" id="0x7f0702eb" />
-    <public type="dimen" name="applovin_sdk_mediationDebuggerSectionHeight" id="0x7f0702ec" />
-    <public type="dimen" name="applovin_sdk_mediationDebuggerSectionTextSize" id="0x7f0702ed" />
-    <public type="dimen" name="applovin_sdk_mrec_height" id="0x7f0702ee" />
-    <public type="dimen" name="applovin_sdk_mrec_width" id="0x7f0702ef" />
     <public type="dimen" name="browser_actions_context_menu_max_width" id="0x7f0702f0" />
     <public type="dimen" name="browser_actions_context_menu_min_padding" id="0x7f0702f1" />
     <public type="dimen" name="button_height" id="0x7f0702f2" />
@@ -3960,18 +3929,6 @@
     <public type="drawable" name="admob_close_button_black_circle_white_cross" id="0x7f080081" />
     <public type="drawable" name="admob_close_button_white_circle_black_cross" id="0x7f080082" />
     <public type="drawable" name="admob_close_button_white_cross" id="0x7f080083" />
-    <public type="drawable" name="applovin_creative_debugger_report_ad_rounded_button" id="0x7f080084" />
-    <public type="drawable" name="applovin_ic_mediation_placeholder" id="0x7f08009d" />
-    <public type="drawable" name="applovin_ic_mute_to_unmute" id="0x7f0800a6" />
-    <public type="drawable" name="applovin_ic_privacy_icon" id="0x7f0800a9" />
-    <public type="drawable" name="applovin_ic_privacy_icon_layered_list" id="0x7f0800aa" />
-    <public type="drawable" name="applovin_ic_unmute_to_mute" id="0x7f0800ac" />
-    <public type="drawable" name="applovin_ic_white_small" id="0x7f0800af" />
-    <public type="drawable" name="applovin_mediation_debugger_switch_thumb" id="0x7f0800b1" />
-    <public type="drawable" name="applovin_mediation_debugger_switch_track" id="0x7f0800b2" />
-    <public type="drawable" name="applovin_rounded_black_background" id="0x7f0800b3" />
-    <public type="drawable" name="applovin_rounded_button" id="0x7f0800b4" />
-    <public type="drawable" name="applovin_rounded_text_view_border" id="0x7f0800b5" />
     <public type="drawable" name="avd_hide_password" id="0x7f0800b6" />
     <public type="drawable" name="avd_show_password" id="0x7f0800b7" />
     <public type="drawable" name="bg_boost_btn" id="0x7f0800b8" />
@@ -4134,7 +4091,6 @@
     <public type="drawable" name="tooltip_frame_dark" id="0x7f080171" />
     <public type="drawable" name="tooltip_frame_light" id="0x7f080172" />
     <public type="drawable" name="notification_oversize_large_icon_bg" id="0x7f080168" />
-    <public type="drawable" name="applovin_ic_mediation_yso" id="0x7f0800a5" />
     <public type="id" name="ALT" id="0x7f090000" />
     <public type="id" name="All" id="0x7f090001" />
     <public type="id" name="BOTTOM_END" id="0x7f090002" />
@@ -4267,23 +4223,6 @@
     <public type="id" name="appReferText" id="0x7f090081" />
     <public type="id" name="app_open_ad_control_button" id="0x7f090082" />
     <public type="id" name="app_open_ad_control_view" id="0x7f090083" />
-    <public type="id" name="applovin_native_ad_badge_and_title_text_view" id="0x7f090084" />
-    <public type="id" name="applovin_native_ad_content_linear_layout" id="0x7f090085" />
-    <public type="id" name="applovin_native_ad_view_container" id="0x7f090086" />
-    <public type="id" name="applovin_native_advertiser_text_view" id="0x7f090087" />
-    <public type="id" name="applovin_native_badge_text_view" id="0x7f090088" />
-    <public type="id" name="applovin_native_body_text_view" id="0x7f090089" />
-    <public type="id" name="applovin_native_cta_button" id="0x7f09008a" />
-    <public type="id" name="applovin_native_icon_and_text_layout" id="0x7f09008b" />
-    <public type="id" name="applovin_native_icon_image_view" id="0x7f09008c" />
-    <public type="id" name="applovin_native_icon_view" id="0x7f09008d" />
-    <public type="id" name="applovin_native_inner_linear_layout" id="0x7f09008e" />
-    <public type="id" name="applovin_native_inner_parent_layout" id="0x7f09008f" />
-    <public type="id" name="applovin_native_leader_icon_and_text_layout" id="0x7f090090" />
-    <public type="id" name="applovin_native_media_content_view" id="0x7f090091" />
-    <public type="id" name="applovin_native_options_view" id="0x7f090092" />
-    <public type="id" name="applovin_native_star_rating_view" id="0x7f090093" />
-    <public type="id" name="applovin_native_title_text_view" id="0x7f090094" />
     <public type="id" name="arc" id="0x7f090095" />
     <public type="id" name="asConfigured" id="0x7f090096" />
     <public type="id" name="async" id="0x7f090097" />
@@ -5056,13 +4995,10 @@
     <public type="layout" name="activity_ultra_boost" id="0x7f0c002b" />
     <public type="layout" name="activity_vip" id="0x7f0c002c" />
     <public type="layout" name="admob_empty_layout" id="0x7f0c002d" />
-    <public type="layout" name="applovin_debugger_list_item_detail" id="0x7f0c002e" />
-    <public type="layout" name="applovin_native_ad_media_view" id="0x7f0c002f" />
     <public type="layout" name="browser_actions_context_menu_page" id="0x7f0c0030" />
     <public type="layout" name="browser_actions_context_menu_row" id="0x7f0c0031" />
     <public type="layout" name="component_app_rate_dialog" id="0x7f0c0032" />
     <public type="layout" name="component_custom_rating_bar" id="0x7f0c0033" />
-    <public type="layout" name="creative_debugger_displayed_ad_detail_activity" id="0x7f0c0034" />
     <public type="layout" name="custom_dialog" id="0x7f0c0035" />
     <public type="layout" name="design_bottom_navigation_item" id="0x7f0c0036" />
     <public type="layout" name="design_bottom_sheet_dialog" id="0x7f0c0037" />
@@ -5110,24 +5046,6 @@
     <public type="layout" name="material_timepicker" id="0x7f0c0062" />
     <public type="layout" name="material_timepicker_dialog" id="0x7f0c0063" />
     <public type="layout" name="material_timepicker_textinput_display" id="0x7f0c0064" />
-    <public type="layout" name="max_native_ad_banner_icon_and_text_layout" id="0x7f0c0065" />
-    <public type="layout" name="max_native_ad_banner_view" id="0x7f0c0066" />
-    <public type="layout" name="max_native_ad_leader_view" id="0x7f0c0067" />
-    <public type="layout" name="max_native_ad_media_banner_view" id="0x7f0c0068" />
-    <public type="layout" name="max_native_ad_medium_template_1" id="0x7f0c0069" />
-    <public type="layout" name="max_native_ad_mrec_view" id="0x7f0c006a" />
-    <public type="layout" name="max_native_ad_recycler_view_item" id="0x7f0c006b" />
-    <public type="layout" name="max_native_ad_small_template_1" id="0x7f0c006c" />
-    <public type="layout" name="max_native_ad_vertical_banner_view" id="0x7f0c006d" />
-    <public type="layout" name="max_native_ad_vertical_leader_view" id="0x7f0c006e" />
-    <public type="layout" name="max_native_ad_vertical_media_banner_view" id="0x7f0c006f" />
-    <public type="layout" name="mediation_debugger_ad_unit_detail_activity" id="0x7f0c0070" />
-    <public type="layout" name="mediation_debugger_list_item_right_detail" id="0x7f0c0071" />
-    <public type="layout" name="mediation_debugger_list_section" id="0x7f0c0072" />
-    <public type="layout" name="mediation_debugger_list_section_centered" id="0x7f0c0073" />
-    <public type="layout" name="mediation_debugger_list_view" id="0x7f0c0074" />
-    <public type="layout" name="mediation_debugger_multi_ad_activity" id="0x7f0c0075" />
-    <public type="layout" name="mediation_debugger_text_view_activity" id="0x7f0c0076" />
     <public type="layout" name="mtrl_alert_dialog" id="0x7f0c0077" />
     <public type="layout" name="mtrl_alert_dialog_actions" id="0x7f0c0078" />
     <public type="layout" name="mtrl_alert_dialog_title" id="0x7f0c0079" />
@@ -5163,7 +5081,6 @@
     <public type="layout" name="native_ad_fan_list_item" id="0x7f0c0097" />
     <public type="layout" name="native_ad_list_item" id="0x7f0c0098" />
     <public type="layout" name="native_ad_unit" id="0x7f0c0099" />
-    <public type="layout" name="native_custom_ad_view" id="0x7f0c009a" />
     <public type="layout" name="notification_action" id="0x7f0c009b" />
     <public type="layout" name="notification_action_tombstone" id="0x7f0c009c" />
     <public type="layout" name="notification_media_action" id="0x7f0c009d" />
@@ -5187,15 +5104,10 @@
     <public type="layout" name="star_button_layout" id="0x7f0c00af" />
     <public type="layout" name="support_simple_spinner_dropdown_item" id="0x7f0c00b0" />
     <public type="layout" name="material_clock_period_toggle_land" id="0x7f0c005b" />
-    <public type="menu" name="creative_debugger_displayed_ad_activity_menu" id="0x7f0e0000" />
-    <public type="menu" name="mediation_debugger_activity_menu" id="0x7f0e0001" />
     <public type="mipmap" name="ic_launcher" id="0x7f0f0000" />
     <public type="plurals" name="mtrl_badge_content_description" id="0x7f100000" />
-    <public type="raw" name="applovin_consent_flow_unified_cmp" id="0x7f110000" />
-    <public type="raw" name="applovin_settings" id="0x7f110001" />
     <public type="raw" name="com_android_billingclient_heterodyne_info" id="0x7f110002" />
     <public type="raw" name="com_android_billingclient_registration_info" id="0x7f110003" />
-    <public type="raw" name="firebase_common_keep" id="0x7f110004" />
     <public type="raw" name="omsdk_v1_5_3" id="0x7f110005" />
     <public type="string" name="_3_days_trial" id="0x7f120000" />
     <public type="string" name="_3_months" id="0x7f120001" />
@@ -5244,18 +5156,6 @@
     <public type="string" name="app_name" id="0x7f12002c" />
     <public type="string" name="app_short_description" id="0x7f12002d" />
     <public type="string" name="appbar_scrolling_view_behavior" id="0x7f12002e" />
-    <public type="string" name="applovin_agree_message" id="0x7f12002f" />
-    <public type="string" name="applovin_alt_privacy_policy_text" id="0x7f120030" />
-    <public type="string" name="applovin_continue_button_text" id="0x7f120031" />
-    <public type="string" name="applovin_creative_debugger_disabled_text" id="0x7f120032" />
-    <public type="string" name="applovin_creative_debugger_no_ads_text" id="0x7f120033" />
-    <public type="string" name="applovin_list_item_image_description" id="0x7f120034" />
-    <public type="string" name="applovin_pp_and_tos_title" id="0x7f120035" />
-    <public type="string" name="applovin_pp_title" id="0x7f120036" />
-    <public type="string" name="applovin_privacy_policy_text" id="0x7f120037" />
-    <public type="string" name="applovin_sdk_key" id="0x7f120038" />
-    <public type="string" name="applovin_terms_of_service_text" id="0x7f120039" />
-    <public type="string" name="applovin_terms_of_use_text" id="0x7f12003a" />
     <public type="string" name="apps" id="0x7f12003b" />
     <public type="string" name="boost" id="0x7f12003c" />
     <public type="string" name="boost_completed_native_ad_id" id="0x7f12003d" />
@@ -5331,7 +5231,6 @@
     <public type="string" name="fallback_menu_item_open_in_browser" id="0x7f120083" />
     <public type="string" name="fallback_menu_item_share_link" id="0x7f120084" />
     <public type="string" name="fan_placement_id_test" id="0x7f120085" />
-    <public type="string" name="firebase_database_url" id="0x7f120086" />
     <public type="string" name="fix_it" id="0x7f120087" />
     <public type="string" name="four_x_mode_desc" id="0x7f120088" />
     <public type="string" name="four_x_mode_title" id="0x7f120089" />
@@ -6778,33 +6677,6 @@
     <public type="style" name="Widget.MaterialComponents.Toolbar.Surface" id="0x7f1304ac" />
     <public type="style" name="Widget.MaterialComponents.Tooltip" id="0x7f1304ad" />
     <public type="style" name="Widget.Support.CoordinatorLayout" id="0x7f1304ae" />
-    <public type="style" name="com.applovin.creative.CreativeDebuggerActivity.ActionBar" id="0x7f1304af" />
-    <public type="style" name="com.applovin.creative.CreativeDebuggerActivity.ActionBar.TitleTextStyle" id="0x7f1304b0" />
-    <public type="style" name="com.applovin.creative.CreativeDebuggerActivity.Theme" id="0x7f1304b1" />
-    <public type="style" name="com.applovin.creative.debugger.ui.DisplayedAdActivity.ReportAdButton" id="0x7f1304b2" />
-    <public type="style" name="com.applovin.mediation.MaxDebuggerActivity.ActionBar" id="0x7f1304b3" />
-    <public type="style" name="com.applovin.mediation.MaxDebuggerActivity.ActionBar.Live" id="0x7f1304b4" />
-    <public type="style" name="com.applovin.mediation.MaxDebuggerActivity.ActionBar.TitleTextStyle" id="0x7f1304b5" />
-    <public type="style" name="com.applovin.mediation.MaxDebuggerActivity.Theme" id="0x7f1304b6" />
-    <public type="style" name="com.applovin.mediation.MaxDebuggerActivity.Theme.Live" id="0x7f1304b7" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView" id="0x7f1304b8" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.AutoScrollingTextView" id="0x7f1304b9" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" id="0x7f1304ba" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.ExtraSmallAdBadgeTextView" id="0x7f1304bb" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.ExtraSmallScrollingBodyTextView" id="0x7f1304bc" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.ExtraSmallScrollingTitleTextView" id="0x7f1304bd" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeAdBadgeTextView" id="0x7f1304be" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeScrollingBodyTextView" id="0x7f1304bf" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeScrollingTitleTextView" id="0x7f1304c0" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalBodyTextSize" id="0x7f1304c1" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeVerticalTitleTextSize" id="0x7f1304c2" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.ScrollingTitleTextView" id="0x7f1304c3" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallAdBadgeTextView" id="0x7f1304c4" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingBodyTextView" id="0x7f1304c5" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallScrollingTitleTextView" id="0x7f1304c6" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalBodyTextSize" id="0x7f1304c7" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.SmallVerticalTitleTextSize" id="0x7f1304c8" />
-    <public type="style" name="com.applovin.mediation.nativeAds.MaxNativeAdView.TitleTextStyle" id="0x7f1304c9" />
     <public type="style" name="Base.V24.Theme.Material3.Dark" id="0x7f1300b6" />
     <public type="style" name="Base.V24.Theme.Material3.Dark.Dialog" id="0x7f1300b7" />
     <public type="style" name="Base.V24.Theme.Material3.Light" id="0x7f1300b8" />

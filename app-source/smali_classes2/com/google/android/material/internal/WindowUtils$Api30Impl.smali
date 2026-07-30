@@ -62,7 +62,6 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lcom/applovin/impl/na;->a(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 6
     .line 7

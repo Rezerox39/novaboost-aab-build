@@ -332,7 +332,6 @@
 
     .line 18
     :cond_2
-    invoke-static {p0, v0, p1}, Lcom/applovin/impl/sdk/i0;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -463,7 +462,6 @@
     const/4 v0, 0x0
 
     .line 7
-    invoke-static {p0, v0, p1}, Lcom/applovin/impl/sdk/i0;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 8
     .line 9
