@@ -74,7 +74,7 @@
 
     const-string v0, "android.intent.action.VIEW"
 
-    const-string v1, "https://novaboost-pp-docs.surge.sh"
+    const-string v1, "https://rezerox39.github.io/novaboost-aab-build/"
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

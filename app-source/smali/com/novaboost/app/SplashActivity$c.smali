@@ -39,7 +39,7 @@
 
     iget-object p1, p0, Lcom/novaboost/gaming/SplashActivity$c;->a:Lcom/novaboost/gaming/SplashActivity;
 
-    const-string v0, "https://novaboost-pp-docs.surge.sh"
+    const-string v0, "https://rezerox39.github.io/novaboost-aab-build/"
 
     invoke-static {p1, v0}, Lcom/novaboost/gaming/SplashActivity;->J(Lcom/novaboost/gaming/SplashActivity;Ljava/lang/String;)V
 
