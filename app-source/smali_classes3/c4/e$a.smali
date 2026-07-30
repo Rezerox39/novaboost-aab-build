@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lc4/e;->onClick(Landroid/view/View;)V
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
 
 
 # static fields

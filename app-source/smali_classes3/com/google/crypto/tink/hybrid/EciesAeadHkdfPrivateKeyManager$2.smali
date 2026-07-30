@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/crypto/tink/hybrid/EciesAeadHkdfPrivateKeyManager;->keyFactory()Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/internal/KeyTypeManager$KeyFactory<",
+        "Lcom/google/crypto/tink/proto/EciesAeadHkdfKeyFormat;",
+        "Lcom/google/crypto/tink/proto/EciesAeadHkdfPrivateKey;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

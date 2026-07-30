@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/RsaSsaPkcs1Params$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1Params;",
+        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1Params$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1ParamsOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

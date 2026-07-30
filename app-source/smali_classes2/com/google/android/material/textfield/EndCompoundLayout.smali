@@ -4,9 +4,17 @@
 
 
 # annotations
+.annotation build Landroid/annotation/SuppressLint;
+    value = {
+        "ViewConstructor"
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/textfield/EndCompoundLayout$EndIconDelegates;
+    }
+.end annotation
 
 
 # instance fields

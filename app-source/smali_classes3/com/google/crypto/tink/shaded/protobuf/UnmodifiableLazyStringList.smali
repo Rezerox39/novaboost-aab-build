@@ -8,7 +8,15 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/AbstractList<",
+        "Ljava/lang/String;",
+        ">;",
+        "Lcom/google/crypto/tink/shaded/protobuf/LazyStringList;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
 
 
 # instance fields

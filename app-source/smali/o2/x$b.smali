@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo2/x;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
 
 
 # instance fields

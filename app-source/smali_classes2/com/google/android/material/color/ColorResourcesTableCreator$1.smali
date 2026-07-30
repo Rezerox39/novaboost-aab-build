@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/color/ColorResourcesTableCreator;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator<",
+        "Lcom/google/android/material/color/ColorResourcesTableCreator$ColorResource;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

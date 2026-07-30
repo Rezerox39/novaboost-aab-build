@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/shape/ShapeAppearancePathProvider$ShapeAppearancePathSpec;,
+        Lcom/google/android/material/shape/ShapeAppearancePathProvider$PathListener;,
+        Lcom/google/android/material/shape/ShapeAppearancePathProvider$Lazy;
+    }
+.end annotation
 
 
 # instance fields

@@ -8,9 +8,33 @@
 
 
 # annotations
+.annotation runtime Lcom/google/crypto/tink/shaded/protobuf/CheckReturnValue;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$BoundedByteString;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$LiteralByteString;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$CodedBuilder;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$Output;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$LeafByteString;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$AbstractByteIterator;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$ByteIterator;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$ArraysByteArrayCopier;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$SystemByteArrayCopier;,
+        Lcom/google/crypto/tink/shaded/protobuf/ByteString$ByteArrayCopier;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/lang/Iterable<",
+        "Ljava/lang/Byte;",
+        ">;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

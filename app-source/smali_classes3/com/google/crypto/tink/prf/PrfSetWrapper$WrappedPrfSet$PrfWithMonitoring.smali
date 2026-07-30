@@ -7,9 +7,17 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/prf/PrfSetWrapper$WrappedPrfSet;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "PrfWithMonitoring"
+.end annotation
 
 
 # instance fields

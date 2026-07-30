@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/internal/WindowUtils$Api14Impl;,
+        Lcom/google/android/material/internal/WindowUtils$Api17Impl;,
+        Lcom/google/android/material/internal/WindowUtils$Api30Impl;
+    }
+.end annotation
 
 
 # static fields

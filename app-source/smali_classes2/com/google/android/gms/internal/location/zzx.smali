@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/gms/location/zzbi<",
+        "Lcom/google/android/gms/common/api/Status;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

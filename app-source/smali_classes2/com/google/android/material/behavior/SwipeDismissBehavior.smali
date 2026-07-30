@@ -4,9 +4,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/behavior/SwipeDismissBehavior$SettleRunnable;,
+        Lcom/google/android/material/behavior/SwipeDismissBehavior$OnDismissListener;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Landroid/view/View;",
+        ">",
+        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;"
+    }
+.end annotation
 
 
 # static fields

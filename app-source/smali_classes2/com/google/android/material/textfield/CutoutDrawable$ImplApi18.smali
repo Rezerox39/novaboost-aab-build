@@ -4,11 +4,18 @@
 
 
 # annotations
+.annotation build Landroid/annotation/TargetApi;
+    value = 0x12
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/textfield/CutoutDrawable;
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ImplApi18"
+.end annotation
 
 
 # direct methods

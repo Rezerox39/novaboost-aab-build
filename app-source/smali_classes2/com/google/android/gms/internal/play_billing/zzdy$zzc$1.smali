@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/internal/play_billing/zzdy$zzc;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
 
 # direct methods

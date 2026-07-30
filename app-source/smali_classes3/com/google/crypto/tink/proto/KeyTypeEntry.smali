@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/KeyTypeEntry$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/KeyTypeEntry;",
+        "Lcom/google/crypto/tink/proto/KeyTypeEntry$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/KeyTypeEntryOrBuilder;"
+    }
+.end annotation
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

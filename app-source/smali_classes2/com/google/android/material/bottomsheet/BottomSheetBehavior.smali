@@ -7,9 +7,26 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/bottomsheet/BottomSheetBehavior$SavedState;,
+        Lcom/google/android/material/bottomsheet/BottomSheetBehavior$StateSettlingTracker;,
+        Lcom/google/android/material/bottomsheet/BottomSheetBehavior$SaveFlags;,
+        Lcom/google/android/material/bottomsheet/BottomSheetBehavior$StableState;,
+        Lcom/google/android/material/bottomsheet/BottomSheetBehavior$State;,
+        Lcom/google/android/material/bottomsheet/BottomSheetBehavior$BottomSheetCallback;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Landroid/view/View;",
+        ">",
+        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;",
+        "Lcom/google/android/material/motion/MaterialBackHandler;"
+    }
+.end annotation
 
 
 # static fields

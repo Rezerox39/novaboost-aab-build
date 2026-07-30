@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/KeyManagerRegistry;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "KeyManagerContainer"
+.end annotation
 
 
 # virtual methods

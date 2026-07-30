@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/daead/DeterministicAeadWrapper$WrappedDeterministicAead;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/crypto/tink/PrimitiveWrapper<",
+        "Lcom/google/crypto/tink/DeterministicAead;",
+        "Lcom/google/crypto/tink/DeterministicAead;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

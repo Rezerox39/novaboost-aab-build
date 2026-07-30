@@ -4,9 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/slider/Slider$OnSliderTouchListener;,
+        Lcom/google/android/material/slider/Slider$OnChangeListener;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/slider/BaseSlider<",
+        "Lcom/google/android/material/slider/Slider;",
+        "Lcom/google/android/material/slider/Slider$OnChangeListener;",
+        "Lcom/google/android/material/slider/Slider$OnSliderTouchListener;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

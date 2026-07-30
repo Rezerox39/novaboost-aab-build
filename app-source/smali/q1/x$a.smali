@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lq1/x;-><init>(Lq1/r;)V
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
 
 
 # instance fields

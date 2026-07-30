@@ -7,13 +7,30 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/proto/Keyset;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Key"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/Keyset$Key$Builder;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/Keyset$Key;",
+        "Lcom/google/crypto/tink/proto/Keyset$Key$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/Keyset$KeyOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

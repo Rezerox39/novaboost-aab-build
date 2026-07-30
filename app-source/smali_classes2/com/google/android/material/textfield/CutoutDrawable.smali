@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/textfield/CutoutDrawable$CutoutDrawableState;,
+        Lcom/google/android/material/textfield/CutoutDrawable$ImplApi14;,
+        Lcom/google/android/material/textfield/CutoutDrawable$ImplApi18;
+    }
+.end annotation
 
 
 # instance fields

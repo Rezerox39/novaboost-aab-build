@@ -4,11 +4,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/material/datepicker/MaterialDatePicker;->startPickerFragment()V
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/datepicker/OnSelectionChangedListener<",
+        "TS;>;"
+    }
+.end annotation
 
 
 # instance fields

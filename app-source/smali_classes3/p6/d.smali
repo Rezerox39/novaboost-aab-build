@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lp6/d$a;
+    }
+.end annotation
 
 
 # virtual methods

@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/crypto/tink/shaded/protobuf/JavaType;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

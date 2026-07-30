@@ -7,6 +7,11 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/location/Geofence;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2609
+    name = "GeofenceTransition"
+.end annotation

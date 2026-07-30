@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/AesEaxKeyFormat$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/AesEaxKeyFormat;",
+        "Lcom/google/crypto/tink/proto/AesEaxKeyFormat$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/AesEaxKeyFormatOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

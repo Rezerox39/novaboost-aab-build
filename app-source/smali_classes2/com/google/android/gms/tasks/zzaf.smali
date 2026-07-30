@@ -7,7 +7,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/android/gms/tasks/zzae<",
+        "TT;>;"
+    }
+.end annotation
 
 
 # instance fields

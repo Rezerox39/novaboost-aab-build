@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Le6/b;->p0(Le6/b;Lk5/d;)Ljava/lang/Object;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
 
 
 # instance fields

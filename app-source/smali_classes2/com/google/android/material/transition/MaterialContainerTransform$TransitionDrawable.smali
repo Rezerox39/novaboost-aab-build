@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/transition/MaterialContainerTransform;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "TransitionDrawable"
+.end annotation
 
 
 # static fields

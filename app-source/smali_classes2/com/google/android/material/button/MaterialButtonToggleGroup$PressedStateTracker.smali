@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/button/MaterialButtonToggleGroup;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "PressedStateTracker"
+.end annotation
 
 
 # instance fields

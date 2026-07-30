@@ -7,7 +7,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<MessageType::",
+        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/crypto/tink/shaded/protobuf/Parser<",
+        "TMessageType;>;"
+    }
+.end annotation
 
 
 # static fields

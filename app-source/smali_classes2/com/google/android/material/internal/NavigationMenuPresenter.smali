@@ -7,7 +7,21 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NavigationMenuViewAccessibilityDelegate;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NavigationMenuHeaderItem;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NavigationMenuSeparatorItem;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NavigationMenuTextItem;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NavigationMenuItem;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NavigationMenuAdapter;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$HeaderViewHolder;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$SeparatorViewHolder;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$SubheaderViewHolder;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$NormalViewHolder;,
+        Lcom/google/android/material/internal/NavigationMenuPresenter$ViewHolder;
+    }
+.end annotation
 
 
 # static fields

@@ -7,7 +7,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lv1/d$a;,
+        Lv1/d$b;,
+        Lv1/d$c;
+    }
+.end annotation
 
 
 # static fields

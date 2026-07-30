@@ -10,9 +10,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lc6/z0;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "b"
+.end annotation
 
 
 # instance fields

@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/appbar/ViewOffsetBehavior<",
+        "Landroid/view/View;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

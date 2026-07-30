@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/material/floatingactionbutton/BaseMotionStrategy;->createAnimator(Lcom/google/android/material/animation/MotionSpec;)Landroid/animation/AnimatorSet;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroid/util/Property<",
+        "Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;",
+        "Ljava/lang/Float;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

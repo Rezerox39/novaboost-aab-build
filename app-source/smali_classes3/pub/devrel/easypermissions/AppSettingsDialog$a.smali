@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lpub/devrel/easypermissions/AppSettingsDialog;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = null
+.end annotation
 
 
 # direct methods

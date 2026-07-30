@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/crypto/tink/prf/HkdfPrfKeyManager;-><init>()V
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/internal/PrimitiveFactory<",
+        "Lcom/google/crypto/tink/prf/Prf;",
+        "Lcom/google/crypto/tink/proto/HkdfPrfKey;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

@@ -4,7 +4,11 @@
 
 
 # annotations
+.annotation build Lcom/google/crypto/tink/annotations/Alpha;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
 
 # static fields

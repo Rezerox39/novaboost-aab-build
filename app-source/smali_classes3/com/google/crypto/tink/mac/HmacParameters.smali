@@ -4,7 +4,16 @@
 
 
 # annotations
+.annotation build Lcom/google/crypto/tink/annotations/Alpha;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/mac/HmacParameters$Builder;,
+        Lcom/google/crypto/tink/mac/HmacParameters$HashType;,
+        Lcom/google/crypto/tink/mac/HmacParameters$Variant;
+    }
+.end annotation
 
 
 # instance fields

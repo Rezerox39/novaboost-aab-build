@@ -4,9 +4,17 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/signature/EcdsaParameters;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "CurveType"
+.end annotation
 
 
 # static fields

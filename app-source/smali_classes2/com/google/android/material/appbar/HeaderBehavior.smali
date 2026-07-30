@@ -4,9 +4,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/appbar/HeaderBehavior$FlingRunnable;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Landroid/view/View;",
+        ">",
+        "Lcom/google/android/material/appbar/ViewOffsetBehavior<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # static fields

@@ -4,7 +4,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lo0/p$e;,
+        Lo0/p$c;,
+        Lo0/p$b;,
+        Lo0/p$a;,
+        Lo0/p$f;,
+        Lo0/p$d;
+    }
+.end annotation
 
 
 # static fields

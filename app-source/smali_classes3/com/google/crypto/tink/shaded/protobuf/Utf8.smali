@@ -4,7 +4,15 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/Utf8$DecodeUtil;,
+        Lcom/google/crypto/tink/shaded/protobuf/Utf8$UnsafeProcessor;,
+        Lcom/google/crypto/tink/shaded/protobuf/Utf8$SafeProcessor;,
+        Lcom/google/crypto/tink/shaded/protobuf/Utf8$Processor;,
+        Lcom/google/crypto/tink/shaded/protobuf/Utf8$UnpairedSurrogateException;
+    }
+.end annotation
 
 
 # static fields

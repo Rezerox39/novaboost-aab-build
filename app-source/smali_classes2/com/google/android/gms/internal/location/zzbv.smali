@@ -7,7 +7,17 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/gms/internal/location/zzbu<",
+        "TE;>;",
+        "Ljava/util/ListIterator<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # direct methods

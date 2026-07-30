@@ -4,7 +4,17 @@
 
 
 # annotations
+.annotation runtime Lcom/google/crypto/tink/shaded/protobuf/CheckReturnValue;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Lcom/google/crypto/tink/shaded/protobuf/FieldSet$FieldDescriptorLite<",
+        "TT;>;>",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # direct methods

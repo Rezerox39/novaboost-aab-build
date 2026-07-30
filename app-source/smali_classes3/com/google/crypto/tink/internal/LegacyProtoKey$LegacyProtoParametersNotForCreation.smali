@@ -4,9 +4,17 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/internal/LegacyProtoKey;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "LegacyProtoParametersNotForCreation"
+.end annotation
 
 
 # instance fields

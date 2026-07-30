@@ -7,7 +7,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/shape/MaterialShapeDrawable$MaterialShapeDrawableState;,
+        Lcom/google/android/material/shape/MaterialShapeDrawable$CompatibilityShadowMode;
+    }
+.end annotation
 
 
 # static fields

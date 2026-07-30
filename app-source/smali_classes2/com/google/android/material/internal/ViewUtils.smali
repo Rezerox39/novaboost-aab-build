@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/internal/ViewUtils$RelativePadding;,
+        Lcom/google/android/material/internal/ViewUtils$OnApplyWindowInsetsListener;
+    }
+.end annotation
 
 
 # static fields

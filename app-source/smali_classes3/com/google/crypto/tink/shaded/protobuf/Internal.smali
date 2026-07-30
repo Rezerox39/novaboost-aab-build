@@ -4,7 +4,21 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$FloatList;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$DoubleList;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$LongList;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$BooleanList;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$IntList;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$ProtobufList;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$MapAdapter;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$ListAdapter;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$EnumVerifier;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$EnumLiteMap;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$EnumLite;
+    }
+.end annotation
 
 
 # static fields

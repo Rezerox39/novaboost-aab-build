@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/HmacPrfKeyFormat$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/HmacPrfKeyFormat;",
+        "Lcom/google/crypto/tink/proto/HmacPrfKeyFormat$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/HmacPrfKeyFormatOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

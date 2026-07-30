@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/transformation/FabTransformationBehavior$FabTransformationSpec;
+    }
+.end annotation
 
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation

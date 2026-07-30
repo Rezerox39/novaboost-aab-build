@@ -7,7 +7,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/android/gms/internal/play_billing/zzix<",
+        "TT;>;"
+    }
+.end annotation
 
 
 # static fields

@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/floatingactionbutton/FloatingActionButton;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "BaseBehavior"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Lcom/google/android/material/floatingactionbutton/FloatingActionButton;",
+        ">",
+        "Landroidx/coordinatorlayout/widget/CoordinatorLayout$c;"
+    }
+.end annotation
 
 
 # static fields

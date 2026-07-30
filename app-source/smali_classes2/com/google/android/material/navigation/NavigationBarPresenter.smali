@@ -7,7 +7,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;
+    }
+.end annotation
 
 
 # instance fields

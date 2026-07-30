@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKey$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKey;",
+        "Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKey$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/KmsEnvelopeAeadKeyOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

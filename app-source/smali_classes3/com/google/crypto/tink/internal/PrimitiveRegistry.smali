@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/internal/PrimitiveRegistry$PrimitiveConstructorIndex;,
+        Lcom/google/crypto/tink/internal/PrimitiveRegistry$Builder;
+    }
+.end annotation
 
 
 # instance fields

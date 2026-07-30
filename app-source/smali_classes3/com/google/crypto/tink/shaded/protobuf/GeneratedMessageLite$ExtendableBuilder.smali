@@ -7,11 +7,28 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "ExtendableBuilder"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<MessageType:",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtendableMessage<",
+        "TMessageType;TBuilderType;>;BuilderType:",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtendableBuilder<",
+        "TMessageType;TBuilderType;>;>",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
+        "TMessageType;TBuilderType;>;",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtendableMessageOrBuilder<",
+        "TMessageType;TBuilderType;>;"
+    }
+.end annotation
 
 
 # direct methods

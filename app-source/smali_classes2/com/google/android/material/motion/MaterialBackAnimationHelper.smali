@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Landroid/view/View;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # static fields

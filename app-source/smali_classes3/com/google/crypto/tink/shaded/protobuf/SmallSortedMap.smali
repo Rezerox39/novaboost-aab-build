@@ -4,9 +4,28 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$EmptySet;,
+        Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$DescendingEntryIterator;,
+        Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$EntryIterator;,
+        Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$DescendingEntrySet;,
+        Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$EntrySet;,
+        Lcom/google/crypto/tink/shaded/protobuf/SmallSortedMap$Entry;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K::",
+        "Ljava/lang/Comparable<",
+        "TK;>;V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractMap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

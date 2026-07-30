@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "GeofencingRequestCreator"
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Reserved;
+    value = {
+        0x3e8
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/location/GeofencingRequest$Builder;,
+        Lcom/google/android/gms/location/GeofencingRequest$InitialTrigger;
+    }
+.end annotation
 
 
 # static fields

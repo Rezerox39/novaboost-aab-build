@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation build Landroid/annotation/SuppressLint;
+    value = {
+        "ViewConstructor"
+    }
+.end annotation
 
 
 # instance fields

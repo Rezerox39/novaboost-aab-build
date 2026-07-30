@@ -4,11 +4,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lu1/h;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lu1/h$b$a;,
+        Lu1/h$b$b;
+    }
+.end annotation
 
 
 # static fields

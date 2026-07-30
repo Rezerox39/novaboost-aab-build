@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/Timestamp$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/shaded/protobuf/Timestamp;",
+        "Lcom/google/crypto/tink/shaded/protobuf/Timestamp$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/shaded/protobuf/TimestampOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

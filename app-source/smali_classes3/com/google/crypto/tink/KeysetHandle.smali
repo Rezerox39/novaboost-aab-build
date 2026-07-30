@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/KeysetHandle$Entry;,
+        Lcom/google/crypto/tink/KeysetHandle$Builder;
+    }
+.end annotation
 
 
 # instance fields

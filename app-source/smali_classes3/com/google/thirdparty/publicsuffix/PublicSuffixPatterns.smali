@@ -4,7 +4,11 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/Beta;
+.end annotation
 
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
 
 # static fields

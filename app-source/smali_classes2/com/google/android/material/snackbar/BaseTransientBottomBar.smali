@@ -4,9 +4,27 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$Anchor;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$BehaviorDelegate;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$SnackbarBaseLayout;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$Duration;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$ContentViewCallback;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$BaseCallback;,
+        Lcom/google/android/material/snackbar/BaseTransientBottomBar$AnimationMode;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<B:",
+        "Lcom/google/android/material/snackbar/BaseTransientBottomBar<",
+        "TB;>;>",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # static fields

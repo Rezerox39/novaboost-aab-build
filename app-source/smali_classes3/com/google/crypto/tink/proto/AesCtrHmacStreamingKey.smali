@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/AesCtrHmacStreamingKey$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/AesCtrHmacStreamingKey;",
+        "Lcom/google/crypto/tink/proto/AesCtrHmacStreamingKey$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/AesCtrHmacStreamingKeyOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

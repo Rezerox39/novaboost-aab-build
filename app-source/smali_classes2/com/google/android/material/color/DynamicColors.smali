@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/color/DynamicColors$DeviceSupportCondition;,
+        Lcom/google/android/material/color/DynamicColors$DynamicColorsActivityLifecycleCallbacks;,
+        Lcom/google/android/material/color/DynamicColors$OnAppliedCallback;,
+        Lcom/google/android/material/color/DynamicColors$Precondition;
+    }
+.end annotation
 
 
 # static fields

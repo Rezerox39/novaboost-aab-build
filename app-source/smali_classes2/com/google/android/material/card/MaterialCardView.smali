@@ -8,7 +8,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/card/MaterialCardView$CheckedIconGravity;,
+        Lcom/google/android/material/card/MaterialCardView$OnCheckedChangeListener;
+    }
+.end annotation
 
 
 # static fields

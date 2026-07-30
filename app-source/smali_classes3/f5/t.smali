@@ -8,7 +8,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lf5/t$a;
+    }
+.end annotation
 
 
 # instance fields

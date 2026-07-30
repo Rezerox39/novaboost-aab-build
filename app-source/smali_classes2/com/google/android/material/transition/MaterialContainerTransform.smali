@@ -4,7 +4,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholdsGroup;,
+        Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;,
+        Lcom/google/android/material/transition/MaterialContainerTransform$TransitionDrawable;,
+        Lcom/google/android/material/transition/MaterialContainerTransform$FitMode;,
+        Lcom/google/android/material/transition/MaterialContainerTransform$FadeMode;,
+        Lcom/google/android/material/transition/MaterialContainerTransform$TransitionDirection;
+    }
+.end annotation
 
 
 # static fields

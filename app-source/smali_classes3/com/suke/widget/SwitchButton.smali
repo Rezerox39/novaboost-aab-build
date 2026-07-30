@@ -7,7 +7,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/suke/widget/SwitchButton$e;,
+        Lcom/suke/widget/SwitchButton$d;
+    }
+.end annotation
 
 
 # static fields

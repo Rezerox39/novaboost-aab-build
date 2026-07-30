@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Landroid/animation/Animator;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # instance fields

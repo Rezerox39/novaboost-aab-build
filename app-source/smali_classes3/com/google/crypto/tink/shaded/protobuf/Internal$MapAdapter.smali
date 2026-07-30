@@ -4,13 +4,37 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/Internal;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "MapAdapter"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$MapAdapter$EntryAdapter;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$MapAdapter$IteratorAdapter;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$MapAdapter$SetAdapter;,
+        Lcom/google/crypto/tink/shaded/protobuf/Internal$MapAdapter$Converter;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        "RealValue:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractMap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

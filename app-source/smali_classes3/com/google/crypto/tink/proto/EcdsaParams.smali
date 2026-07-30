@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/proto/EcdsaParams$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/proto/EcdsaParams;",
+        "Lcom/google/crypto/tink/proto/EcdsaParams$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/EcdsaParamsOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

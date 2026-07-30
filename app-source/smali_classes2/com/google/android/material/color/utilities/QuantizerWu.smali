@@ -7,7 +7,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/color/utilities/QuantizerWu$Box;,
+        Lcom/google/android/material/color/utilities/QuantizerWu$CreateBoxesResult;,
+        Lcom/google/android/material/color/utilities/QuantizerWu$MaximizeResult;,
+        Lcom/google/android/material/color/utilities/QuantizerWu$Direction;
+    }
+.end annotation
 
 
 # static fields

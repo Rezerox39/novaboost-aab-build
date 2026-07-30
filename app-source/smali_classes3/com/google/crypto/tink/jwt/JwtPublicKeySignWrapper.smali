@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/jwt/JwtPublicKeySignWrapper$WrappedJwtPublicKeySign;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/crypto/tink/PrimitiveWrapper<",
+        "Lcom/google/crypto/tink/jwt/JwtPublicKeySignInternal;",
+        "Lcom/google/crypto/tink/jwt/JwtPublicKeySign;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

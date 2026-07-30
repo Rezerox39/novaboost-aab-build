@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroid/util/Property<",
+        "Landroid/widget/ImageView;",
+        "Landroid/graphics/Matrix;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

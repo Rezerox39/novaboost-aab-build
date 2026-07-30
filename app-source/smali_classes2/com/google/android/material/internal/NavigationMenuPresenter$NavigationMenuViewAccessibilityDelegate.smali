@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/internal/NavigationMenuPresenter;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "NavigationMenuViewAccessibilityDelegate"
+.end annotation
 
 
 # instance fields

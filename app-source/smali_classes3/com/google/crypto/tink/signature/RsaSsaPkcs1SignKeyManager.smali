@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/internal/PrivateKeyTypeManager<",
+        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1PrivateKey;",
+        "Lcom/google/crypto/tink/proto/RsaSsaPkcs1PublicKey;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

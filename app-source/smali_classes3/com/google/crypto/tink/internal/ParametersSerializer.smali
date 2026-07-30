@@ -4,9 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/internal/ParametersSerializer$ParametersSerializationFunction;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<ParametersT:",
+        "Lcom/google/crypto/tink/Parameters;",
+        "SerializationT::",
+        "Lcom/google/crypto/tink/internal/Serialization;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # instance fields

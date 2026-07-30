@@ -7,7 +7,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractCollection<",
+        "TE;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

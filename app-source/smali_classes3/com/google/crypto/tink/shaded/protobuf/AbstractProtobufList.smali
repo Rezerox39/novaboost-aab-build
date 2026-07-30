@@ -7,7 +7,17 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractList<",
+        "TE;>;",
+        "Lcom/google/crypto/tink/shaded/protobuf/Internal$ProtobufList<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # static fields

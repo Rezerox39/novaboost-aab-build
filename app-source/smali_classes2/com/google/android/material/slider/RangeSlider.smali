@@ -4,9 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/slider/RangeSlider$RangeSliderState;,
+        Lcom/google/android/material/slider/RangeSlider$OnSliderTouchListener;,
+        Lcom/google/android/material/slider/RangeSlider$OnChangeListener;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/slider/BaseSlider<",
+        "Lcom/google/android/material/slider/RangeSlider;",
+        "Lcom/google/android/material/slider/RangeSlider$OnChangeListener;",
+        "Lcom/google/android/material/slider/RangeSlider$OnSliderTouchListener;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

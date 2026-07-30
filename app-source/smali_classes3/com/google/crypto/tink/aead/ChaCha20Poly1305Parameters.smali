@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/aead/ChaCha20Poly1305Parameters$Variant;
+    }
+.end annotation
 
 
 # instance fields

@@ -9,7 +9,16 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lh5/d$a;,
+        Lh5/d$d;,
+        Lh5/d$e;,
+        Lh5/d$f;,
+        Lh5/d$b;,
+        Lh5/d$c;
+    }
+.end annotation
 
 
 # static fields

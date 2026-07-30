@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lv1/d;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lv1/d$c$a;,
+        Lv1/d$c$b;,
+        Lv1/d$c$c;,
+        Lv1/d$c$d;
+    }
+.end annotation
 
 
 # static fields

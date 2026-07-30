@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/aead/AesGcmSivParameters$Builder;,
+        Lcom/google/crypto/tink/aead/AesGcmSivParameters$Variant;
+    }
+.end annotation
 
 
 # instance fields

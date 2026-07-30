@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$WebViewMediaIntegrityApiStatus;,
+        Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$AttributionBehavior;,
+        Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$WebAuthnSupport;,
+        Lorg/chromium/support_lib_boundary/WebSettingsBoundaryInterface$ForceDarkBehavior;
+    }
+.end annotation
 
 
 # virtual methods

@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/transition/MaterialVisibility<",
+        "Lcom/google/android/material/transition/FadeProvider;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

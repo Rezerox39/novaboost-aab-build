@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo6/h;->d(Ljava/lang/String;Lo6/i;[Lo6/e;Ls5/k;ILjava/lang/Object;)Lo6/e;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
 
 
 # static fields

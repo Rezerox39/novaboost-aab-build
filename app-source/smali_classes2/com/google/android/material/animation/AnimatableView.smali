@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/animation/AnimatableView$Listener;
+    }
+.end annotation
 
 
 # virtual methods

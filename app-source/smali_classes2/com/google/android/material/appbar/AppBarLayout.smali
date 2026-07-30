@@ -7,7 +7,19 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/appbar/AppBarLayout$CompressChildScrollEffect;,
+        Lcom/google/android/material/appbar/AppBarLayout$ChildScrollEffect;,
+        Lcom/google/android/material/appbar/AppBarLayout$ScrollingViewBehavior;,
+        Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;,
+        Lcom/google/android/material/appbar/AppBarLayout$Behavior;,
+        Lcom/google/android/material/appbar/AppBarLayout$LayoutParams;,
+        Lcom/google/android/material/appbar/AppBarLayout$LiftOnScrollListener;,
+        Lcom/google/android/material/appbar/AppBarLayout$OnOffsetChangedListener;,
+        Lcom/google/android/material/appbar/AppBarLayout$BaseOnOffsetChangedListener;
+    }
+.end annotation
 
 
 # static fields

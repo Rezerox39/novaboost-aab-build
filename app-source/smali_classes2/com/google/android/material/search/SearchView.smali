@@ -8,7 +8,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/search/SearchView$SavedState;,
+        Lcom/google/android/material/search/SearchView$TransitionState;,
+        Lcom/google/android/material/search/SearchView$TransitionListener;,
+        Lcom/google/android/material/search/SearchView$Behavior;
+    }
+.end annotation
 
 
 # static fields

@@ -8,9 +8,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/LazyStringArrayList$ByteStringListView;,
+        Lcom/google/crypto/tink/shaded/protobuf/LazyStringArrayList$ByteArrayListView;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/AbstractProtobufList<",
+        "Ljava/lang/String;",
+        ">;",
+        "Lcom/google/crypto/tink/shaded/protobuf/LazyStringList;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,7 +7,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/navigation/NavigationBarItemView$ActiveIndicatorUnlabeledTransform;,
+        Lcom/google/android/material/navigation/NavigationBarItemView$ActiveIndicatorTransform;
+    }
+.end annotation
 
 
 # static fields

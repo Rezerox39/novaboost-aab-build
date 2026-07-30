@@ -7,11 +7,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/LazyStringArrayList;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ByteArrayListView"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/AbstractList<",
+        "[B>;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
 
 
 # instance fields

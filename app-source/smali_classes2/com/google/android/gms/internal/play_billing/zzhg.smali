@@ -4,7 +4,17 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<MessageType:",
+        "Lcom/google/android/gms/internal/play_billing/zzhk<",
+        "TMessageType;TBuilderType;>;BuilderType:",
+        "Lcom/google/android/gms/internal/play_billing/zzhg<",
+        "TMessageType;TBuilderType;>;>",
+        "Lcom/google/android/gms/internal/play_billing/zzfu<",
+        "TMessageType;TBuilderType;>;"
+    }
+.end annotation
 
 
 # instance fields

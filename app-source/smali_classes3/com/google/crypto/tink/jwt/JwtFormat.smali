@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/jwt/JwtFormat$Parts;
+    }
+.end annotation
 
 
 # direct methods

@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/color/utilities/QuantizerWsmeans;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Distance"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/lang/Comparable<",
+        "Lcom/google/android/material/color/utilities/QuantizerWsmeans$Distance;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

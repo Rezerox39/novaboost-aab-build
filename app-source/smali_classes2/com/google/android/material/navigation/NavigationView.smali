@@ -7,7 +7,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/navigation/NavigationView$SavedState;,
+        Lcom/google/android/material/navigation/NavigationView$OnNavigationItemSelectedListener;
+    }
+.end annotation
 
 
 # static fields

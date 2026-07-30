@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/android/material/color/utilities/Variant;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/motion/MaterialBackOrchestrator$Api33BackCallbackDelegate;,
+        Lcom/google/android/material/motion/MaterialBackOrchestrator$Api34BackCallbackDelegate;,
+        Lcom/google/android/material/motion/MaterialBackOrchestrator$BackCallbackDelegate;
+    }
+.end annotation
 
 
 # instance fields

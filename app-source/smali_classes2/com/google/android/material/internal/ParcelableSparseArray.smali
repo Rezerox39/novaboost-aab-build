@@ -7,7 +7,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroid/util/SparseArray<",
+        "Landroid/os/Parcelable;",
+        ">;",
+        "Landroid/os/Parcelable;"
+    }
+.end annotation
 
 
 # static fields

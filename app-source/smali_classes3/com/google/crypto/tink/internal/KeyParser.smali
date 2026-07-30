@@ -4,9 +4,20 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/internal/KeyParser$KeyParsingFunction;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<SerializationT::",
+        "Lcom/google/crypto/tink/internal/Serialization;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # instance fields

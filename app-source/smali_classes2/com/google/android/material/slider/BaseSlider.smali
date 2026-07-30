@@ -4,9 +4,29 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/slider/BaseSlider$AccessibilityHelper;,
+        Lcom/google/android/material/slider/BaseSlider$SliderState;,
+        Lcom/google/android/material/slider/BaseSlider$AccessibilityEventSender;,
+        Lcom/google/android/material/slider/BaseSlider$FullCornerDirection;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<S:",
+        "Lcom/google/android/material/slider/BaseSlider<",
+        "TS;T",
+        "L;",
+        "TT;>;",
+        "L::Lcom/google/android/material/slider/BaseOnChangeListener<",
+        "TS;>;T::",
+        "Lcom/google/android/material/slider/BaseOnSliderTouchListener<",
+        "TS;>;>",
+        "Landroid/view/View;"
+    }
+.end annotation
 
 
 # static fields

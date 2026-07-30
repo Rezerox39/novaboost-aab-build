@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/j2objc/annotations/ReflectionSupport;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "Level"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/j2objc/annotations/ReflectionSupport$Level;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

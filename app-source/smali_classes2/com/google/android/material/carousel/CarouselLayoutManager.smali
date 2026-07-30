@@ -8,7 +8,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/carousel/CarouselLayoutManager$DebugItemDecoration;,
+        Lcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;,
+        Lcom/google/android/material/carousel/CarouselLayoutManager$LayoutDirection;,
+        Lcom/google/android/material/carousel/CarouselLayoutManager$ChildCalculations;
+    }
+.end annotation
 
 
 # static fields

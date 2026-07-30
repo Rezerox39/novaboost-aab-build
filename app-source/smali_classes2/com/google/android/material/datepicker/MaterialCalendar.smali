@@ -4,9 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/datepicker/MaterialCalendar$OnDayClickListener;,
+        Lcom/google/android/material/datepicker/MaterialCalendar$CalendarSelector;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<S:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/material/datepicker/PickerFragment<",
+        "TS;>;"
+    }
+.end annotation
 
 
 # static fields

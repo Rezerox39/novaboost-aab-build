@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/Writer;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "FieldOrder"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/crypto/tink/shaded/protobuf/Writer$FieldOrder;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/color/utilities/Score$ScoredComparator;,
+        Lcom/google/android/material/color/utilities/Score$ScoredHCT;
+    }
+.end annotation
 
 
 # static fields

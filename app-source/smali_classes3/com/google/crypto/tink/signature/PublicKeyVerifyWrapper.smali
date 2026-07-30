@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/signature/PublicKeyVerifyWrapper$WrappedPublicKeyVerify;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/crypto/tink/PrimitiveWrapper<",
+        "Lcom/google/crypto/tink/PublicKeyVerify;",
+        "Lcom/google/crypto/tink/PublicKeyVerify;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

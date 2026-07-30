@@ -4,7 +4,15 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<S:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/material/datepicker/PickerFragment<",
+        "TS;>;"
+    }
+.end annotation
 
 
 # static fields

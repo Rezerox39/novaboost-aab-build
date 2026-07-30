@@ -4,7 +4,17 @@
 
 
 # annotations
+.annotation runtime Lcom/google/crypto/tink/shaded/protobuf/CheckReturnValue;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/UnknownFieldSchema<",
+        "Lcom/google/crypto/tink/shaded/protobuf/UnknownFieldSetLite;",
+        "Lcom/google/crypto/tink/shaded/protobuf/UnknownFieldSetLite;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

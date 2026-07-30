@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/PrimitiveSet;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Prefix"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/lang/Comparable<",
+        "Lcom/google/crypto/tink/PrimitiveSet$Prefix;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

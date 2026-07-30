@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/material/progressindicator/DrawingDelegate<",
+        "Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

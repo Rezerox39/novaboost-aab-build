@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/internal/JsonParser$JsonElementTypeAdapter;,
+        Lcom/google/crypto/tink/internal/JsonParser$LazilyParsedNumber;
+    }
+.end annotation
 
 
 # static fields

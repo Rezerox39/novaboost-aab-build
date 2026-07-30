@@ -7,9 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/Field$Builder;,
+        Lcom/google/crypto/tink/shaded/protobuf/Field$Cardinality;,
+        Lcom/google/crypto/tink/shaded/protobuf/Field$Kind;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "Lcom/google/crypto/tink/shaded/protobuf/Field;",
+        "Lcom/google/crypto/tink/shaded/protobuf/Field$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/shaded/protobuf/FieldOrBuilder;"
+    }
+.end annotation
 
 
 # static fields

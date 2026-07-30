@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/gms/common/internal/GmsClient<",
+        "Lcom/google/android/gms/internal/location/zzam;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/Value;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "KindCase"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/crypto/tink/shaded/protobuf/Value$KindCase;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

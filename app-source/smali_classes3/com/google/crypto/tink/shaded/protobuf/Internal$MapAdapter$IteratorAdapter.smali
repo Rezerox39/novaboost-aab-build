@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/shaded/protobuf/Internal$MapAdapter;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "IteratorAdapter"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Iterator<",
+        "Ljava/util/Map$Entry<",
+        "TK;TV;>;>;"
+    }
+.end annotation
 
 
 # instance fields

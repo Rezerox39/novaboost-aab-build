@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/search/SearchBar$SavedState;,
+        Lcom/google/android/material/search/SearchBar$OnLoadAnimationCallback;,
+        Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;
+    }
+.end annotation
 
 
 # static fields

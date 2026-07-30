@@ -7,11 +7,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/proto/HmacKeyFormat;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
+        "Lcom/google/crypto/tink/proto/HmacKeyFormat;",
+        "Lcom/google/crypto/tink/proto/HmacKeyFormat$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/HmacKeyFormatOrBuilder;"
+    }
+.end annotation
 
 
 # direct methods

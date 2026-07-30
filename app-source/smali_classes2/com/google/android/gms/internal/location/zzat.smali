@@ -7,7 +7,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/android/gms/common/api/internal/ListenerHolder$Notifier<",
+        "Lcom/google/android/gms/location/LocationListener;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

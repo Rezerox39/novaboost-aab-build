@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/internal/StateListAnimator$Tuple;
+    }
+.end annotation
 
 
 # instance fields

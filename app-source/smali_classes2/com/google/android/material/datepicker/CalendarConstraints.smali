@@ -7,7 +7,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/datepicker/CalendarConstraints$Builder;,
+        Lcom/google/android/material/datepicker/CalendarConstraints$DateValidator;
+    }
+.end annotation
 
 
 # static fields

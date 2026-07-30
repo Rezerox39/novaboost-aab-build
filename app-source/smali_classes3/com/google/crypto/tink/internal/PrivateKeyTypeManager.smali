@@ -4,7 +4,20 @@
 
 
 # annotations
+.annotation build Lcom/google/crypto/tink/annotations/Alpha;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<KeyProtoT::",
+        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
+        "PublicKeyProtoT::",
+        "Lcom/google/crypto/tink/shaded/protobuf/MessageLite;",
+        ">",
+        "Lcom/google/crypto/tink/internal/KeyTypeManager<",
+        "TKeyProtoT;>;"
+    }
+.end annotation
 
 
 # instance fields

@@ -4,9 +4,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/FieldSet$Builder;,
+        Lcom/google/crypto/tink/shaded/protobuf/FieldSet$FieldDescriptorLite;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Lcom/google/crypto/tink/shaded/protobuf/FieldSet$FieldDescriptorLite<",
+        "TT;>;>",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,7 +7,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lu1/h$a;,
+        Lu1/h$b;,
+        Lu1/h$c;
+    }
+.end annotation
 
 
 # virtual methods

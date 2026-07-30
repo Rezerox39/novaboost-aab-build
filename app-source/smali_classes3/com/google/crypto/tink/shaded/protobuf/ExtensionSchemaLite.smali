@@ -4,7 +4,16 @@
 
 
 # annotations
+.annotation runtime Lcom/google/crypto/tink/shaded/protobuf/CheckReturnValue;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/ExtensionSchema<",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtensionDescriptor;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

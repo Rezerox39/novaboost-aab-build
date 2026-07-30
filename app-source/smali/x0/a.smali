@@ -4,4 +4,9 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lx0/a$b;,
+        Lx0/a$a;
+    }
+.end annotation

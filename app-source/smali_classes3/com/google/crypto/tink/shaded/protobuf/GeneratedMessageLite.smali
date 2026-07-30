@@ -4,9 +4,31 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$SerializedForm;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$GeneratedExtension;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtensionDescriptor;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtendableBuilder;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtendableMessage;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$ExtendableMessageOrBuilder;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder;,
+        Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$MethodToInvoke;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<MessageType:",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite<",
+        "TMessageType;TBuilderType;>;BuilderType:",
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
+        "TMessageType;TBuilderType;>;>",
+        "Lcom/google/crypto/tink/shaded/protobuf/AbstractMessageLite<",
+        "TMessageType;TBuilderType;>;"
+    }
+.end annotation
 
 
 # static fields

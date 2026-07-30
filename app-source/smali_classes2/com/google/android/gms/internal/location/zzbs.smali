@@ -8,7 +8,18 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/gms/internal/location/zzbp<",
+        "TE;>;",
+        "Ljava/util/List<",
+        "TE;>;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
 
 
 # static fields

@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/crypto/tink/Registry$KeyDeriverContainer;
+    }
+.end annotation
 
 
 # static fields

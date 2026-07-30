@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/bottomappbar/BottomAppBar;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/android/material/animation/TransformationCallback<",
+        "Lcom/google/android/material/floatingactionbutton/FloatingActionButton;",
+        ">;"
+    }
+.end annotation
 
 
 # instance fields

@@ -7,11 +7,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/proto/JwtRsaSsaPssKeyFormat;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/shaded/protobuf/GeneratedMessageLite$Builder<",
+        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssKeyFormat;",
+        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssKeyFormat$Builder;",
+        ">;",
+        "Lcom/google/crypto/tink/proto/JwtRsaSsaPssKeyFormatOrBuilder;"
+    }
+.end annotation
 
 
 # direct methods

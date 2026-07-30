@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/color/utilities/Score;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ScoredComparator"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator<",
+        "Lcom/google/android/material/color/utilities/Score$ScoredHCT;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

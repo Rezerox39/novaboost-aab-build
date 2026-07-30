@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/crypto/tink/jwt/JwtRsaSsaPkcs1SignKeyManager;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "JwtPublicKeySignFactory"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/crypto/tink/internal/PrimitiveFactory<",
+        "Lcom/google/crypto/tink/jwt/JwtPublicKeySignInternal;",
+        "Lcom/google/crypto/tink/proto/JwtRsaSsaPkcs1PrivateKey;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

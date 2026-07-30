@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/internal/MaterialCheckable$OnCheckedChangeListener;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Lcom/google/android/material/internal/MaterialCheckable<",
+        "TT;>;>",
+        "Ljava/lang/Object;",
+        "Landroid/widget/Checkable;"
+    }
+.end annotation
 
 
 # virtual methods

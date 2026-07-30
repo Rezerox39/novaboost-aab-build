@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/snackbar/SnackbarManager$SnackbarRecord;,
+        Lcom/google/android/material/snackbar/SnackbarManager$Callback;
+    }
+.end annotation
 
 
 # static fields

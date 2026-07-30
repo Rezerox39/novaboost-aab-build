@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/carousel/KeylineState$Keyline;,
+        Lcom/google/android/material/carousel/KeylineState$Builder;
+    }
+.end annotation
 
 
 # instance fields

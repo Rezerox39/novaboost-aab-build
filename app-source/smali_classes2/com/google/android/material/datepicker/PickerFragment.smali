@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<S:",
+        "Ljava/lang/Object;",
+        ">",
+        "Landroidx/fragment/app/Fragment;"
+    }
+.end annotation
 
 
 # instance fields

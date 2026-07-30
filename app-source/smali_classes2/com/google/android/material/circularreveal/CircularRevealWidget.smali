@@ -7,7 +7,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/material/circularreveal/CircularRevealWidget$CircularRevealScrimColorProperty;,
+        Lcom/google/android/material/circularreveal/CircularRevealWidget$CircularRevealEvaluator;,
+        Lcom/google/android/material/circularreveal/CircularRevealWidget$CircularRevealProperty;,
+        Lcom/google/android/material/circularreveal/CircularRevealWidget$RevealInfo;
+    }
+.end annotation
 
 
 # virtual methods

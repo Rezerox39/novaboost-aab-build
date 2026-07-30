@@ -4,9 +4,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/motion/MaterialBackOrchestrator;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "BackCallbackDelegate"
+.end annotation
 
 
 # virtual methods

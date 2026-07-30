@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/gms/common/api/Api$AbstractClientBuilder<",
+        "Lcom/google/android/gms/internal/location/zzaz;",
+        "Lcom/google/android/gms/common/api/Api$ApiOptions$NoOptions;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

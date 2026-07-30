@@ -4,7 +4,15 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<TResult:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/gms/tasks/Task<",
+        "TTResult;>;"
+    }
+.end annotation
 
 
 # instance fields

@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/stepstone/apprating/ratingbar/CustomRatingBar$a;
+    }
+.end annotation
 
 
 # instance fields

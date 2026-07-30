@@ -7,9 +7,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lm5/f;
+        c = ""
+        f = ""
+        i = {}
+        l = {}
+        m = ""
+        n = {}
+        s = {}
+        v = 0x1
+    .end subannotation
+.end annotation
 
-
-
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
 
 # virtual methods
