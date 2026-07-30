@@ -1,6 +1,10 @@
 name: Build NovaBoost AAB
 
 on:
+
+permissions:
+  contents: write
+  actions: read
   push:
     branches: [main]
   workflow_dispatch:
