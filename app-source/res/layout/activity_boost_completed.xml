@@ -24,8 +24,8 @@
     </LinearLayout>
     <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/loadingContainer" android:background="@drawable/bg_progress" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
         <ProgressBar android:id="@id/boostingLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
-        <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/boostingLoading" android:layout_centerHorizontal="true" app:shimmer_duration="4000">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/boostingLoading" android:layout_centerHorizontal="true">
             <TextView android:textSize="18.0sp" android:fontFamily="monospace" android:textColor="@color/white" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boosting_android_system" />
-        </com.facebook.shimmer.ShimmerFrameLayout>
+        </FrameLayout>
     </RelativeLayout>
 </RelativeLayout>

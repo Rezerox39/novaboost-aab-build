@@ -48,9 +48,9 @@
     <!-- Loading Overlay -->
     <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/loadingContainer" android:background="@drawable/bg_cyber_status" android:padding="24dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
         <ProgressBar android:id="@id/boostingLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:indeterminateTint="#ff00e676" />
-        <com.facebook.shimmer.ShimmerFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/boostingLoading" android:layout_centerHorizontal="true" app:shimmer_duration="4000">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/boostingLoading" android:layout_centerHorizontal="true">
             <TextView android:textSize="14sp" android:textColor="#ff00e676" android:fontFamily="monospace" android:letterSpacing="0.08" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boosting_android_system" />
-        </com.facebook.shimmer.ShimmerFrameLayout>
+        </FrameLayout>
     </RelativeLayout>
 
     <!-- Version -->

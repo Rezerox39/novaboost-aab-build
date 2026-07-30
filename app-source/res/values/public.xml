@@ -5078,9 +5078,7 @@
     <public type="layout" name="mtrl_picker_text_input_date_range" id="0x7f0c0094" />
     <public type="layout" name="mtrl_search_bar" id="0x7f0c0095" />
     <public type="layout" name="mtrl_search_view" id="0x7f0c0096" />
-    <public type="layout" name="native_ad_fan_list_item" id="0x7f0c0097" />
     <public type="layout" name="native_ad_list_item" id="0x7f0c0098" />
-    <public type="layout" name="native_ad_unit" id="0x7f0c0099" />
     <public type="layout" name="notification_action" id="0x7f0c009b" />
     <public type="layout" name="notification_action_tombstone" id="0x7f0c009c" />
     <public type="layout" name="notification_media_action" id="0x7f0c009d" />
