@@ -64,7 +64,6 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Ln3/a;->l()Ln3/a;
 
     .line 2
     .line 3
@@ -76,7 +75,6 @@
 
     .line 6
     .line 7
-    invoke-static {v1}, Lcom/novaboost/gaming/boost/BoostActivity;->R(Lcom/novaboost/gaming/boost/BoostActivity;)Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 8
     .line 9
@@ -93,7 +91,6 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, v1, v2, v3}, Ln3/a;->q(Landroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;Ln3/a$e;)V
 
     .line 17
     .line 18

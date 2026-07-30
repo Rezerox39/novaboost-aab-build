@@ -315,7 +315,6 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Ln3/b;->n()Ln3/b;
 
     .line 2
     .line 3
@@ -323,7 +322,6 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 6
     .line 7
@@ -339,7 +337,6 @@
     const/4 v3, 0x1
 
     .line 13
-    invoke-virtual {v0, v3, p0, v1, v2}, Ln3/b;->s(ZLandroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;Ln3/b$g;)V
 
     .line 14
     .line 15
@@ -357,7 +354,6 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Ln3/b;->n()Ln3/b;
 
     .line 2
     .line 3
@@ -365,7 +361,6 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 6
     .line 7
@@ -381,7 +376,6 @@
     const/4 v3, 0x0
 
     .line 13
-    invoke-virtual {v0, v3, p0, v1, v2}, Ln3/b;->s(ZLandroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;Ln3/b$g;)V
 
     .line 14
     .line 15

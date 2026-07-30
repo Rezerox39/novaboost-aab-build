@@ -874,7 +874,6 @@
 
     .line 18
     .line 19
-    invoke-static {p1, p2}, Lcom/google/android/gms/ads/internal/util/d;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 20
     .line 21
@@ -2676,7 +2675,6 @@
 
     .line 209
     .line 210
-    invoke-static {v5, v1}, Lcom/google/android/gms/ads/internal/util/d;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 211
     .line 212

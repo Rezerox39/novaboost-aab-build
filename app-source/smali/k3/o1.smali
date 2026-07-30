@@ -3,7 +3,6 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/datatransport/Transformer;
 
 
 # direct methods

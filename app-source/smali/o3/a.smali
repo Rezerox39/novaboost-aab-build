@@ -7,7 +7,6 @@
 
 
 # instance fields
-.field public a:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
 .field public b:Landroid/widget/TextView;
 
@@ -91,7 +90,6 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Lo3/a;->a:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 2
     .line 3
@@ -99,7 +97,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -944,7 +941,6 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getInstance()Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 5
     .line 6
@@ -952,7 +948,6 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Lo3/a;->a:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 9
     .line 10
@@ -960,7 +955,6 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, p2}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14

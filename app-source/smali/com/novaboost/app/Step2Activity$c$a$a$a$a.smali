@@ -64,7 +64,6 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Ln3/a;->l()Ln3/a;
 
     .line 2
     .line 3
@@ -92,7 +91,6 @@
 
     .line 14
     .line 15
-    iget-object v2, v1, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 16
     .line 17
@@ -105,7 +103,6 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, v1, v2, v3}, Ln3/a;->q(Landroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;Ln3/a$e;)V
 
     .line 23
     .line 24

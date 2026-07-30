@@ -12,7 +12,6 @@
 
 .field public d:Ljava/util/List;
 
-.field public e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
 
 # direct methods
@@ -136,7 +135,6 @@
     const/4 v0, 0x2
 
     .line 21
-    invoke-static {p1, v0}, Lcom/applovin/impl/e9;->a(Landroid/view/WindowInsetsController;I)V
 
     .line 22
     .line 23
@@ -219,11 +217,9 @@
     .locals 3
 
     .line 1
-    new-instance v0, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;-><init>()V
 
     .line 4
     .line 5
@@ -232,7 +228,6 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1, v2}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;->setMinimumFetchIntervalInSeconds(J)Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;
 
     .line 9
     .line 10
@@ -240,7 +235,6 @@
     move-result-object v0
 
     .line 12
-    invoke-virtual {v0}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings$Builder;->build()Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings;
 
     .line 13
     .line 14
@@ -248,16 +242,13 @@
     move-result-object v0
 
     .line 16
-    iget-object v1, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 17
     .line 18
-    invoke-virtual {v1, v0}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->setConfigSettingsAsync(Lcom/google/firebase/remoteconfig/FirebaseRemoteConfigSettings;)Lcom/google/android/gms/tasks/Task;
 
     .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 22
     .line 23
@@ -266,16 +257,13 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->setDefaultsAsync(I)Lcom/google/android/gms/tasks/Task;
 
     .line 27
     .line 28
     .line 29
-    iget-object v0, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 30
     .line 31
-    invoke-virtual {v0}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->fetchAndActivate()Lcom/google/android/gms/tasks/Task;
 
     .line 32
     .line 33
@@ -474,7 +462,6 @@
     move-result-wide v0
 
     .line 9
-    iget-object v2, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 10
     .line 11
@@ -482,7 +469,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {v2, v3}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getLong(Ljava/lang/String;)J
 
     .line 14
     .line 15
@@ -599,7 +585,6 @@
     move-result-wide v0
 
     .line 9
-    iget-object v2, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 10
     .line 11
@@ -607,7 +592,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {v2, v3}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getLong(Ljava/lang/String;)J
 
     .line 14
     .line 15
@@ -1593,7 +1577,6 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getInstance()Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 5
     .line 6
@@ -1601,7 +1584,6 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 9
     .line 10

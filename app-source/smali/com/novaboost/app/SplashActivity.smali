@@ -220,7 +220,6 @@
     const/4 v0, 0x2
 
     .line 21
-    invoke-static {p1, v0}, Lcom/applovin/impl/e9;->a(Landroid/view/WindowInsetsController;I)V
 
     .line 22
     .line 23

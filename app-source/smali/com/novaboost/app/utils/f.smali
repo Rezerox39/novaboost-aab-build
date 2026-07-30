@@ -226,7 +226,6 @@
     move-result-object v1
 
     .line 67
-    invoke-static {v1}, Lcom/applovin/impl/f9;->a(Landroid/app/ActivityManager$RecentTaskInfo;)Landroid/content/ComponentName;
 
     .line 68
     .line 69

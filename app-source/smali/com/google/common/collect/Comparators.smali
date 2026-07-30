@@ -212,7 +212,6 @@
     move-result-object p0
 
     .line 13
-    invoke-static {v0, p0}, Lcom/google/android/gms/measurement/internal/f;->a(Ljava/util/function/Function;Ljava/util/Comparator;)Ljava/util/Comparator;
 
     .line 14
     .line 15
@@ -273,7 +272,6 @@
     move-result-object p0
 
     .line 13
-    invoke-static {v0, p0}, Lcom/google/android/gms/measurement/internal/f;->a(Ljava/util/function/Function;Ljava/util/Comparator;)Ljava/util/Comparator;
 
     .line 14
     .line 15

@@ -3,7 +3,6 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/applovin/sdk/AppLovinCmpService$OnCompletedListener;
 
 
 # annotations
@@ -60,7 +59,6 @@
 
 
 # virtual methods
-.method public onCompleted(Lcom/applovin/sdk/AppLovinCmpError;)V
     .locals 1
 
     .line 1
@@ -101,4 +99,3 @@
     .line 24
     .line 25
     .line 26
-.end method

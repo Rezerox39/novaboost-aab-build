@@ -99,11 +99,9 @@
     return-void
 .end method
 
-.method public static bridge synthetic P(Lcom/novaboost/gaming/gametray/GameTrayActivity;Lcom/revenuecat/purchases/CustomerInfo;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/novaboost/gaming/gametray/GameTrayActivity;->Y(Lcom/revenuecat/purchases/CustomerInfo;)V
 
     return-void
 .end method
@@ -1097,11 +1095,9 @@
     return-void
 .end method
 
-.method public final Y(Lcom/revenuecat/purchases/CustomerInfo;)V
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Lcom/revenuecat/purchases/CustomerInfo;->getEntitlements()Lcom/revenuecat/purchases/EntitlementInfos;
 
     .line 2
     .line 3
@@ -1113,7 +1109,6 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Lcom/revenuecat/purchases/EntitlementInfos;->get(Ljava/lang/String;)Lcom/revenuecat/purchases/EntitlementInfo;
 
     .line 8
     .line 9
@@ -1125,7 +1120,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/revenuecat/purchases/EntitlementInfo;->isActive()Z
 
     .line 14
     .line 15
@@ -1231,7 +1225,6 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcom/revenuecat/purchases/Purchases;->getSharedInstance()Lcom/revenuecat/purchases/Purchases;
 
     .line 2
     .line 3
@@ -1248,7 +1241,6 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Lcom/revenuecat/purchases/Purchases;->getCustomerInfo(Lcom/revenuecat/purchases/interfaces/ReceiveCustomerInfoCallback;)V
 
     .line 11
     .line 12
@@ -1895,7 +1887,6 @@
     move-result v0
 
     .line 9
-    iget-object v1, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 10
     .line 11
@@ -1903,7 +1894,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1, v2}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getLong(Ljava/lang/String;)J
 
     .line 14
     .line 15
@@ -2194,7 +2184,6 @@
     .line 39
     .line 40
     .line 41
-    invoke-static {}, Lcom/revenuecat/purchases/Purchases;->getSharedInstance()Lcom/revenuecat/purchases/Purchases;
 
     .line 42
     .line 43
@@ -2202,7 +2191,6 @@
     move-result-object v0
 
     .line 45
-    invoke-virtual {v0}, Lcom/revenuecat/purchases/Purchases;->syncPurchases()V
 
     .line 46
     .line 47
@@ -2248,7 +2236,6 @@
     .locals 2
 
     .line 1
-    invoke-static {p0}, Lcom/applovin/sdk/AppLovinSdk;->getInstance(Landroid/content/Context;)Lcom/applovin/sdk/AppLovinSdk;
 
     .line 2
     .line 3
@@ -2256,7 +2243,6 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/applovin/sdk/AppLovinSdk;->getCmpService()Lcom/applovin/sdk/AppLovinCmpService;
 
     .line 6
     .line 7
@@ -2273,7 +2259,6 @@
     .line 12
     .line 13
     .line 14
-    invoke-interface {v0, p0, v1}, Lcom/applovin/sdk/AppLovinCmpService;->showCmpForExistingUser(Landroid/app/Activity;Lcom/applovin/sdk/AppLovinCmpService$OnCompletedListener;)V
 
     .line 15
     .line 16
@@ -2290,7 +2275,6 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 2
     .line 3
@@ -2298,7 +2282,6 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getLong(Ljava/lang/String;)J
 
     .line 6
     .line 7
@@ -2306,7 +2289,6 @@
     move-result-wide v0
 
     .line 9
-    iget-object v2, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 10
     .line 11
@@ -2314,7 +2296,6 @@
 
     .line 12
     .line 13
-    invoke-virtual {v2, v3}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -3195,7 +3176,6 @@
     .line 239
     .line 240
     .line 241
-    invoke-static {}, Ln3/a;->l()Ln3/a;
 
     .line 242
     .line 243
@@ -3203,16 +3183,13 @@
     move-result-object p1
 
     .line 245
-    iget-object v0, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 246
     .line 247
-    invoke-virtual {p1, p0, v0}, Ln3/a;->m(Landroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
 
     .line 248
     .line 249
     .line 250
-    invoke-static {}, Ln3/b;->n()Ln3/b;
 
     .line 251
     .line 252
@@ -3220,11 +3197,9 @@
     move-result-object p1
 
     .line 254
-    iget-object v0, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 255
     .line 256
-    invoke-virtual {p1, p0, v0}, Ln3/b;->o(Landroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;)V
 
     .line 257
     .line 258
@@ -3306,7 +3281,6 @@
     .line 329
     .line 330
     .line 331
-.end method
 
 .method public onResume()V
     .locals 0
@@ -3344,4 +3318,3 @@
     .line 20
     .line 21
     .line 22
-.end method

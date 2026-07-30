@@ -6,7 +6,6 @@
 # instance fields
 .field public a:Z
 
-.field public b:Lcom/google/android/datatransport/Transport;
 
 
 # direct methods
@@ -20,12 +19,10 @@
     .line 3
     .line 4
     :try_start_0
-    invoke-static {p1}, Lcom/google/android/datatransport/runtime/TransportRuntime;->initialize(Landroid/content/Context;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-static {}, Lcom/google/android/datatransport/runtime/TransportRuntime;->getInstance()Lcom/google/android/datatransport/runtime/TransportRuntime;
 
     .line 8
     .line 9
@@ -33,11 +30,9 @@
     move-result-object p1
 
     .line 11
-    sget-object v0, Lcom/google/android/datatransport/cct/CCTDestination;->INSTANCE:Lcom/google/android/datatransport/cct/CCTDestination;
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Lcom/google/android/datatransport/runtime/TransportRuntime;->newFactory(Lcom/google/android/datatransport/runtime/Destination;)Lcom/google/android/datatransport/TransportFactory;
 
     .line 14
     .line 15
@@ -57,7 +52,6 @@
 
     .line 22
     .line 23
-    invoke-static {v2}, Lcom/google/android/datatransport/Encoding;->of(Ljava/lang/String;)Lcom/google/android/datatransport/Encoding;
 
     .line 24
     .line 25
@@ -74,7 +68,6 @@
     .line 30
     .line 31
     .line 32
-    invoke-interface {p1, v0, v1, v2, v3}, Lcom/google/android/datatransport/TransportFactory;->getTransport(Ljava/lang/String;Ljava/lang/Class;Lcom/google/android/datatransport/Encoding;Lcom/google/android/datatransport/Transformer;)Lcom/google/android/datatransport/Transport;
 
     .line 33
     .line 34
@@ -82,7 +75,6 @@
     move-result-object p1
 
     .line 36
-    iput-object p1, p0, Lk3/p1;->b:Lcom/google/android/datatransport/Transport;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -175,11 +167,9 @@
     .line 13
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lk3/p1;->b:Lcom/google/android/datatransport/Transport;
 
     .line 14
     .line 15
-    invoke-static {p1}, Lcom/google/android/datatransport/Event;->ofData(Ljava/lang/Object;)Lcom/google/android/datatransport/Event;
 
     .line 16
     .line 17
@@ -187,7 +177,6 @@
     move-result-object p1
 
     .line 19
-    invoke-interface {v0, p1}, Lcom/google/android/datatransport/Transport;->send(Lcom/google/android/datatransport/Event;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

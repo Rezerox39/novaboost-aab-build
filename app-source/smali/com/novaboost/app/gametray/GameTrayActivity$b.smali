@@ -3,7 +3,6 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/revenuecat/purchases/interfaces/ReceiveCustomerInfoCallback;
 
 
 # annotations
@@ -60,11 +59,9 @@
 
 
 # virtual methods
-.method public onError(Lcom/revenuecat/purchases/PurchasesError;)V
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Lcom/revenuecat/purchases/PurchasesError;->getMessage()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -114,9 +111,7 @@
     .line 25
     .line 26
     return-void
-.end method
 
-.method public onReceived(Lcom/revenuecat/purchases/CustomerInfo;)V
     .locals 1
 
     .line 1
@@ -124,7 +119,6 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lcom/novaboost/gaming/gametray/GameTrayActivity;->P(Lcom/novaboost/gaming/gametray/GameTrayActivity;Lcom/revenuecat/purchases/CustomerInfo;)V
 
     .line 4
     .line 5
@@ -150,4 +144,3 @@
     .line 24
     .line 25
     .line 26
-.end method

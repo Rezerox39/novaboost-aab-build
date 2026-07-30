@@ -120,11 +120,9 @@
     return-void
 .end method
 
-.method public static synthetic R(Lcom/novaboost/gaming/boost/BoostActivity;)Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lm3/b;->e:Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 2
     .line 3
@@ -3175,4 +3173,3 @@
     .line 20
     .line 21
     .line 22
-.end method

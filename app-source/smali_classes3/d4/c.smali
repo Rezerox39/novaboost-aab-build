@@ -4,7 +4,6 @@
 
 
 # direct methods
-.method public static a(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/ProductDataResponse;)V
     .locals 0
 
     .line 1
@@ -95,9 +94,7 @@
     .line 81
     .line 82
     .line 83
-.end method
 
-.method public static b(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/PurchaseResponse;)V
     .locals 0
 
     .line 1
@@ -188,9 +185,7 @@
     .line 81
     .line 82
     .line 83
-.end method
 
-.method public static c(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/UserDataResponse;)V
     .locals 0
 
     .line 1
@@ -281,13 +276,10 @@
     .line 81
     .line 82
     .line 83
-.end method
 
-.method public static synthetic d(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/ProductDataResponse;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ld4/c;->a(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/ProductDataResponse;)V
 
     .line 2
     .line 3
@@ -372,13 +364,10 @@
     .line 81
     .line 82
     .line 83
-.end method
 
-.method public static synthetic e(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/PurchaseResponse;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ld4/c;->b(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/PurchaseResponse;)V
 
     .line 2
     .line 3
@@ -463,13 +452,10 @@
     .line 81
     .line 82
     .line 83
-.end method
 
-.method public static synthetic f(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/UserDataResponse;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ld4/c;->c(Lcom/revenuecat/purchases/amazon/listener/PurchaseUpdatesResponseListener;Lcom/amazon/device/iap/model/UserDataResponse;)V
 
     .line 2
     .line 3
@@ -554,4 +540,3 @@
     .line 81
     .line 82
     .line 83
-.end method

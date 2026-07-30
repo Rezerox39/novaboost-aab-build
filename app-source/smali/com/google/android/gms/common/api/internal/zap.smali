@@ -909,7 +909,6 @@
     const/4 p2, 0x0
 
     .line 9
-    invoke-static {p1, p2, v0}, Lcom/applovin/impl/sdk/i0;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 10
     .line 11
