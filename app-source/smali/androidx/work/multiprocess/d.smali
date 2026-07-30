@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/multiprocess/d$a;
+    }
+.end annotation
 
 
 # instance fields

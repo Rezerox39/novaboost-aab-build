@@ -8,7 +8,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/impl/foreground/a$b;
+    }
+.end annotation
 
 
 # static fields

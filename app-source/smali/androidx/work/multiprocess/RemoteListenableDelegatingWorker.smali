@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/multiprocess/RemoteListenableDelegatingWorker$a;
+    }
+.end annotation
 
 
 # static fields

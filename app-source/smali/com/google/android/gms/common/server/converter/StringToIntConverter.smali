@@ -7,9 +7,22 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "StringToIntConverterCreator"
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;",
+        "Lcom/google/android/gms/common/server/response/FastJsonResponse$FieldConverter<",
+        "Ljava/lang/String;",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,11 +7,29 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/base/Converter;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "ConverterComposition"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<A:",
+        "Ljava/lang/Object;",
+        "B:",
+        "Ljava/lang/Object;",
+        "C:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/base/Converter<",
+        "TA;TC;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

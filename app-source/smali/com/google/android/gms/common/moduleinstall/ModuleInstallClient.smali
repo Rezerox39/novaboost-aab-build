@@ -7,7 +7,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/android/gms/common/api/HasApiKey<",
+        "Lcom/google/android/gms/common/api/Api$ApiOptions$NoOptions;",
+        ">;"
+    }
+.end annotation
 
 
 # virtual methods

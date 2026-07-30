@@ -4,7 +4,12 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/internal/ShowFirstParty;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "FieldMapPairCreator"
+.end annotation
 
 
 # static fields

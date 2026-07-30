@@ -7,11 +7,25 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/AbstractMapBasedMultimap$AsMap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "AsMapIterator"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Iterator<",
+        "Ljava/util/Map$Entry<",
+        "TK;",
+        "Ljava/util/Collection<",
+        "TV;>;>;>;"
+    }
+.end annotation
 
 
 # instance fields

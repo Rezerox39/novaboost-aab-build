@@ -8,11 +8,34 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/AbstractBiMap$Inverse;,
+        Lcom/google/common/collect/AbstractBiMap$KeySet;,
+        Lcom/google/common/collect/AbstractBiMap$ValueSet;,
+        Lcom/google/common/collect/AbstractBiMap$EntrySet;,
+        Lcom/google/common/collect/AbstractBiMap$BiMapEntry;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingMap<",
+        "TK;TV;>;",
+        "Lcom/google/common/collect/BiMap<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

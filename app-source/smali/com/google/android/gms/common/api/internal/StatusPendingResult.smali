@@ -4,7 +4,16 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/gms/common/api/internal/BasePendingResult<",
+        "Lcom/google/android/gms/common/api/Status;",
+        ">;"
+    }
+.end annotation
 
 
 # direct methods

@@ -4,7 +4,15 @@
 
 
 # annotations
-
+.annotation runtime Lcom/google/errorprone/annotations/RestrictedInheritance;
+    allowedOnPath = ".*java.*/com/google/android/gms.*"
+    allowlistAnnotations = {
+        Lcom/google/android/gms/internal/base/zad;,
+        Lcom/google/android/gms/internal/base/zae;
+    }
+    explanation = "Sub classing of GMS Core\'s APIs are restricted to GMS Core client libs and testing fakes."
+    link = "go/gmscore-restrictedinheritance"
+.end annotation
 
 
 # static fields
@@ -866,6 +874,7 @@
 
     .line 18
     .line 19
+    invoke-static {p1, p2}, Lcom/google/android/gms/ads/internal/util/d;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 20
     .line 21
@@ -2667,6 +2676,7 @@
 
     .line 209
     .line 210
+    invoke-static {v5, v1}, Lcom/google/android/gms/ads/internal/util/d;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 211
     .line 212

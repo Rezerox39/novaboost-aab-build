@@ -4,9 +4,18 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "ApiMetadataCreator"
+.end annotation
 
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/api/ApiMetadata$Builder;
+    }
+.end annotation
 
 
 # static fields

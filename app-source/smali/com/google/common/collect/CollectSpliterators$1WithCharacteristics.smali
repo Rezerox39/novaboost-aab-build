@@ -7,11 +7,25 @@
 
 
 # annotations
+.annotation build Lcom/google/common/collect/IgnoreJRERequirement;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/common/collect/CollectSpliterators;->indexed(IILjava/util/function/IntFunction;Ljava/util/Comparator;)Ljava/util/Spliterator;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "WithCharacteristics"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Spliterator<",
+        "TT;>;"
+    }
+.end annotation
 
 
 # instance fields

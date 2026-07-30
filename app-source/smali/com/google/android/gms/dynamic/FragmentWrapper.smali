@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation build Landroid/annotation/SuppressLint;
+    value = {
+        "NewApi"
+    }
+.end annotation
 
 .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
 .end annotation

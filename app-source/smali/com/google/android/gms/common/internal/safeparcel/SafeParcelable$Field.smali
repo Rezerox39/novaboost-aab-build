@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Field;
+        defaultValue = "SAFE_PARCELABLE_NULL_STRING"
+        defaultValueUnchecked = "SAFE_PARCELABLE_NULL_STRING"
+        getter = "SAFE_PARCELABLE_NULL_STRING"
+        type = "SAFE_PARCELABLE_NULL_STRING"
+    .end subannotation
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2609
+    name = "Field"
+.end annotation
 
 
 # virtual methods

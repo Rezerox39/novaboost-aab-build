@@ -8,11 +8,34 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+    containerOf = {
+        "B"
+    }
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/ImmutableClassToInstanceMap$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<B:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingMap<",
+        "Ljava/lang/Class<",
+        "+TB;>;TB;>;",
+        "Lcom/google/common/collect/ClassToInstanceMap<",
+        "TB;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

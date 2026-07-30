@@ -8,7 +8,9 @@
 
 
 # annotations
-
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "StatusCreator"
+.end annotation
 
 
 # static fields

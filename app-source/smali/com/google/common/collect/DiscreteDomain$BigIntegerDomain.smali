@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/DiscreteDomain;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "BigIntegerDomain"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/DiscreteDomain<",
+        "Ljava/math/BigInteger;",
+        ">;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

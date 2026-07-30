@@ -7,9 +7,22 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    serializable = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<F:",
+        "Ljava/lang/Object;",
+        "T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Ordering<",
+        "TF;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/AbstractMapBasedMultimap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "WrappedSet"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/AbstractMapBasedMultimap<",
+        "TK;TV;>.WrappedCollection;",
+        "Ljava/util/Set<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # instance fields

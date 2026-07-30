@@ -4,15 +4,35 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/ShowFirstParty;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "FieldCreator"
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/gms/common/server/response/FastJsonResponse;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Field"
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<I:",
+        "Ljava/lang/Object;",
+        "O:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,4 +7,8 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/dynamic/IObjectWrapper$Stub;
+    }
+.end annotation

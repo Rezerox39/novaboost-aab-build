@@ -7,9 +7,39 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/AbstractMapBasedMultimap$WrappedCollection;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$RandomAccessWrappedList;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$WrappedList;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$KeySet;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$NavigableKeySet;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$SortedKeySet;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$AsMap;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$NavigableAsMap;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$SortedAsMap;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$Itr;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$WrappedNavigableSet;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$WrappedSortedSet;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$WrappedSet;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/AbstractMultimap<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

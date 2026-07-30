@@ -4,7 +4,18 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/CompactHashSet<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # static fields

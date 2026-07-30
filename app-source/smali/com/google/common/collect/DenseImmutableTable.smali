@@ -4,11 +4,40 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+    containerOf = {
+        "R",
+        "C",
+        "V"
+    }
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/DenseImmutableTable$RowMap;,
+        Lcom/google/common/collect/DenseImmutableTable$ColumnMap;,
+        Lcom/google/common/collect/DenseImmutableTable$Column;,
+        Lcom/google/common/collect/DenseImmutableTable$Row;,
+        Lcom/google/common/collect/DenseImmutableTable$ImmutableArrayMap;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<R:",
+        "Ljava/lang/Object;",
+        "C:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/RegularImmutableTable<",
+        "TR;TC;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

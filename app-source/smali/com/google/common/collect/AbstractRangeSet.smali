@@ -7,7 +7,19 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<C::",
+        "Ljava/lang/Comparable;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/collect/RangeSet<",
+        "TC;>;"
+    }
+.end annotation
 
 
 # direct methods

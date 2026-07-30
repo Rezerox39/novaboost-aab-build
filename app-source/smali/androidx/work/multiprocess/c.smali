@@ -7,7 +7,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/multiprocess/c$a;
+    }
+.end annotation
 
 
 # static fields

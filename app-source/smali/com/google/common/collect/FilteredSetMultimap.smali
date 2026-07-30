@@ -8,7 +8,23 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/collect/FilteredMultimap<",
+        "TK;TV;>;",
+        "Lcom/google/common/collect/SetMultimap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # virtual methods

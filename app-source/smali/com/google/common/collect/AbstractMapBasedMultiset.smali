@@ -7,11 +7,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/AbstractMapBasedMultiset$Itr;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/AbstractMultiset<",
+        "TE;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

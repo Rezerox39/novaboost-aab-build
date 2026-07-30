@@ -7,9 +7,29 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/ForwardingNavigableMap$StandardNavigableKeySet;,
+        Lcom/google/common/collect/ForwardingNavigableMap$StandardDescendingMap;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingSortedMap<",
+        "TK;TV;>;",
+        "Ljava/util/NavigableMap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # direct methods

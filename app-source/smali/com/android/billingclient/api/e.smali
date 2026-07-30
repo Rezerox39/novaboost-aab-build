@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/android/billingclient/api/e$a;
+    }
+.end annotation
 
 
 # instance fields

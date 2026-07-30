@@ -4,7 +4,9 @@
 
 
 # annotations
-
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "ConverterWrapperCreator"
+.end annotation
 
 
 # static fields

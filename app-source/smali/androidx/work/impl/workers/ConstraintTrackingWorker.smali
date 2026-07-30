@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/impl/workers/ConstraintTrackingWorker$a;
+    }
+.end annotation
 
 
 # instance fields

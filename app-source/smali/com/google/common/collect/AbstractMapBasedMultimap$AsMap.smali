@@ -4,13 +4,30 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/AbstractMapBasedMultimap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "AsMap"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/AbstractMapBasedMultimap$AsMap$AsMapEntries;,
+        Lcom/google/common/collect/AbstractMapBasedMultimap$AsMap$AsMapIterator;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/Maps$ViewCachingAbstractMap<",
+        "TK;",
+        "Ljava/util/Collection<",
+        "TV;>;>;"
+    }
+.end annotation
 
 
 # instance fields

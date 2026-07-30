@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/android/billingclient/api/a$b;,
+        Lcom/android/billingclient/api/a$a;
+    }
+.end annotation
 
 
 # direct methods

@@ -7,7 +7,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/SignInButton$ColorScheme;,
+        Lcom/google/android/gms/common/SignInButton$ButtonSize;
+    }
+.end annotation
 
 
 # static fields

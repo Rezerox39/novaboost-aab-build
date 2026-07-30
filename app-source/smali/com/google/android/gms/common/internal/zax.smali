@@ -4,7 +4,9 @@
 
 
 # annotations
-
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "SignInButtonConfigCreator"
+.end annotation
 
 
 # static fields

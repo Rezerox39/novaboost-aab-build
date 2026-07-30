@@ -7,9 +7,30 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/base/Converter$ReverseConverter;,
+        Lcom/google/common/base/Converter$ConverterComposition;,
+        Lcom/google/common/base/Converter$FunctionBasedConverter;,
+        Lcom/google/common/base/Converter$IdentityConverter;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<A:",
+        "Ljava/lang/Object;",
+        "B:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/base/Function<",
+        "TA;TB;>;"
+    }
+.end annotation
 
 
 # instance fields

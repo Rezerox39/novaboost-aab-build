@@ -8,11 +8,27 @@
 
 
 # annotations
+.annotation build Lcom/google/common/collect/IgnoreJRERequirement;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/common/collect/CollectSpliterators;->filter(Ljava/util/Spliterator;Ljava/util/function/Predicate;)Ljava/util/Spliterator;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "Splitr"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/Spliterator<",
+        "TT;>;",
+        "Ljava/util/function/Consumer<",
+        "TT;>;"
+    }
+.end annotation
 
 
 # instance fields

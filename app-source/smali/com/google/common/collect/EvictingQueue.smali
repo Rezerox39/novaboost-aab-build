@@ -7,7 +7,19 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingQueue<",
+        "TE;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

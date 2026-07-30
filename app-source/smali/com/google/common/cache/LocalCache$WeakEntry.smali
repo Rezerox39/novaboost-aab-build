@@ -7,11 +7,28 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/cache/LocalCache;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "WeakEntry"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/ref/WeakReference<",
+        "TK;>;",
+        "Lcom/google/common/cache/ReferenceEntry<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

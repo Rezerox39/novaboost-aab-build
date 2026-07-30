@@ -4,7 +4,11 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
 
 
 # static fields

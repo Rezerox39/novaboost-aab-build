@@ -7,9 +7,17 @@
 
 
 # annotations
+.annotation build Landroid/annotation/SuppressLint;
+    value = {
+        "BanParcelableUsage"
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/multiprocess/parcelable/ParcelableInterruptRequest$b;
+    }
+.end annotation
 
 
 # static fields

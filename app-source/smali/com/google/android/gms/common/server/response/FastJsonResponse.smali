@@ -4,9 +4,18 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/internal/ShowFirstParty;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;,
+        Lcom/google/android/gms/common/server/response/FastJsonResponse$FieldConverter;
+    }
+.end annotation
 
 
 # direct methods

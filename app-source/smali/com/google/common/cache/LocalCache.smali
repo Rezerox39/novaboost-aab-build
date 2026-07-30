@@ -7,11 +7,64 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/cache/LocalCache$Strength;,
+        Lcom/google/common/cache/LocalCache$EntryFactory;,
+        Lcom/google/common/cache/LocalCache$Segment;,
+        Lcom/google/common/cache/LocalCache$ValueReference;,
+        Lcom/google/common/cache/LocalCache$NullEntry;,
+        Lcom/google/common/cache/LocalCache$KeySet;,
+        Lcom/google/common/cache/LocalCache$Values;,
+        Lcom/google/common/cache/LocalCache$EntrySet;,
+        Lcom/google/common/cache/LocalCache$LocalLoadingCache;,
+        Lcom/google/common/cache/LocalCache$LocalManualCache;,
+        Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;,
+        Lcom/google/common/cache/LocalCache$ManualSerializationProxy;,
+        Lcom/google/common/cache/LocalCache$AbstractCacheSet;,
+        Lcom/google/common/cache/LocalCache$EntryIterator;,
+        Lcom/google/common/cache/LocalCache$WriteThroughEntry;,
+        Lcom/google/common/cache/LocalCache$ValueIterator;,
+        Lcom/google/common/cache/LocalCache$KeyIterator;,
+        Lcom/google/common/cache/LocalCache$HashIterator;,
+        Lcom/google/common/cache/LocalCache$AccessQueue;,
+        Lcom/google/common/cache/LocalCache$WriteQueue;,
+        Lcom/google/common/cache/LocalCache$LoadingValueReference;,
+        Lcom/google/common/cache/LocalCache$WeightedStrongValueReference;,
+        Lcom/google/common/cache/LocalCache$WeightedSoftValueReference;,
+        Lcom/google/common/cache/LocalCache$WeightedWeakValueReference;,
+        Lcom/google/common/cache/LocalCache$StrongValueReference;,
+        Lcom/google/common/cache/LocalCache$SoftValueReference;,
+        Lcom/google/common/cache/LocalCache$WeakValueReference;,
+        Lcom/google/common/cache/LocalCache$WeakAccessWriteEntry;,
+        Lcom/google/common/cache/LocalCache$WeakWriteEntry;,
+        Lcom/google/common/cache/LocalCache$WeakAccessEntry;,
+        Lcom/google/common/cache/LocalCache$WeakEntry;,
+        Lcom/google/common/cache/LocalCache$StrongAccessWriteEntry;,
+        Lcom/google/common/cache/LocalCache$StrongWriteEntry;,
+        Lcom/google/common/cache/LocalCache$StrongAccessEntry;,
+        Lcom/google/common/cache/LocalCache$StrongEntry;,
+        Lcom/google/common/cache/LocalCache$AbstractReferenceEntry;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractMap<",
+        "TK;TV;>;",
+        "Ljava/util/concurrent/ConcurrentMap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # static fields

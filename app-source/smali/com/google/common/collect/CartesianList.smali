@@ -7,7 +7,20 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractList<",
+        "Ljava/util/List<",
+        "TE;>;>;",
+        "Ljava/util/RandomAccess;"
+    }
+.end annotation
 
 
 # instance fields

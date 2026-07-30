@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/work/multiprocess/f;->a(Ljava/util/concurrent/Executor;Lcom/google/common/util/concurrent/ListenableFuture;Lt2/a;)Lcom/google/common/util/concurrent/ListenableFuture;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
 
 
 # instance fields

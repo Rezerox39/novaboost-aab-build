@@ -7,7 +7,14 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
+    }
+.end annotation
 
 
 # static fields

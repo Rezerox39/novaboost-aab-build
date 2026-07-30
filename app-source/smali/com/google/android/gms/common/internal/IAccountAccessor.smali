@@ -7,7 +7,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/internal/IAccountAccessor$Stub;
+    }
+.end annotation
 
 
 # virtual methods

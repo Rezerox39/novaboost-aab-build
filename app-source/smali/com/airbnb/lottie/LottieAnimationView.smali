@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/airbnb/lottie/LottieAnimationView$c;,
+        Lcom/airbnb/lottie/LottieAnimationView$b;,
+        Lcom/airbnb/lottie/LottieAnimationView$SavedState;,
+        Lcom/airbnb/lottie/LottieAnimationView$a;
+    }
+.end annotation
 
 
 # static fields

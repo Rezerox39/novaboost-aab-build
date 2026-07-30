@@ -4,9 +4,16 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Class;
+    creator = "ModuleInstallStatusUpdateCreator"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;,
+        Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$InstallState;
+    }
+.end annotation
 
 
 # static fields

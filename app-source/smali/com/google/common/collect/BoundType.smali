@@ -4,7 +4,16 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/collect/BoundType;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

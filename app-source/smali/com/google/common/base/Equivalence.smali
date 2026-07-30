@@ -4,9 +4,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/base/Equivalence$Wrapper;,
+        Lcom/google/common/base/Equivalence$EquivalentToPredicate;,
+        Lcom/google/common/base/Equivalence$Equals;,
+        Lcom/google/common/base/Equivalence$Identity;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # direct methods

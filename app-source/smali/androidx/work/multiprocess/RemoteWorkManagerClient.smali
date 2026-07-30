@@ -4,7 +4,12 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/work/multiprocess/RemoteWorkManagerClient$a;,
+        Landroidx/work/multiprocess/RemoteWorkManagerClient$b;
+    }
+.end annotation
 
 
 # static fields

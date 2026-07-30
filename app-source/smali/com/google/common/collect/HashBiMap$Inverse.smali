@@ -8,11 +8,29 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/HashBiMap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Inverse"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/AbstractMap<",
+        "TV;TK;>;",
+        "Lcom/google/common/collect/BiMap<",
+        "TV;TK;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # instance fields

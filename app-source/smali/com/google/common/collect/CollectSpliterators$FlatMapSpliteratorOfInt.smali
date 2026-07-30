@@ -7,11 +7,32 @@
 
 
 # annotations
+.annotation build Lcom/google/common/collect/IgnoreJRERequirement;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/CollectSpliterators;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "FlatMapSpliteratorOfInt"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<InElementT:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/CollectSpliterators$FlatMapSpliteratorOfPrimitive<",
+        "TInElementT;",
+        "Ljava/lang/Integer;",
+        "Ljava/util/function/IntConsumer;",
+        "Ljava/util/Spliterator$OfInt;",
+        ">;",
+        "Ljava/util/Spliterator$OfInt;"
+    }
+.end annotation
 
 
 # direct methods

@@ -7,7 +7,17 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<R::",
+        "Lcom/google/android/gms/common/api/Result;",
+        ">",
+        "Lcom/google/android/gms/common/api/TransformedResult<",
+        "TR;>;",
+        "Lcom/google/android/gms/common/api/ResultCallback<",
+        "TR;>;"
+    }
+.end annotation
 
 
 # instance fields

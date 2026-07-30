@@ -4,9 +4,20 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation build Lcom/google/android/gms/common/util/RetainForClient;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/android/gms/dynamic/IObjectWrapper$Stub;"
+    }
+.end annotation
 
 
 # instance fields

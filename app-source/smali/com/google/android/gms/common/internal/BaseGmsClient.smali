@@ -4,9 +4,27 @@
 
 
 # annotations
+.annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/internal/BaseGmsClient$BaseConnectionCallbacks;,
+        Lcom/google/android/gms/common/internal/BaseGmsClient$BaseOnConnectionFailedListener;,
+        Lcom/google/android/gms/common/internal/BaseGmsClient$LegacyClientCallbackAdapter;,
+        Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;,
+        Lcom/google/android/gms/common/internal/BaseGmsClient$SignOutCallbacks;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Landroid/os/IInterface;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # static fields

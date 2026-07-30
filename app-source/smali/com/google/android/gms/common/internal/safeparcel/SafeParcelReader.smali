@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader$ParseException;
+    }
+.end annotation
 
 
 # direct methods

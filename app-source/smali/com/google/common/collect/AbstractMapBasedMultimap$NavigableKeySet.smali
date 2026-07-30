@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/AbstractMapBasedMultimap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "NavigableKeySet"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/AbstractMapBasedMultimap<",
+        "TK;TV;>.SortedKeySet;",
+        "Ljava/util/NavigableSet<",
+        "TK;>;"
+    }
+.end annotation
 
 
 # instance fields
