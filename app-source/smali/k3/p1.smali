@@ -27,7 +27,6 @@
     .line 8
     .line 9
     .line 10
-    move-result-object p1
 
     .line 11
 
@@ -37,7 +36,6 @@
     .line 14
     .line 15
     .line 16
-    move-result-object p1
 
     .line 17
     const-string v0, "PLAY_BILLING_LIBRARY"
@@ -56,7 +54,6 @@
     .line 24
     .line 25
     .line 26
-    move-result-object v2
 
     .line 27
     new-instance v3, Lk3/o1;
@@ -72,7 +69,6 @@
     .line 33
     .line 34
     .line 35
-    move-result-object p1
 
     .line 36
     :try_end_0
@@ -174,7 +170,6 @@
     .line 16
     .line 17
     .line 18
-    move-result-object p1
 
     .line 19
     :try_end_0

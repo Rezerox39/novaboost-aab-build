@@ -216,7 +216,6 @@
     .line 14
     .line 15
     .line 16
-    move-result-object p0
 
     .line 17
     return-object p0
@@ -276,7 +275,6 @@
     .line 14
     .line 15
     .line 16
-    move-result-object p0
 
     .line 17
     return-object p0

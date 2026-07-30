@@ -913,7 +913,6 @@
     .line 10
     .line 11
     .line 12
-    move-result p2
 
     .line 13
     if-eqz p2, :cond_1

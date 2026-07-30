@@ -230,7 +230,6 @@
     .line 68
     .line 69
     .line 70
-    move-result-object v1
 
     .line 71
     invoke-virtual {v1}, Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;

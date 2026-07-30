@@ -336,7 +336,6 @@
     .line 19
     .line 20
     .line 21
-    move-result v0
 
     .line 22
     if-eqz v0, :cond_0
@@ -466,7 +465,6 @@
     .line 8
     .line 9
     .line 10
-    move-result v0
 
     .line 11
     if-nez v0, :cond_1

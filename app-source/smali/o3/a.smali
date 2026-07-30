@@ -101,7 +101,6 @@
     .line 6
     .line 7
     .line 8
-    move-result-object v0
 
     .line 9
     new-instance v1, Landroid/content/Intent;
@@ -945,7 +944,6 @@
     .line 5
     .line 6
     .line 7
-    move-result-object p1
 
     .line 8
 
@@ -959,7 +957,6 @@
     .line 13
     .line 14
     .line 15
-    move-result-object p1
 
     .line 16
     iget-object p2, p0, Lo3/a;->b:Landroid/widget/TextView;

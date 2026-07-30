@@ -442,7 +442,6 @@
     .line 31
     .line 32
     .line 33
-    move-result-object v1
 
     .line 34
     invoke-static {v0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
