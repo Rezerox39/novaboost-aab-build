@@ -7,11 +7,31 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/VisibleForTesting;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/LinkedHashMultimap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "ValueEntry"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ImmutableEntry<",
+        "TK;TV;>;",
+        "Lcom/google/common/collect/LinkedHashMultimap$ValueSetLink<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Multisets$UnmodifiableMultiset<",
+        "TE;>;",
+        "Lcom/google/common/collect/SortedMultiset<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,7 +7,22 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/Beta;
+.end annotation
 
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/graph/AbstractBaseGraph<",
+        "TN;>;",
+        "Lcom/google/common/graph/ValueGraph<",
+        "TN;TV;>;"
+    }
+.end annotation
 
 
 # direct methods

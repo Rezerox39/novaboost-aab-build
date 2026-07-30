@@ -7,9 +7,32 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/AbstractTransformFuture$AsyncTransformFuture;,
+        Lcom/google/common/util/concurrent/AbstractTransformFuture$TransformFuture;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<I:",
+        "Ljava/lang/Object;",
+        "O:",
+        "Ljava/lang/Object;",
+        "F:",
+        "Ljava/lang/Object;",
+        "T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/FluentFuture$TrustedFuture<",
+        "TO;>;",
+        "Ljava/lang/Runnable;"
+    }
+.end annotation
 
 
 # instance fields

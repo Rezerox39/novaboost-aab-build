@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/TreeBasedTable;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "TreeRow"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/StandardTable<",
+        "TR;TC;TV;>.Row;",
+        "Ljava/util/SortedMap<",
+        "TC;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

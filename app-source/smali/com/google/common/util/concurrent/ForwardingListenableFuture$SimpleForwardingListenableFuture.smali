@@ -4,11 +4,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/util/concurrent/ForwardingListenableFuture;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "SimpleForwardingListenableFuture"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/ForwardingListenableFuture<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # instance fields

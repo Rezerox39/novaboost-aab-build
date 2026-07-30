@@ -8,11 +8,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/primitives/ImmutableIntArray;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "AsList"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/AbstractList<",
+        "Ljava/lang/Integer;",
+        ">;",
+        "Ljava/util/RandomAccess;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # instance fields

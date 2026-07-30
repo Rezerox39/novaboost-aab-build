@@ -4,11 +4,27 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/TreeRangeSet;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "ComplementRangesByLowerBound"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<C::",
+        "Ljava/lang/Comparable<",
+        "*>;>",
+        "Lcom/google/common/collect/AbstractNavigableMap<",
+        "Lcom/google/common/collect/Cut<",
+        "TC;>;",
+        "Lcom/google/common/collect/Range<",
+        "TC;>;>;"
+    }
+.end annotation
 
 
 # instance fields

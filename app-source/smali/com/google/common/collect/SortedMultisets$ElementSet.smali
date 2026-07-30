@@ -7,11 +7,26 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/SortedMultisets;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ElementSet"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Multisets$ElementSet<",
+        "TE;>;",
+        "Ljava/util/SortedSet<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # instance fields

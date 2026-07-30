@@ -4,9 +4,20 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/io/BaseEncoding$DecodingException;,
+        Lcom/google/common/io/BaseEncoding$Base64Encoding;,
+        Lcom/google/common/io/BaseEncoding$StandardBaseEncoding;,
+        Lcom/google/common/io/BaseEncoding$Base16Encoding;,
+        Lcom/google/common/io/BaseEncoding$SeparatedBaseEncoding;,
+        Lcom/google/common/io/BaseEncoding$Alphabet;
+    }
+.end annotation
 
 
 # static fields

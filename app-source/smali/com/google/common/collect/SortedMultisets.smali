@@ -4,9 +4,16 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/SortedMultisets$NavigableElementSet;,
+        Lcom/google/common/collect/SortedMultisets$ElementSet;
+    }
+.end annotation
 
 
 # direct methods

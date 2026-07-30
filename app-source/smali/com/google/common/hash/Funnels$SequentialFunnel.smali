@@ -7,11 +7,26 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/hash/Funnels;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "SequentialFunnel"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/hash/Funnel<",
+        "Ljava/lang/Iterable<",
+        "+TE;>;>;"
+    }
+.end annotation
 
 
 # instance fields

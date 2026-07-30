@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/SortedLists;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4409
+    name = "KeyAbsentBehavior"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/collect/SortedLists$KeyAbsentBehavior;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

@@ -4,11 +4,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/graph/EndpointPairIterator;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Undirected"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/graph/EndpointPairIterator<",
+        "TN;>;"
+    }
+.end annotation
 
 
 # instance fields

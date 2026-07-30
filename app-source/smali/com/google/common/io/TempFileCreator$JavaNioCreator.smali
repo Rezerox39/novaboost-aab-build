@@ -4,11 +4,23 @@
 
 
 # annotations
+.annotation build Lcom/google/common/io/IgnoreJRERequirement;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/io/TempFileCreator;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "JavaNioCreator"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/io/TempFileCreator$JavaNioCreator$PermissionSupplier;
+    }
+.end annotation
 
 
 # static fields

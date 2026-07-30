@@ -7,9 +7,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/ForwardingListenableFuture$SimpleForwardingListenableFuture;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/ForwardingFuture<",
+        "TV;>;",
+        "Lcom/google/common/util/concurrent/ListenableFuture<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # direct methods

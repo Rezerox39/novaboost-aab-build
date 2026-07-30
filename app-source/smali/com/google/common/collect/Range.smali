@@ -8,11 +8,32 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+    containerOf = {
+        "C"
+    }
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Range$RangeLexOrdering;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<C::",
+        "Ljava/lang/Comparable;",
+        ">",
+        "Lcom/google/common/collect/RangeGwtSerializationDependencies;",
+        "Lcom/google/common/base/Predicate<",
+        "TC;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

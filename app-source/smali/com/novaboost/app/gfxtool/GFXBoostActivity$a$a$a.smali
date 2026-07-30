@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/novaboost/gaming/gfxtool/GFXBoostActivity$a$a;->onAnimationEnd(Landroid/animation/Animator;)V
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
 
 # instance fields
@@ -59,6 +64,7 @@
     .locals 4
 
     .line 1
+    invoke-static {}, Ln3/a;->l()Ln3/a;
 
     .line 2
     .line 3
@@ -78,6 +84,7 @@
 
     .line 10
     .line 11
+    invoke-static {v1}, Lcom/novaboost/gaming/gfxtool/GFXBoostActivity;->V(Lcom/novaboost/gaming/gfxtool/GFXBoostActivity;)Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     .line 12
     .line 13
@@ -94,6 +101,7 @@
     .line 18
     .line 19
     .line 20
+    invoke-virtual {v0, v1, v2, v3}, Ln3/a;->q(Landroid/app/Activity;Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;Ln3/a$e;)V
 
     .line 21
     .line 22

@@ -7,11 +7,26 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/util/concurrent/JdkFutureAdapters;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ListenableFutureAdapter"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/ForwardingFuture<",
+        "TV;>;",
+        "Lcom/google/common/util/concurrent/ListenableFuture<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # static fields

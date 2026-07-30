@@ -8,11 +8,32 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Maps;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "UnmodifiableNavigableMap"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingSortedMap<",
+        "TK;TV;>;",
+        "Ljava/util/NavigableMap<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # instance fields

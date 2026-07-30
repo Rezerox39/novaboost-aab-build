@@ -4,7 +4,14 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/reflect/TypeResolver$TypeTable;,
+        Lcom/google/common/reflect/TypeResolver$TypeMappingIntrospector;,
+        Lcom/google/common/reflect/TypeResolver$WildcardCapturer;,
+        Lcom/google/common/reflect/TypeResolver$TypeVariableKey;
+    }
+.end annotation
 
 
 # instance fields

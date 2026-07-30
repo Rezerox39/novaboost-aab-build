@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Le2/y$b;
+    }
+.end annotation
 
 
 # static fields

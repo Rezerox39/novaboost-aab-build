@@ -4,9 +4,19 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/Futures$FutureCombiner;,
+        Lcom/google/common/util/concurrent/Futures$NonCancellationPropagatingFuture;,
+        Lcom/google/common/util/concurrent/Futures$InCompletionOrderState;,
+        Lcom/google/common/util/concurrent/Futures$InCompletionOrderFuture;,
+        Lcom/google/common/util/concurrent/Futures$CallbackListener;
+    }
+.end annotation
 
 
 # direct methods

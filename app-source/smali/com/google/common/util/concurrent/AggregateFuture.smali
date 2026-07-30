@@ -4,9 +4,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/AggregateFuture$ReleaseResourcesReason;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<InputT:",
+        "Ljava/lang/Object;",
+        "OutputT:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/AggregateFutureState<",
+        "TOutputT;>;"
+    }
+.end annotation
 
 
 # static fields

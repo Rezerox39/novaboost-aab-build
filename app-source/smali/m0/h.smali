@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lm0/h$a;
+    }
+.end annotation
 
 
 # direct methods

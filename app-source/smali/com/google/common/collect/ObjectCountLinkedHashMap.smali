@@ -4,9 +4,20 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+    serializable = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ObjectCountHashMap<",
+        "TK;>;"
+    }
+.end annotation
 
 
 # static fields

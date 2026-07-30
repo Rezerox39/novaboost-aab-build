@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/common/graph/AbstractNetwork$1;->edges()Ljava/util/Set;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/AbstractSet<",
+        "Lcom/google/common/graph/EndpointPair<",
+        "TN;>;>;"
+    }
+.end annotation
 
 
 # instance fields

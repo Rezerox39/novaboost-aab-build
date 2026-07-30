@@ -7,11 +7,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/VisibleForTesting;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/hash/LittleEndianByteArray;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4409
+    name = "UnsafeByteArray"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/hash/LittleEndianByteArray$UnsafeByteArray;",
+        ">;",
+        "Lcom/google/common/hash/LittleEndianByteArray$LittleEndianBytes;"
+    }
+.end annotation
 
 
 # static fields

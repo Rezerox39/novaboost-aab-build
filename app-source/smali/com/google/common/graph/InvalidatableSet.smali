@@ -4,7 +4,15 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingSet<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # instance fields

@@ -4,11 +4,41 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/J2ktIncompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
+    value = "Use ClosingFuture.from(Futures.immediate*Future)"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/ClosingFuture$CloseableList;,
+        Lcom/google/common/util/concurrent/ClosingFuture$ClosingCallable;,
+        Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingCallable;,
+        Lcom/google/common/util/concurrent/ClosingFuture$Combiner;,
+        Lcom/google/common/util/concurrent/ClosingFuture$Combiner2;,
+        Lcom/google/common/util/concurrent/ClosingFuture$Combiner3;,
+        Lcom/google/common/util/concurrent/ClosingFuture$Combiner4;,
+        Lcom/google/common/util/concurrent/ClosingFuture$Combiner5;,
+        Lcom/google/common/util/concurrent/ClosingFuture$State;,
+        Lcom/google/common/util/concurrent/ClosingFuture$ClosingFunction;,
+        Lcom/google/common/util/concurrent/ClosingFuture$AsyncClosingFunction;,
+        Lcom/google/common/util/concurrent/ClosingFuture$ValueAndCloserConsumer;,
+        Lcom/google/common/util/concurrent/ClosingFuture$ValueAndCloser;,
+        Lcom/google/common/util/concurrent/ClosingFuture$Peeker;,
+        Lcom/google/common/util/concurrent/ClosingFuture$DeferredCloser;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
 
 
 # static fields
@@ -1414,6 +1444,7 @@
 
     .line 2
     .line 3
+    invoke-static {v0, p1, p2}, Lcom/applovin/impl/sdk/i0;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 4
     .line 5

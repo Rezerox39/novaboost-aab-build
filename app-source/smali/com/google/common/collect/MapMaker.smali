@@ -4,9 +4,18 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation build Lcom/google/common/annotations/J2ktIncompatible;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/MapMaker$Dummy;
+    }
+.end annotation
 
 
 # static fields

@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/ImmutableMultiset;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "EntrySet"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/IndexedImmutableSet<",
+        "Lcom/google/common/collect/Multiset$Entry<",
+        "TE;>;>;"
+    }
+.end annotation
 
 
 # static fields

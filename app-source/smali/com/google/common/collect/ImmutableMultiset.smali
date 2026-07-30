@@ -7,11 +7,30 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+    serializable = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/ImmutableMultiset$Builder;,
+        Lcom/google/common/collect/ImmutableMultiset$EntrySet;,
+        Lcom/google/common/collect/ImmutableMultiset$EntrySetSerializedForm;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ImmutableMultisetGwtSerializationDependencies<",
+        "TE;>;",
+        "Lcom/google/common/collect/Multiset<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,7 +7,11 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/CheckReturnValue;
+.end annotation
 
 
 # direct methods

@@ -7,11 +7,28 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/hash/Hashing;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4409
+    name = "ChecksumType"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/hash/Hashing$ChecksumType;",
+        ">;",
+        "Lcom/google/common/hash/ImmutableSupplier<",
+        "Ljava/util/zip/Checksum;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

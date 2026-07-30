@@ -4,7 +4,22 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Multisets$UnmodifiableMultiset;,
+        Lcom/google/common/collect/Multisets$ImmutableEntry;,
+        Lcom/google/common/collect/Multisets$FilteredMultiset;,
+        Lcom/google/common/collect/Multisets$MultisetIteratorImpl;,
+        Lcom/google/common/collect/Multisets$DecreasingCount;,
+        Lcom/google/common/collect/Multisets$ViewMultiset;,
+        Lcom/google/common/collect/Multisets$EntrySet;,
+        Lcom/google/common/collect/Multisets$ElementSet;,
+        Lcom/google/common/collect/Multisets$AbstractEntry;
+    }
+.end annotation
 
 
 # direct methods

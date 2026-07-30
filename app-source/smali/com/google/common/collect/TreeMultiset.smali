@@ -7,11 +7,28 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/TreeMultiset$AvlNode;,
+        Lcom/google/common/collect/TreeMultiset$Reference;,
+        Lcom/google/common/collect/TreeMultiset$Aggregate;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/AbstractSortedMultiset<",
+        "TE;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

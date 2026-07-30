@@ -7,11 +7,28 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Multimaps;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "UnmodifiableSortedSetMultimap"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Multimaps$UnmodifiableSetMultimap<",
+        "TK;TV;>;",
+        "Lcom/google/common/collect/SortedSetMultimap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # static fields

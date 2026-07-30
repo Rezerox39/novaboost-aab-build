@@ -7,11 +7,25 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Multisets;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "UnmodifiableMultiset"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingMultiset<",
+        "TE;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

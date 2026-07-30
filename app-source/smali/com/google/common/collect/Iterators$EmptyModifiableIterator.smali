@@ -7,11 +7,25 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Iterators;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "EmptyModifiableIterator"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/collect/Iterators$EmptyModifiableIterator;",
+        ">;",
+        "Ljava/util/Iterator<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
 
 
 # static fields

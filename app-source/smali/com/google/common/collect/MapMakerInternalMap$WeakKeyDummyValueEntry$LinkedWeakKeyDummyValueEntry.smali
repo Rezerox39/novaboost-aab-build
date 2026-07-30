@@ -4,11 +4,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueEntry;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "LinkedWeakKeyDummyValueEntry"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueEntry<",
+        "TK;>;"
+    }
+.end annotation
 
 
 # instance fields

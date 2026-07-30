@@ -4,11 +4,20 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo0/n;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lo0/n$a$a;
+    }
+.end annotation
 
 
 # instance fields

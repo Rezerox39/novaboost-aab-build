@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/hash/HashCode$IntHashCode;,
+        Lcom/google/common/hash/HashCode$LongHashCode;,
+        Lcom/google/common/hash/HashCode$BytesHashCode;
+    }
+.end annotation
 
 
 # static fields

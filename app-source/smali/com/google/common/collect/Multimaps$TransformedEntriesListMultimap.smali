@@ -7,11 +7,30 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Multimaps;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "TransformedEntriesListMultimap"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V1:",
+        "Ljava/lang/Object;",
+        "V2:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Multimaps$TransformedEntriesMultimap<",
+        "TK;TV1;TV2;>;",
+        "Lcom/google/common/collect/ListMultimap<",
+        "TK;TV2;>;"
+    }
+.end annotation
 
 
 # direct methods

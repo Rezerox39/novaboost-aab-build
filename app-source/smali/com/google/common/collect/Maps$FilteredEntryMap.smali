@@ -4,13 +4,33 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Maps;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "FilteredEntryMap"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Maps$FilteredEntryMap$EntrySet;,
+        Lcom/google/common/collect/Maps$FilteredEntryMap$KeySet;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Maps$AbstractFilteredMap<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # instance fields

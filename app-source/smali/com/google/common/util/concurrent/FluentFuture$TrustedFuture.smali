@@ -7,11 +7,26 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/util/concurrent/FluentFuture;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "TrustedFuture"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/FluentFuture<",
+        "TV;>;",
+        "Lcom/google/common/util/concurrent/AbstractFuture$Trusted<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # direct methods

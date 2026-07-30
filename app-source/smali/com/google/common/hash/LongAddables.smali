@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/hash/LongAddables$PureJavaLongAddable;
+    }
+.end annotation
 
 
 # static fields

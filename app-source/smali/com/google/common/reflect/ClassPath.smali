@@ -4,7 +4,13 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/reflect/ClassPath$LocationInfo;,
+        Lcom/google/common/reflect/ClassPath$ClassInfo;,
+        Lcom/google/common/reflect/ClassPath$ResourceInfo;
+    }
+.end annotation
 
 
 # static fields

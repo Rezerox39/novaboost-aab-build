@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/StandardTable$Column;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "EntrySetIterator"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/AbstractIterator<",
+        "Ljava/util/Map$Entry<",
+        "TR;TV;>;>;"
+    }
+.end annotation
 
 
 # instance fields

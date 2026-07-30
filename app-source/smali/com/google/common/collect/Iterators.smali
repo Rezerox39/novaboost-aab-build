@@ -4,9 +4,20 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Iterators$ArrayItr;,
+        Lcom/google/common/collect/Iterators$EmptyModifiableIterator;,
+        Lcom/google/common/collect/Iterators$ConcatenatedIterator;,
+        Lcom/google/common/collect/Iterators$SingletonIterator;,
+        Lcom/google/common/collect/Iterators$PeekingImpl;,
+        Lcom/google/common/collect/Iterators$MergingIterator;
+    }
+.end annotation
 
 
 # direct methods

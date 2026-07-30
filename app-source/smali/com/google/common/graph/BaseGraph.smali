@@ -8,7 +8,18 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/graph/SuccessorsFunction<",
+        "TN;>;",
+        "Lcom/google/common/graph/PredecessorsFunction<",
+        "TN;>;"
+    }
+.end annotation
 
 
 # virtual methods

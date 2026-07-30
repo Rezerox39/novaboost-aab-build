@@ -7,4 +7,8 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lo0/n$a;
+    }
+.end annotation

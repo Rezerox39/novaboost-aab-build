@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/eventbus/Subscriber$SynchronizedSubscriber;
+    }
+.end annotation
 
 
 # instance fields

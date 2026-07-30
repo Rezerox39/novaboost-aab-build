@@ -7,13 +7,34 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation build Lcom/google/j2objc/annotations/ReflectionSupport;
+    value = .enum Lcom/google/j2objc/annotations/ReflectionSupport$Level;->FULL:Lcom/google/j2objc/annotations/ReflectionSupport$Level;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/AbstractFutureState$Waiter;,
+        Lcom/google/common/util/concurrent/AbstractFutureState$AtomicHelper;,
+        Lcom/google/common/util/concurrent/AbstractFutureState$UnsafeAtomicHelper;,
+        Lcom/google/common/util/concurrent/AbstractFutureState$AtomicReferenceFieldUpdaterAtomicHelper;,
+        Lcom/google/common/util/concurrent/AbstractFutureState$SynchronizedHelper;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/internal/InternalFutureFailureAccess;",
+        "Lcom/google/common/util/concurrent/ListenableFuture<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # static fields

@@ -3,12 +3,18 @@
 .source "SourceFile"
 
 # interfaces
+.implements Ln3/a$e;
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/novaboost/gaming/boost/BoostActivity$f;->run()V
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
 
 # instance fields

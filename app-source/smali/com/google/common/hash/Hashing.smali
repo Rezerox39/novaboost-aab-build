@@ -4,7 +4,18 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/hash/Hashing$ConcatenatedHashFunction;,
+        Lcom/google/common/hash/Hashing$Md5Holder;,
+        Lcom/google/common/hash/Hashing$Sha1Holder;,
+        Lcom/google/common/hash/Hashing$Sha256Holder;,
+        Lcom/google/common/hash/Hashing$Sha384Holder;,
+        Lcom/google/common/hash/Hashing$Sha512Holder;,
+        Lcom/google/common/hash/Hashing$ChecksumType;,
+        Lcom/google/common/hash/Hashing$LinearCongruentialGenerator;
+    }
+.end annotation
 
 
 # static fields

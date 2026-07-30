@@ -4,7 +4,9 @@
 
 
 # annotations
-
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
 
 # direct methods

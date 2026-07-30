@@ -4,11 +4,22 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/common/collect/Iterables;->paddedPartition(Ljava/lang/Iterable;I)Ljava/lang/Iterable;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/FluentIterable<",
+        "Ljava/util/List<",
+        "TT;>;>;"
+    }
+.end annotation
 
 
 # instance fields

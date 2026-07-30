@@ -8,13 +8,37 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+    serializable = true
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
+    value = "Use ImmutableMap.of or another implementation"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/ImmutableMap$Builder;,
+        Lcom/google/common/collect/ImmutableMap$MapViewOfValuesAsSingletonSets;,
+        Lcom/google/common/collect/ImmutableMap$SerializedForm;,
+        Lcom/google/common/collect/ImmutableMap$IteratorBasedImmutableMap;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/Map<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

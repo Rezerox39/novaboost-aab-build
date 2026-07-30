@@ -7,9 +7,30 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/TreeRangeSet$AsRanges;,
+        Lcom/google/common/collect/TreeRangeSet$Complement;,
+        Lcom/google/common/collect/TreeRangeSet$SubRangeSet;,
+        Lcom/google/common/collect/TreeRangeSet$SubRangeSetRangesByLowerBound;,
+        Lcom/google/common/collect/TreeRangeSet$ComplementRangesByLowerBound;,
+        Lcom/google/common/collect/TreeRangeSet$RangesByUpperBound;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<C::",
+        "Ljava/lang/Comparable<",
+        "*>;>",
+        "Lcom/google/common/collect/AbstractRangeSet<",
+        "TC;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # instance fields

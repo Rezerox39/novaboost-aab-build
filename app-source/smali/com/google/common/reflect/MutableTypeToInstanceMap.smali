@@ -7,9 +7,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/reflect/MutableTypeToInstanceMap$UnmodifiableEntry;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<B:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ForwardingMap<",
+        "Lcom/google/common/reflect/TypeToken<",
+        "+TB;>;TB;>;",
+        "Lcom/google/common/reflect/TypeToInstanceMap<",
+        "TB;>;"
+    }
+.end annotation
 
 
 # instance fields

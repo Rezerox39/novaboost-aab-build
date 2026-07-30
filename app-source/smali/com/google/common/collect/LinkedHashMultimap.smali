@@ -4,11 +4,30 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+    serializable = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/LinkedHashMultimap$ValueEntry;,
+        Lcom/google/common/collect/LinkedHashMultimap$ValueSetLink;,
+        Lcom/google/common/collect/LinkedHashMultimap$ValueSet;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/LinkedHashMultimapGwtSerializationDependencies<",
+        "TK;TV;>;"
+    }
+.end annotation
 
 
 # static fields

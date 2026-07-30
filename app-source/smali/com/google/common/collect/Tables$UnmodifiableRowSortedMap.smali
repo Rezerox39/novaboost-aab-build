@@ -7,11 +7,30 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/Tables;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "UnmodifiableRowSortedMap"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<R:",
+        "Ljava/lang/Object;",
+        "C:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/Tables$UnmodifiableTable<",
+        "TR;TC;TV;>;",
+        "Lcom/google/common/collect/RowSortedTable<",
+        "TR;TC;TV;>;"
+    }
+.end annotation
 
 
 # static fields

@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
+    value = "Use ImmutableTypeToInstanceMap or MutableTypeToInstanceMap"
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<B:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/Map<",
+        "Lcom/google/common/reflect/TypeToken<",
+        "+TB;>;TB;>;"
+    }
+.end annotation
 
 
 # virtual methods

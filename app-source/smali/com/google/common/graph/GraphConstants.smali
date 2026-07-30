@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/graph/GraphConstants$Presence;
+    }
+.end annotation
 
 
 # static fields

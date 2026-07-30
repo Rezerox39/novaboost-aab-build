@@ -4,7 +4,14 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/hash/MacHashFunction$MacHasher;
+    }
+.end annotation
 
 
 # instance fields

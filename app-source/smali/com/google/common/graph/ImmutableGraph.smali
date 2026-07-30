@@ -4,11 +4,30 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/Beta;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+    containerOf = {
+        "N"
+    }
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/graph/ImmutableGraph$Builder;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<N:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/graph/ForwardingGraph<",
+        "TN;>;"
+    }
+.end annotation
 
 
 # instance fields

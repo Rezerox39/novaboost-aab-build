@@ -8,11 +8,69 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation build Lcom/google/common/annotations/J2ktIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/MapMakerInternalMap$InternalEntryHelper;,
+        Lcom/google/common/collect/MapMakerInternalMap$Segment;,
+        Lcom/google/common/collect/MapMakerInternalMap$Strength;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongKeyStrongValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakKeyWeakValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongKeyDummyValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakValueReference;,
+        Lcom/google/common/collect/MapMakerInternalMap$InternalEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$KeySet;,
+        Lcom/google/common/collect/MapMakerInternalMap$Values;,
+        Lcom/google/common/collect/MapMakerInternalMap$EntrySet;,
+        Lcom/google/common/collect/MapMakerInternalMap$SerializationProxy;,
+        Lcom/google/common/collect/MapMakerInternalMap$AbstractSerializationProxy;,
+        Lcom/google/common/collect/MapMakerInternalMap$EntryIterator;,
+        Lcom/google/common/collect/MapMakerInternalMap$WriteThroughEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$ValueIterator;,
+        Lcom/google/common/collect/MapMakerInternalMap$KeyIterator;,
+        Lcom/google/common/collect/MapMakerInternalMap$HashIterator;,
+        Lcom/google/common/collect/MapMakerInternalMap$CleanupMapTask;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakKeyDummyValueSegment;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakKeyWeakValueSegment;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakKeyStrongValueSegment;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongKeyDummyValueSegment;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongKeyWeakValueSegment;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongKeyStrongValueSegment;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakValueReferenceImpl;,
+        Lcom/google/common/collect/MapMakerInternalMap$DummyInternalEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$AbstractWeakKeyEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$WeakValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$StrongValueEntry;,
+        Lcom/google/common/collect/MapMakerInternalMap$AbstractStrongKeyEntry;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        "E::",
+        "Lcom/google/common/collect/MapMakerInternalMap$InternalEntry<",
+        "TK;TV;TE;>;S:",
+        "Lcom/google/common/collect/MapMakerInternalMap$Segment<",
+        "TK;TV;TE;TS;>;>",
+        "Ljava/util/AbstractMap<",
+        "TK;TV;>;",
+        "Ljava/util/concurrent/ConcurrentMap<",
+        "TK;TV;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

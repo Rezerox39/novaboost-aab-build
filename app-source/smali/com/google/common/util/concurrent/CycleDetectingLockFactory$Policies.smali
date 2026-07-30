@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/util/concurrent/CycleDetectingLockFactory;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4409
+    name = "Policies"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;",
+        ">;",
+        "Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policy;"
+    }
+.end annotation
 
 
 # static fields

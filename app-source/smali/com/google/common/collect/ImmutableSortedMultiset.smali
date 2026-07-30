@@ -7,9 +7,27 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/ImmutableSortedMultiset$Builder;,
+        Lcom/google/common/collect/ImmutableSortedMultiset$SerializedForm;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ImmutableMultiset<",
+        "TE;>;",
+        "Lcom/google/common/collect/SortedMultiset<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # static fields

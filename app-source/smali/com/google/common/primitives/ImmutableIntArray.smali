@@ -7,9 +7,18 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/primitives/ImmutableIntArray$Builder;,
+        Lcom/google/common/primitives/ImmutableIntArray$AsList;
+    }
+.end annotation
 
 
 # static fields

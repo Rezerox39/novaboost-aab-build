@@ -4,11 +4,27 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+    serializable = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/RegularImmutableMultiset$ElementSet;,
+        Lcom/google/common/collect/RegularImmutableMultiset$SerializedForm;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/collect/ImmutableMultiset<",
+        "TE;>;"
+    }
+.end annotation
 
 
 # static fields

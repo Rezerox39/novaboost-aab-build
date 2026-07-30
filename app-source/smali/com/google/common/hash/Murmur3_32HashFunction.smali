@@ -7,7 +7,14 @@
 
 
 # annotations
+.annotation runtime Lcom/google/errorprone/annotations/Immutable;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/hash/Murmur3_32HashFunction$Murmur3_32Hasher;
+    }
+.end annotation
 
 
 # static fields

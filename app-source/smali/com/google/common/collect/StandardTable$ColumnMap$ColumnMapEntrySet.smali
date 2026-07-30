@@ -4,11 +4,25 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/StandardTable$ColumnMap;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = "ColumnMapEntrySet"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/StandardTable<",
+        "TR;TC;TV;>.TableSet<",
+        "Ljava/util/Map$Entry<",
+        "TC;",
+        "Ljava/util/Map<",
+        "TR;TV;>;>;>;"
+    }
+.end annotation
 
 
 # instance fields

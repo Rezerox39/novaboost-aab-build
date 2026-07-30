@@ -8,11 +8,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/util/concurrent/ExecutionSequencer;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "TaskNonReentrantExecutor"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/util/concurrent/atomic/AtomicReference<",
+        "Lcom/google/common/util/concurrent/ExecutionSequencer$RunningState;",
+        ">;",
+        "Ljava/util/concurrent/Executor;",
+        "Ljava/lang/Runnable;"
+    }
+.end annotation
 
 
 # instance fields

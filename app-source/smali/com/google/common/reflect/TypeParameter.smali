@@ -4,7 +4,15 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/reflect/TypeCapture<",
+        "TT;>;"
+    }
+.end annotation
 
 
 # instance fields

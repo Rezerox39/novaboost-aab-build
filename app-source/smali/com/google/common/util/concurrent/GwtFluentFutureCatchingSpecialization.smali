@@ -4,9 +4,22 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation build Lcom/google/common/annotations/J2ktIncompatible;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/google/common/util/concurrent/AbstractFuture<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # direct methods

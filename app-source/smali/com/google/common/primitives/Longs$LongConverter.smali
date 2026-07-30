@@ -7,11 +7,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/primitives/Longs;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "LongConverter"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/base/Converter<",
+        "Ljava/lang/String;",
+        "Ljava/lang/Long;",
+        ">;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

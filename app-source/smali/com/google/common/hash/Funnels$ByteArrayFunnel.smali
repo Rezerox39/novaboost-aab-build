@@ -7,11 +7,24 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/hash/Funnels;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x4019
+    name = "ByteArrayFunnel"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/hash/Funnels$ByteArrayFunnel;",
+        ">;",
+        "Lcom/google/common/hash/Funnel<",
+        "[B>;"
+    }
+.end annotation
 
 
 # static fields

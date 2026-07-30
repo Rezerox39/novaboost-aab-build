@@ -4,9 +4,24 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Sets$FilteredSet;,
+        Lcom/google/common/collect/Sets$FilteredSortedSet;,
+        Lcom/google/common/collect/Sets$FilteredNavigableSet;,
+        Lcom/google/common/collect/Sets$CartesianSet;,
+        Lcom/google/common/collect/Sets$PowerSet;,
+        Lcom/google/common/collect/Sets$UnmodifiableNavigableSet;,
+        Lcom/google/common/collect/Sets$DescendingSet;,
+        Lcom/google/common/collect/Sets$SubSet;,
+        Lcom/google/common/collect/Sets$SetView;,
+        Lcom/google/common/collect/Sets$ImprovedAbstractSet;
+    }
+.end annotation
 
 
 # direct methods

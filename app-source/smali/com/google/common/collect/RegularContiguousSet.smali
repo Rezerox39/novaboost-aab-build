@@ -4,11 +4,25 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/RegularContiguousSet$SerializedForm;
+    }
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<C::",
+        "Ljava/lang/Comparable;",
+        ">",
+        "Lcom/google/common/collect/ContiguousSet<",
+        "TC;>;"
+    }
+.end annotation
 
 
 # static fields

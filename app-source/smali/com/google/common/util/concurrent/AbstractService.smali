@@ -7,9 +7,21 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation build Lcom/google/common/annotations/J2ktIncompatible;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/AbstractService$IsStartableGuard;,
+        Lcom/google/common/util/concurrent/AbstractService$IsStoppableGuard;,
+        Lcom/google/common/util/concurrent/AbstractService$HasReachedRunningGuard;,
+        Lcom/google/common/util/concurrent/AbstractService$IsStoppedGuard;,
+        Lcom/google/common/util/concurrent/AbstractService$StateSnapshot;
+    }
+.end annotation
 
 
 # static fields

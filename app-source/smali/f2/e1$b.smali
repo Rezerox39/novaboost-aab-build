@@ -7,9 +7,14 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lf2/e1;->d(Lf2/t;Landroidx/work/impl/WorkDatabase;Landroidx/work/a;Ljava/util/List;Lo2/x;Ljava/util/Set;)Le2/m0$b;
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
 
 
 # static fields

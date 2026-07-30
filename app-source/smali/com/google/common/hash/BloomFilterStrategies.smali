@@ -7,9 +7,20 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/hash/BloomFilterStrategies$LockFreeBitArray;
+    }
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/google/common/hash/BloomFilterStrategies;",
+        ">;",
+        "Lcom/google/common/hash/BloomFilter$Strategy;"
+    }
+.end annotation
 
 
 # static fields

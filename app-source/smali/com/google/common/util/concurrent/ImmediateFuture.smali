@@ -7,9 +7,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/ImmediateFuture$ImmediateCancelledFuture;,
+        Lcom/google/common/util/concurrent/ImmediateFuture$ImmediateFailedFuture;
+    }
+.end annotation
 
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/google/common/util/concurrent/ListenableFuture<",
+        "TV;>;"
+    }
+.end annotation
 
 
 # static fields

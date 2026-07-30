@@ -7,11 +7,23 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/reflect/TypeToken;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "TypeSet"
+.end annotation
 
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/ForwardingSet<",
+        "Lcom/google/common/reflect/TypeToken<",
+        "-TT;>;>;",
+        "Ljava/io/Serializable;"
+    }
+.end annotation
 
 
 # static fields

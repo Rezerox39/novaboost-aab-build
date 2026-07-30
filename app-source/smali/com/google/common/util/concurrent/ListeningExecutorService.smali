@@ -7,7 +7,12 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation runtime Lcom/google/errorprone/annotations/DoNotMock;
+    value = "Use TestingExecutors.sameThreadScheduledExecutor, or wrap a real Executor from java.util.concurrent.Executors with MoreExecutors.listeningDecorator"
+.end annotation
 
 
 # virtual methods

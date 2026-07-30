@@ -4,9 +4,27 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtIncompatible;
+.end annotation
 
+.annotation build Lcom/google/common/annotations/J2ktIncompatible;
+.end annotation
 
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingLock;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policy;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$Policies;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantLock;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$LockGraphNode;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantReadWriteLock;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$WithExplicitOrdering;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantWriteLock;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$CycleDetectingReentrantReadLock;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$PotentialDeadlockException;,
+        Lcom/google/common/util/concurrent/CycleDetectingLockFactory$ExampleStackTrace;
+    }
+.end annotation
 
 
 # static fields

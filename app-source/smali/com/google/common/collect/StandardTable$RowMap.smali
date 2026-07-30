@@ -4,13 +4,29 @@
 
 
 # annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/common/collect/StandardTable;
+.end annotation
 
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "RowMap"
+.end annotation
 
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/StandardTable$RowMap$EntrySet;
+    }
+.end annotation
 
-
-
-
-
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/common/collect/Maps$ViewCachingAbstractMap<",
+        "TR;",
+        "Ljava/util/Map<",
+        "TC;TV;>;>;"
+    }
+.end annotation
 
 
 # instance fields

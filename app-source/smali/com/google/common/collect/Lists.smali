@@ -4,9 +4,26 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Lists$OnePlusArrayList;,
+        Lcom/google/common/collect/Lists$TwoPlusArrayList;,
+        Lcom/google/common/collect/Lists$TransformingRandomAccessList;,
+        Lcom/google/common/collect/Lists$TransformingSequentialList;,
+        Lcom/google/common/collect/Lists$RandomAccessPartition;,
+        Lcom/google/common/collect/Lists$Partition;,
+        Lcom/google/common/collect/Lists$StringAsImmutableList;,
+        Lcom/google/common/collect/Lists$CharSequenceAsList;,
+        Lcom/google/common/collect/Lists$ReverseList;,
+        Lcom/google/common/collect/Lists$RandomAccessReverseList;,
+        Lcom/google/common/collect/Lists$AbstractListWrapper;,
+        Lcom/google/common/collect/Lists$RandomAccessListWrapper;
+    }
+.end annotation
 
 
 # direct methods

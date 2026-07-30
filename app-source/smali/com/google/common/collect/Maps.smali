@@ -4,9 +4,45 @@
 
 
 # annotations
+.annotation build Lcom/google/common/annotations/GwtCompatible;
+    emulated = true
+.end annotation
 
-
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/collect/Maps$EntryFunction;,
+        Lcom/google/common/collect/Maps$MapDifferenceImpl;,
+        Lcom/google/common/collect/Maps$SortedMapDifferenceImpl;,
+        Lcom/google/common/collect/Maps$ValueDifferenceImpl;,
+        Lcom/google/common/collect/Maps$AsMapView;,
+        Lcom/google/common/collect/Maps$SortedAsMapView;,
+        Lcom/google/common/collect/Maps$NavigableAsMapView;,
+        Lcom/google/common/collect/Maps$UnmodifiableEntrySet;,
+        Lcom/google/common/collect/Maps$BiMapConverter;,
+        Lcom/google/common/collect/Maps$UnmodifiableBiMap;,
+        Lcom/google/common/collect/Maps$EntryTransformer;,
+        Lcom/google/common/collect/Maps$TransformedEntriesMap;,
+        Lcom/google/common/collect/Maps$TransformedEntriesSortedMap;,
+        Lcom/google/common/collect/Maps$TransformedEntriesNavigableMap;,
+        Lcom/google/common/collect/Maps$AbstractFilteredMap;,
+        Lcom/google/common/collect/Maps$FilteredKeyMap;,
+        Lcom/google/common/collect/Maps$FilteredEntryMap;,
+        Lcom/google/common/collect/Maps$FilteredEntrySortedMap;,
+        Lcom/google/common/collect/Maps$FilteredEntryNavigableMap;,
+        Lcom/google/common/collect/Maps$FilteredEntryBiMap;,
+        Lcom/google/common/collect/Maps$UnmodifiableNavigableMap;,
+        Lcom/google/common/collect/Maps$DescendingMap;,
+        Lcom/google/common/collect/Maps$EntrySet;,
+        Lcom/google/common/collect/Maps$Values;,
+        Lcom/google/common/collect/Maps$NavigableKeySet;,
+        Lcom/google/common/collect/Maps$SortedKeySet;,
+        Lcom/google/common/collect/Maps$KeySet;,
+        Lcom/google/common/collect/Maps$IteratorBasedAbstractMap;,
+        Lcom/google/common/collect/Maps$ViewCachingAbstractMap;,
+        Lcom/google/common/collect/Maps$FilteredMapValues;,
+        Lcom/google/common/collect/Maps$UnmodifiableEntries;
+    }
+.end annotation
 
 
 # direct methods

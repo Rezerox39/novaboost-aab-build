@@ -4,7 +4,11 @@
 
 
 # annotations
-
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lg1/b$a;
+    }
+.end annotation
 
 
 # instance fields
