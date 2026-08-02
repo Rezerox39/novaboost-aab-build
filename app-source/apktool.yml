@@ -74,7 +74,7 @@ packageInfo:
   renameManifestPackage: null
 sdkInfo:
   minSdkVersion: '23'
-  targetSdkVersion: '35'
+  targetSdkVersion: '36'
 sharedLibrary: false
 sparseResources: false
 unknownFiles:
@@ -93,5 +93,5 @@ usesFramework:
   tag: null
 version: 2.7.0-dirty
 versionInfo:
-  versionCode: '10'
-  versionName: 2.2.3
+  versionCode: '11'
+  versionName: 2.2.4

@@ -169,17 +169,15 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.2.3"
+          name: "NovaBoost v2.2.4"
           body: |
-            ## NovaBoost v2.2.3
+            ## NovaBoost v2.2.4
             
             ### What's New
-            - Added a deobfuscation (ProGuard mapping) file to the App Bundle
-              so Google Play can deobfuscate crash and ANR reports for the
-              obfuscated library classes - clears the "no deobfuscation file"
-              warning in Play Console
-            - Mapping gives readable names to the base activity and Lottie
-              classes (e.g. m3.b = BaseActivity, f3.h = LottieCompositionFactory)
+            - Updated target API level to Android 16 (API 36) to satisfy
+              Google Play's August 31, 2026 target API requirement
+            - Edge-to-edge and dark theme behavior verified against Android 16
+              behavior changes (already handled by the app's base activity)
             
             ### Notes
             - Zero data collection - no analytics, no tracking
