@@ -1,0 +1,14 @@
+# NovaBoost deobfuscation mapping
+# Maps obfuscated class names (from the pre-obfuscated template) to readable
+# role-based names so Google Play crash/ANR reports are easier to analyze.
+com.novaboost.app.core.BaseActivity -> m3.b:
+com.novaboost.app.core.BaseActivity$EdgeToEdgeRunnable -> m3.a:
+com.novaboost.app.SplashActivity$EdgeToEdgeRunnable -> m3.c:
+com.airbnb.lottie.network.LottieNetwork -> f3.f:
+com.airbnb.lottie.network.LottieNetworkFetcher -> f3.b:
+com.airbnb.lottie.network.LottieNetworkFetcher$ConnectionResult -> f3.a:
+com.airbnb.lottie.network.LottieFetchResult -> f3.d:
+com.airbnb.lottie.LottieCompositionFactory -> f3.h:
+com.airbnb.lottie.LottieComposition -> v2.j:
+com.airbnb.lottie.LottieResult -> v2.p0:
+com.airbnb.lottie.manager.ImageAssetBitmapManager -> v2.r:

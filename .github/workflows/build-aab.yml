@@ -136,6 +136,12 @@ jobs:
           touch /tmp/aab/BUNDLE-METADATA/Obfuscation/obfuscation.pb
           touch /tmp/aab/BUNDLE-METADATA/ShaderDb/shader_db.pb
           touch /tmp/aab/BUNDLE-METADATA/VersionControlMapping/version_control_mapping.pb
+
+          # 9b. Embed ProGuard deobfuscation mapping so Google Play can
+          # deobfuscate crash/ANR reports for the obfuscated classes
+          mkdir -p /tmp/aab/BUNDLE-METADATA/com.android.tools.build.proguard
+          cp proguard.map /tmp/aab/BUNDLE-METADATA/com.android.tools.build.proguard/proguard.map
+          echo "Deobfuscation mapping embedded: $(wc -l < proguard.map) lines"
           
           # 10. Create AAB zip with maximum compression
           cd /tmp/aab
@@ -163,21 +169,17 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.2.2"
+          name: "NovaBoost v2.2.3"
           body: |
-            ## NovaBoost v2.2.2
+            ## NovaBoost v2.2.3
             
             ### What's New
-            - Resolved Google Play edge-to-edge (Android 15) recommendations:
-              - Guarded deprecated Window.setStatusBarColor / setNavigationBarColor
-                calls behind an Android 15 (SDK 35) check in Material dialogs so
-                they no-op on Android 15+ while preserving behavior below it
-            - Resolved Google Play bitmap optimization warning:
-              - Neutralized the unused Lottie network image fetcher and decoder
-                (f3.a.M, v2.r.D) - the app now has no manual network download or
-                image-decode code paths at all
-            - App already renders edge-to-edge on Android 15+ and remains
-              fully functional with the dark cyber theme
+            - Added a deobfuscation (ProGuard mapping) file to the App Bundle
+              so Google Play can deobfuscate crash and ANR reports for the
+              obfuscated library classes - clears the "no deobfuscation file"
+              warning in Play Console
+            - Mapping gives readable names to the base activity and Lottie
+              classes (e.g. m3.b = BaseActivity, f3.h = LottieCompositionFactory)
             
             ### Notes
             - Zero data collection - no analytics, no tracking
