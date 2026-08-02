@@ -38,20 +38,19 @@
 
 # virtual methods
 .method public run()V
-    .locals 9
+    .locals 6
 
     .prologue
-    .line 1
-    :goto_0
+    :loop
     const-wide/16 v0, 0x7d0
 
-    .line 2
     :try_start_0
     invoke-static {v0, v1}, Ljava/lang/Thread;->sleep(J)V
     :try_end_0
-    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_sleep
 
-    .line 3
+    const-string v0, ""
+
     :try_start_1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -99,10 +98,9 @@
 
     move-result-object v0
     :try_end_1
-    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_ping
 
-    .line 4
-    :goto_1
+    :continue
     new-instance v1, Landroid/os/Handler;
 
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
@@ -111,29 +109,25 @@
 
     invoke-direct {v1, v2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 5
     new-instance v2, Lcom/novaboost/gaming/gametray/GameTrayActivity$o;
 
     iget-object v3, p0, Lcom/novaboost/gaming/gametray/GameTrayActivity$n;->a:Lcom/novaboost/gaming/gametray/GameTrayActivity;
 
     invoke-direct {v2, v3, v0}, Lcom/novaboost/gaming/gametray/GameTrayActivity$o;-><init>(Lcom/novaboost/gaming/gametray/GameTrayActivity;Ljava/lang/String;)V
 
-    .line 6
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    goto :goto_0
+    goto :loop
 
-    .line 7
-    :catch_0
+    :catch_sleep
     move-exception v0
 
-    goto :goto_1
+    goto :loop
 
-    .line 8
-    :catch_1
+    :catch_ping
     move-exception v0
 
     const-string v0, ""
 
-    goto :goto_1
+    goto :continue
 .end method
