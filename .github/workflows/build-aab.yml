@@ -65,103 +65,83 @@ jobs:
             /tmp/NovaBoost_aligned.apk
           echo "APK signed: $(ls -la /tmp/NovaBoost_aligned.apk)"
 
-      - name: Convert APK to proper AAB
+      - name: Convert APK to AAB (bundletool, same as AAB Installer)
         run: |
-          # Clean up
-          rm -rf /tmp/aab /tmp/apk-extract
-          mkdir -p /tmp/aab
-          
-          # Extract APK
-          mkdir -p /tmp/apk-extract
-          unzip -o /tmp/NovaBoost_aligned.apk -d /tmp/apk-extract
-          
-          # Create AAB directory structure
-          mkdir -p /tmp/aab/base/manifest
-          mkdir -p /tmp/aab/base/dex
-          mkdir -p /tmp/aab/base/res
-          mkdir -p /tmp/aab/base/root
-          mkdir -p /tmp/aab/BUNDLE-METADATA/MergedManifest
-          mkdir -p /tmp/aab/BUNDLE-METADATA/NativeLibs
-          mkdir -p /tmp/aab/BUNDLE-METADATA/Obfuscation
-          mkdir -p /tmp/aab/BUNDLE-METADATA/ShaderDb
-          mkdir -p /tmp/aab/BUNDLE-METADATA/VersionControlMapping
-          
-          # 1. Copy manifest
-          cp /tmp/apk-extract/AndroidManifest.xml /tmp/aab/base/manifest/
-          
-          # 2. Copy ALL resources
-          cp -r /tmp/apk-extract/res/* /tmp/aab/base/res/
-          echo "Resources: $(find /tmp/aab/base/res -type f | wc -l) files"
-          
-          # 3. Copy resources.arsc
-          cp /tmp/apk-extract/resources.arsc /tmp/aab/base/
-          
-          # 4. Copy ALL dex files
-          for dex in /tmp/apk-extract/classes*.dex; do
-            cp "$dex" /tmp/aab/base/dex/
-          done
-          echo "DEX files: $(ls /tmp/aab/base/dex/*.dex | wc -l)"
-          
-          # 5. Copy assets
-          if [ -d /tmp/apk-extract/assets ]; then
-            cp -r /tmp/apk-extract/assets /tmp/aab/base/root/
-            echo "Assets copied: $(find /tmp/aab/base/root/assets -type f | wc -l) files"
-          fi
-          
-          # 6. Copy native libs
-          if [ -d /tmp/apk-extract/lib ]; then
-            cp -r /tmp/apk-extract/lib /tmp/aab/base/
-            echo "Native libs copied"
-          fi
-          
-          # 7. Copy kotlin data
-          if [ -d /tmp/apk-extract/kotlin ]; then
-            cp -r /tmp/apk-extract/kotlin /tmp/aab/base/root/
-            echo "Kotlin data copied"
-          fi
-          
-          # 8. Copy other root files
-          for f in /tmp/apk-extract/*; do
-            fname=$(basename "$f")
-            case "$fname" in
-              AndroidManifest.xml|resources.arsc|classes*|res|assets|lib|kotlin|META-INF) continue ;;
-              *) cp -r "$f" /tmp/aab/base/root/ 2>/dev/null ;;
-            esac
-          done
-          echo "Root files copied"
-          
-          # 9. Create BUNDLE-METADATA placeholder files
-          touch /tmp/aab/BUNDLE-METADATA/MergedManifest/merged_manifest.pb
-          touch /tmp/aab/BUNDLE-METADATA/NativeLibs/native_libs.pb
-          touch /tmp/aab/BUNDLE-METADATA/Obfuscation/obfuscation.pb
-          touch /tmp/aab/BUNDLE-METADATA/ShaderDb/shader_db.pb
-          touch /tmp/aab/BUNDLE-METADATA/VersionControlMapping/version_control_mapping.pb
+          set -e
+          rm -rf /tmp/bundle /tmp/aab-extra
+          mkdir -p /tmp/bundle /tmp/aab-extra
 
-          # 9b. Embed ProGuard deobfuscation mapping so Google Play can
-          # deobfuscate crash/ANR reports for the obfuscated classes
-          mkdir -p /tmp/aab/BUNDLE-METADATA/com.android.tools.build.proguard
-          cp proguard.map /tmp/aab/BUNDLE-METADATA/com.android.tools.build.proguard/proguard.map
+          # 1. Convert APK resources to protobuf format (same as AAB Installer)
+          $SDK_TOOLS/aapt2 convert --output-format proto \
+            /tmp/NovaBoost_aligned.apk -o /tmp/bundle/proto.zip
+          echo "proto.zip: $(ls -la /tmp/bundle/proto.zip | awk '{print $5}') bytes"
+
+          # 2. Assemble the base module zip with the exact same layout
+          #    that AAB Installer uses (manifest/, dex/, res/, lib/,
+          #    assets/, resources.pb, root/; signature files dropped)
+          python3 - << 'PY'
+          import zipfile
+          zin = zipfile.ZipFile('/tmp/bundle/proto.zip')
+          zout = zipfile.ZipFile('/tmp/bundle/base.zip', 'w', zipfile.ZIP_DEFLATED)
+          for info in zin.infolist():
+              if info.is_dir():
+                  continue
+              name = info.filename
+              if name.endswith('.dex') and name.startswith('classes'):
+                  newname = 'dex/' + name
+              elif name == 'AndroidManifest.xml':
+                  newname = 'manifest/' + name
+              elif (name.startswith('res/') or name.startswith('lib/')
+                    or name == 'resources.pb' or name.startswith('assets/')):
+                  newname = name
+              elif name.endswith('.RSA') or name.endswith('.SF') or name.endswith('.MF'):
+                  continue
+              else:
+                  newname = 'root/' + name
+              zi = zipfile.ZipInfo(newname, (2026, 1, 1, 0, 0, 0))
+              zi.compress_type = zipfile.ZIP_DEFLATED
+              zout.writestr(zi, zin.read(info.filename))
+          zout.close()
+          zin.close()
+          print("base.zip entries:", len(zipfile.ZipFile('/tmp/bundle/base.zip').namelist()))
+          PY
+
+          # 3. Build the AAB with bundletool
+          if [ ! -f /tmp/bundle/bundletool.jar ]; then
+            curl -sL -o /tmp/bundle/bundletool.jar \
+              https://github.com/google/bundletool/releases/download/1.18.2/bundletool-all-1.18.2.jar
+          fi
+          java -jar /tmp/bundle/bundletool.jar build-bundle \
+            --modules=/tmp/bundle/base.zip \
+            --output=/tmp/bundle/non-signed.aab \
+            --overwrite
+          echo "AAB built: $(ls -la /tmp/bundle/non-signed.aab | awk '{print $5}') bytes"
+
+          # 4. Embed ProGuard deobfuscation mapping so Google Play can
+          #    deobfuscate crash/ANR reports for the obfuscated classes
+          mkdir -p /tmp/aab-extra/BUNDLE-METADATA/com.android.tools.build.proguard
+          cp proguard.map /tmp/aab-extra/BUNDLE-METADATA/com.android.tools.build.proguard/proguard.map
+          (cd /tmp/aab-extra && zip -r -X /tmp/bundle/non-signed.aab BUNDLE-METADATA)
           echo "Deobfuscation mapping embedded: $(wc -l < proguard.map) lines"
-          
-          # 10. Create AAB zip with maximum compression
-          cd /tmp/aab
-          zip -r -9 /tmp/NovaBoost_unsigned.aab .
-          echo "AAB created: $(ls -la /tmp/NovaBoost_unsigned.aab)"
-          
-          # Verify structure
-          echo "=== AAB Structure ==="
-          unzip -l /tmp/NovaBoost_unsigned.aab | grep -E "base/manifest|base/dex|base/res/|base/resources|BUNDLE-METADATA" | head -20
-          echo "Resource files: $(unzip -l /tmp/NovaBoost_unsigned.aab | grep 'base/res/' | wc -l)"
 
-      - name: Sign AAB
+          # 5. Verify structure
+          echo "=== AAB Structure ==="
+          unzip -l /tmp/bundle/non-signed.aab | grep -E "base/manifest|base/dex|base/resources.pb|base/assets.pb|BUNDLE-METADATA" | head -10
+
+      - name: Sign AAB (Play-accepted test key, same as AAB Installer)
         run: |
-          jarsigner -sigalg SHA256withRSA -digestalg SHA-256 \
-            -keystore novaboost_upload.keystore \
-            -storepass novaboost123 \
-            -keypass novaboost123 \
-            /tmp/NovaBoost_unsigned.aab novaboost-upload
-          cp /tmp/NovaBoost_unsigned.aab /tmp/NovaBoost.aab
+          $SDK_TOOLS/apksigner sign \
+            --ks aab-upload.keystore \
+            --ks-pass pass:release \
+            --key-pass pass:release \
+            --ks-key-alias keystore \
+            --min-sdk-version 23 \
+            --out /tmp/NovaBoost.aab \
+            /tmp/bundle/non-signed.aab
           echo "AAB signed: $(ls -la /tmp/NovaBoost.aab)"
+          echo "Signing certificate:"
+          unzip -p /tmp/NovaBoost.aab META-INF/KEYSTORE.RSA > /tmp/ks.rsa
+          keytool -printcert -file /tmp/ks.rsa | grep -E "SHA1|SHA256|Owner" || true
 
 
       - name: Create GitHub Release
@@ -169,15 +149,20 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.2.4"
+          name: "NovaBoost v2.2.5"
           body: |
-            ## NovaBoost v2.2.4
+            ## NovaBoost v2.2.5
             
             ### What's New
-            - Updated target API level to Android 16 (API 36) to satisfy
-              Google Play's August 31, 2026 target API requirement
-            - Edge-to-edge and dark theme behavior verified against Android 16
-              behavior changes (already handled by the app's base activity)
+            - Rebuilt the AAB exactly like the "AAB Installer" converter that
+              Google Play accepts:
+              - Resources converted to protobuf with aapt2 (--output-format proto)
+              - Base module assembled with the same layout (manifest/, dex/,
+                res/, assets/, root/, resources.pb)
+              - Bundle built with bundletool 1.18.2 (proper Play-compliant format)
+              - Signed with the same test key AAB Installer uses, via apksig
+                (v1+v2+v3), so Play Console accepts the AAB directly
+            - Keeps the deobfuscation mapping (proguard.map) embedded
             
             ### Notes
             - Zero data collection - no analytics, no tracking
