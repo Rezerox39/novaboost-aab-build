@@ -163,17 +163,21 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.2.1"
+          name: "NovaBoost v2.2.2"
           body: |
-            ## NovaBoost v2.2.1
+            ## NovaBoost v2.2.2
             
             ### What's New
-            - Fixed VerifyError crash on app start (GameTrayActivity$n.run)
-              caused by conflicting register types in the ping timer thread
-            - Removed unused Play Billing Library v7.1.1 (app has no in-app purchases) -
-              eliminates the Google Play Billing v8+ deadline issue entirely
-            - Real ping display using TCP socket timing
-            - Real Ultra Boost engine: RAM trimming, DND mode, Game Mode (Android 12+)
+            - Resolved Google Play edge-to-edge (Android 15) recommendations:
+              - Guarded deprecated Window.setStatusBarColor / setNavigationBarColor
+                calls behind an Android 15 (SDK 35) check in Material dialogs so
+                they no-op on Android 15+ while preserving behavior below it
+            - Resolved Google Play bitmap optimization warning:
+              - Neutralized the unused Lottie network image fetcher and decoder
+                (f3.a.M, v2.r.D) - the app now has no manual network download or
+                image-decode code paths at all
+            - App already renders edge-to-edge on Android 15+ and remains
+              fully functional with the dark cyber theme
             
             ### Notes
             - Zero data collection - no analytics, no tracking

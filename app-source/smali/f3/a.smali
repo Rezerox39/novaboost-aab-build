@@ -243,37 +243,17 @@
 .end method
 
 .method public M()Ljava/io/InputStream;
-    .locals 1
+    .locals 2
 
-    .line 1
-    iget-object v0, p0, Lf3/a;->a:Ljava/net/HttpURLConnection;
+    const/4 v0, 0x0
 
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
+    new-array v0, v0, [B
 
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
+    new-instance v1, Ljava/io/ByteArrayInputStream;
 
-    .line 7
-    return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
+    invoke-direct {v1, v0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
+
+    return-object v1
 .end method
 
 .method public V()Z

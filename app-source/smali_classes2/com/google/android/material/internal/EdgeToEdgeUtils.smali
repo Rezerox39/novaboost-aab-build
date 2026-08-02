@@ -153,10 +153,18 @@
     move-result p1
 
     .line 10
+    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v3, 0x23
+
+    if-ge v2, v3, :cond_e2e_skip
+
     invoke-virtual {p0, v0}, Landroid/view/Window;->setStatusBarColor(I)V
 
     .line 11
     invoke-virtual {p0, p1}, Landroid/view/Window;->setNavigationBarColor(I)V
+
+    :cond_e2e_skip
 
     .line 12
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I

@@ -1794,7 +1794,7 @@
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
-    .locals 1
+    .locals 3
 
     .line 1
     invoke-super {p0, p1}, Lh/w;->onCreate(Landroid/os/Bundle;)V
@@ -1817,7 +1817,15 @@
     const/4 v0, 0x0
 
     .line 11
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v2, 0x23
+
+    if-ge v1, v2, :cond_e2e_skip
+
     invoke-virtual {p1, v0}, Landroid/view/Window;->setStatusBarColor(I)V
+
+    :cond_e2e_skip
 
     .line 12
     .line 13
