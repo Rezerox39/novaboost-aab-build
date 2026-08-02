@@ -151,7 +151,6 @@
     <string name="high_mode">HIGH BOOST</string>
     <string name="high_mode_help">Optimized for gaming</string>
     <string name="icon_content_description">Dialog Icon</string>
-    <string name="in_app_billing_service_is_unavailable">In-app billing service is unavailable, please upgrade Android Market/Play to version</string>
     <string name="information_before_buy_subscription">Your subscription will automatically renew unless canceled at least 24 hours before the current period ends. You can manage your subscription from Google Play - Menu - Payments &amp; subscriptions - Subscriptions.</string>
     <string name="install_new_app_intro">"NovaBoost (with advanced settings):
 
@@ -330,7 +329,6 @@ We will share more once you're back online."</string>
     <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
     <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
     <string name="real_time_boost">REAL-TIME BOOST</string>
-    <string name="recurring_billing_cancel_anytime">Recurring billing, cancel anytime</string>
     <string name="rendering_quality">Graphics</string>
     <string name="resolution">Resolution</string>
     <string name="restart_now">RESTART NOW</string>

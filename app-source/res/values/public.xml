@@ -4985,7 +4985,6 @@
     <public type="layout" name="activity_game_tray" id="0x7f0c0021" />
     <public type="layout" name="activity_gfx_boost" id="0x7f0c0022" />
     <public type="layout" name="activity_gfx_complete" id="0x7f0c0023" />
-    <public type="layout" name="activity_premium_mode" id="0x7f0c0024" />
     <public type="layout" name="activity_quality" id="0x7f0c0025" />
     <public type="layout" name="activity_scan" id="0x7f0c0026" />
     <public type="layout" name="activity_select_resolution" id="0x7f0c0027" />
@@ -5104,8 +5103,6 @@
     <public type="layout" name="material_clock_period_toggle_land" id="0x7f0c005b" />
     <public type="mipmap" name="ic_launcher" id="0x7f0f0000" />
     <public type="plurals" name="mtrl_badge_content_description" id="0x7f100000" />
-    <public type="raw" name="com_android_billingclient_heterodyne_info" id="0x7f110002" />
-    <public type="raw" name="com_android_billingclient_registration_info" id="0x7f110003" />
     <public type="raw" name="omsdk_v1_5_3" id="0x7f110005" />
     <public type="string" name="_3_days_trial" id="0x7f120000" />
     <public type="string" name="_3_months" id="0x7f120001" />
@@ -5258,7 +5255,6 @@
     <public type="string" name="high_mode" id="0x7f1200a1" />
     <public type="string" name="high_mode_help" id="0x7f1200a2" />
     <public type="string" name="icon_content_description" id="0x7f1200a3" />
-    <public type="string" name="in_app_billing_service_is_unavailable" id="0x7f1200a4" />
     <public type="string" name="information_before_buy_subscription" id="0x7f1200a5" />
     <public type="string" name="install_new_app_intro" id="0x7f1200a6" />
     <public type="string" name="internet_boost" id="0x7f1200a7" />
@@ -5426,7 +5422,6 @@
     <public type="string" name="rationale_ask" id="0x7f120149" />
     <public type="string" name="rationale_ask_again" id="0x7f12014a" />
     <public type="string" name="real_time_boost" id="0x7f12014b" />
-    <public type="string" name="recurring_billing_cancel_anytime" id="0x7f12014c" />
     <public type="string" name="rendering_quality" id="0x7f12014d" />
     <public type="string" name="resolution" id="0x7f12014e" />
     <public type="string" name="restart_now" id="0x7f12014f" />
@@ -5811,7 +5806,6 @@
     <public type="style" name="Platform.V21.AppCompat" id="0x7f13014a" />
     <public type="style" name="Platform.V21.AppCompat.Light" id="0x7f13014b" />
     <public type="style" name="Platform.Widget.AppCompat.Spinner" id="0x7f13014e" />
-    <public type="style" name="ProxyAmazonBillingActivityTheme" id="0x7f13014f" />
     <public type="style" name="RtlOverlay.DialogWindowTitle.AppCompat" id="0x7f130150" />
     <public type="style" name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" id="0x7f130151" />
     <public type="style" name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" id="0x7f130152" />
@@ -6686,7 +6680,6 @@
     <public type="style" name="Base.V26.Widget.AppCompat.Toolbar" id="0x7f1300bc" />
     <public type="style" name="Base.V28.Theme.AppCompat" id="0x7f1300bd" />
     <public type="style" name="Base.V28.Theme.AppCompat.Light" id="0x7f1300be" />
-    <public type="xml" name="com_android_billingclient_phenotype" id="0x7f150000" />
     <public type="xml" name="image_share_filepaths" id="0x7f150001" />
     <public type="xml" name="network_security_config" id="0x7f150002" />
     <public type="xml" name="remote_config_defaults" id="0x7f150003" />
