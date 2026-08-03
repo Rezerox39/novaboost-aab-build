@@ -93,5 +93,5 @@ usesFramework:
   tag: null
 version: 2.7.0-dirty
 versionInfo:
-  versionCode: '12'
-  versionName: 2.2.5
+  versionCode: '13'
+  versionName: 2.2.6

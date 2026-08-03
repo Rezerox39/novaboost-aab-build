@@ -2136,7 +2136,13 @@
 
     .line 31
     :sswitch_2
-    invoke-virtual {p0}, Lcom/novaboost/gaming/gametray/GameTrayActivity;->S()V
+    new-instance p1, Landroid/content/Intent;
+
+    const-class v0, Lcom/novaboost/gaming/gamelauncher/GameLauncherActivity;
+
+    invoke-direct {p1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    invoke-virtual {p0, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     .line 32
     .line 33

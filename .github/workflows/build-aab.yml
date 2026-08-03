@@ -149,24 +149,27 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.2.5"
+          name: "NovaBoost v2.2.6"
           body: |
-            ## NovaBoost v2.2.5
+            ## NovaBoost v2.2.6
             
             ### What's New
-            - Rebuilt the AAB exactly like the "AAB Installer" converter that
-              Google Play accepts:
-              - Resources converted to protobuf with aapt2 (--output-format proto)
-              - Base module assembled with the same layout (manifest/, dex/,
-                res/, assets/, root/, resources.pb)
-              - Bundle built with bundletool 1.18.2 (proper Play-compliant format)
-              - Signed with the same test key AAB Installer uses, via apksig
-                (v1+v2+v3), so Play Console accepts the AAB directly
+            - **Real Game Launcher**: tap the scan button on the home screen to
+              list your installed games, then tap any game to run the full
+              Ultra Boost engine and launch it automatically ("Boost & Launch")
+            - Game Launcher filters real games (FLAG_IS_GAME) plus user-installed
+              apps, sorted alphabetically, with package names shown
+            - Auto boost before launch: kills background processes, enables Do
+              Not Disturb (if granted), and switches Android 12+ Game Mode to
+              performance (setGameMode 3)
+            - Rebuilt AAB exactly like the "AAB Installer" converter that
+              Google Play accepts (aapt2 proto resources, bundletool base
+              module, apksig test key) - upload directly to Play Console
             - Keeps the deobfuscation mapping (proguard.map) embedded
             
             ### Notes
-            - Zero data collection - no analytics, no tracking
-            - Google Play compliant
+            - Zero data collection - no analytics, no tracking, no ads
+            - Google Play compliant (targets Android 16 / API 36)
           files: |
             /tmp/NovaBoost.aab
             /tmp/NovaBoost_aligned.apk

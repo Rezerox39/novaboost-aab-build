@@ -27,7 +27,22 @@
             <action android:name="android.intent.action.DIAL"/>
             <data android:path="tel:"/>
         </intent>
-    </queries>
+        <package android:name="com.dts.freefireth"/>
+        <package android:name="com.tencent.ig"/>
+        <package android:name="com.tencent.iglite"/>
+        <package android:name="com.pubg.imobile"/>
+        <package android:name="com.pubg.newstate"/>
+        <package android:name="com.dts.freefiremax"/>
+        <package android:name="com.roblox.client"/>
+        <package android:name="com.supercell.brawlstars"/>
+        <package android:name="com.supercell.clashofclans"/>
+        <package android:name="com.activision.callofduty.shooter"/>
+        <package android:name="com.firsttouchgames.dls7"/>
+        <package android:name="com.mobile.legends"/>
+        <package android:name="com.miHoYo.GenshinImpact"/>
+        <package android:name="com.miHoYo.Yuanshen"/>
+        <package android:name="com.epicgames.fortnite"/>
+</queries>
     <uses-permission android:name="android.permission.VIBRATE"/>    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <permission android:name="com.novaboost.gaming.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
@@ -43,6 +58,7 @@
         <activity android:name="com.novaboost.gaming.gametray.GameTrayActivity"/>
         <activity android:name="com.novaboost.gaming.boost.BoostActivity"/>
         <activity android:name="com.novaboost.gaming.setting.SettingActivity"/>
+        <activity android:name="com.novaboost.gaming.gamelauncher.GameLauncherActivity" android:exported="false"/>
         <activity android:name="com.novaboost.gaming.Step2Activity"/>
         <activity android:name="com.novaboost.gaming.gfxtool.GFXBoostActivity"/>
         <activity android:name="com.novaboost.gaming.gfxtool.CompleteGFXActivity"/>
