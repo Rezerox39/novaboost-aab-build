@@ -437,7 +437,7 @@
     <color name="m3_sys_color_light_on_tertiary_fixed_variant">#ff000000</color>
 
     <!-- NovaBoost Design System Tokens (cyber neon spec) -->
-    <color name="bg_main">#0B0E0F</color>
+    <color name="bg_main">#FF000000</color>
     <color name="bg_main_soft">#0F1214</color>
     <color name="surface_dark">#181A20</color>
     <color name="surface_elevated">#1F232B</color>

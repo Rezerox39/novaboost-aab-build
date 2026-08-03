@@ -149,14 +149,15 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.3.0"
+          name: "NovaBoost v2.3.1"
           body: |
-            ## NovaBoost v2.3.0 — Dark Neon Cyberpunk UI Redesign
+            ## NovaBoost v2.3.1 — Pure AMOLED Background
             
             ### What's New
-            - **Complete UI re-skin** to the dark neon cyberpunk design system:
-              - Deep near-black background (#0B0E0F) and dark charcoal surfaces
-                (#181A20) with 16dp rounded cards
+            - **Pure AMOLED black background** restored (true #000000) across all
+              screens - deep blacks now, matching the neon green accents
+            - Dark neon cyberpunk design system retained:
+              - Dark charcoal surfaces (#181A20) with 16dp rounded cards
               - Electric neon green accent (#22E548) with green gradient buttons
                 (#30F055 → #18B832)
               - Muted silver-grey secondary text (#8C93A0) and red danger accent
