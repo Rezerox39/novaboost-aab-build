@@ -149,23 +149,30 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ github.run_number }}
-          name: "NovaBoost v2.2.6"
+          name: "NovaBoost v2.3.0"
           body: |
-            ## NovaBoost v2.2.6
+            ## NovaBoost v2.3.0 — Dark Neon Cyberpunk UI Redesign
             
             ### What's New
-            - **Real Game Launcher**: tap the scan button on the home screen to
-              list your installed games, then tap any game to run the full
-              Ultra Boost engine and launch it automatically ("Boost & Launch")
-            - Game Launcher filters real games (FLAG_IS_GAME) plus user-installed
-              apps, sorted alphabetically, with package names shown
-            - Auto boost before launch: kills background processes, enables Do
-              Not Disturb (if granted), and switches Android 12+ Game Mode to
-              performance (setGameMode 3)
-            - Rebuilt AAB exactly like the "AAB Installer" converter that
-              Google Play accepts (aapt2 proto resources, bundletool base
-              module, apksig test key) - upload directly to Play Console
-            - Keeps the deobfuscation mapping (proguard.map) embedded
+            - **Complete UI re-skin** to the dark neon cyberpunk design system:
+              - Deep near-black background (#0B0E0F) and dark charcoal surfaces
+                (#181A20) with 16dp rounded cards
+              - Electric neon green accent (#22E548) with green gradient buttons
+                (#30F055 → #18B832)
+              - Muted silver-grey secondary text (#8C93A0) and red danger accent
+            - **Dashboard**: new System Monitor card (real storage dial + real
+              ping badge, CPU/GPU activity readouts), full-width "BOOST NOW"
+              gradient button, and redesigned tools grid (ULTRA BOOST, GFX
+              TOOLS, NICK NAME)
+            - **Floating bottom navigation pill** with 4 tabs: Dashboard,
+              Tools, Games, Setting - active tab highlighted with neon pill
+            - **Ultra Boost screen**: 100% hero gauge, boost-sequence checklist
+              card, Game Mode + Do Not Disturb toggles, and a real "BOOST
+              AGAIN" button that toggles the Ultra Boost profile
+            - **Game Library**: GAME LIBRARY header, search field, + ADD NEW
+              GAME button, and a styled game list
+            - Keeps every real feature: live ping, real storage stats, boost &
+              launch game launcher, kill background processes, DND, Game Mode
             
             ### Notes
             - Zero data collection - no analytics, no tracking, no ads

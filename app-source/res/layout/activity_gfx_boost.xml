@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<LinearLayout android:orientation="vertical" android:background="@color/bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <!-- Top Bar (hidden per original) -->
     <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="16dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" app:srcCompat="@drawable/ic_keyboard_backspace" android:tint="#ff00e676" />
-        <TextView android:textSize="14sp" android:textColor="#ff00e676" android:id="@id/actionBarTitle" android:fontFamily="monospace" android:letterSpacing="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_optimizer" />
+        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" app:srcCompat="@drawable/ic_keyboard_backspace" android:tint="@color/accent_neon" />
+        <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:id="@id/actionBarTitle" android:fontFamily="monospace" android:letterSpacing="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_optimizer" />
     </LinearLayout>
     <!-- Content -->
     <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
@@ -12,6 +12,6 @@
             <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/circleGrowAnim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20dp" app:lottie_autoPlay="true" app:lottie_fileName="boosting-anim.json" app:lottie_loop="true" />
             <com.airbnb.lottie.LottieAnimationView android:id="@id/completeAnim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="60dp" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="boost-complete.json" app:lottie_loop="false" />
         </RelativeLayout>
-        <TextView android:textSize="10sp" android:textColor="#ff00e676" android:fontFamily="monospace" android:letterSpacing="0.15" android:gravity="center" android:id="@id/contentText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/boosting" />
+        <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.15" android:gravity="center" android:id="@id/contentText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/boosting" />
     </LinearLayout>
 </LinearLayout>

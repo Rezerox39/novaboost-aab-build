@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<LinearLayout android:orientation="vertical" android:background="@color/bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <!-- Top bar -->
     <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="16dp" android:paddingBottom="12dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:layout_marginEnd="16dp" app:srcCompat="@drawable/ic_back" android:tint="#ff00e676" />
-        <TextView android:textSize="14sp" android:textColor="#ff00e676" android:id="@id/actionBarTitle" android:textStyle="bold" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting" />
+        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:layout_marginEnd="16dp" app:srcCompat="@drawable/ic_back" android:tint="@color/accent_neon" />
+        <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:id="@id/actionBarTitle" android:textStyle="bold" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting" />
     </LinearLayout>
     <LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1">
         <!-- Game Boost Settings -->
         <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:visibility="gone">
-            <TextView android:textSize="9sp" android:textColor="#ff00e676" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G A M E   B O O S T" android:layout_marginBottom="12dp" />
+            <TextView android:textSize="9sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G A M E   B O O S T" android:layout_marginBottom="12dp" />
             <LinearLayout android:orientation="horizontal" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:textSize="14sp" android:textColor="#99ffffff" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ram_boost" android:layout_weight="1" />
+                <TextView android:textSize="14sp" android:textColor="@color/text_secondary" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ram_boost" android:layout_weight="1" />
                 <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/ramBoostCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" app:buttonTint="@color/neon_green" />
             </LinearLayout>
         </LinearLayout>
         <!-- Junk Cleaner Settings -->
         <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:visibility="gone">
-            <TextView android:textSize="9sp" android:textColor="#ff00e676" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="J U N K   C L E A N E R" android:layout_marginBottom="12dp" />
+            <TextView android:textSize="9sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="J U N K   C L E A N E R" android:layout_marginBottom="12dp" />
             <LinearLayout android:orientation="horizontal" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:textSize="14sp" android:textColor="#99ffffff" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cleaning_schedule" android:layout_weight="1" />
+                <TextView android:textSize="14sp" android:textColor="@color/text_secondary" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cleaning_schedule" android:layout_weight="1" />
                 <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/cleaningScheduleCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" app:buttonTint="@color/neon_green" />
             </LinearLayout>
         </LinearLayout>
         <!-- App Settings -->
         <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
-            <TextView android:textSize="9sp" android:textColor="#ff00e676" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A P P" android:layout_marginBottom="12dp" />
+            <TextView android:textSize="9sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A P P" android:layout_marginBottom="12dp" />
             <LinearLayout android:orientation="horizontal" android:id="@id/privacyPolicyContainer" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:textSize="14sp" android:textColor="#99ffffff" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/privacy_policy" android:layout_weight="1" />
-                <ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_gravity="center_vertical" android:tint="#66ffffff" app:srcCompat="@drawable/ic_keyboard_backspace" android:rotation="180" />
+                <TextView android:textSize="14sp" android:textColor="@color/text_secondary" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/privacy_policy" android:layout_weight="1" />
+                <ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_gravity="center_vertical" android:tint="@color/text_tertiary" app:srcCompat="@drawable/ic_keyboard_backspace" android:rotation="180" />
             </LinearLayout>
         </LinearLayout>
         <View android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1" />
-        <TextView android:textSize="9sp" android:textColor="#33ffffff" android:fontFamily="monospace" android:letterSpacing="0.1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="12dp" android:text="v1.0 // N O V A B O O S T" />
+        <TextView android:textSize="9sp" android:textColor="@color/text_tertiary" android:fontFamily="monospace" android:letterSpacing="0.1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="12dp" android:text="v1.0 // N O V A B O O S T" />
     </LinearLayout>
 </LinearLayout>

@@ -33,10 +33,10 @@
     <color name="cardview_light_background">#ffffffff</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#ff44d62c</color>
+    <color name="colorAccent">#ff22e548</color>
     <color name="colorPerformanceMode">#fffa4437</color>
-    <color name="colorPrimary">#ff222222</color>
-    <color name="colorPrimaryDark">#ff111111</color>
+    <color name="colorPrimary">#ff181a20</color>
+    <color name="colorPrimaryDark">#ff0b0e0f</color>
     <color name="colorTextGuideCancelSubscriptions">#ffdddad6</color>
     <color name="colorTextStrikeThrough">#ff918f8c</color>
     <color name="colorWarning">#ffff9800</color>
@@ -374,7 +374,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <color name="textNormalColor">#ffcccccc</color>
+    <color name="textNormalColor">#ffd7dbe2</color>
     <color name="titleIconColor">#ff727272</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#ff0a0a0a</color>
@@ -393,12 +393,12 @@
 
     <!-- Text -->
     <color name="text_primary">#ffffffff</color>
-    <color name="text_secondary">#99ffffff</color>
-    <color name="text_tertiary">#66ffffff</color>
+    <color name="text_secondary">#b38c93a0</color>
+    <color name="text_tertiary">#668c93a0</color>
 
     <!-- Accent variations -->
-    <color name="neon_green">#ff00e676</color>
-    <color name="neon_green_dim">#6600e676</color>
+    <color name="neon_green">#ff22e548</color>
+    <color name="neon_green_dim">#6622e548</color>
     <color name="soft_cyan">#80ffffff</color>
 
 
@@ -435,4 +435,20 @@
     <color name="m3_sys_color_light_on_secondary_fixed_variant">#ff000000</color>
     <color name="m3_sys_color_light_on_tertiary_fixed">#ff000000</color>
     <color name="m3_sys_color_light_on_tertiary_fixed_variant">#ff000000</color>
+
+    <!-- NovaBoost Design System Tokens (cyber neon spec) -->
+    <color name="bg_main">#0B0E0F</color>
+    <color name="bg_main_soft">#0F1214</color>
+    <color name="surface_dark">#181A20</color>
+    <color name="surface_elevated">#1F232B</color>
+    <color name="accent_neon">#22E548</color>
+    <color name="accent_neon_bright">#39E53D</color>
+    <color name="accent_neon_soft">#6622E548</color>
+    <color name="accent_neon_faint">#1A22E548</color>
+    <color name="btn_gradient_start">#30F055</color>
+    <color name="btn_gradient_end">#18B832</color>
+    <color name="text_muted">#8C93A0</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="accent_red">#E53935</color>
+    <color name="stroke_neon">#3322E548</color>
 </resources>

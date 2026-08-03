@@ -1,58 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<LinearLayout android:orientation="vertical" android:background="@color/bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!-- TOP BAR -->
-    <LinearLayout android:id="@id/actionBarContainer" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="16dp" android:paddingBottom="8dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" app:srcCompat="@drawable/ic_keyboard_backspace" android:tint="#ff00e676" />
-        <TextView android:textSize="14sp" android:textColor="#ff00e676" android:id="@id/actionBarTitle" android:fontFamily="monospace" android:letterSpacing="0.2" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ultra_mode" />
+    <LinearLayout android:id="@id/actionBarContainer" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="16dp" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/backBtn" android:padding="8dp" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" app:srcCompat="@drawable/ic_keyboard_backspace" android:tint="@color/accent_neon" />
+        <TextView android:textSize="15sp" android:textColor="@color/accent_neon" android:id="@id/actionBarTitle" android:fontFamily="monospace" android:letterSpacing="0.25" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ultra_mode" />
     </LinearLayout>
 
     <!-- CONTENT -->
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="8dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingTop="4dp">
 
-        <!-- System Status Banner -->
-        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_cyber_status" android:padding="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:gravity="center">
-            <TextView android:textSize="10sp" android:textColor="#6600e676" android:fontFamily="monospace" android:letterSpacing="0.15" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⌞ U L T R A   B O O S T ⌟" />
+        <!-- HERO GAUGE -->
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_cyber_hero" android:padding="20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp">
+            <TextView android:textSize="10sp" android:textColor="@color/text_muted" android:fontFamily="monospace" android:letterSpacing="0.25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="U L T R A   B O O S T   S T A T U S" android:layout_marginBottom="12dp" />
+            <com.github.lzyzsd.circleprogress.ArcProgress android:layout_width="140dp" android:layout_height="140dp" app:arc_bottom_text="DONE" app:arc_bottom_text_size="11sp" app:arc_finished_color="@color/accent_neon" app:arc_max="100" app:arc_progress="100" app:arc_suffix_text="%" app:arc_suffix_text_size="14sp" app:arc_text_color="@color/text_white" app:arc_text_size="26sp" app:arc_unfinished_color="@color/accent_neon_faint" />
+            <TextView android:textSize="9sp" android:textColor="@color/text_muted" android:fontFamily="monospace" android:letterSpacing="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAX PERFORMANCE PROFILE READY" android:layout_marginTop="8dp" />
         </LinearLayout>
 
-        <!-- Feature 1: Ultra Boost -->
-        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
-            <TextView android:textSize="10sp" android:textColor="#6600e676" android:fontFamily="monospace" android:letterSpacing="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⌞ F E A T U R E   0 1 ⌟" android:layout_marginBottom="8dp" />
-            <TextView android:textSize="13sp" android:textColor="#ccffffff" android:fontFamily="monospace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ultra_mode_help" android:layout_marginBottom="16dp" />
+        <!-- TASK CHECKLIST CARD -->
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp">
+            <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B O O S T   S E Q U E N C E" android:layout_marginBottom="12dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+                <TextView android:textSize="12sp" android:textColor="@color/text_white" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SCANNING PROCESSES" />
+                <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="right" android:text="✓" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+                <TextView android:textSize="12sp" android:textColor="@color/text_white" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CLEARING CACHE" />
+                <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="right" android:text="✓" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+                <TextView android:textSize="12sp" android:textColor="@color/text_white" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FLUSHING RAM" />
+                <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="right" android:text="✓" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+                <TextView android:textSize="12sp" android:textColor="@color/text_white" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHECKING DEVICE TEMPERATURE" />
+                <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="right" android:text="✓" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+                <TextView android:textSize="12sp" android:textColor="@color/text_white" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OPTIMIZING NETWORK" />
+                <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="right" android:text="✓" />
+            </LinearLayout>
             <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:textSize="13sp" android:textColor="#99ffffff" android:fontFamily="monospace" android:letterSpacing="0.08" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/active_ultraboost" android:layout_weight="1" android:textAllCaps="true" />
-                <!-- Custom toggle area using ImageViews -->
-                <LinearLayout android:orientation="horizontal" android:layout_width="60dp" android:layout_height="30dp" android:gravity="center">
-                    <ImageView android:id="@id/switchImg" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="52dp" android:layout_height="28dp" android:src="@drawable/img_switch_off" android:scaleType="fitCenter" />
-                </LinearLayout>
+                <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+                <TextView android:textSize="12sp" android:textColor="@color/text_white" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="APPLYING ULTRA-PROFILE" />
+                <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="right" android:text="✓" />
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Feature 2: Enhanced Experience -->
-        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="20dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
-            <TextView android:textSize="10sp" android:textColor="#6600e676" android:fontFamily="monospace" android:letterSpacing="0.15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⌞ F E A T U R E   0 2 ⌟" android:layout_marginBottom="8dp" />
-            <TextView android:textSize="13sp" android:textColor="#ccffffff" android:fontFamily="monospace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enhanced_experience_when_playing_games" android:layout_marginBottom="16dp" />
-            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <TextView android:textSize="13sp" android:textColor="#99ffffff" android:fontFamily="monospace" android:letterSpacing="0.08" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/active_ultraboost" android:layout_weight="1" android:textAllCaps="true" />
-                <LinearLayout android:orientation="horizontal" android:layout_width="60dp" android:layout_height="30dp" android:gravity="center">
-                    <ImageView android:id="@id/switchEnhancedExperienced" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="52dp" android:layout_height="28dp" android:src="@drawable/img_switch_off" android:scaleType="fitCenter" />
+        <!-- TOGGLES CARD -->
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_cyber_card" android:padding="18dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp">
+            <TextView android:textSize="10sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="G A M I N G   P R E F E R E N C E S" android:layout_marginBottom="14dp" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="13sp" android:textColor="@color/text_white" android:textStyle="bold" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GAME MODE" />
+                    <TextView android:textSize="10sp" android:textColor="@color/text_muted" android:fontFamily="monospace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Release memory &amp; prioritise your game" android:layout_marginTop="3dp" />
                 </LinearLayout>
+                <ImageView android:id="@id/switchImg" android:layout_width="52dp" android:layout_height="28dp" android:src="@drawable/img_switch_off" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="13sp" android:textColor="@color/text_white" android:textStyle="bold" android:fontFamily="monospace" android:letterSpacing="0.06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DO NOT DISTURB" />
+                    <TextView android:textSize="10sp" android:textColor="@color/text_muted" android:fontFamily="monospace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Silence calls &amp; notifications" android:layout_marginTop="3dp" />
+                </LinearLayout>
+                <ImageView android:id="@id/switchEnhancedExperienced" android:layout_width="52dp" android:layout_height="28dp" android:src="@drawable/img_switch_off" android:scaleType="fitCenter" />
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Hidden content for alignment -->
-        <View android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1" />
+        <!-- PRIMARY ACTION -->
+        <Button android:textColor="#ff08160A" android:textStyle="bold" android:textSize="14sp" android:fontFamily="monospace" android:letterSpacing="0.12" android:id="@id/boostAgainBtn" android:background="@drawable/bg_cyber_button_glow" android:layout_width="fill_parent" android:layout_height="52dp" android:layout_marginBottom="8dp" android:text="⚡   B O O S T   A G A I N" android:textAllCaps="false" />
+
+        <!-- HIDDEN TEXT (required by smali) -->
+        <TextView android:textSize="12sp" android:textColor="@color/text_muted" android:fontFamily="monospace" android:id="@id/ultraBoostText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ultra_mode" />
     </LinearLayout>
 
-    <!-- Loading Overlay -->
+    <!-- LOADING OVERLAY -->
     <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/loadingContainer" android:background="@drawable/bg_cyber_status" android:padding="24dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <ProgressBar android:id="@id/boostingLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:indeterminateTint="#ff00e676" />
+        <ProgressBar android:id="@id/boostingLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:indeterminateTint="@color/accent_neon" />
         <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/boostingLoading" android:layout_centerHorizontal="true">
-            <TextView android:textSize="14sp" android:textColor="#ff00e676" android:fontFamily="monospace" android:letterSpacing="0.08" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boosting_android_system" />
+            <TextView android:textSize="14sp" android:textColor="@color/accent_neon" android:fontFamily="monospace" android:letterSpacing="0.08" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boosting_android_system" />
         </FrameLayout>
     </RelativeLayout>
 
-    <!-- Version -->
-    <TextView android:textSize="9sp" android:textColor="#33ffffff" android:fontFamily="monospace" android:letterSpacing="0.1" android:gravity="center" android:paddingBottom="12dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="v1.0 // U L T R A   B O O S T" />
+    <!-- VERSION -->
+    <TextView android:textSize="9sp" android:textColor="@color/text_tertiary" android:fontFamily="monospace" android:letterSpacing="0.1" android:gravity="center" android:paddingBottom="10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="v2.2 // U L T R A   B O O S T" />
 </LinearLayout>

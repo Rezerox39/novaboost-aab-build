@@ -676,6 +676,21 @@
     .line 77
     .line 78
     .line 79
+    const p1, 0x7f090314
+
+    invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    if-eqz p1, :skip_boost_again
+
+    new-instance v0, Lcom/novaboost/gaming/ultraboost/UltraBoostActivity$a;
+
+    invoke-direct {v0, p0}, Lcom/novaboost/gaming/ultraboost/UltraBoostActivity$a;-><init>(Lcom/novaboost/gaming/ultraboost/UltraBoostActivity;)V
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    :skip_boost_again
     return-void
     .line 80
     .line 81

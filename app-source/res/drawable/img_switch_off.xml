@@ -10,7 +10,7 @@
     </item>
     <item android:left="3dp" android:top="3dp" android:right="27dp" android:bottom="3dp">
         <shape android:shape="oval">
-            <solid android:color="#66ffffff" />
+            <solid android:color="@color/text_tertiary" />
         </shape>
     </item>
 </layer-list>
